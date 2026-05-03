@@ -1,0 +1,162 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:26.928Z",
+    "url": "https://www.jfkairport.com/explore-jfk/accessibility-services/mobility-accessibility",
+    "slug": "explore-jfk__accessibility-services__mobility-accessibility",
+    "httpStatus": 200,
+    "totalMs": 2840,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": null,
+  "h1": "Mobility Services",
+  "lede": "If you need a wheelchair, oxygen, or other assistance, please contact your airline before your flight to arrange services. Wheelchair attendants may accept tips, but they should not ask for one. If you feel pressured to tip, report the incident here.",
+  "heroImage": {
+    "src": "https://s7d9.scene7.com/is/image/panynjaviation/3-2-5_2_wheelchairservices:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+    "alt": "",
+    "w": 1920,
+    "h": 1440
+  },
+  "blocks": [
+    {
+      "h2": "Wheelchair services",
+      "h3s": [],
+      "paragraphs": [
+        "If you need a wheelchair, oxygen, or other assistance, please contact your airline before your flight to arrange services.",
+        "Wheelchair attendants may accept tips, but they should not ask for one. If you feel pressured to tip, report the incident here."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "contact your airline",
+          "href": "/flights/airlines"
+        },
+        {
+          "text": "report the incident here.",
+          "href": "/feedback"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Using motorized wheelchairs or scooters",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Contact your airline",
+          "href": "/flights/airlines"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "All JFK accessibility services",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Accessible transportation",
+          "href": "/explore-jfk/accessibility-services/handicap-transportation"
+        },
+        {
+          "text": "Blind or low vision services",
+          "href": "/explore-jfk/accessibility-services/vision-accessibility-services"
+        },
+        {
+          "text": "Non-visible disability services",
+          "href": "/explore-jfk/accessibility-services/hidden-disabilities-accessibility"
+        },
+        {
+          "text": "Deaf or hard of hearing services",
+          "href": "/explore-jfk/accessibility-services/hearing-accessibility"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "FAQs",
+      "h3s": [],
+      "paragraphs": [
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "How do I arrange wheelchair or other assistance at JFK?"
+        },
+        {
+          "text": "Can I use my motorized wheelchair or scooter at JFK?"
+        },
+        {
+          "text": "Should I tip wheelchair attendants at JFK Airport?"
+        }
+      ],
+      "links": [
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<!--
+_provenance:
+  writtenBy: stardust:prototype
+  writtenAt: 2026-05-03T00:00:00Z
+  variant: V2 (axis: composition / editorial-NYC-led)
+  trait: underused editorial photography
+  againstDirection: stardust/direction.md (2026-05-03 — direction B + Mode A)
+  shapeBrief: stardust/prototypes/home-variants-shape.md § V2
+  improvementsApplied: stardust/prototypes/home-improvements.md (all 6)
+  contentSource: stardust/current/pages/home.json
+  unsourcedContent:
+    - "612 flights today, 90+ destinations, every borough an hour away" (editorial framing)
+    - "From New York, to everywhere" (proposed editorial headline)
+    - terminal/AirTrain/Sunflower story decks (voice-authored under direction B)
+  renderedVia: stardust-direct (5-variant batch; iteration via $impeccable live)
+  stardustVersion: 0.3.0
+-->
+<meta charset="utf-8">
+<title>JFK Airport — V2 Editorial NYC prototype</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0045FF">
+<meta name="description" content="JFK Airport — the airport of New York City. Stories, services, and your next flight.">
+<style>
+  :root {
+    --ground-white: #FFFFFF;
+    --ice-blue: #EFF9FF;
+    --mint-tint: #F1FCF2;
+    --ink: #09090B;
+    --slate-900: #0F172A;
+    --slate-700: #334155;
+    --slate-600: #475569;
+    --slate-400: #94A3B8;
+    --slate-300: #CBD5E1;
+    --slate-200: #E2E8F0;
+    --slate-100: #F1F5F9;
+    --panynj-blue: #0045FF;
+    --panynj-deep-blue: #022DB7;
+    --panynj-navy: #011565;
+    --advisory-yellow: #FFCD00;
+    --advisory-tint: #FFFBEA;
+    --success-green: #1B7A2F;
+    --success-tint: #DCF8E2;
+    --display-family: "Sharp Grotesk Semibold", "Helvetica Neue Condensed Bold", "Inter", system-ui, sans-serif;
+    --body-family: "Helvetica Now for PANYNJ", "Helvetica Neue", "Inter", "Arial", sans-serif;
+    --section-pad-d: 64px;
+    --section-pad-t: 48px;
+    --section-pad-m: 32px;
+    --radius-sm: 2px;
+    --radius-md: 4px;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--ground-white); color: var(--ink);
+    font-family: var(--body-family); font-size: 16px; line-height: 1.6; }
+  .display { font-family: var(--display-family); font-weight: 700; letter-spacing: -0.025em; }
+  a { color: var(--panynj-deep-blue); text-decoration: none; }
+  a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  img { max-width: 100%; display: block; }
+  [data-placeholder] { outline: 2px dashed var(--advisory-yellow); outline-offset: 2px; background: var(--advisory-tint); border-radius: 2px; padding: 0 4px; }
+
+  /* Quiet sticky toolbar */
+  header[data-section="header"] { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,0.92);
+    backdrop-filter: saturate(180%) blur(10px); -webkit-backdrop-filter: saturate(180%) blur(10px);
+    border-bottom: 1px solid var(--slate-200); padding: 10px 32px;
+    display: flex; align-items: center; gap: 24px; }
+  header .logo img { height: 30px; width: auto; }
+  header nav { display: flex; gap: 24px; flex: 1; margin-left: 12px; }
+  header nav a { color: var(--ink); font-size: 14px; font-weight: 600; }
+  header nav a:hover { color: var(--panynj-deep-blue); text-decoration: none; }
+  header .right { display: flex; gap: 10px; align-items: center; }
+  header .right .search-trigger { background: var(--ink); color: var(--ground-white); border: 0;
+    border-radius: 2px; padding: 8px 16px; font-family: inherit; font-size: 14px; font-weight: 700; cursor: pointer; }
+  header .right .icon-btn { width: 32px; height: 32px; display: inline-flex; align-items: center;
+    justify-content: center; background: var(--slate-100); border-radius: 4px; cursor: pointer; color: var(--ink); border: 0; }
+
+  main > section { padding-left: 32px; padding-right: 32px; max-width: 1440px; margin: 0 auto; }
+  main > section.full-bleed { max-width: none; padding-left: 0; padding-right: 0; }
+
+  /* Editorial hero */
+  .editorial-hero { position: relative; height: 88vh; min-height: 720px; max-height: 920px; overflow: hidden; }
+  .editorial-hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .editorial-hero .scrim { position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(9,9,11,0.45) 0%, rgba(9,9,11,0.05) 50%, rgba(9,9,11,0.55) 100%); }
+  .editorial-hero .copy { position: absolute; left: 64px; bottom: 64px; right: 64px; max-width: 1200px; }
+  .editorial-hero h1 { font-family: var(--display-family); font-weight: 700; letter-spacing: -0.04em;
+    color: var(--ground-white); font-size: clamp(64px, 11vw, 160px); line-height: 0.92; margin: 0; text-wrap: balance; }
+  .editorial-hero .deck { color: var(--slate-300); font-size: 22px; line-height: 1.4; margin-top: 18px; max-width: 640px; }
+  .editorial-hero .meta-strip { position: absolute; top: 24px; left: 64px; right: 64px; display: flex; justify-content: space-between;
+    color: var(--slate-300); font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; }
+  .editorial-hero .meta-strip a { color: var(--ground-white); }
+
+  /* Two-column feature block */
+  .feature-block { padding: 96px 32px; max-width: 1440px; margin: 0 auto;
+    display: grid; grid-template-columns: 1.1fr 1fr; gap: 64px; align-items: center; }
+  .feature-block .essay h2 { font-family: var(--display-family); font-weight: 700; letter-spacing: -0.025em;
+    font-size: 64px; line-height: 1.05; margin: 0 0 24px; max-width: 18ch; }
+  .feature-block .essay p { font-size: 19px; line-height: 1.65; color: var(--slate-700); max-width: 60ch; }
+  .feature-block .essay p + p { margin-top: 18px; }
+  .feature-block figure { position: relative; margin: 0; }
+  .feature-block figure img { width: 100%; aspect-ratio: 4/5; object-fit: cover; border-radius: 2px; }
+  .feature-block figure .pullquote { position: absolute; left: -32px; bottom: 32px; right: -32px;
+    background: var(--ink); color: var(--ground-white); padding: 28px 32px; border-radius: 2px; }
+  .feature-block figure .pullquote .q { font-family: var(--display-family); font-size: 32px; line-height: 1.15;
+    letter-spacing: -0.015em; font-weight: 700; }
+  .feature-block figure .pullquote .src { font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--slate-400); margin-top: 12px; }
+
+  /* Magazine-grid story strip */
+  .story-strip { padding: 80px 32px; background: var(--slate-100); max-width: none; }
+  .story-strip .inner { max-width: 1440px; margin: 0 auto; }
+  .story-strip .head { display: flex; justify-content: space-between; align-items: end; margin-bottom: 36px; }
+  .story-strip h2 { font-family: var(--display-family); font-weight: 700; font-size: 48px; line-height: 1.05;
+    letter-spacing: -0.02em; margin: 0; max-width: 16ch; }
+  .story-strip .all { font-weight: 700; color: var(--panynj-deep-blue); font-size: 16px; }
+  .story-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .story-card { background: var(--ground-white); border-radius: 2px; overflow: hidden;
+    display: flex; flex-direction: column; }
+  .story-card .photo { aspect-ratio: 4/3; overflow: hidden; }
+  .story-card .photo img { width: 100%; height: 100%; object-fit: cover; }
+  .story-card .body { padding: 22px 24px 26px; flex: 1; display: flex; flex-direction: column; }
+  .story-card .eyebrow { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--panynj-deep-blue); font-weight: 700; margin-bottom: 8px; }
+  .story-card h3 { font-family: var(--display-family); font-weight: 700; font-size: 28px; line-height: 1.1;
+    letter-spacing: -0.01em; margin: 0 0 12px; }
+  .story-card p { color: var(--slate-700); font-size: 15px; line-height: 1.6; margin: 0 0 16px; flex: 1; }
+  .story-card .read { font-weight: 700; font-size: 14px; color: var(--ink); }
+
+  /* Quiet operational strip */
+  .quiet-ops { padding: 64px 32px; max-width: 1440px; margin: 0 auto; }
+  .quiet-ops .head { display: flex; justify-content: space-between; align-items: end; margin-bottom: 24px;
+    border-bottom: 1px solid var(--slate-300); padding-bottom: 16px; }
+  .quiet-ops .head h2 { font-family: var(--display-family); font-weight: 700; font-size: 32px; line-height: 1.1;
+    letter-spacing: -0.015em; margin: 0; }
+  .quiet-ops .head p { color: var(--slate-700); font-size: 15px; margin: 0; }
+  .ops-3up { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .ops-card { padding: 24px 0; }
+  .ops-card .num { font-family: var(--display-family); font-size: 56px; font-weight: 700; letter-spacing: -0.025em; line-height: 1; }
+  .ops-card .label { font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--slate-600); font-weight: 700; margin-top: 10px; }
+  .ops-card .desc { color: var(--slate-700); font-size: 14px; line-height: 1.55; margin-top: 6px; max-width: 30ch; }
+
+  /* Construction editorial */
+  .construction-ed { padding: 96px 32px; max-width: 1440px; margin: 0 auto;
+    display: grid; grid-template-columns: 1fr 1.1fr; gap: 64px; align-items: center; }
+  .construction-ed figure { margin: 0; }
+  .construction-ed figure img { width: 100%; aspect-ratio: 4/5; object-fit: cover; border-radius: 2px; }
+  .construction-ed .copy h2 { font-family: var(--display-family); font-weight: 700; font-size: 80px; line-height: 0.95;
+    letter-spacing: -0.03em; margin: 0 0 20px; }
+  .construction-ed .copy p { font-size: 18px; line-height: 1.65; color: var(--slate-700); max-width: 52ch; margin: 0 0 24px; }
+  .construction-ed .summary { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px;
+    padding-top: 24px; border-top: 1px solid var(--slate-200); }
+  .construction-ed .summary h4 { font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--panynj-navy); font-weight: 700; margin: 0 0 10px; }
+  .construction-ed .summary ul { margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.65; color: var(--slate-900); }
+
+  /* Editorial CTA */
+  .editorial-cta { background: var(--ink); color: var(--ground-white); padding: 96px 32px; max-width: none; text-align: center; }
+  .editorial-cta h2 { font-family: var(--display-family); font-weight: 700; font-size: clamp(48px, 7vw, 96px);
+    line-height: 1; letter-spacing: -0.03em; margin: 0 0 20px; }
+  .editorial-cta p { font-size: 19px; color: var(--slate-300); max-width: 50ch; margin: 0 auto 36px; }
+  .btn-primary { background: var(--panynj-blue); color: var(--ground-white); border: 0; border-radius: 2px;
+    padding: 16px 36px; font-family: inherit; font-size: 17px; font-weight: 700; cursor: pointer;
+    letter-spacing: 0.01em; }
+  .btn-secondary-line { display: inline-block; margin-left: 18px; color: var(--slate-300); font-weight: 600; padding: 16px 4px; border-bottom: 1px solid var(--slate-700); }
+  .btn-secondary-line:hover { color: var(--ground-white); border-color: var(--ground-white); text-decoration: none; }
+
+  /* Footer */
+  footer[data-section="footer"] { background: var(--slate-100); color: var(--slate-700); padding: 56px 32px 28px; }
+  footer .inner { max-width: 1440px; margin: 0 auto; }
+  footer .top { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 32px; padding-bottom: 36px; border-bottom: 1px solid var(--slate-300); }
+  footer .col h5 { font-family: var(--display-family); color: var(--ink); font-size: 14px; font-weight: 700;
+    letter-spacing: 0.05em; text-transform: uppercase; margin: 0 0 12px; }
+  footer .col a { display: block; color: var(--slate-700); font-size: 14px; padding: 4px 0; }
+  footer .col a:hover { color: var(--ink); text-decoration: none; }
+  footer .bottom { display: flex; justify-content: space-between; padding-top: 24px; font-size: 12px; color: var(--slate-600); }
+  footer .social { display: flex; gap: 12px; }
+  footer .social a { width: 32px; height: 32px; border: 1px solid var(--slate-400); border-radius: 9999px;
+    display: inline-flex; align-items: center; justify-content: center; padding: 0; color: var(--slate-700); }
+
+  @media (max-width: 1024px) {
+    .feature-block, .construction-ed { grid-template-columns: 1fr; gap: 32px; padding: 64px 24px; }
+    .story-grid, .ops-3up { grid-template-columns: 1fr; }
+    .editorial-hero .copy { left: 24px; right: 24px; bottom: 24px; }
+    .editorial-hero .meta-strip { left: 24px; right: 24px; }
+  }
+</style>
+</head>
+<body data-variant="V2" data-axis="editorial-composition">
+
+<header data-section="header" role="banner">
+  <a href="/" class="logo" aria-label="John F. Kennedy International Airport">
+    <img src="../current/assets/media/JFK-cd579a20.svg" alt="JFK — John F. Kennedy International Airport">
+  </a>
+  <nav data-section="primary-nav" aria-label="Main">
+    <a href="/flights">Flights</a>
+    <a href="/transportation">Transportation</a>
+    <a href="/explore-jfk">Explore</a>
+    <a href="/dine-shop-relax">Dine, Shop, Relax</a>
+  </nav>
+  <div class="right">
+    <button class="icon-btn" aria-label="Accessibility services">♿</button>
+    <button class="search-trigger" data-section="flight-search-panel">Search flights →</button>
+  </div>
+</header>
+
+<main>
+  <section data-section="editorial-hero" data-purpose="brand-statement" class="editorial-hero full-bleed">
+    <img src="../current/assets/media/032_26_JFK_20Hero_20Image_v1_r0_promo-5x2-99093042.jpg" alt="Manhattan skyline seen across Central Park from JFK approach altitude.">
+    <div class="scrim"></div>
+    <div class="meta-strip">
+      <span>JFK · The airport of New York</span>
+      <span><a href="#today">Today at JFK</a> · <span data-placeholder>612 flights · 90+ destinations</span></span>
+    </div>
+    <div class="copy">
+      <h1>From New York,<br>to everywhere.</h1>
+      <p class="deck">Six terminals, every airline, every borough an hour away. <span data-placeholder>612 flights today.</span></p>
+    </div>
+  </section>
+
+  <section data-section="feature-essay" data-purpose="brand-narrative" class="feature-block">
+    <div class="essay">
+      <h2>An airport is the city you're about to leave.</h2>
+      <p>JFK belongs to New York the way Penn Station belongs to it — utilitarian, crowded, full of people pretending to read. We don't pretend to be a destination. We pretend to be a ferry terminal that happens to fly.</p>
+      <p>That said, the food is good now, the bathrooms are mostly clean, and the AirTrain runs on time. The construction is real (it's a $19B redevelopment running through 2028) and we'll tell you exactly what's open and what's moved.</p>
+      <p style="margin-top: 24px;"><a href="#today" style="font-weight: 700; color: var(--ink); border-bottom: 2px solid var(--panynj-blue); padding-bottom: 2px;">See what's open today</a></p>
+    </div>
+    <figure>
+      <img src="../current/assets/media/3_6-1_allterminalshero_card-portrait-3x4-4efc8669.jpg" alt="Inside a JFK terminal at boarding-area scale, travelers in motion.">
+      <div class="pullquote">
+        <div class="q">"Welcome to New York. Now where are you actually going?"</div>
+        <div class="src" data-placeholder>— Anonymous T4 gate agent, probably</div>
+      </div>
+    </figure>
+  </section>
+
+  <section data-section="story-strip" data-purpose="editorial-content" class="story-strip full-bleed">
+    <div class="inner">
+      <div class="head">
+        <h2>Stories from the airport.</h2>
+        <a href="/news" class="all">All stories →</a>
+      </div>
+      <div class="story-grid">
+        <article class="story-card">
+          <div class="photo"><img src="../current/assets/media/4-0_2_shopteasercard_card-wide-16x9-25a97a96.jpg" alt="A passenger browsing a shop at JFK Terminal 4."></div>
+          <div class="body">
+            <div class="eyebrow">What's open at T4</div>
+            <h3>The food got better. Then it got bigger.</h3>
+            <p data-placeholder>Sample editorial copy: a tour of the T4 dining program after the 2024 expansion — chef-driven openings, late-night hours, and what to skip.</p>
+            <a href="/dine-shop-relax/food" class="read">Read →</a>
+          </div>
+        </article>
+        <article class="story-card">
+          <div class="photo"><img src="../current/assets/media/2-0_2_drivingdirectionspromo_hero-2x1-846dd894.jpg" alt="An AirTrain car arriving at the Howard Beach station."></div>
+          <div class="body">
+            <div class="eyebrow">Getting here</div>
+            <h3>The AirTrain to Jamaica is the most underrated ride in New York.</h3>
+            <p data-placeholder>Sample editorial copy: the Q3 bus, the LIRR connection, the math of when subway-plus-AirTrain beats a yellow cab.</p>
+            <a href="/transportation/airtrain" class="read">Read →</a>
+          </div>
+        </article>
+        <article class="story-card">
+          <div class="photo"><img src="../current/assets/media/3-2-3_6_sunflowerlanyard_card-wide-16x9-c46049d2.jpg" alt="A traveler wearing the Hidden Disabilities Sunflower lanyard at JFK."></div>
+          <div class="body">
+            <div class="eyebrow">Hidden Disabilities Sunflower</div>
+            <h3>The lanyard that tells the airport you might need a minute.</h3>
+            <p data-placeholder>Sample editorial copy: how the Sunflower program works at JFK, which terminals are trained, and where to pick one up.</p>
+            <a href="/explore-jfk/accessibility-services/hidden-disabilities-accessibility" class="read">Read →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section data-section="quiet-ops" data-purpose="commercial-conversion" class="quiet-ops" id="today">
+    <div class="head">
+      <h2>Today at JFK</h2>
+      <p>Live conditions, updated every minute. <a href="#">See the full status board →</a></p>
+    </div>
+    <div class="ops-3up">
+      <div class="ops-card">
+        <div class="num"><span data-placeholder>22</span><span style="font-size:24px;color:var(--slate-600);">m</span></div>
+        <div class="label">Busiest security wait — T4</div>
+        <div class="desc">Other terminals: <span data-placeholder>9–17 min</span>. Best to arrive 2 hours early for international.</div>
+      </div>
+      <div class="ops-card">
+        <div class="num">3</div>
+        <div class="label">Pickup-zone changes</div>
+        <div class="desc">T5 and T7 ride-app pickup moved. T7 taxi relocated. Check before you head out.</div>
+      </div>
+      <div class="ops-card">
+        <div class="num"><span data-placeholder>612</span></div>
+        <div class="label">Departures today</div>
+        <div class="desc">Across 6 terminals. <a href="/flights/departures">Live board →</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section data-section="construction-editorial" data-purpose="crisis-affordance" class="construction-ed">
+    <figure>
+      <img src="../current/assets/media/JFK_20Airport_20map_202.5-7e06d1e6.jpg" alt="JFK airport map illustration showing terminals and current construction zones.">
+    </figure>
+    <div class="copy">
+      <h2>Building tomorrow's JFK.</h2>
+      <p>Most of the airport works most of the time. Some of it is being rebuilt. Through 2028, expect new pickup zones, rerouted roadways, and eventually two new terminals. It's loud. It's worth it.</p>
+      <p style="margin-bottom: 0;"><a href="https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html" style="font-weight: 700; color: var(--ink); border-bottom: 2px solid var(--panynj-blue); padding-bottom: 2px;">The full redevelopment plan</a></p>
+      <div class="summary">
+        <div>
+          <h4>Open today</h4>
+          <ul>
+            <li>All terminals (T1, T4, T5, T7, T8)</li>
+            <li>AirTrain (all stations)</li>
+            <li>Long-term parking lots</li>
+            <li>All food, shops, lounges</li>
+          </ul>
+        </div>
+        <div>
+          <h4>What's moved</h4>
+          <ul>
+            <li>T5 / T7 ride-app pickup → Lot 2</li>
+            <li>T7 taxi stand relocated</li>
+            <li>T4 roadway changes (eastbound)</li>
+            <li>T5 yellow cab → relocated zone</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section data-section="editorial-cta" data-purpose="commercial-conversion" class="editorial-cta full-bleed">
+    <h2>Plan your day.</h2>
+    <p>Find your flight, reserve parking, plan your ride. Or just see what's open today.</p>
+    <div>
+      <button class="btn-primary">Search flights</button>
+      <a href="#today" class="btn-secondary-line">Today at JFK →</a>
+    </div>
+  </section>
+</main>
+
+<footer data-section="footer" role="contentinfo">
+  <div class="inner">
+    <div class="top">
+      <div class="col">
+        <h5>Help</h5>
+        <a href="/contact-us">Contact us</a>
+        <a href="/frequently-asked-questions">FAQ</a>
+        <a href="/lost-and-found">Lost &amp; Found</a>
+        <a href="/feedback">Feedback</a>
+      </div>
+      <div class="col">
+        <h5>Travel info</h5>
+        <a href="/alerts-advisories">Alerts &amp; advisories</a>
+        <a href="/explore-jfk/accessibility-services">Accessibility</a>
+        <a href="/transportation/airport-parking">Parking</a>
+        <a href="/explore-jfk/airport-map">Airport map</a>
+      </div>
+      <div class="col">
+        <h5>About</h5>
+        <a href="https://www.panynj.gov/airports/en/index.html">Port Authority airports</a>
+        <a href="https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html">JFK Redevelopment</a>
+        <a href="https://www.panynj.gov/airports/en/air-cargo/jfk.html">Air Cargo</a>
+        <a href="https://www.panynj.gov/port-authority/en/press-room.html">Press</a>
+      </div>
+      <div class="col">
+        <h5>Connect</h5>
+        <div class="social">
+          <a href="http://www.facebook.com/" aria-label="Facebook">f</a>
+          <a href="http://www.twitter.com/JFKairport" aria-label="X">𝕏</a>
+          <a href="https://www.panynj.gov/WhatsApp_JFK" aria-label="WhatsApp">w</a>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© 2026 Port Authority of New York &amp; New Jersey · <a href="/privacy">Privacy</a> · <a href="/website-disclaimer">Website disclaimer</a></span>
+      <span>JFK · LGA · EWR · SWF · TEB</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

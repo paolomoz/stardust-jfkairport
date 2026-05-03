@@ -1,0 +1,16 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:48.900Z",
+    "url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-8/airlines-at-terminal-8",
+    "slug": "explore-jfk__terminals__terminal-8__airlines-at-terminal-8",
+    "httpStatus": 200,
+    "totalMs": 4263,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": null,
+  "h1": "Airlines at JFK Terminal 8",
+  "lede": "",
+  "heroImage": null,
+  "blocks": []
+}

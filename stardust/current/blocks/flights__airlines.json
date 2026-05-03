@@ -1,0 +1,696 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:47.202Z",
+    "url": "https://www.jfkairport.com/flights/airlines",
+    "slug": "flights__airlines",
+    "httpStatus": 200,
+    "totalMs": 2569,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": null,
+  "h1": "Airlines",
+  "lede": "The AirTrain connects passengers to terminals, airport parking lots, the hotel shuttle area, the rental car center, and public transportation.Learn about the JFK AirTrain",
+  "heroImage": null,
+  "blocks": [
+    {
+      "h2": "More than 70 airlines operate out of JFK",
+      "h3s": [],
+      "paragraphs": [
+        "Below is a list of operating airlines and which terminal they operate out of, as well as their contact information. This information is based on the most up to date details available, but please check with your airline before you travel, as arrivals and departures may vary.",
+        "Terminal 5 (Int'l Arrivals, 5:00 a.m. to 10:30 p.m.) Terminal 4 (Int'l Arrivals, 10:30 p.m. to 5:00 a.m.)"
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-2_4_TransportationandParkingCard:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1392,
+          "h": 1043
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Aer Lingus (EI)",
+          "href": "https://www.aerlingus.com/html/home.html"
+        },
+        {
+          "text": "+1 (800) 474-7424",
+          "href": "tel:+18004747424"
+        },
+        {
+          "text": "Aeromexico (AM)",
+          "href": "http://www.aeromexico.com/"
+        },
+        {
+          "text": "+1 (800) 237-6639",
+          "href": "tel:+18002376639"
+        },
+        {
+          "text": "Air Canada (AC)",
+          "href": "https://www.aircanada.com/us/en/aco/home.html"
+        },
+        {
+          "text": "+1 (888) 247-2262",
+          "href": "tel:+18882472262"
+        },
+        {
+          "text": "Air China (CA)",
+          "href": "https://www.airchina.us/US/GB/Home"
+        },
+        {
+          "text": "+1 (800) 882-8122",
+          "href": "tel:+18008828122"
+        },
+        {
+          "text": "Air Europa (UX)",
+          "href": "http://www.aireuropa.com/"
+        },
+        {
+          "text": "+1 (844) 415-3955",
+          "href": "tel:+18444153955"
+        },
+        {
+          "text": "Air France (AF)",
+          "href": "http://www.airfrance.com/"
+        },
+        {
+          "text": "+1 (800) 237-2747",
+          "href": "tel:+18002372747"
+        },
+        {
+          "text": "Air India (AI)",
+          "href": "https://www.airindia.com"
+        },
+        {
+          "text": "+1 (888) 634-1407",
+          "href": "tel:+18886341407"
+        },
+        {
+          "text": "Air New Zealand (NZ)",
+          "href": "https://www.airnewzealand.com/"
+        },
+        {
+          "text": "+1 (800) 262-1234",
+          "href": "tel:+18002621234"
+        },
+        {
+          "text": "Air Serbia (JU)",
+          "href": "https://www.airserbia.com/en/"
+        },
+        {
+          "text": "+1 (718) 725-8642",
+          "href": "tel:+17187258642"
+        },
+        {
+          "text": "Alaska Airlines (AS)",
+          "href": "https://www.alaskaair.com"
+        },
+        {
+          "text": "+1 (800) 252-7522",
+          "href": "tel:+18002527522"
+        },
+        {
+          "text": "American Airlines (AA)",
+          "href": "http://www.aa.com/"
+        },
+        {
+          "text": "+1 (800) 433-7300",
+          "href": "tel:+18004337300"
+        },
+        {
+          "text": "ANA - All Nippon Airways (NH)",
+          "href": "https://www.ana.co.jp/en/us/"
+        },
+        {
+          "text": "+1 (800) 235-9262",
+          "href": "tel:+18002359262"
+        },
+        {
+          "text": "Arkia Israeli Airlines (IZ)",
+          "href": "https://www.arkia.co.il/"
+        },
+        {
+          "text": "+1 (201) 526-7807",
+          "href": "tel:+12015267807"
+        },
+        {
+          "text": "Asiana Airlines (OZ)",
+          "href": "https://flyasiana.com/C/US/EN/index"
+        },
+        {
+          "text": "+1 (718) 751-1606",
+          "href": "tel:+17187511606"
+        },
+        {
+          "text": "Austrian Airlines (OS)",
+          "href": "https://www.austrian.com/us/en/homepage"
+        },
+        {
+          "text": "+1 (800) 843-0002",
+          "href": "tel:+18008430002"
+        },
+        {
+          "text": "Avianca (AV)",
+          "href": "http://www.avianca.com/"
+        },
+        {
+          "text": "+1 (866) 919-0081",
+          "href": "tel:+18669190081"
+        },
+        {
+          "text": "SATA International (S4)",
+          "href": "https://www.azoresairlines.pt/en"
+        },
+        {
+          "text": "+351 296 209 720",
+          "href": "tel:+351296209720"
+        },
+        {
+          "text": "British Airways (BA)",
+          "href": "http://www.britishairways.com/"
+        },
+        {
+          "text": "+1 (800) 247-9297",
+          "href": "tel:+18002479297"
+        },
+        {
+          "text": "Brussels Airlines (SN)",
+          "href": "https://www.brusselsairlines.com/"
+        },
+        {
+          "text": "+1 (800) 401-1801",
+          "href": "tel:+18004011801"
+        },
+        {
+          "text": "Cape Air (9K)",
+          "href": "http://www.capeair.com/"
+        },
+        {
+          "text": "+1 (800) 227-3247",
+          "href": "tel:+18002273247"
+        },
+        {
+          "text": "Caribbean Airlines (BW)",
+          "href": "https://www.caribbean-airlines.com/#/"
+        },
+        {
+          "text": "+1 (800) 920-4225",
+          "href": "tel:+18009204225"
+        },
+        {
+          "text": "Cathay Pacific (CX)",
+          "href": "https://www.cathaypacific.com/cx/en_US.html"
+        },
+        {
+          "text": "+1 (800) 233-2742",
+          "href": "tel:+18002332742"
+        },
+        {
+          "text": "Cayman Airways (KX)",
+          "href": "https://www.caymanairways.com/"
+        },
+        {
+          "text": "+1 (800) 422-9626",
+          "href": "tel:+18004229626"
+        },
+        {
+          "text": "China Airlines (CI)",
+          "href": "http://www.china-airlines.com/"
+        },
+        {
+          "text": "+1 (800) 227-5118",
+          "href": "tel:+18002275118"
+        },
+        {
+          "text": "China Eastern (MU)",
+          "href": "http://us.ceair.com/en/"
+        },
+        {
+          "text": "86 (21) 2069-5530",
+          "href": "tel:862120695530"
+        },
+        {
+          "text": "China Southern (CZ)",
+          "href": "https://global.csair.com/"
+        },
+        {
+          "text": "+1 (888) 338-8988",
+          "href": "tel:+18883388988"
+        },
+        {
+          "text": "Condor (DE)",
+          "href": "https://www.condor.com/us/"
+        },
+        {
+          "text": "+1 (866) 960-7915",
+          "href": "tel:+18669607915"
+        },
+        {
+          "text": "Copa Airlines (CM)",
+          "href": "http://www.copaair.com/"
+        },
+        {
+          "text": "+1 (800) 359-2672",
+          "href": "tel:+18003592672"
+        },
+        {
+          "text": "Delta (DL)",
+          "href": "http://www.delta.com/"
+        },
+        {
+          "text": "+1 (800) 221-1212",
+          "href": "tel:+18002211212"
+        },
+        {
+          "text": "EgyptAir (MS)",
+          "href": "https://www.egyptair.com/en/Pages/default.aspx"
+        },
+        {
+          "text": "+1 (212) 315-0900",
+          "href": "tel:+12123150900"
+        },
+        {
+          "text": "El Al (LY)",
+          "href": "https://www.elal.com/en/USA/Pages/default.aspx"
+        },
+        {
+          "text": "+1 (800) 223-6700",
+          "href": "tel:+18002236700"
+        },
+        {
+          "text": "Emirates (EK)",
+          "href": "http://www.emirates.com/"
+        },
+        {
+          "text": "+1 (800) 777-3999",
+          "href": "tel:+18007773999"
+        },
+        {
+          "text": "Ethiopian Airlines (ET)",
+          "href": "https://www.ethiopianairlines.com/"
+        },
+        {
+          "text": "+1 (800) 445-2733",
+          "href": "tel:+18004452733"
+        },
+        {
+          "text": "Etihad (EY)",
+          "href": "https://www.etihad.com/en-us/"
+        },
+        {
+          "text": "+1 (914) 303-8393",
+          "href": "tel:+19143038393"
+        },
+        {
+          "text": "EVA Air (BR)",
+          "href": "http://www.evaair.com/"
+        },
+        {
+          "text": "+1 (800) 695-1188",
+          "href": "tel:+18006951188"
+        },
+        {
+          "text": "Finnair (AY)",
+          "href": "https://www.finnair.com/fi-fi"
+        },
+        {
+          "text": "+1 (929) 474-6049",
+          "href": "tel:+19294746049"
+        },
+        {
+          "text": "Frontier Airlines (F9)",
+          "href": "https://www.flyfrontier.com/"
+        },
+        {
+          "text": "+1 (801) 401-9000",
+          "href": "tel:+18014019000"
+        },
+        {
+          "text": "Gulf Air (GF)",
+          "href": "https://www.gulfair.com"
+        },
+        {
+          "text": "+1 (888) 359-4853",
+          "href": "tel:+18883594853"
+        },
+        {
+          "text": "Hawaiian Airlines (HA)",
+          "href": "http://www.hawaiianairlines.com/"
+        },
+        {
+          "text": "+1 (800) 367-5320",
+          "href": "tel:+18003675320"
+        },
+        {
+          "text": "HiSky Europe (H4)",
+          "href": "https://hisky.aero/en/"
+        },
+        {
+          "text": "Iberia (IB)",
+          "href": "http://www.iberia.com/"
+        },
+        {
+          "text": "+1 (800) 772-4642",
+          "href": "tel:+18007724642"
+        },
+        {
+          "text": "Icelandair (FI)",
+          "href": "https://www.icelandair.com/"
+        },
+        {
+          "text": "+1 (800) 223-5500",
+          "href": "tel:+18002235500"
+        },
+        {
+          "text": "ITA Airways (AZ)",
+          "href": "https://www.itaspa.com/en_us/fly-ita/check-in/check-in-time-limits.html"
+        },
+        {
+          "text": "+1 (877) 793-1717",
+          "href": "tel:+18777931717"
+        },
+        {
+          "text": "Japan Airlines (JL)",
+          "href": "https://www.ar.jal.co.jp/arl/en/"
+        },
+        {
+          "text": "+1 (800) 525-3663",
+          "href": "tel:+18005253663"
+        },
+        {
+          "text": "JetBlue (B6)",
+          "href": "http://www.jetblue.com/"
+        },
+        {
+          "text": "+1 (800) 538-2583",
+          "href": "tel:+18005382583"
+        },
+        {
+          "text": "Kenya Airways (KQ)",
+          "href": "https://www.kenya-airways.com/us/en/"
+        },
+        {
+          "text": "+1 (866) 536-9224",
+          "href": "tel:+18665369224"
+        },
+        {
+          "text": "KLM Royal Dutch Airlines (KL)",
+          "href": "http://www.klm.com/"
+        },
+        {
+          "text": "+1 (800) 618-0104",
+          "href": "tel:+18006180104"
+        },
+        {
+          "text": "Korean Air (KE)",
+          "href": "http://www.koreanair.com/"
+        },
+        {
+          "text": "+1 (800) 438-5000",
+          "href": "tel:+18004385000"
+        },
+        {
+          "text": "Kuwait Airlines (KU)",
+          "href": "https://www.kuwaitairways.com/"
+        },
+        {
+          "text": "+1 (201) 582-9200",
+          "href": "tel:+12015829200"
+        },
+        {
+          "text": "LATAM (LA)",
+          "href": "https://www.latamairlines.com/us/en"
+        },
+        {
+          "text": "+1 (866) 435-9526",
+          "href": "tel:+18664359526"
+        },
+        {
+          "text": "LEVEL (LL)",
+          "href": "https://www.flylevel.com/"
+        },
+        {
+          "text": "LOT Polish (LO)",
+          "href": "http://www.lot.com/"
+        },
+        {
+          "text": "+1 (212) 789-0970",
+          "href": "tel:+12127890970"
+        },
+        {
+          "text": "Lufthansa (LH)",
+          "href": "http://www.lufthansa.com/"
+        },
+        {
+          "text": "+1 (800) 645-3880",
+          "href": "tel:+18006453880"
+        },
+        {
+          "text": "Neos (NO)",
+          "href": "https://www.neosair.it/"
+        },
+        {
+          "text": "+1 (833) 703-6367",
+          "href": "tel:+18337036367"
+        },
+        {
+          "text": "Norse Atlantic Airways (N0)",
+          "href": "https://flynorse.com/"
+        },
+        {
+          "text": "Philippine Airlines (PR)",
+          "href": "http://www.philippineairlines.com/"
+        },
+        {
+          "text": "+1 (800) 435-9725",
+          "href": "tel:+18004359725"
+        },
+        {
+          "text": "Qantas (QF)",
+          "href": "https://www.qantas.com/us/en.html"
+        },
+        {
+          "text": "+1 (800) 227-4500",
+          "href": "tel:+18002274500"
+        },
+        {
+          "text": "Qatar Airways (QR)",
+          "href": "https://www.qatarairways.com/en-us/homepage.html"
+        },
+        {
+          "text": "+1 (718) 751-3541",
+          "href": "tel:+17187513541"
+        },
+        {
+          "text": "+1 (718) 751-3542",
+          "href": "tel:+17187513542"
+        },
+        {
+          "text": "Royal Air Maroc (AT)",
+          "href": "http://www.royalairmaroc.com/"
+        },
+        {
+          "text": "+1 (800) 344-6726",
+          "href": "tel:+18003446726"
+        },
+        {
+          "text": "Royal Jordanian (RJ)",
+          "href": "http://www.rj.com/"
+        },
+        {
+          "text": "+1 (212) 949-0050",
+          "href": "tel:+12129490050"
+        },
+        {
+          "text": "Saudi Arabian Airlines (SV)",
+          "href": "http://www.saudia.com/"
+        },
+        {
+          "text": "+1 (800) 472-8342",
+          "href": "tel:+18004728342"
+        },
+        {
+          "text": "SAS - Scandinavian Airlines (SK)",
+          "href": "https://www.flysas.com/en"
+        },
+        {
+          "text": "+1 (800) 221-2350",
+          "href": "tel:+18002212350"
+        },
+        {
+          "text": "Singapore Airlines (SQ)",
+          "href": "http://www.singaporeair.com/"
+        },
+        {
+          "text": "+1 (833) 727-0118",
+          "href": "tel:+18337270118"
+        },
+        {
+          "text": "Sun Country Airlines (SY)",
+          "href": "https://www.suncountry.com"
+        },
+        {
+          "text": "+1 (651) 905-2737",
+          "href": "tel:+16519052737"
+        },
+        {
+          "text": "SWISS (LX)",
+          "href": "http://www.swiss.com/"
+        },
+        {
+          "text": "+1 (833) 626-0737",
+          "href": "tel:+18336260737"
+        },
+        {
+          "text": "TAP Portugal (TP)",
+          "href": "https://www.flytap.com/en-us"
+        },
+        {
+          "text": "+1 (800) 903-7914",
+          "href": "tel:+18009037914"
+        },
+        {
+          "text": "Turkish Airlines (TK)",
+          "href": "http://www.turkishairlines.com/"
+        },
+        {
+          "text": "+1 (800) 874-8875",
+          "href": "tel:+18008748875"
+        },
+        {
+          "text": "Uzbekistan Airways (HY)",
+          "href": "https://www.uzairways.com/"
+        },
+        {
+          "text": "+1 (201) 944-4474",
+          "href": "tel:+12019444474"
+        },
+        {
+          "text": "Virgin Atlantic (VS)",
+          "href": "https://www.virginatlantic.com/"
+        },
+        {
+          "text": "+1 (800) 862-8621",
+          "href": "tel:+18008628621"
+        },
+        {
+          "text": "VB (VB)",
+          "href": "https://www.vivaaerobus.com/en"
+        },
+        {
+          "text": "+1 (866) 359-8482",
+          "href": "tel:+18663598482"
+        },
+        {
+          "text": "WestJet Airlines (WS)",
+          "href": "https://www.westjet.com/en-ca/index"
+        },
+        {
+          "text": "+1 (888) 937-8538",
+          "href": "tel:+18889378538"
+        },
+        {
+          "text": "+1 (866) 666-6224",
+          "href": "tel:+18666666224"
+        },
+        {
+          "text": "Xiamen Airlines (MF)",
+          "href": "http://www.xiamenair.com/en-us/"
+        },
+        {
+          "text": "+1 (844) 629-5557",
+          "href": "tel:+18446295557"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Navigate JFK with the AirTrain",
+      "h3s": [],
+      "paragraphs": [
+        "The AirTrain connects passengers to terminals, airport parking lots, the hotel shuttle area, the rental car center, and public transportation."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Learn about the JFK AirTrain",
+          "href": "/transportation/airtrain"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "FAQs",
+      "h3s": [],
+      "paragraphs": [
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "Which terminal does JetBlue use at JFK?"
+        }
+      ],
+      "links": [
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

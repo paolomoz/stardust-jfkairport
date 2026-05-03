@@ -1,0 +1,126 @@
+/* migrate-rich.css — block pattern templates (loaded after canon.css and migrate.css) */
+
+/* Advisory band */
+.advisory-band { background: var(--advisory-yellow); border-bottom: 1px solid color-mix(in oklch, var(--advisory-yellow) 60%, var(--panynj-navy)); }
+.advisory-band .advisory-inner { max-width: 1440px; margin: 0 auto; padding: 14px 32px;
+  display: flex; gap: 18px; align-items: center; flex-wrap: wrap; }
+.advisory-band .advisory-icon { font-size: 22px; color: var(--panynj-navy); flex-shrink: 0; }
+.advisory-band .advisory-text { margin: 0; font-size: 15px; line-height: 1.5; color: var(--panynj-navy);
+  flex: 1; min-width: 320px; max-width: 80ch; }
+.advisory-band .advisory-ctas { display: flex; gap: 18px; flex-wrap: wrap; }
+.advisory-band .advisory-ctas a { color: var(--panynj-navy); font-weight: 700; font-size: 14px;
+  border-bottom: 2px solid var(--panynj-navy); padding-bottom: 1px; }
+
+/* Page-level block layout */
+.page-block { padding: 56px 32px; }
+.page-block + .page-block { padding-top: 0; }
+.page-block .block-inner { max-width: 1200px; margin: 0 auto; }
+.page-block .block-inner.narrow { max-width: 760px; }
+.page-block .block-inner.with-image { display: grid; grid-template-columns: 1.4fr 1fr; gap: 56px; align-items: start; }
+.page-block h2.display { font-family: var(--display-family); font-weight: 700;
+  font-size: clamp(32px, 4.5vw, 48px); line-height: 1.05; letter-spacing: -0.03em;
+  margin: 0 0 18px; color: var(--panynj-navy); text-wrap: balance; max-width: 22ch; }
+.page-block .block-intro { font-size: 18px; line-height: 1.6; color: var(--slate-700);
+  margin: 0 0 28px; max-width: 65ch; text-wrap: pretty; }
+.page-block .block-content p { font-size: 17px; line-height: 1.65; color: var(--slate-900);
+  margin: 0 0 16px; max-width: 65ch; text-wrap: pretty; }
+.page-block .block-h3-list { list-style: none; padding: 0; margin: 16px 0 0;
+  display: flex; flex-direction: column; gap: 8px; }
+.page-block .block-h3-list li { padding: 14px 18px; background: var(--slate-100); border-radius: 4px;
+  font-size: 16px; color: var(--ink); }
+.page-block .block-h3-list li strong { color: var(--panynj-navy); }
+.page-block .block-ctas { display: flex; gap: 24px; flex-wrap: wrap; margin-top: 24px; }
+.page-block .block-ctas a { color: var(--ink); font-weight: 700; font-size: 15px;
+  border-bottom: 2px solid var(--panynj-blue); padding-bottom: 2px; }
+.page-block .block-figure { margin: 0; }
+.page-block .block-figure img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 4px; }
+
+/* Stat grid */
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 24px;
+  padding-top: 8px; border-top: 1px solid color-mix(in oklch, var(--panynj-navy) 14%, transparent); }
+.stat-card { padding: 24px 0 8px; }
+.stat-num { font-family: var(--display-family); font-weight: 700;
+  font-size: clamp(56px, 6.5vw, 80px); line-height: 0.95; letter-spacing: -0.04em;
+  color: var(--panynj-deep-blue); margin-bottom: 14px; font-variant-numeric: tabular-nums; }
+.stat-detail { font-size: 14px; line-height: 1.55; color: var(--slate-700); margin: 0; max-width: 32ch; text-wrap: pretty; }
+
+/* Walk times table */
+.walk-times-table { width: 100%; border-collapse: collapse; margin-top: 12px; font-variant-numeric: tabular-nums; }
+.walk-times-table thead th { text-align: left; padding: 10px 18px 10px 0;
+  font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; font-weight: 700;
+  color: var(--slate-700); border-bottom: 2px solid var(--panynj-navy); }
+.walk-times-table tbody td { padding: 16px 18px 16px 0; border-bottom: 1px solid var(--slate-200);
+  font-family: var(--display-family); font-weight: 700; font-size: 22px; color: var(--ink); letter-spacing: -0.015em; }
+.walk-times-table tbody tr:last-child td { border-bottom: 0; }
+
+/* Sub-IA grid (Dine/Shop/Relax style) */
+.sub-ia-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+.sub-ia-card { display: flex; flex-direction: column; background: var(--ground-white);
+  border: 1px solid var(--slate-200); border-radius: 4px; overflow: hidden; color: var(--ink);
+  transition: border-color 220ms var(--ease-out-quart), transform 220ms var(--ease-out-quart), box-shadow 220ms var(--ease-out-quart); }
+.sub-ia-card:hover { border-color: var(--panynj-blue); transform: translateY(-3px);
+  box-shadow: 0 16px 28px -18px var(--shadow-navy-medium); text-decoration: none; }
+.sub-ia-card .sub-ia-photo { aspect-ratio: 16/10; overflow: hidden; }
+.sub-ia-card .sub-ia-photo img { width: 100%; height: 100%; object-fit: cover; }
+.sub-ia-card .sub-ia-icon { display: inline-flex; align-items: center; justify-content: center;
+  width: 36px; height: 36px; background: var(--panynj-navy); color: var(--ground-white); border-radius: 4px;
+  font-size: 20px; margin: 22px 0 0 24px; }
+.sub-ia-card h3 { font-family: var(--display-family); font-weight: 700; font-size: 24px;
+  letter-spacing: -0.02em; line-height: 1.1; margin: 14px 24px 6px; color: var(--panynj-navy); }
+.sub-ia-card p { color: var(--slate-700); font-size: 14px; line-height: 1.55; margin: 0 24px 14px; }
+.sub-ia-card .sub-ia-arrow { color: var(--panynj-deep-blue); font-weight: 700; font-size: 14px;
+  margin: auto 24px 22px; padding-top: 8px; }
+
+/* Service grid (Personalized travel services, Fast Track Tips) */
+.service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+.service-card { padding: 24px 28px 26px; background: var(--ground-white);
+  border: 1px solid var(--slate-200); border-radius: 4px;
+  transition: border-color 220ms var(--ease-out-quart), transform 220ms var(--ease-out-quart),
+              box-shadow 220ms var(--ease-out-quart); display: flex; flex-direction: column; }
+.service-card:hover { border-color: var(--panynj-blue); transform: translateY(-2px);
+  box-shadow: 0 12px 22px -14px var(--shadow-navy-soft); }
+.service-card .service-photo { aspect-ratio: 16/10; overflow: hidden; border-radius: 4px;
+  margin: -24px -28px 18px; }
+.service-card .service-photo img { width: 100%; height: 100%; object-fit: cover; }
+.service-card h3 { font-family: var(--display-family); font-weight: 700; font-size: 20px;
+  letter-spacing: -0.015em; line-height: 1.2; margin: 0 0 10px; color: var(--panynj-navy); text-wrap: balance; }
+.service-card p { color: var(--slate-700); font-size: 14px; line-height: 1.55; margin: 0 0 14px; flex: 1; }
+.service-card .service-link { color: var(--panynj-deep-blue); font-weight: 700; font-size: 14px; }
+
+/* Page hero — extend canon's eyebrow position */
+.page-hero .page-eyebrow { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--panynj-deep-blue); font-weight: 700; margin-bottom: 14px; }
+.page-hero.has-photo .page-eyebrow { color: var(--ground-white); opacity: 0.9; }
+.page-hero.has-photo .page-eyebrow a { color: var(--ground-white); }
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .page-block .block-inner.with-image { grid-template-columns: 1fr; gap: 32px; }
+}
+@media (max-width: 768px) {
+  .page-block { padding: 40px 20px; }
+  .page-block h2.display { font-size: clamp(28px, 5vw, 40px); }
+  .stat-num { font-size: clamp(48px, 9vw, 64px); }
+  .walk-times-table tbody td { padding: 12px 12px 12px 0; font-size: 18px; }
+  .advisory-band .advisory-inner { padding: 12px 20px; gap: 12px; }
+  .advisory-band .advisory-text { font-size: 14px; }
+}
+
+/* IA pillar quick-access tiles */
+.ia-quickaccess { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.ia-qa-tile { display: flex; flex-direction: column; padding: 22px 24px 20px; background: var(--ground-white);
+  border: 1px solid var(--slate-200); border-radius: 4px; color: var(--ink); position: relative;
+  transition: border-color 220ms var(--ease-out-quart), transform 220ms var(--ease-out-quart),
+              box-shadow 220ms var(--ease-out-quart); min-height: 130px; }
+.ia-qa-tile:hover { border-color: var(--panynj-blue); transform: translateY(-2px);
+  box-shadow: 0 12px 22px -14px var(--shadow-navy-soft); text-decoration: none; }
+.ia-qa-tile .ia-qa-label { font-family: var(--display-family); font-weight: 700; font-size: 22px;
+  line-height: 1.15; letter-spacing: -0.02em; color: var(--panynj-navy); margin-bottom: 6px; }
+.ia-qa-tile .ia-qa-desc { font-size: 14px; color: var(--slate-700); line-height: 1.5; }
+.ia-qa-tile .ia-qa-arrow { position: absolute; top: 22px; right: 22px; color: var(--slate-400); font-size: 14px;
+  transition: transform 200ms var(--ease-out-quart), color 200ms var(--ease-out-quart); }
+.ia-qa-tile:hover .ia-qa-arrow { color: var(--panynj-deep-blue); transform: translateX(4px); }
+
+/* Flight-search and flight-board re-anchored under page-block layout */
+.flight-search-block .flight-search { background: var(--ground-white); border: 1px solid var(--slate-200);
+  border-radius: 4px; padding: 24px 28px; max-width: 760px; }

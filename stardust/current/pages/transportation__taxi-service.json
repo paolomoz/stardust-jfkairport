@@ -1,0 +1,1757 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-03T13:11:55.773Z",
+    "url": "https://www.jfkairport.com/transportation/taxi-service",
+    "slug": "transportation__taxi-service",
+    "startedAt": "2026-05-03T13:11:37.206Z",
+    "waitMode": "medium",
+    "httpStatus": 200,
+    "contentType": "text/html; charset=utf-8",
+    "waitMs": 2819,
+    "endedAt": "2026-05-03T13:11:55.773Z",
+    "totalMs": 18340,
+    "stardustVersion": "0.3.0"
+  },
+  "url": "https://www.jfkairport.com/transportation/taxi-service",
+  "meta": {
+    "title": "Taxis - JFK Airport",
+    "description": "Find official NYC taxi service at JFK Airport. Check pick-up locations, pricing and travel times to Manhattan and beyond.",
+    "themeColor": "",
+    "lang": "en-us"
+  },
+  "ogTags": {
+    "og:title": "Taxis - JFK Airport",
+    "og:description": "Find official NYC taxi service at JFK Airport. Check pick-up locations, pricing and travel times to Manhattan and beyond.",
+    "og:type": "website",
+    "og:url": "https://www.jfkairport.com/transportation/taxi-service",
+    "og:image": "https://s7d9.scene7.com/is/image/panynjaviation/jfk_ogimage:card-wide-16x9",
+    "og:image:alt": "John F. Kennedy International Airport logo"
+  },
+  "headings": [
+    {
+      "level": 1,
+      "text": "Taxis to and from JFK Airport"
+    },
+    {
+      "level": 2,
+      "text": "Taxi wait times"
+    },
+    {
+      "level": 3,
+      "text": "Terminal 1"
+    },
+    {
+      "level": 3,
+      "text": "Terminal 4"
+    },
+    {
+      "level": 3,
+      "text": "Terminal 5"
+    },
+    {
+      "level": 3,
+      "text": "Terminal 7"
+    },
+    {
+      "level": 3,
+      "text": "Terminal 8"
+    },
+    {
+      "level": 2,
+      "text": "Taxi fares between JFK Airport and Manhattan"
+    },
+    {
+      "level": 2,
+      "text": "Taxi safety tips"
+    },
+    {
+      "level": 3,
+      "text": "Taxi fares between JFK Airport and other NYC area destinations"
+    },
+    {
+      "level": 3,
+      "text": "Connecting to LaGuardia Airport and Newark Liberty International Airport"
+    },
+    {
+      "level": 2,
+      "text": "New York taxi tips"
+    },
+    {
+      "level": 2,
+      "text": "Accessible NYC taxis"
+    },
+    {
+      "level": 2,
+      "text": "Taxi commission information"
+    },
+    {
+      "level": 2,
+      "text": "FAQs"
+    }
+  ],
+  "landmarks": [
+    {
+      "role": "main",
+      "label": "",
+      "headingPreview": "Taxis to and from JFK Airport"
+    },
+    {
+      "role": "header",
+      "label": "",
+      "headingPreview": ""
+    },
+    {
+      "role": "nav",
+      "label": "main",
+      "headingPreview": ""
+    },
+    {
+      "role": "footer",
+      "label": "",
+      "headingPreview": ""
+    }
+  ],
+  "sections": [
+    {
+      "index": 0,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack AdvisoryNotification_messageText__pr4ei css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Taxi pick-ups and drop-offs may take longer than usual due to construction at JFK. Plan accordingly and allow for extra time. During this period we recommend taking Public Transportation to the airport.",
+      "rect": {
+        "x": 153,
+        "y": 357,
+        "w": 1027.5,
+        "h": 48
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(1, 118, 163)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "20px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "Public Transportation",
+          "href": "/transportation/public-transport"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack RichTextEditorWrapper_container__7b_DK css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Before you drive off, make sure you won't get ripped offIf you accept a ride from a fraudulent driver you will get ripped off and scammed. Go to the official pick up areas for authorized vehicles such as yellow cabs, Ubers or Lyfts.",
+      "rect": {
+        "x": 297.3,
+        "y": 506,
+        "w": 845.3,
+        "h": 92
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 2,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack RichTextEditorWrapper_container__7b_DK css-sekf8j",
+      "ariaLabel": "",
+      "heading": "Taxi fares between JFK Airport and Manhattan",
+      "textPreview": "Taxi fares between JFK Airport and ManhattanFor your convenience, taxis from JFK to Manhattan have a flat rate of $70, plus tolls, tip, and $2.75-$8.50 in additional fees which vary by time of day and destinations. The meter and receipt will show this fixed price. Flat Fare Polic",
+      "rect": {
+        "x": 297.3,
+        "y": 1813.2,
+        "w": 845.3,
+        "h": 308
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 3,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack ContentTable_body__fkfHP css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Note: Meter must read $3.00 at the start of the trip (except for JFK-Manhattan $70 Flat Fare trips).",
+      "rect": {
+        "x": 297.3,
+        "y": 2733.2,
+        "w": 845.3,
+        "h": 48
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(51, 65, 85)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "20px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 4,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "The Bronx",
+      "rect": {
+        "x": 313.3,
+        "y": 2904.7,
+        "w": 390.7,
+        "h": 22
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(71, 85, 105)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 5,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Riverdale $110 South Bronx $80",
+      "rect": {
+        "x": 736,
+        "y": 2885.7,
+        "w": 390.7,
+        "h": 60
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(71, 85, 105)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 6,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Brooklyn",
+      "rect": {
+        "x": 313.3,
+        "y": 3036.7,
+        "w": 390.7,
+        "h": 22
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(71, 85, 105)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 7,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Coney Island $70 Downtown Brooklyn $90 East New York $40 Williamsburg $80",
+      "rect": {
+        "x": 736,
+        "y": 2979.7,
+        "w": 390.7,
+        "h": 136
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(71, 85, 105)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 8,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Queens",
+      "rect": {
+        "x": 313.3,
+        "y": 3206.7,
+        "w": 390.7,
+        "h": 22
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(71, 85, 105)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 9,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Corona and Forest Hills $40 Flushing $60 Long Island City and Astoria $70 Ozone Park $30",
+      "rect": {
+        "x": 736,
+        "y": 3149.7,
+        "w": 390.7,
+        "h": 136
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(71, 85, 105)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 10,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Staten Island",
+      "rect": {
+        "x": 313.3,
+        "y": 3338.7,
+        "w": 390.7,
+        "h": 22
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(71, 85, 105)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 11,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Eltingville, Annadale, and Prince’s Bay $130 Saint George and New Brighton $100",
+      "rect": {
+        "x": 736,
+        "y": 3319.7,
+        "w": 390.7,
+        "h": 60
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(71, 85, 105)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 12,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Nassau/Westchester, NY",
+      "rect": {
+        "x": 313.3,
+        "y": 3435.7,
+        "w": 390.7,
+        "h": 22
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(71, 85, 105)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 13,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "The fare shown on the meter from JFK to NYC boundary, then double the fare from there to final stop.",
+      "rect": {
+        "x": 736,
+        "y": 3413.7,
+        "w": 390.7,
+        "h": 66
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(71, 85, 105)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 14,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Connecticut/Suffolk/New Jersey/north and west of Westchester County",
+      "rect": {
+        "x": 313.3,
+        "y": 3513.7,
+        "w": 390.7,
+        "h": 44
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(71, 85, 105)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 15,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Price is negotiated between passenger and driver at the start of the trip.",
+      "rect": {
+        "x": 736,
+        "y": 3513.7,
+        "w": 390.7,
+        "h": 44
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(71, 85, 105)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 16,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack ContentTable_body__fkfHP css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Review our guide on transferring airports for more information on connecting to flights at LaGuardia and Newark Liberty International Airports.",
+      "rect": {
+        "x": 297.3,
+        "y": 3787.7,
+        "w": 845.3,
+        "h": 48
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(51, 65, 85)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "20px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "Review our guide on transferring airports",
+          "href": "/flights/connections-guide/travel-between-airports"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "LaGuardia Airport",
+      "rect": {
+        "x": 313.3,
+        "y": 3944.7,
+        "w": 390.7,
+        "h": 22
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(71, 85, 105)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 18,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "$60",
+      "rect": {
+        "x": 736,
+        "y": 3944.7,
+        "w": 390.7,
+        "h": 22
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(71, 85, 105)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 19,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Newark Liberty International Airport",
+      "rect": {
+        "x": 313.3,
+        "y": 4009.2,
+        "w": 390.7,
+        "h": 22
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(71, 85, 105)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 20,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "$160",
+      "rect": {
+        "x": 736,
+        "y": 4009.2,
+        "w": 390.7,
+        "h": 22
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(71, 85, 105)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 21,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Tipping is optional but appreciated and encouraged.",
+      "rect": {
+        "x": 313.3,
+        "y": 4320.8,
+        "w": 167.3,
+        "h": 96
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 22,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "One fare pays for all passengers going to the same place.",
+      "rect": {
+        "x": 528.7,
+        "y": 4320.8,
+        "w": 167.3,
+        "h": 96
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 23,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "4 passengers is the limit for NYC cabs (5 for minivans).",
+      "rect": {
+        "x": 744,
+        "y": 4320.8,
+        "w": 167.3,
+        "h": 96
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 24,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Don’t forget to take your receipt before you go!",
+      "rect": {
+        "x": 959.3,
+        "y": 4320.8,
+        "w": 167.3,
+        "h": 72
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 25,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack RichTextEditorWrapper_container__7b_DK css-sekf8j",
+      "ariaLabel": "",
+      "heading": "Accessible NYC taxis",
+      "textPreview": "Accessible NYC taxisYou can request a wheelchair-accessible taxi through the Accessible Dispatch program opens in a new tab or by using apps like Curb opens in a new tab or ARRO opens in a new tab. You can also call or text the dispatch service directly: Call: +1 (646)-599-9999 T",
+      "rect": {
+        "x": 297.3,
+        "y": 4512.8,
+        "w": 845.3,
+        "h": 316
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "Accessible Dispatch program opens in a new tab",
+          "href": "https://accessibledispatch.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Curb opens in a new tab",
+          "href": "https://www.gocurb.com/"
+        },
+        {
+          "tag": "a",
+          "text": "ARRO opens in a new tab",
+          "href": "https://www.ridearro.com/"
+        },
+        {
+          "tag": "a",
+          "text": "+1 (646)-599-9999",
+          "href": "tel:16465999999"
+        },
+        {
+          "tag": "a",
+          "text": "+1 (646)-400-0789",
+          "href": "tel:16464000789"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Curb opens in a new tab",
+      "rect": {
+        "x": 313.3,
+        "y": 4968.4,
+        "w": 167.3,
+        "h": 24
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "Curb opens in a new tab",
+          "href": "https://www.gocurb.com/"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "ARRO opens in a new tab",
+      "rect": {
+        "x": 528.7,
+        "y": 4968.4,
+        "w": 167.3,
+        "h": 24
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "ARRO opens in a new tab",
+          "href": "https://www.ridearro.com/"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack RichTextEditorWrapper_container__7b_DK css-sekf8j",
+      "ariaLabel": "",
+      "heading": "Taxi commission information",
+      "textPreview": "Taxi commission informationTaxis are regulated by the NYC Taxi and Limousine Commission. For taxi compliments, complaints and lost property, call 311 or visit the NYC Taxi & Limousine Commission website. opens in a new tab",
+      "rect": {
+        "x": 297.3,
+        "y": 5088.4,
+        "w": 845.3,
+        "h": 140
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "311",
+          "href": "tel:1311"
+        },
+        {
+          "tag": "a",
+          "text": "NYC Taxi & Limousine Commission website. opens in a new tab",
+          "href": "https://www.nyc.gov/site/tlc/index.page"
+        }
+      ]
+    }
+  ],
+  "ctas": [
+    {
+      "tag": "a",
+      "text": "Skip to Content",
+      "href": "/transportation/taxi-service#main-content",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Flights",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Transportation & Parking",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Explore JFK",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Dine, Shop, Relax",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Learn more",
+      "href": "/alerts-advisories",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(1, 118, 163)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Curbside Arrivals",
+      "href": "https://maps.jfkairport.com/?lang=en&s=eyJvbmxpbmUvcG9pVmlldyI6eyJwb2lJZCI6IjQwMDM0NjIifSwibWFwUmVuZGVyZXIiOnsidnAiOnsibGF0Ijo0MC42NDMzODIsImxuZyI6LTczLjc5MDA4NCwiem9vbSI6MjAuMTc0NDUxLCJiZWFyaW5nIjowLCJwaXRjaCI6MH0sIm9yZCI6MX19",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Curbside Arrivals",
+      "href": "https://maps.jfkairport.com/?lang=en&s=eyJtYXBSZW5kZXJlciI6eyJ2cCI6eyJsYXQiOjQwLjY0NDUxNCwibG5nIjotNzMuNzgxODcxLCJ6b29tIjoyMiwiYmVhcmluZyI6LTEwNi45NjI1MDksInBpdGNoIjo2MH0sIm9yZCI6MX0sIm9ubGluZS9wb2lWaWV3Ijp7InBvaUlkIjoiOTIyIn19",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Yellow Parking Garage ground floor, near AirTrain",
+      "href": "https://maps.jfkairport.com/?lang=en&s=eyJtYXBSZW5kZXJlciI6eyJ2cCI6eyJsYXQiOjQwLjY0NjUzOCwibG5nIjotNzMuNzc5NzQ4LCJ6b29tIjoyMC4xNzQ0NTEsImJlYXJpbmciOi0xMDYuOTYyNTA5LCJwaXRjaCI6NjB9LCJvcmQiOjF9LCJvbmxpbmUvcG9pVmlldyI6eyJwb2lJZCI6Ijk1MSJ9fQ%3D%3D",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Curbside Arrivals, Outside Information Center",
+      "href": "https://maps.jfkairport.com/?lang=en&s=eyJtYXBSZW5kZXJlciI6eyJ2cCI6eyJsYXQiOjQwLjY0NjUzOCwibG5nIjotNzMuNzc5NzQ4LCJ6b29tIjoyMiwiYmVhcmluZyI6LTEwNi45NjI1MDksInBpdGNoIjo2MH0sIm9yZCI6MX0sIm9ubGluZS9wb2lWaWV3Ijp7InBvaUlkIjoiMTM5OCJ9fQ%3D%3D",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Curbside, Near AirTrain Connections Tunnel",
+      "href": "https://maps.jfkairport.com/?lang=en&s=eyJtYXBSZW5kZXJlciI6eyJ2cCI6eyJsYXQiOjQwLjY0ODY3MSwibG5nIjotNzMuNzgzNDIsInpvb20iOjIyLCJiZWFyaW5nIjotMTA2Ljk2MjUwOSwicGl0Y2giOjYwfSwib3JkIjoxfSwib25saW5lL3BvaVZpZXciOnsicG9pSWQiOiIxMTcwIn19",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Locate a terminal taxi stand",
+      "href": "https://maps.jfkairport.com/su/uyCa0Ql6",
+      "backgroundColor": "rgb(0, 69, 255)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "4px",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px"
+    },
+    {
+      "tag": "button",
+      "text": "How much is a taxi between JFK and Manhattan?",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(1, 21, 101)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px 0px"
+    },
+    {
+      "tag": "button",
+      "text": "Are wheelchair-accessible taxis available at JFK Airport?",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(1, 21, 101)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px 0px"
+    },
+    {
+      "tag": "button",
+      "text": "How do I pay for a NYC taxi?",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(1, 21, 101)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px 0px"
+    },
+    {
+      "tag": "a",
+      "text": "Accessibility",
+      "href": "/explore-jfk/accessibility-services",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Air Cargo",
+      "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Alerts and Advisories",
+      "href": "/alerts-advisories",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Contact Us",
+      "href": "/contact-us",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "FAQ",
+      "href": "/frequently-asked-questions",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Feedback",
+      "href": "/feedback",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "PANYNJ Airports Information",
+      "href": "https://www.panynj.gov/airports/en/index.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "JFK Redevelopment",
+      "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Lost and Found",
+      "href": "/lost-and-found",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Press",
+      "href": "https://www.panynj.gov/port-authority/en/press-room.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Website Disclaimer",
+      "href": "/website-disclaimer",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Privacy Statement",
+      "href": "/privacy",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "text": "Skip to Content",
+        "href": "https://www.jfkairport.com/transportation/taxi-service#main-content"
+      },
+      {
+        "text": "",
+        "href": "https://www.jfkairport.com/"
+      },
+      {
+        "text": "",
+        "href": "https://www.jfkairport.com/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Public Transportation",
+        "href": "https://www.jfkairport.com/transportation/public-transport"
+      },
+      {
+        "text": "Learn more",
+        "href": "https://www.jfkairport.com/alerts-advisories"
+      },
+      {
+        "text": "Review our guide on transferring airports",
+        "href": "https://www.jfkairport.com/flights/connections-guide/travel-between-airports"
+      },
+      {
+        "text": "Accessibility",
+        "href": "https://www.jfkairport.com/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Alerts and Advisories",
+        "href": "https://www.jfkairport.com/alerts-advisories"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.jfkairport.com/contact-us"
+      },
+      {
+        "text": "FAQ",
+        "href": "https://www.jfkairport.com/frequently-asked-questions"
+      },
+      {
+        "text": "Feedback",
+        "href": "https://www.jfkairport.com/feedback"
+      },
+      {
+        "text": "Lost and Found",
+        "href": "https://www.jfkairport.com/lost-and-found"
+      },
+      {
+        "text": "Website Disclaimer",
+        "href": "https://www.jfkairport.com/website-disclaimer"
+      },
+      {
+        "text": "Privacy Statement",
+        "href": "https://www.jfkairport.com/privacy"
+      }
+    ],
+    "external": [
+      {
+        "text": "Curbside Arrivals",
+        "href": "https://maps.jfkairport.com/?lang=en&s=eyJvbmxpbmUvcG9pVmlldyI6eyJwb2lJZCI6IjQwMDM0NjIifSwibWFwUmVuZGVyZXIiOnsidnAiOnsibGF0Ijo0MC42NDMzODIsImxuZyI6LTczLjc5MDA4NCwiem9vbSI6MjAuMTc0NDUxLCJiZWFyaW5nIjowLCJwaXRjaCI6MH0sIm9yZCI6MX19"
+      },
+      {
+        "text": "Curbside Arrivals",
+        "href": "https://maps.jfkairport.com/?lang=en&s=eyJtYXBSZW5kZXJlciI6eyJ2cCI6eyJsYXQiOjQwLjY0NDUxNCwibG5nIjotNzMuNzgxODcxLCJ6b29tIjoyMiwiYmVhcmluZyI6LTEwNi45NjI1MDksInBpdGNoIjo2MH0sIm9yZCI6MX0sIm9ubGluZS9wb2lWaWV3Ijp7InBvaUlkIjoiOTIyIn19"
+      },
+      {
+        "text": "Yellow Parking Garage ground floor, near AirTrain",
+        "href": "https://maps.jfkairport.com/?lang=en&s=eyJtYXBSZW5kZXJlciI6eyJ2cCI6eyJsYXQiOjQwLjY0NjUzOCwibG5nIjotNzMuNzc5NzQ4LCJ6b29tIjoyMC4xNzQ0NTEsImJlYXJpbmciOi0xMDYuOTYyNTA5LCJwaXRjaCI6NjB9LCJvcmQiOjF9LCJvbmxpbmUvcG9pVmlldyI6eyJwb2lJZCI6Ijk1MSJ9fQ%3D%3D"
+      },
+      {
+        "text": "Curbside Arrivals, Outside Information Center",
+        "href": "https://maps.jfkairport.com/?lang=en&s=eyJtYXBSZW5kZXJlciI6eyJ2cCI6eyJsYXQiOjQwLjY0NjUzOCwibG5nIjotNzMuNzc5NzQ4LCJ6b29tIjoyMiwiYmVhcmluZyI6LTEwNi45NjI1MDksInBpdGNoIjo2MH0sIm9yZCI6MX0sIm9ubGluZS9wb2lWaWV3Ijp7InBvaUlkIjoiMTM5OCJ9fQ%3D%3D"
+      },
+      {
+        "text": "Curbside, Near AirTrain Connections Tunnel",
+        "href": "https://maps.jfkairport.com/?lang=en&s=eyJtYXBSZW5kZXJlciI6eyJ2cCI6eyJsYXQiOjQwLjY0ODY3MSwibG5nIjotNzMuNzgzNDIsInpvb20iOjIyLCJiZWFyaW5nIjotMTA2Ljk2MjUwOSwicGl0Y2giOjYwfSwib3JkIjoxfSwib25saW5lL3BvaVZpZXciOnsicG9pSWQiOiIxMTcwIn19"
+      },
+      {
+        "text": "Locate a terminal taxi stand",
+        "href": "https://maps.jfkairport.com/su/uyCa0Ql6"
+      },
+      {
+        "text": "Accessible Dispatch program opens in a new tab",
+        "href": "https://accessibledispatch.com/"
+      },
+      {
+        "text": "Curb opens in a new tab",
+        "href": "https://www.gocurb.com/"
+      },
+      {
+        "text": "ARRO opens in a new tab",
+        "href": "https://www.ridearro.com/"
+      },
+      {
+        "text": "Curb opens in a new tab",
+        "href": "https://www.gocurb.com/"
+      },
+      {
+        "text": "ARRO opens in a new tab",
+        "href": "https://www.ridearro.com/"
+      },
+      {
+        "text": "NYC Taxi & Limousine Commission website. opens in a new tab",
+        "href": "https://www.nyc.gov/site/tlc/index.page"
+      },
+      {
+        "text": "",
+        "href": "http://www.panynj.gov/"
+      },
+      {
+        "text": "Air Cargo",
+        "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+      },
+      {
+        "text": "PANYNJ Airports Information",
+        "href": "https://www.panynj.gov/airports/en/index.html"
+      },
+      {
+        "text": "JFK Redevelopment",
+        "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+      },
+      {
+        "text": "Press",
+        "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+      },
+      {
+        "text": "",
+        "href": "http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/"
+      },
+      {
+        "text": "",
+        "href": "http://www.twitter.com/JFKairport"
+      },
+      {
+        "text": "",
+        "href": "https://www.panynj.gov/WhatsApp_JFK"
+      }
+    ],
+    "counts": {
+      "internal": 14,
+      "external": 20
+    }
+  },
+  "tokens": {
+    "colors": {
+      "rgb(9, 9, 11)": 263,
+      "rgb(0, 69, 255)": 61,
+      "rgb(255, 255, 255)": 41,
+      "rgb(1, 118, 163)": 14,
+      "rgb(51, 65, 85)": 85,
+      "rgb(1, 21, 101)": 15,
+      "rgb(71, 85, 105)": 38,
+      "rgb(15, 23, 42)": 5,
+      "rgb(27, 122, 47)": 10
+    },
+    "backgrounds": {
+      "rgb(255, 255, 255)": 16,
+      "rgb(240, 250, 255)": 1,
+      "rgb(239, 249, 255)": 1,
+      "rgb(241, 252, 242)": 5,
+      "rgb(27, 122, 47)": 5,
+      "rgb(208, 235, 255)": 2,
+      "rgb(0, 69, 255)": 1,
+      "rgb(2, 45, 183)": 2,
+      "rgb(1, 21, 101)": 1
+    },
+    "fonts": {
+      "Helvetica Now for PANYNJ": 523,
+      "Sharp Grotesk Semibold": 9
+    },
+    "sizes": {
+      "16px": 313,
+      "20px": 121,
+      "24px": 2,
+      "72px": 1,
+      "32px": 6,
+      "52px": 1,
+      "28px": 5,
+      "14px": 74,
+      "40px": 7,
+      "12px": 2
+    },
+    "radii": {
+      "2px": 25,
+      "4px": 30,
+      "9999px": 10
+    },
+    "shadows": {
+      "rgba(0, 0, 0, 0.25) 0px 0px 4px 0px": 5
+    }
+  },
+  "headingStyles": {
+    "h1": {
+      "fontFamily": "Sharp Grotesk Semibold",
+      "fontSize": "72px",
+      "fontWeight": "400",
+      "lineHeight": "80px",
+      "textTransform": "none",
+      "letterSpacing": "-2px"
+    },
+    "h2": {
+      "fontFamily": "Sharp Grotesk Semibold",
+      "fontSize": "52px",
+      "fontWeight": "400",
+      "lineHeight": "64px",
+      "textTransform": "none",
+      "letterSpacing": "normal"
+    },
+    "h3": {
+      "fontFamily": "Helvetica Now for PANYNJ",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "lineHeight": "24px",
+      "textTransform": "none",
+      "letterSpacing": "normal"
+    }
+  },
+  "bodyStyles": {
+    "fontFamily": "Helvetica Now for PANYNJ",
+    "fontSize": "20px",
+    "lineHeight": "24px",
+    "color": "rgb(1, 118, 163)"
+  },
+  "media": {
+    "images": [
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airports/jfk/JFK.svg",
+        "srcset": "",
+        "alt": "John F. Kennedy International Airport",
+        "loading": "eager",
+        "intrinsicW": 300,
+        "intrinsicH": 61,
+        "renderedW": 205,
+        "renderedH": 42,
+        "localPath": "assets/media/JFK-cd579a20.svg"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-6_2_T1taxiwaittime:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "Image of taxi stand location",
+        "loading": "lazy",
+        "intrinsicW": 1919,
+        "intrinsicH": 1080,
+        "renderedW": 413,
+        "renderedH": 233,
+        "localPath": "assets/media/2-6_2_T1taxiwaittime_card-wide-16x9-9389b000.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-6_3_T4taxiwaittime:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "Image of taxi stand",
+        "loading": "lazy",
+        "intrinsicW": 1920,
+        "intrinsicH": 1080,
+        "renderedW": 413,
+        "renderedH": 232,
+        "localPath": "assets/media/2-6_3_T4taxiwaittime_card-wide-16x9-de13e86a.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-6_4_T5taxiwaittime:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "Image of taxi stand near Yellow Parking",
+        "loading": "lazy",
+        "intrinsicW": 1919,
+        "intrinsicH": 1080,
+        "renderedW": 413,
+        "renderedH": 233,
+        "localPath": "assets/media/2-6_4_T5taxiwaittime_card-wide-16x9-e6eb607a.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-6_5_T7taxiwaittime:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "Image of taxi stand T7",
+        "loading": "lazy",
+        "intrinsicW": 1919,
+        "intrinsicH": 1080,
+        "renderedW": 413,
+        "renderedH": 233,
+        "localPath": "assets/media/2-6_5_T7taxiwaittime_card-wide-16x9-6a182faa.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-6_6%20T8%20taxi%20wait%20time%20card:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "Image of taxi stand",
+        "loading": "lazy",
+        "intrinsicW": 1920,
+        "intrinsicH": 1080,
+        "renderedW": 413,
+        "renderedH": 232,
+        "localPath": "assets/media/2-6_6_20T8_20taxi_20wait_20time_20card_card-wide-16x9-ab7e79f5.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-6_7_taxisafetytips:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1920,
+        "intrinsicH": 1440,
+        "renderedW": 427,
+        "renderedH": 320,
+        "localPath": "assets/media/2-6_7_taxisafetytips_photo-4x3-248488d3.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/cash-icon-2x1:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 959,
+        "intrinsicH": 479,
+        "renderedW": 199,
+        "renderedH": 100,
+        "localPath": "assets/media/cash-icon-2x1_hero-2x1-9db193cb.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/passenger-icon-2x1:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 959,
+        "intrinsicH": 479,
+        "renderedW": 199,
+        "renderedH": 100,
+        "localPath": "assets/media/passenger-icon-2x1_hero-2x1-79b401ee.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/taxis-icon-2x1-1:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 959,
+        "intrinsicH": 479,
+        "renderedW": 199,
+        "renderedH": 100,
+        "localPath": "assets/media/taxis-icon-2x1-1_hero-2x1-bba6588a.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/receipt-icon-2x1%20(1):hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 959,
+        "intrinsicH": 479,
+        "renderedW": 199,
+        "renderedH": 100,
+        "localPath": "assets/media/receipt-icon-2x1_20_1__hero-2x1-b8fae98e.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/Curb:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1200,
+        "intrinsicH": 600,
+        "renderedW": 199,
+        "renderedH": 100,
+        "localPath": "assets/media/Curb_hero-2x1-3da442ad.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/Arro:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 512,
+        "intrinsicH": 256,
+        "renderedW": 199,
+        "renderedH": 100,
+        "localPath": "assets/media/Arro_hero-2x1-e15f5a98.bin"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/Port_Authority_NYNJ_logo.svg",
+        "srcset": "",
+        "alt": "Port Authority New York New Jersey Air Land Rail Sea",
+        "loading": "eager",
+        "intrinsicW": 252,
+        "intrinsicH": 121,
+        "renderedW": 164,
+        "renderedH": 79,
+        "localPath": "assets/media/Port_Authority_NYNJ_logo-40276be9.svg"
+      }
+    ],
+    "inlineSvgCount": 5,
+    "videos": [],
+    "iframes": []
+  },
+  "forms": [],
+  "logoCandidates": [
+    {
+      "type": "img",
+      "src": "https://www.jfkairport.com/images/shared/logos/airports/jfk/JFK.svg",
+      "outerHTMLPreview": "<img alt=\"John F. Kennedy International Airport\" class=\"Image_image__LITrj WideHeader_logo__nAh0x\" loading=\"eager\" data-testid=\"logo\" src=\"/images/shared/logos/airports/jfk/JFK.svg\">",
+      "localPath": "assets/media/JFK-cd579a20.svg"
+    },
+    {
+      "type": "og:image",
+      "src": "https://s7d9.scene7.com/is/image/panynjaviation/jfk_ogimage:card-wide-16x9",
+      "localPath": "assets/media/jfk_ogimage_card-wide-16x9-3041f9a7.bin"
+    },
+    {
+      "type": "favicon",
+      "src": "https://www.jfkairport.com/images/shared/favicon/jfk_favicon.ico",
+      "localPath": "assets/media/jfk_favicon-a7892a40.ico"
+    }
+  ],
+  "voice": {
+    "heroHeading": "Taxis to and from JFK Airport",
+    "heroParagraph": "Taxi pick-ups and drop-offs may take longer than usual due to construction at JFK. Plan accordingly and allow for extra time. During this period we recommend taking Public Transportation to the airport."
+  },
+  "systemBlocks": {
+    "headerHTML": "<header class=\"Header_header__Qb7xT css-0\" data-testid=\"header\"><a aria-label=\"Skip to Content\" tabindex=\"0\" class=\"chakra-link Header_skipToContent__n9lzS css-iw9gdm\" href=\"/transportation/taxi-service#main-content\">Skip to Content</a><div class=\"Grid_grid__k5z8n WideHeader_wideHeader__WUcQz css-8yzm79\" data-testid=\"wide-header\"><a tabindex=\"0\" class=\"chakra-link WideHeader_logoContainer__OVb_m css-1mw5ttv\" href=\"/\"><img alt=\"John F. Kennedy International Airport\" class=\"Image_image__LITrj WideHeader_logo__nAh0x\" loading=\"eager\" data-testid=\"logo\" src=\"/images/shared/logos/airports/jfk/JFK.svg\"></a><nav class=\"chakra-stack WideHeader_navBar__V9qem css-1igwmid\" aria-label=\"main\"><div class=\"chakra-stack WideHeader_expandableNav__tw5MU css-1igwmid\"><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Flights\">Flights</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Transportation &amp; Parking\">Transportation &amp; Parking</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Explore JFK\">Explore JFK</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Dine, Shop, Relax\">Dine, Shop, Relax</button></div><a aria-label=\"Accessibility Services\" tabindex=\"0\" target=\"_self\" class=\"chakra-link WideHeader_accessibility__zCHWK css-1mw5ttv\" data-testid=\"accessibility-cta\" href=\"/explore-jfk/accessibility-services\"><span class=\"icon-accessible css-5lgiqp\" data-testid=\"icon\" tabindex=\"-1\" aria-hidden=\"true\"></span></a><button class=\"WideHeader_search__RDBrN css-0\" tabindex=\"0\" aria-expanded=\"false\" aria-label=\"Search\" data-testid=\"search\"><span class=\"icon-search css-5lgiqp\" data-testid=\"icon-search\" tabindex=\"-1\" aria-hidden=\"true\"></span></button></div></nav></div></header>",
+    "footerHTML": "<footer class=\"Footer_footerContainer__h6KnL css-0\" data-theme=\"aviation\"><div class=\"Grid_grid__k5z8n Footer_footer__nCxey css-8yzm79\"><a tabindex=\"0\" class=\"chakra-link Footer_logoContainer__YztlK css-1mw5ttv\" href=\"http://www.panynj.gov/\"><img alt=\"Port Authority New York New Jersey Air Land Rail Sea\" class=\"Image_image__LITrj Footer_logo__dJ82V\" loading=\"eager\" data-testid=\"default-image\" src=\"/images/shared/logos/Port_Authority_NYNJ_logo.svg\"></a><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"Accessibility\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/explore-jfk/accessibility-services\">Accessibility</a><a aria-label=\"Air Cargo opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/airports/en/air-cargo/jfk.html\">Air Cargo<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Alerts and Advisories\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/alerts-advisories\">Alerts and Advisories</a><a aria-label=\"Contact Us\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/contact-us\">Contact Us</a></div><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"FAQ\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/frequently-asked-questions\">FAQ</a><a aria-label=\"Feedback\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/feedback\">Feedback</a><a aria-label=\"General Airport Information opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/airports/en/index.html\">PANYNJ Airports Information<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"JFK Redevelopment opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html\">JFK Redevelopment<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"Lost and Found\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/lost-and-found\">Lost and Found</a><a aria-label=\"Press opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/port-authority/en/press-room.html\">Press<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><div class=\"chakra-stack Footer_socialLinks__xfpNq css-1igwmid\"><a aria-label=\"Connect with us on Facebook opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/\"><span class=\"icon-logo-facebook css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Connect with us on X (previously Twitter) opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"http://www.twitter.com/JFKairport\"><span class=\"icon-logo-x css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Connect with us on Whats App opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"https://www.panynj.gov/WhatsApp_JFK\"><span class=\"icon-logo-whatsapp css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><span role=\"separator\" aria-orientation=\"horizontal\" class=\"chakra-separator Footer_separator___6pPI css-wyc8fo\"></span><div class=\"Footer_address__l_LYP css-0\"><p>The Port Authority of New York and New Jersey<br>\n  4 World Trade Center, 150 Greenw",
+    "headerLinks": [
+      {
+        "text": "Skip to Content",
+        "href": "/transportation/taxi-service#main-content"
+      },
+      {
+        "text": "",
+        "href": "/"
+      },
+      {
+        "text": "",
+        "href": "/explore-jfk/accessibility-services"
+      }
+    ],
+    "footerLinks": [
+      {
+        "text": "",
+        "href": "http://www.panynj.gov/"
+      },
+      {
+        "text": "Accessibility",
+        "href": "/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Air Cargo",
+        "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+      },
+      {
+        "text": "Alerts and Advisories",
+        "href": "/alerts-advisories"
+      },
+      {
+        "text": "Contact Us",
+        "href": "/contact-us"
+      },
+      {
+        "text": "FAQ",
+        "href": "/frequently-asked-questions"
+      },
+      {
+        "text": "Feedback",
+        "href": "/feedback"
+      },
+      {
+        "text": "PANYNJ Airports Information",
+        "href": "https://www.panynj.gov/airports/en/index.html"
+      },
+      {
+        "text": "JFK Redevelopment",
+        "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+      },
+      {
+        "text": "Lost and Found",
+        "href": "/lost-and-found"
+      },
+      {
+        "text": "Press",
+        "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+      },
+      {
+        "text": "",
+        "href": "http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/"
+      },
+      {
+        "text": "",
+        "href": "http://www.twitter.com/JFKairport"
+      },
+      {
+        "text": "",
+        "href": "https://www.panynj.gov/WhatsApp_JFK"
+      },
+      {
+        "text": "Website Disclaimer",
+        "href": "/website-disclaimer"
+      },
+      {
+        "text": "Privacy Statement",
+        "href": "/privacy"
+      }
+    ]
+  },
+  "_domCounts": {
+    "totalElements": 532,
+    "sampledElements": 532
+  },
+  "screenshot": "assets/screenshots/transportation__taxi-service.png"
+}

@@ -1,0 +1,372 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:54.328Z",
+    "url": "https://www.jfkairport.com/transportation/airport-parking",
+    "slug": "transportation__airport-parking",
+    "httpStatus": 200,
+    "totalMs": 4890,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": {
+    "text": "infoParking at the airport is limited due to construction and heavy traffic. Use public transportation if possible. Book parking in advance to reserve a space. You can arrive up to two hours early with prebooked parking.Learn more",
+    "ctas": [
+      {
+        "text": "public transportation",
+        "href": "/transportation/public-transport"
+      },
+      {
+        "text": "Learn more",
+        "href": "/alerts-advisories"
+      }
+    ]
+  },
+  "h1": "Parking",
+  "lede": "The AirTrain connects passengers to terminals, airport parking lots, the hotel shuttle area, the rental car center, and public transportation.Learn about the JFK AirTrain",
+  "heroImage": null,
+  "blocks": [
+    {
+      "h2": "Book your parking",
+      "h3s": [
+        "Current availability",
+        "Additional lots"
+      ],
+      "paragraphs": [
+        "Long-Term",
+        "47% Full",
+        "Terminal 8 (Red)",
+        "56% Full",
+        "Terminal 5 (Yellow)",
+        "66% Full",
+        "Terminal 4 (Blue)",
+        "79% Full",
+        "Terminal Parking lots are located at terminals and connected by the AirTrain system.",
+        "Federal Circle Station",
+        "Reservation only",
+        "Terminal 1 (Green)",
+        "Closed (Use Terminal 8 Red Lot)",
+        "Terminal 7 (Orange)"
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "Book your parking"
+        },
+        {
+          "text": "Lot locations"
+        }
+      ],
+      "links": [
+        {
+          "text": "Parking FAQs",
+          "href": "/frequently-asked-questions"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Parking details by lot",
+      "h3s": [],
+      "paragraphs": [
+        "Save money and guarantee a spot when you book parking at least 3 hours in advance",
+        "If you plan to park at JFK for more than 30 days in any lot, when you arrive at the airport, you must register your vehicle with ABM Parking by calling +1 (718) 244-4168 or emailing ABM. Provide your name, license plate number, and estimated number of days you’ll be parked at the airport.",
+        "Any vehicle that does not register with ABM Parking and is parked more than 30 days will be considered abandoned and will be towed. The owner will be responsible for the retrieval costs."
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "Long-Term Parking Lot"
+        },
+        {
+          "text": "Terminal 4 Blue Lot"
+        },
+        {
+          "text": "Terminal 5 Yellow Lot"
+        },
+        {
+          "text": "Terminal 8 Red Lot"
+        },
+        {
+          "text": "Federal Circle Station Lot"
+        }
+      ],
+      "links": [
+        {
+          "text": "+1 (718) 244-4168",
+          "href": "tel:17182444168"
+        },
+        {
+          "text": "emailing ABM",
+          "href": "mailto:parkingcustomerservice@abm.com"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Paying for Parking",
+      "h3s": [
+        "E-ZPass Plus"
+      ],
+      "paragraphs": [
+        "Customers can pay for parking with credit or debit cards (MasterCard, Visa, Discover, American Express), E-ZPass, or contactless payments like Apple Pay, Google Pay, or Samsung Pay. To save time when leaving, use a credit or debit card at an Express Pay machine.",
+        "Customers can use their E-ZPass tag to pay for airport parking. E-ZPass Plus is available if:",
+        "Commercial accounts: Call the E-ZPass Plus Customer Service Center to activate.",
+        "How it works:",
+        "More info: Visit the E-Zpass Plus Website opens in a new tab"
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-2_ReserveParking:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1165,
+          "h": 585
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "E-ZPass Plus website. opens in a new tab",
+          "href": "https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.e-zpassny.com%2F&data=05%7C02%7Clasmith%40panynj.gov%7Caea8014dd33b42f71dba08de7e09dd4c%7Cc4484a25d0d84ad0916aa889b6aa7a02%7C0%7C0%7C639086778005716209%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=8bMxddXvxnytfYHseTf4rL3GSS9hIZG0qf%2B7SMauUEU%3D&reserved=0"
+        },
+        {
+          "text": "E-Zpass Plus Website opens in a new tab",
+          "href": "https://www.e-zpassny.com/"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Premium Parking",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Parking for travelers with restricted mobility",
+      "h3s": [
+        "Authorized off-airport parking options"
+      ],
+      "paragraphs": [
+        "Parking spaces for customers with disabilities are available in every parking lot, including near terminal entrances and in the long-term lot near the Howard Beach and Lefferts Boulevard AirTrain stations. Subject to availability. Vehicles must prominently display a non-expired, state-issued ADA license plate, placard, or permit. Violators will be towed.",
+        "A courtesy discount is available to customers with official, non-expired, state-issued ADA license plates, placards, or permits.",
+        "First 4.5 hours",
+        "Standard rates apply",
+        "Each 1/2 hour after 4.5 hours",
+        "$4",
+        "24-hour maximum",
+        "$35",
+        "Customers should only park on-airport or with an authorized off-airport parking provider.",
+        "SmartPark JFK opens in a new tab",
+        "+1 (877) 535-7275",
+        "AirPark JFK/JFK Long-Term Parking Inc. opens in a new tab",
+        "+1 (718) 898-8400"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "SmartPark JFK opens in a new tab",
+          "href": "https://smartparkparking.com/"
+        },
+        {
+          "text": "+1 (877) 535-7275",
+          "href": "tel:18775357275"
+        },
+        {
+          "text": "AirPark JFK/JFK Long-Term Parking Inc. opens in a new tab",
+          "href": "https://jfklongtermparking.com/home-3/"
+        },
+        {
+          "text": "+1 (718) 898-8400",
+          "href": "tel:17188988400"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Electric Vehicle charging stations",
+      "h3s": [],
+      "paragraphs": [
+        "EV charging stations are available in some parking lots at JFK. Charging companies include ChargePoint opens in a new tab, Evolve opens in a new tab, Revel opens in a new tab, and Tesla opens in a new tab.",
+        "Charging time depends on the charger and your car.",
+        "How to pay:",
+        "The parking fees will be collected once you leave the parking lot.",
+        "Finding a charger:"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "ChargePoint opens in a new tab",
+          "href": "https://www.chargepoint.com/"
+        },
+        {
+          "text": "Evolve opens in a new tab",
+          "href": "https://evolveny.nypa.gov/"
+        },
+        {
+          "text": "Revel opens in a new tab",
+          "href": "https://gorevel.com/charging"
+        },
+        {
+          "text": "Tesla opens in a new tab",
+          "href": "https://www.tesla.com/charging"
+        },
+        {
+          "text": "PlugShare opens in a new tab",
+          "href": "https://www.plugshare.com/"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Parking customer services",
+      "h3s": [],
+      "paragraphs": [
+        "If you have special parking circumstances, billing questions, or other questions, please email ABM Parking customer service.",
+        "For help while in the parking lot:",
+        "Other contact information:"
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-2_4_TransportationandParkingCard:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1392,
+          "h": 1043
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "email ABM Parking customer service",
+          "href": "mailto:parkingcustomerservice@abm.com"
+        },
+        {
+          "text": "+1 (718) 244-4168",
+          "href": "tel:17182444168"
+        },
+        {
+          "text": "+1 (718) 244-4335",
+          "href": "tel:17182444335"
+        },
+        {
+          "text": "+1 (718) 244-4168",
+          "href": "tel:7182444168"
+        },
+        {
+          "text": "+1 (718) 339-8500",
+          "href": "tel:17183398500"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Navigate JFK with the AirTrain",
+      "h3s": [],
+      "paragraphs": [
+        "The AirTrain connects passengers to terminals, airport parking lots, the hotel shuttle area, the rental car center, and public transportation."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Learn about the JFK AirTrain",
+          "href": "/transportation/airtrain"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "FAQs",
+      "h3s": [],
+      "paragraphs": [
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "How do I reach parking lots at JFK using the AirTrain?"
+        },
+        {
+          "text": "Is there parking available off airport near JFK?"
+        },
+        {
+          "text": "What if I need parking at JFK for more than 30 days?"
+        }
+      ],
+      "links": [
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

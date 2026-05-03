@@ -1,0 +1,401 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:53.246Z",
+    "url": "https://www.jfkairport.com/flights/departures",
+    "slug": "flights__departures",
+    "httpStatus": 200,
+    "totalMs": 3797,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": null,
+  "h1": "Departures Guide",
+  "lede": "Most airlines open check-in 3–4 hours before scheduled departure and close 45–60 minutes prior to takeoff. Opening and closing times vary widely. Check with your airline to verify the check-in cut-off times. Gate info is posted 3 hours before takeoff.",
+  "heroImage": null,
+  "blocks": [
+    {
+      "h2": "Get ready to fly!",
+      "h3s": [
+        "Security wait times"
+      ],
+      "paragraphs": [
+        "Most airlines open check-in 3–4 hours before scheduled departure and close 45–60 minutes prior to takeoff. Opening and closing times vary widely. Check with your airline to verify the check-in cut-off times. Gate info is posted 3 hours before takeoff.",
+        "Terminal 1",
+        "8 min",
+        "5 min",
+        "Terminal 4",
+        "9 min",
+        "1 min",
+        "Terminal 5",
+        "35 min",
+        "7 min",
+        "Terminal 7",
+        "-",
+        "Terminal 8",
+        "23 min",
+        "Security wait times are calculated and updated in real time. Note that measurement is from checkpoint queue entry and overflows beyond this area may lead to longer waits.",
+        "Last updated at 11:41 AM ET"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "airline",
+          "href": "/flights/airlines"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "REAL ID and other travel regulations",
+      "h3s": [],
+      "paragraphs": [
+        "Federal regulations require all U.S. travelers to have a REAL ID or Enhanced Driver’s License to fly domestically. Passports may also be used. Travelers without compliant identification may be subject to additional screening, per TSA guidance. Please allow for extra travel time. Please see the TSA website for more REAL ID information. opens in a new tab",
+        "Visit the Department of Homeland Security opens in a new tab for details on:"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "REAL ID information. opens in a new tab",
+          "href": "https://www.tsa.gov/real-id"
+        },
+        {
+          "text": "Department of Homeland Security opens in a new tab",
+          "href": "https://www.dhs.gov/"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Don't have a REAL ID or passport?",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-3_2_securityline:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1822,
+          "h": 1366
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-3_2_checkinandsecurityimagelt:square-1x1?wid=1200&hei=1200&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1198,
+          "h": 1200
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Learn more about TSA Confirm.ID",
+          "href": "https://www.tsa.gov/tsaconfirm-id"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Luggage and carry-on items",
+      "h3s": [],
+      "paragraphs": [
+        "Review the TSA's guidance opens in a new tab on what items can be brought in both your carry-on and checked bags.",
+        "Transporting firearms",
+        "Before traveling, check with your airline about transporting firearms. State gun laws vary. You should also confirm regulations with the New York State Police opens in a new tab or New Jersey State Police opens in a new tab before carrying a weapon into New York or New Jersey.",
+        "Baggage Services",
+        "JFK offers a full range of baggage services to help with your departure."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Review the TSA's guidance opens in a new tab",
+          "href": "https://www.tsa.gov/travel/security-screening/whatcanibring/all"
+        },
+        {
+          "text": "New York State Police opens in a new tab",
+          "href": "https://troopers.ny.gov/firearms"
+        },
+        {
+          "text": "New Jersey State Police opens in a new tab",
+          "href": "https://njsp.njoag.gov/"
+        },
+        {
+          "text": "Baggage carts opens in a new tab",
+          "href": "https://maps.jfkairport.com/su/ZajtNjXc"
+        },
+        {
+          "text": "Baggage office opens in a new tab",
+          "href": "https://maps.jfkairport.com/su/U8bdAG3v"
+        },
+        {
+          "text": "Baggage storage opens in a new tab",
+          "href": "https://maps.jfkairport.com/su/920hypkX"
+        },
+        {
+          "text": "Baggage wrapping opens in a new tab",
+          "href": "https://maps.jfkairport.com/su/zrVxaG16"
+        },
+        {
+          "text": "Oversized baggage opens in a new tab",
+          "href": "https://maps.jfkairport.com/su/hcVuxNRG"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Walk times to gates",
+      "h3s": [],
+      "paragraphs": [
+        "For step-by-step directions and more precise estimates, use the interactive map to navigate directly to your gate opens in a new tab.",
+        "Be sure to arrange for any special assistance you may need in advance, including wheelchair assistance, either directly with your airline or through a travel agent."
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "Terminal 1: 1-5 minutes"
+        },
+        {
+          "text": "Terminal 4: 3-14 minutes"
+        },
+        {
+          "text": "Terminal 5: 3-10 minutes"
+        },
+        {
+          "text": "Terminal 7: 1-5 minutes"
+        },
+        {
+          "text": "Terminal 8: 2-12 minutes"
+        }
+      ],
+      "links": [
+        {
+          "text": "use the interactive map to navigate directly to your gate opens in a new tab",
+          "href": "https://maps.jfkairport.com/"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Accessibility assistance at JFK",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/3-2-5_2_wheelchairservices:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1440
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/3-2_5_serviceanimalsreliefareas:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1439
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Contact your airline",
+          "href": "/flights/airlines"
+        },
+        {
+          "text": "General accessibility services",
+          "href": "/explore-jfk/accessibility-services"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Traveling with pets and service animals",
+      "h3s": [],
+      "paragraphs": [
+        "Whether you are flying with a pet or service animal, reach out to your airline to notify them in advance. They can provide details on cabin access, seasonal restrictions, and required documentation so you have no issues upon arrival.",
+        "Pets traveling through the terminal should remain in their carriers and stay with their owners throughout their time in the facility. Services animals are not required to be in carriers and should stay with their handlers at all times.",
+        "Does your pet or service animal need a break? Pet and service animal relief areas are available throughout the airport at each terminal. Please use provided supplies to clean up after your pet. For accidents elsewhere, clean up and alert the cleaning crew. To find the locations, visit the interactive map opens in a new tab, ask an Airport Customer Experience Specialist (ACES), or speak with other terminal staff."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "airline",
+          "href": "/flights/airlines"
+        },
+        {
+          "text": "interactive map opens in a new tab",
+          "href": "https://maps.jfkairport.com/su/1oqqzHA7"
+        },
+        {
+          "text": "Find service animal relief areas",
+          "href": "https://maps.jfkairport.com/su/1oqqzHA7"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Everything you need for departure",
+      "h3s": [
+        "Got a connecting flight?",
+        "Find transportation to JFK",
+        "Grab a snack, pick up a gift, or take a break",
+        "Find carts, cash, and baggage help",
+        "Get some extra sleep"
+      ],
+      "paragraphs": [
+        "If you’re changing planes at JFK or traveling to another airport nearby, the Connections Guide has helpful tips to make your trip easier.",
+        "Need a ride to JFK? Learn about taxis, shuttles, rental cars, public transit, and parking options to help you get where you’re going.",
+        "Before you leave JFK, stop by for a quick bite, grab a last-minute gift, or relax at one of our lounges or shops.",
+        "After you arrive at JFK, you can find luggage carts, ATMs, porter services, and help with baggage issues. For lost or delayed bags, contact your airline first, then visit a baggage office if needed.",
+        "Avoid the stress of early travel by staying at JFK's only on-site hotel the night before your flight.",
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/0-1_1_alertsandadvisorieshero:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-2_4_airtrainxf:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 610,
+          "h": 344
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/4-1-1_2_snacksanddrinkscard:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/3-4_2_baggageservices:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1919,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-4_3_airporthotelscard:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1919,
+          "h": 1080
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Explore our connections guide",
+          "href": "/flights/connections-guide"
+        },
+        {
+          "text": "Go to transportation and parking info",
+          "href": "/transportation"
+        },
+        {
+          "text": "Browse dine, shop, and relax",
+          "href": "/dine-shop-relax"
+        },
+        {
+          "text": "Find JFK services & amenities",
+          "href": "/explore-jfk/services"
+        },
+        {
+          "text": "Book an on-site hotel",
+          "href": "/explore-jfk/hotels"
+        },
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": "service-grid",
+      "subData": [
+        {
+          "title": "Got a connecting flight?",
+          "text": "If you’re changing planes at JFK or traveling to another airport nearby, the Connections Guide has helpful tips to make your trip easier.",
+          "href": "/flights/connections-guide"
+        },
+        {
+          "title": "Find transportation to JFK",
+          "text": "Need a ride to JFK? Learn about taxis, shuttles, rental cars, public transit, and parking options to help you get where you’re going.",
+          "href": "/transportation"
+        },
+        {
+          "title": "Grab a snack, pick up a gift, or take a break",
+          "text": "Before you leave JFK, stop by for a quick bite, grab a last-minute gift, or relax at one of our lounges or shops.",
+          "href": "/dine-shop-relax"
+        },
+        {
+          "title": "Find carts, cash, and baggage help",
+          "text": "After you arrive at JFK, you can find luggage carts, ATMs, porter services, and help with baggage issues. For lost or delayed bags, contact your airline first, then visit a baggage office if needed.",
+          "href": "/explore-jfk/services"
+        },
+        {
+          "title": "Get some extra sleep",
+          "text": "Avoid the stress of early travel by staying at JFK's only on-site hotel the night before your flight.",
+          "href": "/explore-jfk/hotels"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:08.637Z",
+    "url": "https://www.jfkairport.com/explore-jfk",
+    "slug": "explore-jfk",
+    "httpStatus": 200,
+    "totalMs": 4453,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": null,
+  "h1": "Explore JFK Airport",
+  "lede": "",
+  "heroImage": null,
+  "blocks": [
+    {
+      "h2": "Discover what JFK has to offer",
+      "h3s": [
+        "Airport maps",
+        "Accessibility services at JFK",
+        "Services and amenities",
+        "Airport hotels",
+        "Dine, Shop, Relax"
+      ],
+      "paragraphs": [
+        "Navigate JFK like a pro! Use our official interactive map to find points of interest and plan your journey with ease.",
+        "Plan ahead with our accessibility resources. From dedicated support for travelers with disabilities to accessible transportation, JFK is committed to making your journey seamless.",
+        "Travel made easy at JFK! From currency exchange and banking to baggage wrapping and more, JFK offers services and amenities to make travel less stressful.",
+        "Need a place to stay near the airport? Make your stay unforgettable at the iconic TWA Hotel, or explore other convenient hotels.",
+        "Looking for something to do at JFK? Shop for last-minute gifts, savor a meal at one of our restaurants, or unwind in a cozy lounge. JFK has everything you need for your journey through our airport."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/JFK%20Airport%20map%202.5.26:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1918,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/3-2-3_6_sunflowerlanyard:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1919,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/3-2_5_animalreliefareas:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-4_3_airporthotelscard:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1919,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/4-0_4_SDRcard:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1919,
+          "h": 1080
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Explore airport maps",
+          "href": "/explore-jfk/airport-map"
+        },
+        {
+          "text": "Explore accessibility services",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Explore services and amenities",
+          "href": "/explore-jfk/services"
+        },
+        {
+          "text": "Explore airport hotels",
+          "href": "/explore-jfk/hotels"
+        },
+        {
+          "text": "Explore dine, shop and relax",
+          "href": "/dine-shop-relax"
+        }
+      ],
+      "tables": [],
+      "subPattern": "service-grid",
+      "subData": [
+        {
+          "title": "Airport maps",
+          "text": "Navigate JFK like a pro! Use our official interactive map to find points of interest and plan your journey with ease.",
+          "href": "/explore-jfk/airport-map"
+        },
+        {
+          "title": "Accessibility services at JFK",
+          "text": "Plan ahead with our accessibility resources. From dedicated support for travelers with disabilities to accessible transportation, JFK is committed to making your journey seamless.",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "title": "Services and amenities",
+          "text": "Travel made easy at JFK! From currency exchange and banking to baggage wrapping and more, JFK offers services and amenities to make travel less stressful.",
+          "href": "/explore-jfk/services"
+        },
+        {
+          "title": "Airport hotels",
+          "text": "Need a place to stay near the airport? Make your stay unforgettable at the iconic TWA Hotel, or explore other convenient hotels.",
+          "href": "/explore-jfk/hotels"
+        },
+        {
+          "title": "Dine, Shop, Relax",
+          "text": "Looking for something to do at JFK? Shop for last-minute gifts, savor a meal at one of our restaurants, or unwind in a cozy lounge. JFK has everything you need for your journey through our airport.",
+          "href": "/dine-shop-relax"
+        }
+      ]
+    },
+    {
+      "h2": "All JFK terminals",
+      "h3s": [],
+      "paragraphs": [
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Terminal 4",
+          "href": "/explore-jfk/terminals/terminal-4"
+        },
+        {
+          "text": "Terminal 5",
+          "href": "/explore-jfk/terminals/terminal-5"
+        },
+        {
+          "text": "Terminal 7",
+          "href": "/explore-jfk/terminals/terminal-7"
+        },
+        {
+          "text": "Terminal 8",
+          "href": "/explore-jfk/terminals/terminal-8"
+        },
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

@@ -1,0 +1,697 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-03T13:14:06.450Z",
+    "url": "https://www.jfkairport.com/lost-and-found",
+    "slug": "lost-and-found",
+    "startedAt": "2026-05-03T13:14:03.183Z",
+    "waitMode": "medium",
+    "httpStatus": 200,
+    "contentType": "text/html; charset=utf-8",
+    "waitMs": 773,
+    "endedAt": "2026-05-03T13:14:06.450Z",
+    "totalMs": 3127,
+    "stardustVersion": "0.3.0"
+  },
+  "url": "https://www.jfkairport.com/lost-and-found",
+  "meta": {
+    "title": "Lost and Found - JFK Airport",
+    "description": "Report or recover lost items at JFK Airport. Find contact info, procedures, and tips for retrieving your belongings.",
+    "themeColor": "",
+    "lang": "en-us"
+  },
+  "ogTags": {
+    "og:title": "Lost and Found - JFK Airport",
+    "og:description": "Report or recover lost items at JFK Airport. Find contact info, procedures, and tips for retrieving your belongings.",
+    "og:type": "website",
+    "og:url": "https://www.jfkairport.com/lost-and-found",
+    "og:image": "https://s7d9.scene7.com/is/image/panynjaviation/jfk_ogimage:card-wide-16x9",
+    "og:image:alt": "John F. Kennedy International Airport logo"
+  },
+  "headings": [
+    {
+      "level": 1,
+      "text": "Lost and Found at JFK Airport"
+    },
+    {
+      "level": 2,
+      "text": "Lost personal items in the airport"
+    },
+    {
+      "level": 3,
+      "text": "Lost personal items at a TSA security checkpoint"
+    },
+    {
+      "level": 3,
+      "text": "Lost luggage or personal items during flight"
+    },
+    {
+      "level": 2,
+      "text": "FAQs"
+    }
+  ],
+  "landmarks": [
+    {
+      "role": "main",
+      "label": "",
+      "headingPreview": "Lost and Found at JFK Airport"
+    },
+    {
+      "role": "header",
+      "label": "",
+      "headingPreview": ""
+    },
+    {
+      "role": "nav",
+      "label": "main",
+      "headingPreview": ""
+    },
+    {
+      "role": "footer",
+      "label": "",
+      "headingPreview": ""
+    }
+  ],
+  "sections": [
+    {
+      "index": 0,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack RichTextEditorWrapper_container__7b_DK css-sekf8j",
+      "ariaLabel": "",
+      "heading": "Lost personal items at a TSA security checkpoint",
+      "textPreview": "Lost personal items at a TSA security checkpointFor items lost at TSA checkpoints, submit a claim through the virtual JFK Lost and Found office opens in a new tab. You can also submit a TSA Lost and Found form opens in a new tab. Make sure JFK is selected from the drop-down.",
+      "rect": {
+        "x": 297.3,
+        "y": 872,
+        "w": 845.3,
+        "h": 264
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "JFK Lost and Found office opens in a new tab",
+          "href": "https://www.chargerback.com/jfk"
+        },
+        {
+          "tag": "a",
+          "text": "TSA Lost and Found form opens in a new tab",
+          "href": "https://www.tsa.gov/form/lost-and-found?where_did_this_happen=jfk"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack RichTextEditorWrapper_container__7b_DK css-sekf8j",
+      "ariaLabel": "",
+      "heading": "Lost luggage or personal items during flight",
+      "textPreview": "Lost luggage or personal items during flightIf your luggage did not arrive at your destination or you left a personal item on a plane, please contact your airline.",
+      "rect": {
+        "x": 297.3,
+        "y": 1216,
+        "w": 845.3,
+        "h": 108
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "contact your airline",
+          "href": "/flights/airlines"
+        }
+      ]
+    }
+  ],
+  "ctas": [
+    {
+      "tag": "a",
+      "text": "Skip to Content",
+      "href": "/lost-and-found#main-content",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Flights",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Transportation & Parking",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Explore JFK",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Dine, Shop, Relax",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Submit a claim",
+      "href": "https://www.chargerback.com/jfk",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "20px"
+    },
+    {
+      "tag": "button",
+      "text": "How do I report a lost item in the airport?",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(1, 21, 101)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px 0px"
+    },
+    {
+      "tag": "a",
+      "text": "Accessibility",
+      "href": "/explore-jfk/accessibility-services",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Air Cargo",
+      "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Alerts and Advisories",
+      "href": "/alerts-advisories",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Contact Us",
+      "href": "/contact-us",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "FAQ",
+      "href": "/frequently-asked-questions",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Feedback",
+      "href": "/feedback",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "PANYNJ Airports Information",
+      "href": "https://www.panynj.gov/airports/en/index.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "JFK Redevelopment",
+      "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Lost and Found",
+      "href": "/lost-and-found",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Press",
+      "href": "https://www.panynj.gov/port-authority/en/press-room.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Website Disclaimer",
+      "href": "/website-disclaimer",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Privacy Statement",
+      "href": "/privacy",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "text": "Skip to Content",
+        "href": "https://www.jfkairport.com/lost-and-found#main-content"
+      },
+      {
+        "text": "",
+        "href": "https://www.jfkairport.com/"
+      },
+      {
+        "text": "",
+        "href": "https://www.jfkairport.com/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "contact your airline",
+        "href": "https://www.jfkairport.com/flights/airlines"
+      },
+      {
+        "text": "Accessibility",
+        "href": "https://www.jfkairport.com/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Alerts and Advisories",
+        "href": "https://www.jfkairport.com/alerts-advisories"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.jfkairport.com/contact-us"
+      },
+      {
+        "text": "FAQ",
+        "href": "https://www.jfkairport.com/frequently-asked-questions"
+      },
+      {
+        "text": "Feedback",
+        "href": "https://www.jfkairport.com/feedback"
+      },
+      {
+        "text": "Lost and Found",
+        "href": "https://www.jfkairport.com/lost-and-found"
+      },
+      {
+        "text": "Website Disclaimer",
+        "href": "https://www.jfkairport.com/website-disclaimer"
+      },
+      {
+        "text": "Privacy Statement",
+        "href": "https://www.jfkairport.com/privacy"
+      }
+    ],
+    "external": [
+      {
+        "text": "Submit a claim",
+        "href": "https://www.chargerback.com/jfk"
+      },
+      {
+        "text": "JFK Lost and Found office opens in a new tab",
+        "href": "https://www.chargerback.com/jfk"
+      },
+      {
+        "text": "TSA Lost and Found form opens in a new tab",
+        "href": "https://www.tsa.gov/form/lost-and-found?where_did_this_happen=jfk"
+      },
+      {
+        "text": "",
+        "href": "http://www.panynj.gov/"
+      },
+      {
+        "text": "Air Cargo",
+        "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+      },
+      {
+        "text": "PANYNJ Airports Information",
+        "href": "https://www.panynj.gov/airports/en/index.html"
+      },
+      {
+        "text": "JFK Redevelopment",
+        "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+      },
+      {
+        "text": "Press",
+        "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+      },
+      {
+        "text": "",
+        "href": "http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/"
+      },
+      {
+        "text": "",
+        "href": "http://www.twitter.com/JFKairport"
+      },
+      {
+        "text": "",
+        "href": "https://www.panynj.gov/WhatsApp_JFK"
+      }
+    ],
+    "counts": {
+      "internal": 12,
+      "external": 11
+    }
+  },
+  "tokens": {
+    "colors": {
+      "rgb(9, 9, 11)": 73,
+      "rgb(0, 69, 255)": 35,
+      "rgb(255, 255, 255)": 33,
+      "rgb(1, 21, 101)": 7,
+      "rgb(51, 65, 85)": 7
+    },
+    "backgrounds": {
+      "rgb(255, 255, 255)": 4,
+      "rgba(0, 69, 255, 0.9)": 1,
+      "rgb(255, 205, 0)": 1,
+      "rgb(1, 21, 101)": 1
+    },
+    "fonts": {
+      "Helvetica Now for PANYNJ": 150,
+      "Sharp Grotesk Semibold": 5
+    },
+    "sizes": {
+      "16px": 80,
+      "20px": 55,
+      "24px": 3,
+      "72px": 1,
+      "40px": 2,
+      "36px": 2,
+      "32px": 3,
+      "14px": 9
+    },
+    "radii": {
+      "2px": 19,
+      "4px": 10,
+      "16px": 1
+    },
+    "shadows": {}
+  },
+  "headingStyles": {
+    "h1": {
+      "fontFamily": "Sharp Grotesk Semibold",
+      "fontSize": "72px",
+      "fontWeight": "400",
+      "lineHeight": "80px",
+      "textTransform": "none",
+      "letterSpacing": "-2px"
+    },
+    "h2": {
+      "fontFamily": "Sharp Grotesk Semibold",
+      "fontSize": "40px",
+      "fontWeight": "400",
+      "lineHeight": "52px",
+      "textTransform": "none",
+      "letterSpacing": "-0.5px"
+    },
+    "h3": {
+      "fontFamily": "Sharp Grotesk Semibold",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "lineHeight": "44px",
+      "textTransform": "none",
+      "letterSpacing": "normal"
+    }
+  },
+  "bodyStyles": {
+    "fontFamily": "Helvetica Now for PANYNJ",
+    "fontSize": "20px",
+    "lineHeight": "24px",
+    "color": "rgb(255, 255, 255)"
+  },
+  "media": {
+    "images": [
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airports/jfk/JFK.svg",
+        "srcset": "",
+        "alt": "John F. Kennedy International Airport",
+        "loading": "eager",
+        "intrinsicW": 300,
+        "intrinsicH": 61,
+        "renderedW": 205,
+        "renderedH": 42,
+        "localPath": "assets/media/JFK-cd579a20.svg"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/0-7_1_lostandfoundhero:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1200,
+        "intrinsicH": 599,
+        "renderedW": 737,
+        "renderedH": 368,
+        "localPath": "assets/media/0-7_1_lostandfoundhero_hero-2x1-7707de04.bin"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/Port_Authority_NYNJ_logo.svg",
+        "srcset": "",
+        "alt": "Port Authority New York New Jersey Air Land Rail Sea",
+        "loading": "eager",
+        "intrinsicW": 252,
+        "intrinsicH": 121,
+        "renderedW": 164,
+        "renderedH": 79,
+        "localPath": "assets/media/Port_Authority_NYNJ_logo-40276be9.svg"
+      }
+    ],
+    "inlineSvgCount": 4,
+    "videos": [],
+    "iframes": []
+  },
+  "forms": [],
+  "logoCandidates": [
+    {
+      "type": "img",
+      "src": "https://www.jfkairport.com/images/shared/logos/airports/jfk/JFK.svg",
+      "outerHTMLPreview": "<img alt=\"John F. Kennedy International Airport\" class=\"Image_image__LITrj WideHeader_logo__nAh0x\" loading=\"eager\" data-testid=\"logo\" src=\"/images/shared/logos/airports/jfk/JFK.svg\">",
+      "localPath": "assets/media/JFK-cd579a20.svg"
+    },
+    {
+      "type": "og:image",
+      "src": "https://s7d9.scene7.com/is/image/panynjaviation/jfk_ogimage:card-wide-16x9",
+      "localPath": "assets/media/jfk_ogimage_card-wide-16x9-3041f9a7.bin"
+    },
+    {
+      "type": "favicon",
+      "src": "https://www.jfkairport.com/images/shared/favicon/jfk_favicon.ico",
+      "localPath": "assets/media/jfk_favicon-a7892a40.ico"
+    }
+  ],
+  "voice": {
+    "heroHeading": "Lost and Found at JFK Airport",
+    "heroParagraph": "For lost personal items in the airport including passports and other visa travel documents, submit a claim through the JFK virtual lost and found office."
+  },
+  "systemBlocks": {
+    "headerHTML": "<header class=\"Header_header__Qb7xT css-0\" data-testid=\"header\"><a aria-label=\"Skip to Content\" tabindex=\"0\" class=\"chakra-link Header_skipToContent__n9lzS css-iw9gdm\" href=\"/lost-and-found#main-content\">Skip to Content</a><div class=\"Grid_grid__k5z8n WideHeader_wideHeader__WUcQz css-8yzm79\" data-testid=\"wide-header\"><a tabindex=\"0\" class=\"chakra-link WideHeader_logoContainer__OVb_m css-1mw5ttv\" href=\"/\"><img alt=\"John F. Kennedy International Airport\" class=\"Image_image__LITrj WideHeader_logo__nAh0x\" loading=\"eager\" data-testid=\"logo\" src=\"/images/shared/logos/airports/jfk/JFK.svg\"></a><nav class=\"chakra-stack WideHeader_navBar__V9qem css-1igwmid\" aria-label=\"main\"><div class=\"chakra-stack WideHeader_expandableNav__tw5MU css-1igwmid\"><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Flights\">Flights</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Transportation &amp; Parking\">Transportation &amp; Parking</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Explore JFK\">Explore JFK</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Dine, Shop, Relax\">Dine, Shop, Relax</button></div><a aria-label=\"Accessibility Services\" tabindex=\"0\" target=\"_self\" class=\"chakra-link WideHeader_accessibility__zCHWK css-1mw5ttv\" data-testid=\"accessibility-cta\" href=\"/explore-jfk/accessibility-services\"><span class=\"icon-accessible css-5lgiqp\" data-testid=\"icon\" tabindex=\"-1\" aria-hidden=\"true\"></span></a><button class=\"WideHeader_search__RDBrN css-0\" tabindex=\"0\" aria-expanded=\"false\" aria-label=\"Search\" data-testid=\"search\"><span class=\"icon-search css-5lgiqp\" data-testid=\"icon-search\" tabindex=\"-1\" aria-hidden=\"true\"></span></button></div></nav></div></header>",
+    "footerHTML": "<footer class=\"Footer_footerContainer__h6KnL css-0\" data-theme=\"aviation\"><div class=\"Grid_grid__k5z8n Footer_footer__nCxey css-8yzm79\"><a tabindex=\"0\" class=\"chakra-link Footer_logoContainer__YztlK css-1mw5ttv\" href=\"http://www.panynj.gov/\"><img alt=\"Port Authority New York New Jersey Air Land Rail Sea\" class=\"Image_image__LITrj Footer_logo__dJ82V\" loading=\"eager\" data-testid=\"default-image\" src=\"/images/shared/logos/Port_Authority_NYNJ_logo.svg\"></a><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"Accessibility\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/explore-jfk/accessibility-services\">Accessibility</a><a aria-label=\"Air Cargo opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/airports/en/air-cargo/jfk.html\">Air Cargo<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Alerts and Advisories\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/alerts-advisories\">Alerts and Advisories</a><a aria-label=\"Contact Us\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/contact-us\">Contact Us</a></div><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"FAQ\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/frequently-asked-questions\">FAQ</a><a aria-label=\"Feedback\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/feedback\">Feedback</a><a aria-label=\"General Airport Information opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/airports/en/index.html\">PANYNJ Airports Information<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"JFK Redevelopment opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html\">JFK Redevelopment<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"Lost and Found\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/lost-and-found\">Lost and Found</a><a aria-label=\"Press opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/port-authority/en/press-room.html\">Press<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><div class=\"chakra-stack Footer_socialLinks__xfpNq css-1igwmid\"><a aria-label=\"Connect with us on Facebook opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/\"><span class=\"icon-logo-facebook css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Connect with us on X (previously Twitter) opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"http://www.twitter.com/JFKairport\"><span class=\"icon-logo-x css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Connect with us on Whats App opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"https://www.panynj.gov/WhatsApp_JFK\"><span class=\"icon-logo-whatsapp css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><span role=\"separator\" aria-orientation=\"horizontal\" class=\"chakra-separator Footer_separator___6pPI css-wyc8fo\"></span><div class=\"Footer_address__l_LYP css-0\"><p>The Port Authority of New York and New Jersey<br>\n  4 World Trade Center, 150 Greenw",
+    "headerLinks": [
+      {
+        "text": "Skip to Content",
+        "href": "/lost-and-found#main-content"
+      },
+      {
+        "text": "",
+        "href": "/"
+      },
+      {
+        "text": "",
+        "href": "/explore-jfk/accessibility-services"
+      }
+    ],
+    "footerLinks": [
+      {
+        "text": "",
+        "href": "http://www.panynj.gov/"
+      },
+      {
+        "text": "Accessibility",
+        "href": "/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Air Cargo",
+        "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+      },
+      {
+        "text": "Alerts and Advisories",
+        "href": "/alerts-advisories"
+      },
+      {
+        "text": "Contact Us",
+        "href": "/contact-us"
+      },
+      {
+        "text": "FAQ",
+        "href": "/frequently-asked-questions"
+      },
+      {
+        "text": "Feedback",
+        "href": "/feedback"
+      },
+      {
+        "text": "PANYNJ Airports Information",
+        "href": "https://www.panynj.gov/airports/en/index.html"
+      },
+      {
+        "text": "JFK Redevelopment",
+        "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+      },
+      {
+        "text": "Lost and Found",
+        "href": "/lost-and-found"
+      },
+      {
+        "text": "Press",
+        "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+      },
+      {
+        "text": "",
+        "href": "http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/"
+      },
+      {
+        "text": "",
+        "href": "http://www.twitter.com/JFKairport"
+      },
+      {
+        "text": "",
+        "href": "https://www.panynj.gov/WhatsApp_JFK"
+      },
+      {
+        "text": "Website Disclaimer",
+        "href": "/website-disclaimer"
+      },
+      {
+        "text": "Privacy Statement",
+        "href": "/privacy"
+      }
+    ]
+  },
+  "_domCounts": {
+    "totalElements": 155,
+    "sampledElements": 155
+  },
+  "screenshot": "assets/screenshots/lost-and-found.png"
+}

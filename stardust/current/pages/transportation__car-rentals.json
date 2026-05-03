@@ -1,0 +1,1495 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-03T13:11:41.951Z",
+    "url": "https://www.jfkairport.com/transportation/car-rentals",
+    "slug": "transportation__car-rentals",
+    "startedAt": "2026-05-03T13:11:37.206Z",
+    "waitMode": "medium",
+    "httpStatus": 200,
+    "contentType": "text/html; charset=utf-8",
+    "waitMs": 1575,
+    "endedAt": "2026-05-03T13:11:41.951Z",
+    "totalMs": 4518,
+    "stardustVersion": "0.3.0"
+  },
+  "url": "https://www.jfkairport.com/transportation/car-rentals",
+  "meta": {
+    "title": "Car Rentals - JFK Airport",
+    "description": "Rent a car at JFK Airport. Compare car rental companies at the federal circle station for a quick getaway.",
+    "themeColor": "",
+    "lang": "en-us"
+  },
+  "ogTags": {
+    "og:title": "Car Rentals - JFK Airport",
+    "og:description": "Rent a car at JFK Airport. Compare car rental companies at the federal circle station for a quick getaway.",
+    "og:type": "website",
+    "og:url": "https://www.jfkairport.com/transportation/car-rentals",
+    "og:image": "https://s7d9.scene7.com/is/image/panynjaviation/jfk_ogimage:card-wide-16x9",
+    "og:image:alt": "John F. Kennedy International Airport logo"
+  },
+  "headings": [
+    {
+      "level": 1,
+      "text": "Car Rentals"
+    },
+    {
+      "level": 2,
+      "text": "Car rentals are located at Federal Circle"
+    },
+    {
+      "level": 2,
+      "text": "Rental car companies at JFK"
+    },
+    {
+      "level": 3,
+      "text": "Alamo"
+    },
+    {
+      "level": 3,
+      "text": "Avis"
+    },
+    {
+      "level": 3,
+      "text": "Budget"
+    },
+    {
+      "level": 3,
+      "text": "Dollar"
+    },
+    {
+      "level": 3,
+      "text": "Enterprise"
+    },
+    {
+      "level": 3,
+      "text": "Hertz"
+    },
+    {
+      "level": 3,
+      "text": "National"
+    },
+    {
+      "level": 3,
+      "text": "Payless"
+    },
+    {
+      "level": 3,
+      "text": "Sixt"
+    },
+    {
+      "level": 3,
+      "text": "Thrifty"
+    },
+    {
+      "level": 2,
+      "text": "Your rental experience from start to finish"
+    },
+    {
+      "level": 3,
+      "text": "Picking up your rental car"
+    },
+    {
+      "level": 3,
+      "text": "Returning your rental car"
+    },
+    {
+      "level": 3,
+      "text": "Paying for tolls when using a rental car"
+    },
+    {
+      "level": 2,
+      "text": "Accessible rental cars"
+    },
+    {
+      "level": 2,
+      "text": "Navigate JFK with the AirTrain"
+    },
+    {
+      "level": 2,
+      "text": "FAQs"
+    }
+  ],
+  "landmarks": [
+    {
+      "role": "main",
+      "label": "",
+      "headingPreview": "Car Rentals"
+    },
+    {
+      "role": "header",
+      "label": "",
+      "headingPreview": ""
+    },
+    {
+      "role": "nav",
+      "label": "main",
+      "headingPreview": ""
+    },
+    {
+      "role": "footer",
+      "label": "",
+      "headingPreview": ""
+    }
+  ],
+  "sections": [
+    {
+      "index": 0,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack RichTextEditorWrapper_container__7b_DK css-sekf8j",
+      "ariaLabel": "",
+      "heading": "Car rentals are located at Federal Circle",
+      "textPreview": "One easy stopCar rentals are located at Federal CircleOur car rental partners are conveniently located at Federal Circle. Federal Circle is accessible by the AirTrain from any terminal or from the Jamaica and Howard Beach AirTrain Stations. AirTrain rides between terminals and Fe",
+      "rect": {
+        "x": 297.3,
+        "y": 392,
+        "w": 845.3,
+        "h": 276
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "AirTrain",
+          "href": "/transportation/airtrain"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "+1 (844) 648-1611",
+      "rect": {
+        "x": 313.3,
+        "y": 1019.5,
+        "w": 239.1,
+        "h": 24
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "+1 (844) 648-1611",
+          "href": "tel:18446481611"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "+1 (718) 244-5400",
+      "rect": {
+        "x": 600.4,
+        "y": 1019.5,
+        "w": 239.1,
+        "h": 24
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "+1 (718) 244-5400",
+          "href": "tel:17182445400"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "+1 (718)-656-1890+1 (800)-527-0700",
+      "rect": {
+        "x": 887.5,
+        "y": 1019.5,
+        "w": 239.1,
+        "h": 48
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "+1 (718)-656-1890",
+          "href": "tel:17186561890"
+        },
+        {
+          "tag": "a",
+          "text": "+1 (800)-527-0700",
+          "href": "tel:18005270700"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "+1 (866) 434-2226",
+      "rect": {
+        "x": 313.3,
+        "y": 1341.1,
+        "w": 239.1,
+        "h": 24
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "+1 (866) 434-2226",
+          "href": "tel:18664342226"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "+1 (844) 648–1609",
+      "rect": {
+        "x": 600.4,
+        "y": 1341.1,
+        "w": 239.1,
+        "h": 24
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "+1 (844) 648–1609",
+          "href": "tel:18446481609"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "+1 (718) 656-7600+1 (800) 654-3131",
+      "rect": {
+        "x": 887.5,
+        "y": 1341.1,
+        "w": 239.1,
+        "h": 48
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "+1 (718) 656-7600",
+          "href": "tel:17186567600"
+        },
+        {
+          "tag": "a",
+          "text": "+1 (800) 654-3131",
+          "href": "tel:18006543131"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "+1 (844) 648-1610",
+      "rect": {
+        "x": 313.3,
+        "y": 1662.6,
+        "w": 239.1,
+        "h": 24
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "+1 (844) 648-1610",
+          "href": "tel:18446481610"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "+1 (718) 244-8277",
+      "rect": {
+        "x": 600.4,
+        "y": 1662.6,
+        "w": 239.1,
+        "h": 24
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "+1 (718) 244-8277",
+          "href": "tel:17182448277"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "+1 (888) 749-8227",
+      "rect": {
+        "x": 887.5,
+        "y": 1662.6,
+        "w": 239.1,
+        "h": 24
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "+1 (888) 749-8227",
+          "href": "tel:18887498227"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "+1 (877) 283-0898",
+      "rect": {
+        "x": 313.3,
+        "y": 1960.2,
+        "w": 239.1,
+        "h": 24
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "+1 (877) 283-0898",
+          "href": "tel:18772830898"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack RichTextEditorWrapper_container__7b_DK css-sekf8j",
+      "ariaLabel": "",
+      "heading": "Your rental experience from start to finish",
+      "textPreview": "Your rental experience from start to finish",
+      "rect": {
+        "x": 297.3,
+        "y": 2118.2,
+        "w": 845.3,
+        "h": 128
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 12,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack RichTextEditorWrapper_container__7b_DK css-sekf8j",
+      "ariaLabel": "",
+      "heading": "Picking up your rental car",
+      "textPreview": "Picking up your rental carYou can reserve a rental car from one of the available rental car companies in advance online or check out what is available once you arrive. To pick up your rental, take AirTrain to the car rental center at the Federal Circle Station opens in a new tab.",
+      "rect": {
+        "x": 297.3,
+        "y": 2326.2,
+        "w": 845.3,
+        "h": 132
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "Federal Circle Station opens in a new tab",
+          "href": "https://maps.app.goo.gl/iKEi4fNBE7yb4y7C7"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack RichTextEditorWrapper_container__7b_DK css-sekf8j",
+      "ariaLabel": "",
+      "heading": "Returning your rental car",
+      "textPreview": "Returning your rental carWhen you're ready to return your rental car, enter “Federal Circle Station opens in a new tab” in your GPS for directions to the car rental center. Remember to refuel your car before returning it. There are gas stations conveniently located within two mil",
+      "rect": {
+        "x": 297.3,
+        "y": 2538.2,
+        "w": 845.3,
+        "h": 224
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "Federal Circle Station opens in a new tab",
+          "href": "https://maps.app.goo.gl/iKEi4fNBE7yb4y7C7"
+        },
+        {
+          "tag": "a",
+          "text": "JFK Airport Travel Plaza opens in a new tab",
+          "href": "https://maps.app.goo.gl/krDS4ZSCfMtXCebB9"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack RichTextEditorWrapper_container__7b_DK css-sekf8j",
+      "ariaLabel": "",
+      "heading": "Paying for tolls when using a rental car",
+      "textPreview": "Paying for tolls when using a rental carNew York State tolls have switched to cashless tolling, which means you will be billed electronically. Be sure to check with your rental car agency to learn about their toll payment policy. Some companies provide E-ZPass® transponder tags. ",
+      "rect": {
+        "x": 297.3,
+        "y": 2842.2,
+        "w": 845.3,
+        "h": 452
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 15,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack TitleLockup_description__77Ju9 css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "The AirTrain connects passengers to terminals, airport parking lots, the hotel shuttle area, the rental car center, and public transportation.",
+      "rect": {
+        "x": 80,
+        "y": 3834.5,
+        "w": 620,
+        "h": 88
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(51, 65, 85)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "16px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    }
+  ],
+  "ctas": [
+    {
+      "tag": "a",
+      "text": "Skip to Content",
+      "href": "/transportation/car-rentals#main-content",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Flights",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Transportation & Parking",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Explore JFK",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Dine, Shop, Relax",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Reserve now",
+      "href": "https://www.alamo.com/en_US/car-rental/home.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Reserve now",
+      "href": "https://www.avis.com/en/locations/us/ny/jamaica/jfk",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Reserve now",
+      "href": "https://www.budget.com/en/locations/us/ny/jamaica/jfk",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Reserve now",
+      "href": "http://www.dollar.com/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Reserve now",
+      "href": "http://www.enterprise.com/car_rental/home.do",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Reserve now",
+      "href": "http://www.hertz.com/rentacar/reservation/gaq/index.jsp?bsc=t&targetPage=reservationOnHomepage.jsp",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Reserve now",
+      "href": "http://www.nationalcar.com/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Reserve now",
+      "href": "https://www.paylesscar.com/en/locations/us/ny/jamaica/jfk",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Reserve now",
+      "href": "https://www.sixt.com/car-rental/usa/new-york-city/new-york-jfk-int-airport/#/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Reserve now",
+      "href": "http://www.thrifty.com/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Learn about the JFK AirTrain",
+      "href": "/transportation/airtrain",
+      "backgroundColor": "rgb(0, 69, 255)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "4px",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "20px"
+    },
+    {
+      "tag": "button",
+      "text": "Where can I pick up my rental car at JFK?",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(1, 21, 101)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px 0px"
+    },
+    {
+      "tag": "button",
+      "text": "How do I return my rental car at JFK Airport?",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(1, 21, 101)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px 0px"
+    },
+    {
+      "tag": "button",
+      "text": "How do tolls work with rental cars in New York?",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(1, 21, 101)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px 0px"
+    },
+    {
+      "tag": "a",
+      "text": "Accessibility",
+      "href": "/explore-jfk/accessibility-services",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Air Cargo",
+      "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Alerts and Advisories",
+      "href": "/alerts-advisories",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Contact Us",
+      "href": "/contact-us",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "FAQ",
+      "href": "/frequently-asked-questions",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Feedback",
+      "href": "/feedback",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "PANYNJ Airports Information",
+      "href": "https://www.panynj.gov/airports/en/index.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "JFK Redevelopment",
+      "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Lost and Found",
+      "href": "/lost-and-found",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Press",
+      "href": "https://www.panynj.gov/port-authority/en/press-room.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Website Disclaimer",
+      "href": "/website-disclaimer",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Privacy Statement",
+      "href": "/privacy",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "text": "Skip to Content",
+        "href": "https://www.jfkairport.com/transportation/car-rentals#main-content"
+      },
+      {
+        "text": "",
+        "href": "https://www.jfkairport.com/"
+      },
+      {
+        "text": "",
+        "href": "https://www.jfkairport.com/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "AirTrain",
+        "href": "https://www.jfkairport.com/transportation/airtrain"
+      },
+      {
+        "text": "Learn about the JFK AirTrain",
+        "href": "https://www.jfkairport.com/transportation/airtrain"
+      },
+      {
+        "text": "Accessibility",
+        "href": "https://www.jfkairport.com/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Alerts and Advisories",
+        "href": "https://www.jfkairport.com/alerts-advisories"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.jfkairport.com/contact-us"
+      },
+      {
+        "text": "FAQ",
+        "href": "https://www.jfkairport.com/frequently-asked-questions"
+      },
+      {
+        "text": "Feedback",
+        "href": "https://www.jfkairport.com/feedback"
+      },
+      {
+        "text": "Lost and Found",
+        "href": "https://www.jfkairport.com/lost-and-found"
+      },
+      {
+        "text": "Website Disclaimer",
+        "href": "https://www.jfkairport.com/website-disclaimer"
+      },
+      {
+        "text": "Privacy Statement",
+        "href": "https://www.jfkairport.com/privacy"
+      }
+    ],
+    "external": [
+      {
+        "text": "Reserve now",
+        "href": "https://www.alamo.com/en_US/car-rental/home.html"
+      },
+      {
+        "text": "Reserve now",
+        "href": "https://www.avis.com/en/locations/us/ny/jamaica/jfk"
+      },
+      {
+        "text": "Reserve now",
+        "href": "https://www.budget.com/en/locations/us/ny/jamaica/jfk"
+      },
+      {
+        "text": "Reserve now",
+        "href": "http://www.dollar.com/"
+      },
+      {
+        "text": "Reserve now",
+        "href": "http://www.enterprise.com/car_rental/home.do"
+      },
+      {
+        "text": "Reserve now",
+        "href": "http://www.hertz.com/rentacar/reservation/gaq/index.jsp?bsc=t&targetPage=reservationOnHomepage.jsp"
+      },
+      {
+        "text": "Reserve now",
+        "href": "http://www.nationalcar.com/"
+      },
+      {
+        "text": "Reserve now",
+        "href": "https://www.paylesscar.com/en/locations/us/ny/jamaica/jfk"
+      },
+      {
+        "text": "Reserve now",
+        "href": "https://www.sixt.com/car-rental/usa/new-york-city/new-york-jfk-int-airport/#/"
+      },
+      {
+        "text": "Reserve now",
+        "href": "http://www.thrifty.com/"
+      },
+      {
+        "text": "Federal Circle Station opens in a new tab",
+        "href": "https://maps.app.goo.gl/iKEi4fNBE7yb4y7C7"
+      },
+      {
+        "text": "Federal Circle Station opens in a new tab",
+        "href": "https://maps.app.goo.gl/iKEi4fNBE7yb4y7C7"
+      },
+      {
+        "text": "JFK Airport Travel Plaza opens in a new tab",
+        "href": "https://maps.app.goo.gl/krDS4ZSCfMtXCebB9"
+      },
+      {
+        "text": "",
+        "href": "http://www.panynj.gov/"
+      },
+      {
+        "text": "Air Cargo",
+        "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+      },
+      {
+        "text": "PANYNJ Airports Information",
+        "href": "https://www.panynj.gov/airports/en/index.html"
+      },
+      {
+        "text": "JFK Redevelopment",
+        "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+      },
+      {
+        "text": "Press",
+        "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+      },
+      {
+        "text": "",
+        "href": "http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/"
+      },
+      {
+        "text": "",
+        "href": "http://www.twitter.com/JFKairport"
+      },
+      {
+        "text": "",
+        "href": "https://www.panynj.gov/WhatsApp_JFK"
+      }
+    ],
+    "counts": {
+      "internal": 13,
+      "external": 21
+    }
+  },
+  "tokens": {
+    "colors": {
+      "rgb(9, 9, 11)": 225,
+      "rgb(0, 69, 255)": 68,
+      "rgb(255, 255, 255)": 33,
+      "rgb(1, 21, 101)": 24,
+      "rgb(51, 65, 85)": 43
+    },
+    "backgrounds": {
+      "rgb(255, 255, 255)": 13,
+      "rgb(208, 235, 255)": 1,
+      "rgb(0, 69, 255)": 1,
+      "rgb(1, 21, 101)": 1
+    },
+    "fonts": {
+      "Helvetica Now for PANYNJ": 384,
+      "Sharp Grotesk Semibold": 9
+    },
+    "sizes": {
+      "16px": 253,
+      "20px": 106,
+      "24px": 12,
+      "72px": 1,
+      "40px": 3,
+      "52px": 2,
+      "36px": 3,
+      "32px": 4,
+      "14px": 9
+    },
+    "radii": {
+      "2px": 29,
+      "4px": 19
+    },
+    "shadows": {}
+  },
+  "headingStyles": {
+    "h1": {
+      "fontFamily": "Sharp Grotesk Semibold",
+      "fontSize": "72px",
+      "fontWeight": "400",
+      "lineHeight": "80px",
+      "textTransform": "none",
+      "letterSpacing": "-2px"
+    },
+    "h2": {
+      "fontFamily": "Sharp Grotesk Semibold",
+      "fontSize": "40px",
+      "fontWeight": "400",
+      "lineHeight": "52px",
+      "textTransform": "none",
+      "letterSpacing": "-0.5px"
+    },
+    "h3": {
+      "fontFamily": "Helvetica Now for PANYNJ",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "lineHeight": "32px",
+      "textTransform": "none",
+      "letterSpacing": "normal"
+    }
+  },
+  "bodyStyles": {
+    "fontFamily": "Helvetica Now for PANYNJ",
+    "fontSize": "20px",
+    "lineHeight": "28px",
+    "color": "rgb(0, 69, 255)"
+  },
+  "media": {
+    "images": [
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airports/jfk/JFK.svg",
+        "srcset": "",
+        "alt": "John F. Kennedy International Airport",
+        "loading": "eager",
+        "intrinsicW": 300,
+        "intrinsicH": 61,
+        "renderedW": 205,
+        "renderedH": 42,
+        "localPath": "assets/media/JFK-cd579a20.svg"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/car-rental-logos/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_ALAMO_v2_r0.jpg",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 600,
+        "intrinsicH": 300,
+        "renderedW": 271,
+        "renderedH": 136,
+        "localPath": "assets/media/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_ALAMO_v2_-87f22c19.jpg"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/car-rental-logos/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_AVIS_v2_r0.jpg",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 600,
+        "intrinsicH": 300,
+        "renderedW": 271,
+        "renderedH": 136,
+        "localPath": "assets/media/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_AVIS_v2_r-b73c8f14.jpg"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/car-rental-logos/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_BUDGET_v2_r0.jpg",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 600,
+        "intrinsicH": 300,
+        "renderedW": 271,
+        "renderedH": 136,
+        "localPath": "assets/media/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_BUDGET_v2-ea68812f.jpg"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/car-rental-logos/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_DOLLAR_v2_r0.jpg",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 600,
+        "intrinsicH": 300,
+        "renderedW": 271,
+        "renderedH": 136,
+        "localPath": "assets/media/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_DOLLAR_v2-aa21ddcb.jpg"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/car-rental-logos/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_ENTERPRISE_v2_r0.jpg",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 600,
+        "intrinsicH": 300,
+        "renderedW": 271,
+        "renderedH": 136,
+        "localPath": "assets/media/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_ENTERPRIS-84c6d2ce.jpg"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/car-rental-logos/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_HERTZ_v2_r0.jpg",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 600,
+        "intrinsicH": 300,
+        "renderedW": 271,
+        "renderedH": 136,
+        "localPath": "assets/media/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_HERTZ_v2_-e3ccdf06.jpg"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/car-rental-logos/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_NATIONAL_v2_r0.jpg",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 600,
+        "intrinsicH": 300,
+        "renderedW": 271,
+        "renderedH": 136,
+        "localPath": "assets/media/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_NATIONAL_-a88841b1.jpg"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/car-rental-logos/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_PAYLESS_v2_r0.jpg",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 600,
+        "intrinsicH": 300,
+        "renderedW": 271,
+        "renderedH": 136,
+        "localPath": "assets/media/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_PAYLESS_v-f80eaac4.jpg"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/car-rental-logos/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_SIXT_v2_r0.jpg",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 600,
+        "intrinsicH": 300,
+        "renderedW": 271,
+        "renderedH": 136,
+        "localPath": "assets/media/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_SIXT_v2_r-0227fd0a.jpg"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/car-rental-logos/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_THRIFTY_v2_r0.jpg",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 600,
+        "intrinsicH": 300,
+        "renderedW": 271,
+        "renderedH": 136,
+        "localPath": "assets/media/858_25_MKTG-CCO-AVI-Website-Image-Resizing_600x300_THRIFTY_v-f6fc116b.jpg"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-2_4_TransportationandParkingCard:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1392,
+        "intrinsicH": 1043,
+        "renderedW": 620,
+        "renderedH": 465,
+        "localPath": "assets/media/1-2_4_TransportationandParkingCard_photo-4x3-3b7addd3.bin"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/Port_Authority_NYNJ_logo.svg",
+        "srcset": "",
+        "alt": "Port Authority New York New Jersey Air Land Rail Sea",
+        "loading": "eager",
+        "intrinsicW": 252,
+        "intrinsicH": 121,
+        "renderedW": 164,
+        "renderedH": 79,
+        "localPath": "assets/media/Port_Authority_NYNJ_logo-40276be9.svg"
+      }
+    ],
+    "inlineSvgCount": 4,
+    "videos": [],
+    "iframes": []
+  },
+  "forms": [],
+  "logoCandidates": [
+    {
+      "type": "img",
+      "src": "https://www.jfkairport.com/images/shared/logos/airports/jfk/JFK.svg",
+      "outerHTMLPreview": "<img alt=\"John F. Kennedy International Airport\" class=\"Image_image__LITrj WideHeader_logo__nAh0x\" loading=\"eager\" data-testid=\"logo\" src=\"/images/shared/logos/airports/jfk/JFK.svg\">",
+      "localPath": "assets/media/JFK-cd579a20.svg"
+    },
+    {
+      "type": "og:image",
+      "src": "https://s7d9.scene7.com/is/image/panynjaviation/jfk_ogimage:card-wide-16x9",
+      "localPath": "assets/media/jfk_ogimage_card-wide-16x9-3041f9a7.bin"
+    },
+    {
+      "type": "favicon",
+      "src": "https://www.jfkairport.com/images/shared/favicon/jfk_favicon.ico",
+      "localPath": "assets/media/jfk_favicon-a7892a40.ico"
+    }
+  ],
+  "voice": {
+    "heroHeading": "Car Rentals",
+    "heroParagraph": "One easy stop"
+  },
+  "systemBlocks": {
+    "headerHTML": "<header class=\"Header_header__Qb7xT css-0\" data-testid=\"header\"><a aria-label=\"Skip to Content\" tabindex=\"0\" class=\"chakra-link Header_skipToContent__n9lzS css-iw9gdm\" href=\"/transportation/car-rentals#main-content\">Skip to Content</a><div class=\"Grid_grid__k5z8n WideHeader_wideHeader__WUcQz css-8yzm79\" data-testid=\"wide-header\"><a tabindex=\"0\" class=\"chakra-link WideHeader_logoContainer__OVb_m css-1mw5ttv\" href=\"/\"><img alt=\"John F. Kennedy International Airport\" class=\"Image_image__LITrj WideHeader_logo__nAh0x\" loading=\"eager\" data-testid=\"logo\" src=\"/images/shared/logos/airports/jfk/JFK.svg\"></a><nav class=\"chakra-stack WideHeader_navBar__V9qem css-1igwmid\" aria-label=\"main\"><div class=\"chakra-stack WideHeader_expandableNav__tw5MU css-1igwmid\"><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Flights\">Flights</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Transportation &amp; Parking\">Transportation &amp; Parking</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Explore JFK\">Explore JFK</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Dine, Shop, Relax\">Dine, Shop, Relax</button></div><a aria-label=\"Accessibility Services\" tabindex=\"0\" target=\"_self\" class=\"chakra-link WideHeader_accessibility__zCHWK css-1mw5ttv\" data-testid=\"accessibility-cta\" href=\"/explore-jfk/accessibility-services\"><span class=\"icon-accessible css-5lgiqp\" data-testid=\"icon\" tabindex=\"-1\" aria-hidden=\"true\"></span></a><button class=\"WideHeader_search__RDBrN css-0\" tabindex=\"0\" aria-expanded=\"false\" aria-label=\"Search\" data-testid=\"search\"><span class=\"icon-search css-5lgiqp\" data-testid=\"icon-search\" tabindex=\"-1\" aria-hidden=\"true\"></span></button></div></nav></div></header>",
+    "footerHTML": "<footer class=\"Footer_footerContainer__h6KnL css-0\" data-theme=\"aviation\"><div class=\"Grid_grid__k5z8n Footer_footer__nCxey css-8yzm79\"><a tabindex=\"0\" class=\"chakra-link Footer_logoContainer__YztlK css-1mw5ttv\" href=\"http://www.panynj.gov/\"><img alt=\"Port Authority New York New Jersey Air Land Rail Sea\" class=\"Image_image__LITrj Footer_logo__dJ82V\" loading=\"eager\" data-testid=\"default-image\" src=\"/images/shared/logos/Port_Authority_NYNJ_logo.svg\"></a><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"Accessibility\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/explore-jfk/accessibility-services\">Accessibility</a><a aria-label=\"Air Cargo opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/airports/en/air-cargo/jfk.html\">Air Cargo<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Alerts and Advisories\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/alerts-advisories\">Alerts and Advisories</a><a aria-label=\"Contact Us\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/contact-us\">Contact Us</a></div><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"FAQ\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/frequently-asked-questions\">FAQ</a><a aria-label=\"Feedback\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/feedback\">Feedback</a><a aria-label=\"General Airport Information opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/airports/en/index.html\">PANYNJ Airports Information<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"JFK Redevelopment opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html\">JFK Redevelopment<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"Lost and Found\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/lost-and-found\">Lost and Found</a><a aria-label=\"Press opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/port-authority/en/press-room.html\">Press<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><div class=\"chakra-stack Footer_socialLinks__xfpNq css-1igwmid\"><a aria-label=\"Connect with us on Facebook opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/\"><span class=\"icon-logo-facebook css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Connect with us on X (previously Twitter) opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"http://www.twitter.com/JFKairport\"><span class=\"icon-logo-x css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Connect with us on Whats App opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"https://www.panynj.gov/WhatsApp_JFK\"><span class=\"icon-logo-whatsapp css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><span role=\"separator\" aria-orientation=\"horizontal\" class=\"chakra-separator Footer_separator___6pPI css-wyc8fo\"></span><div class=\"Footer_address__l_LYP css-0\"><p>The Port Authority of New York and New Jersey<br>\n  4 World Trade Center, 150 Greenw",
+    "headerLinks": [
+      {
+        "text": "Skip to Content",
+        "href": "/transportation/car-rentals#main-content"
+      },
+      {
+        "text": "",
+        "href": "/"
+      },
+      {
+        "text": "",
+        "href": "/explore-jfk/accessibility-services"
+      }
+    ],
+    "footerLinks": [
+      {
+        "text": "",
+        "href": "http://www.panynj.gov/"
+      },
+      {
+        "text": "Accessibility",
+        "href": "/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Air Cargo",
+        "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+      },
+      {
+        "text": "Alerts and Advisories",
+        "href": "/alerts-advisories"
+      },
+      {
+        "text": "Contact Us",
+        "href": "/contact-us"
+      },
+      {
+        "text": "FAQ",
+        "href": "/frequently-asked-questions"
+      },
+      {
+        "text": "Feedback",
+        "href": "/feedback"
+      },
+      {
+        "text": "PANYNJ Airports Information",
+        "href": "https://www.panynj.gov/airports/en/index.html"
+      },
+      {
+        "text": "JFK Redevelopment",
+        "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+      },
+      {
+        "text": "Lost and Found",
+        "href": "/lost-and-found"
+      },
+      {
+        "text": "Press",
+        "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+      },
+      {
+        "text": "",
+        "href": "http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/"
+      },
+      {
+        "text": "",
+        "href": "http://www.twitter.com/JFKairport"
+      },
+      {
+        "text": "",
+        "href": "https://www.panynj.gov/WhatsApp_JFK"
+      },
+      {
+        "text": "Website Disclaimer",
+        "href": "/website-disclaimer"
+      },
+      {
+        "text": "Privacy Statement",
+        "href": "/privacy"
+      }
+    ]
+  },
+  "_domCounts": {
+    "totalElements": 393,
+    "sampledElements": 393
+  },
+  "screenshot": "assets/screenshots/transportation__car-rentals.png"
+}

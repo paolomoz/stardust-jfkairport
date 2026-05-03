@@ -1,0 +1,191 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:47.832Z",
+    "url": "https://www.jfkairport.com/flights/connections-guide/travel-between-airports",
+    "slug": "flights__connections-guide__travel-between-airports",
+    "httpStatus": 200,
+    "totalMs": 3198,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": null,
+  "h1": "Transferring Between Airports Guide",
+  "lede": "",
+  "heroImage": null,
+  "blocks": [
+    {
+      "h2": "Connecting flights at another airport",
+      "h3s": [],
+      "paragraphs": [
+        "Sometimes your trip may involve arriving at one New York airport and departing from another. For example, you might fly into LaGuardia (LGA) from St. Paul, Minnesota, and then depart from JFK on an international flight.",
+        "If this applies to you:",
+        "You will need to:"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Transportation options when traveling between airports",
+      "h3s": [
+        "Public transportation",
+        "Taxis",
+        "Ride sharing apps",
+        "Shuttle and van services",
+        "Limousine and private car services"
+      ],
+      "paragraphs": [
+        "For traveling between JFK and EWR:",
+        "Alternatively:",
+        "For traveling between JFK and LGA:",
+        "For more details on fares and schedules, consult LIRR opens in a new tab and NJ Transit opens in a new tab.",
+        "Taxis offer reliable transportation between airports, and you will find them waiting outside each terminal—just follow the signs.",
+        "Taxis between JFK and LGA Estimated travel time: 30-60 minutes Estimated fare: $60",
+        "Taxis between JFK and EWR Estimated travel time: 60-100 minutes Estimated fare: $160",
+        "Trips may be subject to additional tolls and surcharges above standard metered fare depending on time of day, route traveled, and other factors.",
+        "You can use Uber, Lyft, and other ride apps to connect between airports. Trips may be subject to additional tolls and surcharges depending on time of day, route traveled, and other factors",
+        "You can pre-arrange transportation between airports with a shuttle service, which may be best if you are traveling with a group or have oversized or large quantities of luggage.",
+        "Shuttles between JFK and LGA Estimated travel time: 30-60 minutes",
+        "Shuttles between JFK and EWR Estimated travel time: 60-100 minutes",
+        "Shuttle service options: ETS Air Shuttle: +1 (718)-221-5341 Airlink New York: +1 (212)-812-9000",
+        "You may also choose to arrange private transfers via limousine or van service, which can be arranged in advance."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "LIRR opens in a new tab",
+          "href": "https://www.mta.info/agency/long-island-rail-road"
+        },
+        {
+          "text": "NJ Transit opens in a new tab",
+          "href": "https://www.njtransit.com"
+        },
+        {
+          "text": "Learn more about taxis at JFK",
+          "href": "/transportation/taxi-service"
+        },
+        {
+          "text": "Learn more about ride sharing apps",
+          "href": "/transportation/ride-share-services"
+        },
+        {
+          "text": "+1 (718)-221-5341",
+          "href": "tel:17182215341"
+        },
+        {
+          "text": "+1 (212)-812-9000",
+          "href": "tel:12128129000"
+        },
+        {
+          "text": "Learn more about shuttles and van services",
+          "href": "/transportation/van-shuttle-service"
+        },
+        {
+          "text": "Learn more about private transportation",
+          "href": "/transportation/van-shuttle-service"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Accessibility assistance at JFK",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/3-2-5_2_wheelchairservices:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1440
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Contact your airline",
+          "href": "/flights/airlines"
+        },
+        {
+          "text": "General accessibility services",
+          "href": "/explore-jfk/accessibility-services"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "FAQs",
+      "h3s": [],
+      "paragraphs": [
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "What transportation options are available between airports?"
+        }
+      ],
+      "links": [
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

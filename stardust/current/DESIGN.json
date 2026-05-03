@@ -1,0 +1,74 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-03T00:00:00Z",
+    "purpose": "descriptive snapshot of jfkairport.com DESIGN tokens",
+    "stardustVersion": "0.3.0",
+    "schemaVersion": 2
+  },
+  "name": "jfkairport.com — current state",
+  "register": "brand",
+  "colors": {
+    "ground-white": "#FFFFFF",
+    "ice-blue": "#EFF9FF",
+    "mint-tint": "#F1FCF2",
+    "ink": "#09090B",
+    "slate-900": "#0F172A",
+    "slate-600": "#475569",
+    "panynj-blue": "#0045FF",
+    "panynj-deep-blue": "#022DB7",
+    "panynj-navy": "#011565",
+    "advisory-yellow": "#FFCD00",
+    "success-green": "#1B7A2F"
+  },
+  "typography": {
+    "display": "Sharp Grotesk Semibold",
+    "body": "Helvetica Now for PANYNJ",
+    "scale": [12, 14, 16, 18, 20, 24, 28, 32, 40, 52, 96, 320],
+    "scaleKind": "modular-with-hero-outlier"
+  },
+  "rounded": { "primary": "2px", "secondary": "4px", "pill": "9999px" },
+  "spacing": { "base": "8px", "sectionPadding": { "desktop": "80px", "tablet": "56px", "mobile": "32px" } },
+  "extensions": {
+    "componentStyle": {
+      "buttons": {
+        "primary": { "background": "#0045FF", "color": "#FFFFFF", "radius": "2px", "padding": "12px 24px", "fontWeight": 700, "fontSize": "16px" },
+        "secondary": { "background": "transparent", "color": "#0045FF", "radius": "0px", "padding": "0px", "fontWeight": 400, "fontSize": "16px" }
+      },
+      "cards": { "background": "#FFFFFF", "border": "1px solid rgba(15,23,42,0.1)", "radius": "4px", "iconTile": { "background": "#0045FF", "color": "#FFFFFF", "size": "32px" } },
+      "inputs": { "background": "#FFFFFF", "border": "1px solid #94A3B8", "radius": "2px", "padding": "10px 14px" },
+      "advisoryBand": { "background": "#FFCD00", "color": "#011565", "iconColor": "#011565" }
+    },
+    "motifs": {
+      "borderRadiusMode": "2px",
+      "shadow": "rgba(0, 0, 0, 0.25) 0px 0px 4px 0px",
+      "gradients": [],
+      "patterns": ["full-bleed-photo-hero", "tabbed-search-panel", "3-col-icon-card-grid", "tinted-alt-section", "advisory-band", "data-table"]
+    },
+    "voice": {
+      "dos": [
+        "Lead with utility (search, table, modes) before editorial.",
+        "Use Sharp Grotesk Semibold for h1/h2 only; switch to Helvetica Now for h3 down.",
+        "Disclose construction disruption inline near the affected section."
+      ],
+      "donts": [
+        "No promotional fare-deal banners, no consumer-airline marketing tone.",
+        "Yellow is for warnings only, never decorative.",
+        "Don't dilute hierarchy with a second hue — one blue carries everything."
+      ]
+    },
+    "systemComponentRoles": {
+      "header": { "purpose": "site nav + logo + accessibility + search", "position": "top, full-width, white ground" },
+      "footer": { "purpose": "PANYNJ co-brand + utility links + social", "position": "bottom, full-width" },
+      "advisoryBand": { "purpose": "context-bound disruption disclosure", "position": "inline within affected sections" },
+      "flightSearchModule": { "purpose": "primary conversion (departures/arrivals/parking)", "position": "floating over hero (home), inline (flights)" },
+      "guideToJfk": { "purpose": "cross-promo to IA pillars", "position": "below the editorial sections, before footer" }
+    },
+    "iaPriorities": [
+      { "signal": "commercial-conversion", "evidence": "tabbed flight-search panel floats over home hero; PARKING tab routes to revenue product", "preserveAs": "first-viewport on home, inline on /flights", "scope": "site-wide" },
+      { "signal": "crisis-affordance", "evidence": "construction-advisory band on transportation page warns about pickup disruption", "preserveAs": "inline near impacted section", "scope": "any page touching pickup/parking/terminal access during redevelopment window" },
+      { "signal": "audience-routing", "evidence": "5 distinct audiences (departing/arriving/connecting/visiting/institutional) share the home page", "preserveAs": "first 1.5 viewports on home", "scope": "home + IA pillar pages" },
+      { "signal": "accessibility-affordance", "evidence": "dedicated /accessibility-services hub with 5 sub-pages; accessibility icon in primary nav", "preserveAs": "primary-nav-level affordance", "scope": "site-wide" }
+    ]
+  }
+}

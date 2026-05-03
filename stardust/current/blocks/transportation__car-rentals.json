@@ -1,0 +1,314 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:52.857Z",
+    "url": "https://www.jfkairport.com/transportation/car-rentals",
+    "slug": "transportation__car-rentals",
+    "httpStatus": 200,
+    "totalMs": 3417,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": null,
+  "h1": "Car Rentals",
+  "lede": "The AirTrain connects passengers to terminals, airport parking lots, the hotel shuttle area, the rental car center, and public transportation.Learn about the JFK AirTrain",
+  "heroImage": null,
+  "blocks": [
+    {
+      "h2": "Car rentals are located at Federal Circle",
+      "h3s": [],
+      "paragraphs": [
+        "Our car rental partners are conveniently located at Federal Circle.",
+        "Federal Circle is accessible by the AirTrain from any terminal or from the Jamaica and Howard Beach AirTrain Stations. AirTrain rides between terminals and Federal Circle are free. The fare for trips originating or terminating at Jamaica and Howard Beach AirTrain stations is $8.75 per person. Children under five can ride AirTrain free of charge. You can also reach Federal Circle by hotel shuttle."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "AirTrain",
+          "href": "/transportation/airtrain"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Rental car companies at JFK",
+      "h3s": [
+        "Alamo",
+        "Avis",
+        "Budget",
+        "Dollar",
+        "Enterprise",
+        "Hertz",
+        "National",
+        "Payless",
+        "Sixt",
+        "Thrifty"
+      ],
+      "paragraphs": [
+        "+1 (844) 648-1611",
+        "+1 (718) 244-5400",
+        "+1 (718)-656-1890+1 (800)-527-0700",
+        "+1 (866) 434-2226",
+        "+1 (844) 648–1609",
+        "+1 (718) 656-7600+1 (800) 654-3131",
+        "+1 (844) 648-1610",
+        "+1 (718) 244-8277",
+        "+1 (888) 749-8227",
+        "+1 (877) 283-0898"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "+1 (844) 648-1611",
+          "href": "tel:18446481611"
+        },
+        {
+          "text": "Reserve now",
+          "href": "https://www.alamo.com/en_US/car-rental/home.html"
+        },
+        {
+          "text": "+1 (718) 244-5400",
+          "href": "tel:17182445400"
+        },
+        {
+          "text": "Reserve now",
+          "href": "https://www.avis.com/en/locations/us/ny/jamaica/jfk"
+        },
+        {
+          "text": "+1 (718)-656-1890",
+          "href": "tel:17186561890"
+        },
+        {
+          "text": "+1 (800)-527-0700",
+          "href": "tel:18005270700"
+        },
+        {
+          "text": "Reserve now",
+          "href": "https://www.budget.com/en/locations/us/ny/jamaica/jfk"
+        },
+        {
+          "text": "+1 (866) 434-2226",
+          "href": "tel:18664342226"
+        },
+        {
+          "text": "Reserve now",
+          "href": "http://www.dollar.com/"
+        },
+        {
+          "text": "+1 (844) 648–1609",
+          "href": "tel:18446481609"
+        },
+        {
+          "text": "Reserve now",
+          "href": "http://www.enterprise.com/car_rental/home.do"
+        },
+        {
+          "text": "+1 (718) 656-7600",
+          "href": "tel:17186567600"
+        },
+        {
+          "text": "+1 (800) 654-3131",
+          "href": "tel:18006543131"
+        },
+        {
+          "text": "Reserve now",
+          "href": "http://www.hertz.com/rentacar/reservation/gaq/index.jsp?bsc=t&targetPage=reservationOnHomepage.jsp"
+        },
+        {
+          "text": "+1 (844) 648-1610",
+          "href": "tel:18446481610"
+        },
+        {
+          "text": "Reserve now",
+          "href": "http://www.nationalcar.com/"
+        },
+        {
+          "text": "+1 (718) 244-8277",
+          "href": "tel:17182448277"
+        },
+        {
+          "text": "Reserve now",
+          "href": "https://www.paylesscar.com/en/locations/us/ny/jamaica/jfk"
+        },
+        {
+          "text": "+1 (888) 749-8227",
+          "href": "tel:18887498227"
+        },
+        {
+          "text": "Reserve now",
+          "href": "https://www.sixt.com/car-rental/usa/new-york-city/new-york-jfk-int-airport/#/"
+        },
+        {
+          "text": "+1 (877) 283-0898",
+          "href": "tel:18772830898"
+        },
+        {
+          "text": "Reserve now",
+          "href": "http://www.thrifty.com/"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Your rental experience from start to finish",
+      "h3s": [
+        "Picking up your rental car",
+        "Returning your rental car",
+        "Paying for tolls when using a rental car"
+      ],
+      "paragraphs": [
+        "You can reserve a rental car from one of the available rental car companies in advance online or check out what is available once you arrive. To pick up your rental, take AirTrain to the car rental center at the Federal Circle Station opens in a new tab.",
+        "When you're ready to return your rental car, enter “Federal Circle Station opens in a new tab” in your GPS for directions to the car rental center. Remember to refuel your car before returning it. There are gas stations conveniently located within two miles of the airport and at the \"JFK Airport Travel Plaza opens in a new tab\" for your refueling needs.",
+        "After you drop off your rental, take the AirTrain to reach your designated terminal to catch your flight.",
+        "New York State tolls have switched to cashless tolling, which means you will be billed electronically. Be sure to check with your rental car agency to learn about their toll payment policy. Some companies provide E-ZPass® transponder tags. If they provide you with a transponder, make sure you understand how it works, including any fees and charges. The rental company may also charge an administrative fee for using a toll road.",
+        "If your rental car company does not provide a transponder, or if you do not want to use a rental car company tag, you have two options:",
+        "If you decide to use your own transponder, do not add the rental car license plate to your account."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Federal Circle Station opens in a new tab",
+          "href": "https://maps.app.goo.gl/iKEi4fNBE7yb4y7C7"
+        },
+        {
+          "text": "JFK Airport Travel Plaza opens in a new tab",
+          "href": "https://maps.app.goo.gl/krDS4ZSCfMtXCebB9"
+        }
+      ],
+      "tables": [],
+      "subPattern": "service-grid",
+      "subData": [
+        {
+          "title": "Picking up your rental car",
+          "text": "You can reserve a rental car from one of the available rental car companies in advance online or check out what is available once you arrive. To pick up your rental, take AirTrain to the car rental center at the Federal Circle Station opens in a new tab.",
+          "href": "https://maps.app.goo.gl/iKEi4fNBE7yb4y7C7"
+        },
+        {
+          "title": "Returning your rental car",
+          "text": "When you're ready to return your rental car, enter “Federal Circle Station opens in a new tab” in your GPS for directions to the car rental center. Remember to refuel your car before returning it. There are gas stations conveniently located within two miles of the airport and at the \"JFK Airport Travel Plaza opens in a new tab\" for your refueling needs.",
+          "href": "https://maps.app.goo.gl/krDS4ZSCfMtXCebB9"
+        },
+        {
+          "title": "Paying for tolls when using a rental car",
+          "text": "After you drop off your rental, take the AirTrain to reach your designated terminal to catch your flight.",
+          "href": null
+        }
+      ]
+    },
+    {
+      "h2": "Accessible rental cars",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-2_4_TransportationandParkingCard:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1392,
+          "h": 1043
+        }
+      ],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Navigate JFK with the AirTrain",
+      "h3s": [],
+      "paragraphs": [
+        "The AirTrain connects passengers to terminals, airport parking lots, the hotel shuttle area, the rental car center, and public transportation."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Learn about the JFK AirTrain",
+          "href": "/transportation/airtrain"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "FAQs",
+      "h3s": [],
+      "paragraphs": [
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "Where can I pick up my rental car at JFK?"
+        },
+        {
+          "text": "How do I return my rental car at JFK Airport?"
+        },
+        {
+          "text": "How do tolls work with rental cars in New York?"
+        }
+      ],
+      "links": [
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

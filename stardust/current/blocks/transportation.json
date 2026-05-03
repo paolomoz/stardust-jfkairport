@@ -1,0 +1,279 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:08.166Z",
+    "url": "https://www.jfkairport.com/transportation",
+    "slug": "transportation",
+    "httpStatus": 200,
+    "totalMs": 3982,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": {
+    "text": "warningConstruction at JFK is causing delays for all drop-off options, including taxis, ride apps, and private cars. Traffic is slow. Use public transportation if possible. If driving, book parking early. You have a two-hour early entry allowance when you reserve your parking.Learn more",
+    "ctas": [
+      {
+        "text": "public transportation",
+        "href": "/transportation/public-transport"
+      },
+      {
+        "text": "book parking early",
+        "href": "/transportation/airport-parking"
+      },
+      {
+        "text": "Learn more",
+        "href": "/alerts-advisories"
+      }
+    ]
+  },
+  "h1": "Transportation Options",
+  "lede": "The AirTrain connects passengers to terminals, airport parking lots, the hotel shuttle area, the rental car center, and public transportation.Learn about the JFK AirTrain",
+  "heroImage": null,
+  "blocks": [
+    {
+      "h2": "Do Not Accept Rides from Unsolicited Drivers",
+      "h3s": [
+        "Public transportation",
+        "Taxis",
+        "Ride-sharing apps",
+        "Rental cars",
+        "Shuttle services",
+        "Drop-off and pick-up areas"
+      ],
+      "paragraphs": [
+        "Get to and from JFK Airport easily with the AirTrain, subway connections, and Long Island Railroad (LIRR).",
+        "Licensed taxis are available outside each terminal at JFK. Flat-rate fares to Manhattan and other destinations are regulated for your convenience.",
+        "Use apps like Uber and Lyft to get a ride to or from JFK. Follow signs to Ride App Pick-Up areas.",
+        "Most rental car companies are located at Federal Circle, accessible via the AirTrain. Some operate from off-airport locations, but their shuttles also pick up at Federal Circle.",
+        "Use one of our authorized shuttle, van or private car services to get to and from JFK.",
+        "Use our designated areas for quick passenger drop-off, pick-up, or waiting in your vehicle. Options include curbside unloading, the pick-up and drop-off lot, and the cell phone lot for short stays."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Learn more about public transportation options",
+          "href": "/transportation/public-transport"
+        },
+        {
+          "text": "Find taxi rates, locations, and rider tips",
+          "href": "/transportation/taxi-service"
+        },
+        {
+          "text": "Learn where to meet your ride",
+          "href": "/transportation/ride-share-services"
+        },
+        {
+          "text": "Learn more about car rental locations and contact details",
+          "href": "/transportation/car-rentals"
+        },
+        {
+          "text": "Explore shuttle, van, and car service options",
+          "href": "/transportation/van-shuttle-service"
+        },
+        {
+          "text": "Learn more about drop-off and pick-up areas",
+          "href": "/transportation/pick-up-drop-off"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Book your parking",
+      "h3s": [
+        "Current availability",
+        "Additional lots"
+      ],
+      "paragraphs": [
+        "Long-Term",
+        "47% Full",
+        "Terminal 8 (Red)",
+        "56% Full",
+        "Terminal 5 (Yellow)",
+        "66% Full",
+        "Terminal 4 (Blue)",
+        "79% Full",
+        "Terminal Parking lots are located at terminals and connected by the AirTrain system.",
+        "Federal Circle Station",
+        "Reservation only",
+        "Terminal 1 (Green)",
+        "Closed (Use Terminal 8 Red Lot)",
+        "Terminal 7 (Orange)"
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-0_2_drivingdirectionspromo:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1200,
+          "h": 600
+        }
+      ],
+      "ctas": [
+        {
+          "text": "Book your parking"
+        },
+        {
+          "text": "Lot locations"
+        }
+      ],
+      "links": [
+        {
+          "text": "Parking rates and info",
+          "href": "/transportation/airport-parking"
+        },
+        {
+          "text": "Parking FAQs",
+          "href": "/frequently-asked-questions"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Find your way to and from the airport",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-2_4_TransportationandParkingCard:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1392,
+          "h": 1043
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Making your way to JFK",
+          "href": "https://www.google.com/maps/dir/John+F.+Kennedy+International+Airport,+Queens,+NY+11430/@40.6677759,-73.994756,15z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x89c26650d5404947:0xec4fb213489f11f0!2m2!1d-73.7797278!2d40.6446124!3e0?entry=ttu&g_ep=EgoyMDI2MDIwMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        {
+          "text": "Leaving JFK",
+          "href": "https://www.google.com/maps/dir/John+F.+Kennedy+International+Airport+(JFK),+Queens,+NY+11430/@40.6437101,-73.8227903,14z/data=!3m1!4b1!4m9!4m8!1m5!1m1!1s0x89c26650d5404947:0xec4fb213489f11f0!2m2!1d-73.7797278!2d40.6446124!1m0!3e0?entry=ttu&g_ep=EgoyMDI1MTEwNC4xIKXMDSoASAFQAw%3D%3D"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Navigate JFK with the AirTrain",
+      "h3s": [],
+      "paragraphs": [
+        "The AirTrain connects passengers to terminals, airport parking lots, the hotel shuttle area, the rental car center, and public transportation."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Learn about the JFK AirTrain",
+          "href": "/transportation/airtrain"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Do you have a connecting flight?",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/0-1_2_general:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1440
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Check out our connections guide",
+          "href": "/flights/connections-guide"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Other ways to reach JFK",
+      "h3s": [
+        "Bicycle parking",
+        "Blade helicopter service"
+      ],
+      "paragraphs": [
+        "Designated bicycle parking areas are available at JFK for travelers arriving by bike. Locations vary by terminal.",
+        "Fly between JFK and Manhattan in minutes with Blade’s helicopter transfers, available from the airport’s dedicated helipad.",
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Access bicycle parking info and terminal locations",
+          "href": "https://www.panynj.gov/port-authority/en/help-center/information-for-bicyclists.html"
+        },
+        {
+          "text": "Learn about Blade’s routes, booking, and service",
+          "href": "https://www.blade.com"
+        },
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

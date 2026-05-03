@@ -1,0 +1,902 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-03T13:12:00.550Z",
+    "url": "https://www.jfkairport.com/transportation/ride-share-services",
+    "slug": "transportation__ride-share-services",
+    "startedAt": "2026-05-03T13:11:56.023Z",
+    "waitMode": "medium",
+    "httpStatus": 200,
+    "contentType": "text/html; charset=utf-8",
+    "waitMs": 836,
+    "endedAt": "2026-05-03T13:12:00.550Z",
+    "totalMs": 4323,
+    "stardustVersion": "0.3.0"
+  },
+  "url": "https://www.jfkairport.com/transportation/ride-share-services",
+  "meta": {
+    "title": "Ride Share Information - JFK Airport",
+    "description": "Use rideshare apps like Uber and Lyft at JFK. Find pick-up zones and wait times for a quick trip.",
+    "themeColor": "",
+    "lang": "en-us"
+  },
+  "ogTags": {
+    "og:title": "Ride Share Information - JFK Airport",
+    "og:description": "Use rideshare apps like Uber and Lyft at JFK. Find pick-up zones and wait times for a quick trip.",
+    "og:type": "website",
+    "og:url": "https://www.jfkairport.com/transportation/ride-share-services",
+    "og:image": "https://s7d9.scene7.com/is/image/panynjaviation/jfk_ogimage:card-wide-16x9",
+    "og:image:alt": "John F. Kennedy International Airport logo"
+  },
+  "headings": [
+    {
+      "level": 1,
+      "text": "Uber, Lyft and Other Ride Share Apps"
+    },
+    {
+      "level": 2,
+      "text": "Getting to and from JFK Airport via ride apps"
+    },
+    {
+      "level": 2,
+      "text": "Ride app pick-up and drop-off locations"
+    },
+    {
+      "level": 3,
+      "text": "Ride app costs to and from JFK"
+    },
+    {
+      "level": 3,
+      "text": "Accessible rideshares"
+    },
+    {
+      "level": 3,
+      "text": "Uber Shuttle"
+    },
+    {
+      "level": 2,
+      "text": "Navigate JFK with the AirTrain"
+    },
+    {
+      "level": 2,
+      "text": "FAQs"
+    }
+  ],
+  "landmarks": [
+    {
+      "role": "main",
+      "label": "",
+      "headingPreview": "Uber, Lyft and Other Ride Share Apps"
+    },
+    {
+      "role": "header",
+      "label": "",
+      "headingPreview": ""
+    },
+    {
+      "role": "nav",
+      "label": "main",
+      "headingPreview": ""
+    },
+    {
+      "role": "footer",
+      "label": "",
+      "headingPreview": ""
+    }
+  ],
+  "sections": [
+    {
+      "index": 0,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack AdvisoryNotification_messageText__pr4ei css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Ride app pick-up locations for Terminal 5 and 7 have temporarily relocated to the Howard Beach AirTrain Station due to construction at JFK. Find Terminal 5 and Terminal 7 Information.",
+      "rect": {
+        "x": 153,
+        "y": 357,
+        "w": 1182,
+        "h": 48
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(1, 118, 163)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "20px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "Find Terminal 5 and Terminal 7 Information",
+          "href": "/alerts-advisories/t5-t7-ride-app-relocations"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack RichTextEditorWrapper_container__7b_DK css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Before you drive off, make sure you won't get ripped offIf you accept a ride from a fraudulent driver you will get ripped off and scammed. Go to the official pick up areas for authorized vehicles such as yellow cabs, Ubers or Lyfts.",
+      "rect": {
+        "x": 297.3,
+        "y": 506,
+        "w": 845.3,
+        "h": 92
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 2,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack RichTextEditorWrapper_container__7b_DK css-sekf8j",
+      "ariaLabel": "",
+      "heading": "Getting to and from JFK Airport via ride apps",
+      "textPreview": "Getting to and from JFK Airport via ride appsUber and Lyft are popular ride share apps available to get to and from JFK for your convenience. Follow the signs after baggage claim to find pickup areas prior to requesting a ride. To book a ride, download one of the apps and follow ",
+      "rect": {
+        "x": 297.3,
+        "y": 678,
+        "w": 845.3,
+        "h": 284
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 3,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack RichTextEditorWrapper_container__7b_DK css-sekf8j",
+      "ariaLabel": "",
+      "heading": "Ride app pick-up and drop-off locations",
+      "textPreview": "Ride app pick-up and drop-off locationsPassengers can generally be picked up and dropped off in front of their terminals, but this may vary depending on the time of day and terminal. Check your app for the latest details on pick-up and drop-off locations.",
+      "rect": {
+        "x": 297.3,
+        "y": 986,
+        "w": 845.3,
+        "h": 140
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 4,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Costs to and from the airport vary depending on your location, as well as the time of day. Check your app for exact pricing details.",
+      "rect": {
+        "x": 297.3,
+        "y": 1302,
+        "w": 255.1,
+        "h": 144
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 5,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Uber and Lyft provide accessible vehicle options, including wheelchair ramps and extra space, available for pickup in front of the terminal. Check your app for details. For assistance from your gate to your ride, contact your airline prior to your flight to arrange wheelchair ser",
+      "rect": {
+        "x": 584.4,
+        "y": 1270,
+        "w": 255.1,
+        "h": 308
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 6,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Uber Shuttle is a shared shuttle service offered as a cheaper alternative and makes traveling between NYC and JFK Airport easy. There are two routes servicing JFK between Port Authority (42nd St) and Greenwich Village, and you can reserve up to five seats in advance right in the ",
+      "rect": {
+        "x": 871.5,
+        "y": 1270,
+        "w": 255.1,
+        "h": 308
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 7,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack TitleLockup_description__77Ju9 css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "The AirTrain connects passengers to terminals, airport parking lots, the hotel shuttle area, the rental car center, and public transportation.",
+      "rect": {
+        "x": 80,
+        "y": 1938.3,
+        "w": 620,
+        "h": 88
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(51, 65, 85)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "16px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    }
+  ],
+  "ctas": [
+    {
+      "tag": "a",
+      "text": "Skip to Content",
+      "href": "/transportation/ride-share-services#main-content",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Flights",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Transportation & Parking",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Explore JFK",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Dine, Shop, Relax",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Learn more about wheelchair services",
+      "href": "/explore-jfk/accessibility-services/mobility-accessibility",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Learn more about Uber Shuttle routes",
+      "href": "https://www.uber.com/global/en/r/airports/jfk/shuttle/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Learn about the JFK AirTrain",
+      "href": "/transportation/airtrain",
+      "backgroundColor": "rgb(0, 69, 255)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "4px",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "20px"
+    },
+    {
+      "tag": "button",
+      "text": "How much does a ride app trip to or from JFK cost?",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(1, 21, 101)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px 0px"
+    },
+    {
+      "tag": "button",
+      "text": "Are accessible ride app options available at JFK?",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(1, 21, 101)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px 0px"
+    },
+    {
+      "tag": "button",
+      "text": "How can I stay safe using ride apps at JFK?",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(1, 21, 101)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px 0px"
+    },
+    {
+      "tag": "a",
+      "text": "Accessibility",
+      "href": "/explore-jfk/accessibility-services",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Air Cargo",
+      "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Alerts and Advisories",
+      "href": "/alerts-advisories",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Contact Us",
+      "href": "/contact-us",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "FAQ",
+      "href": "/frequently-asked-questions",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Feedback",
+      "href": "/feedback",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "PANYNJ Airports Information",
+      "href": "https://www.panynj.gov/airports/en/index.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "JFK Redevelopment",
+      "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Lost and Found",
+      "href": "/lost-and-found",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Press",
+      "href": "https://www.panynj.gov/port-authority/en/press-room.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Website Disclaimer",
+      "href": "/website-disclaimer",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Privacy Statement",
+      "href": "/privacy",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "text": "Skip to Content",
+        "href": "https://www.jfkairport.com/transportation/ride-share-services#main-content"
+      },
+      {
+        "text": "",
+        "href": "https://www.jfkairport.com/"
+      },
+      {
+        "text": "",
+        "href": "https://www.jfkairport.com/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Find Terminal 5 and Terminal 7 Information",
+        "href": "https://www.jfkairport.com/alerts-advisories/t5-t7-ride-app-relocations"
+      },
+      {
+        "text": "Learn more about wheelchair services",
+        "href": "https://www.jfkairport.com/explore-jfk/accessibility-services/mobility-accessibility"
+      },
+      {
+        "text": "Learn about the JFK AirTrain",
+        "href": "https://www.jfkairport.com/transportation/airtrain"
+      },
+      {
+        "text": "Accessibility",
+        "href": "https://www.jfkairport.com/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Alerts and Advisories",
+        "href": "https://www.jfkairport.com/alerts-advisories"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.jfkairport.com/contact-us"
+      },
+      {
+        "text": "FAQ",
+        "href": "https://www.jfkairport.com/frequently-asked-questions"
+      },
+      {
+        "text": "Feedback",
+        "href": "https://www.jfkairport.com/feedback"
+      },
+      {
+        "text": "Lost and Found",
+        "href": "https://www.jfkairport.com/lost-and-found"
+      },
+      {
+        "text": "Website Disclaimer",
+        "href": "https://www.jfkairport.com/website-disclaimer"
+      },
+      {
+        "text": "Privacy Statement",
+        "href": "https://www.jfkairport.com/privacy"
+      }
+    ],
+    "external": [
+      {
+        "text": "Learn more about Uber Shuttle routes",
+        "href": "https://www.uber.com/global/en/r/airports/jfk/shuttle/"
+      },
+      {
+        "text": "",
+        "href": "http://www.panynj.gov/"
+      },
+      {
+        "text": "Air Cargo",
+        "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+      },
+      {
+        "text": "PANYNJ Airports Information",
+        "href": "https://www.panynj.gov/airports/en/index.html"
+      },
+      {
+        "text": "JFK Redevelopment",
+        "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+      },
+      {
+        "text": "Press",
+        "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+      },
+      {
+        "text": "",
+        "href": "http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/"
+      },
+      {
+        "text": "",
+        "href": "http://www.twitter.com/JFKairport"
+      },
+      {
+        "text": "",
+        "href": "https://www.panynj.gov/WhatsApp_JFK"
+      }
+    ],
+    "counts": {
+      "internal": 14,
+      "external": 9
+    }
+  },
+  "tokens": {
+    "colors": {
+      "rgb(9, 9, 11)": 108,
+      "rgb(0, 69, 255)": 30,
+      "rgb(255, 255, 255)": 33,
+      "rgb(1, 118, 163)": 11,
+      "rgb(51, 65, 85)": 19,
+      "rgb(1, 21, 101)": 11
+    },
+    "backgrounds": {
+      "rgb(255, 255, 255)": 6,
+      "rgb(240, 250, 255)": 1,
+      "rgb(0, 69, 255)": 1,
+      "rgb(1, 21, 101)": 1
+    },
+    "fonts": {
+      "Helvetica Now for PANYNJ": 207,
+      "Sharp Grotesk Semibold": 5
+    },
+    "sizes": {
+      "16px": 120,
+      "20px": 68,
+      "24px": 5,
+      "72px": 1,
+      "32px": 5,
+      "40px": 3,
+      "52px": 1,
+      "14px": 9
+    },
+    "radii": {
+      "2px": 21,
+      "4px": 13
+    },
+    "shadows": {}
+  },
+  "headingStyles": {
+    "h1": {
+      "fontFamily": "Sharp Grotesk Semibold",
+      "fontSize": "72px",
+      "fontWeight": "400",
+      "lineHeight": "80px",
+      "textTransform": "none",
+      "letterSpacing": "-2px"
+    },
+    "h2": {
+      "fontFamily": "Sharp Grotesk Semibold",
+      "fontSize": "40px",
+      "fontWeight": "400",
+      "lineHeight": "52px",
+      "textTransform": "none",
+      "letterSpacing": "-0.5px"
+    },
+    "h3": {
+      "fontFamily": "Helvetica Now for PANYNJ",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "lineHeight": "32px",
+      "textTransform": "none",
+      "letterSpacing": "normal"
+    }
+  },
+  "bodyStyles": {
+    "fontFamily": "Helvetica Now for PANYNJ",
+    "fontSize": "20px",
+    "lineHeight": "24px",
+    "color": "rgb(1, 118, 163)"
+  },
+  "media": {
+    "images": [
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airports/jfk/JFK.svg",
+        "srcset": "",
+        "alt": "John F. Kennedy International Airport",
+        "loading": "eager",
+        "intrinsicW": 300,
+        "intrinsicH": 61,
+        "renderedW": 205,
+        "renderedH": 42,
+        "localPath": "assets/media/JFK-cd579a20.svg"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-2_4_TransportationandParkingCard:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1392,
+        "intrinsicH": 1043,
+        "renderedW": 620,
+        "renderedH": 465,
+        "localPath": "assets/media/1-2_4_TransportationandParkingCard_photo-4x3-3b7addd3.bin"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/Port_Authority_NYNJ_logo.svg",
+        "srcset": "",
+        "alt": "Port Authority New York New Jersey Air Land Rail Sea",
+        "loading": "eager",
+        "intrinsicW": 252,
+        "intrinsicH": 121,
+        "renderedW": 164,
+        "renderedH": 79,
+        "localPath": "assets/media/Port_Authority_NYNJ_logo-40276be9.svg"
+      }
+    ],
+    "inlineSvgCount": 4,
+    "videos": [],
+    "iframes": []
+  },
+  "forms": [],
+  "logoCandidates": [
+    {
+      "type": "img",
+      "src": "https://www.jfkairport.com/images/shared/logos/airports/jfk/JFK.svg",
+      "outerHTMLPreview": "<img alt=\"John F. Kennedy International Airport\" class=\"Image_image__LITrj WideHeader_logo__nAh0x\" loading=\"eager\" data-testid=\"logo\" src=\"/images/shared/logos/airports/jfk/JFK.svg\">",
+      "localPath": "assets/media/JFK-cd579a20.svg"
+    },
+    {
+      "type": "og:image",
+      "src": "https://s7d9.scene7.com/is/image/panynjaviation/jfk_ogimage:card-wide-16x9",
+      "localPath": "assets/media/jfk_ogimage_card-wide-16x9-3041f9a7.bin"
+    },
+    {
+      "type": "favicon",
+      "src": "https://www.jfkairport.com/images/shared/favicon/jfk_favicon.ico",
+      "localPath": "assets/media/jfk_favicon-a7892a40.ico"
+    }
+  ],
+  "voice": {
+    "heroHeading": "Uber, Lyft and Other Ride Share Apps",
+    "heroParagraph": "Ride app pick-up locations for Terminal 5 and 7 have temporarily relocated to the Howard Beach AirTrain Station due to construction at JFK. Find Terminal 5 and Terminal 7 Information."
+  },
+  "systemBlocks": {
+    "headerHTML": "<header class=\"Header_header__Qb7xT css-0\" data-testid=\"header\"><a aria-label=\"Skip to Content\" tabindex=\"0\" class=\"chakra-link Header_skipToContent__n9lzS css-iw9gdm\" href=\"/transportation/ride-share-services#main-content\">Skip to Content</a><div class=\"Grid_grid__k5z8n WideHeader_wideHeader__WUcQz css-8yzm79\" data-testid=\"wide-header\"><a tabindex=\"0\" class=\"chakra-link WideHeader_logoContainer__OVb_m css-1mw5ttv\" href=\"/\"><img alt=\"John F. Kennedy International Airport\" class=\"Image_image__LITrj WideHeader_logo__nAh0x\" loading=\"eager\" data-testid=\"logo\" src=\"/images/shared/logos/airports/jfk/JFK.svg\"></a><nav class=\"chakra-stack WideHeader_navBar__V9qem css-1igwmid\" aria-label=\"main\"><div class=\"chakra-stack WideHeader_expandableNav__tw5MU css-1igwmid\"><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Flights\">Flights</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Transportation &amp; Parking\">Transportation &amp; Parking</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Explore JFK\">Explore JFK</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Dine, Shop, Relax\">Dine, Shop, Relax</button></div><a aria-label=\"Accessibility Services\" tabindex=\"0\" target=\"_self\" class=\"chakra-link WideHeader_accessibility__zCHWK css-1mw5ttv\" data-testid=\"accessibility-cta\" href=\"/explore-jfk/accessibility-services\"><span class=\"icon-accessible css-5lgiqp\" data-testid=\"icon\" tabindex=\"-1\" aria-hidden=\"true\"></span></a><button class=\"WideHeader_search__RDBrN css-0\" tabindex=\"0\" aria-expanded=\"false\" aria-label=\"Search\" data-testid=\"search\"><span class=\"icon-search css-5lgiqp\" data-testid=\"icon-search\" tabindex=\"-1\" aria-hidden=\"true\"></span></button></div></nav></div></header>",
+    "footerHTML": "<footer class=\"Footer_footerContainer__h6KnL css-0\" data-theme=\"aviation\"><div class=\"Grid_grid__k5z8n Footer_footer__nCxey css-8yzm79\"><a tabindex=\"0\" class=\"chakra-link Footer_logoContainer__YztlK css-1mw5ttv\" href=\"http://www.panynj.gov/\"><img alt=\"Port Authority New York New Jersey Air Land Rail Sea\" class=\"Image_image__LITrj Footer_logo__dJ82V\" loading=\"eager\" data-testid=\"default-image\" src=\"/images/shared/logos/Port_Authority_NYNJ_logo.svg\"></a><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"Accessibility\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/explore-jfk/accessibility-services\">Accessibility</a><a aria-label=\"Air Cargo opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/airports/en/air-cargo/jfk.html\">Air Cargo<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Alerts and Advisories\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/alerts-advisories\">Alerts and Advisories</a><a aria-label=\"Contact Us\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/contact-us\">Contact Us</a></div><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"FAQ\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/frequently-asked-questions\">FAQ</a><a aria-label=\"Feedback\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/feedback\">Feedback</a><a aria-label=\"General Airport Information opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/airports/en/index.html\">PANYNJ Airports Information<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"JFK Redevelopment opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html\">JFK Redevelopment<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"Lost and Found\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/lost-and-found\">Lost and Found</a><a aria-label=\"Press opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/port-authority/en/press-room.html\">Press<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><div class=\"chakra-stack Footer_socialLinks__xfpNq css-1igwmid\"><a aria-label=\"Connect with us on Facebook opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/\"><span class=\"icon-logo-facebook css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Connect with us on X (previously Twitter) opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"http://www.twitter.com/JFKairport\"><span class=\"icon-logo-x css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Connect with us on Whats App opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"https://www.panynj.gov/WhatsApp_JFK\"><span class=\"icon-logo-whatsapp css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><span role=\"separator\" aria-orientation=\"horizontal\" class=\"chakra-separator Footer_separator___6pPI css-wyc8fo\"></span><div class=\"Footer_address__l_LYP css-0\"><p>The Port Authority of New York and New Jersey<br>\n  4 World Trade Center, 150 Greenw",
+    "headerLinks": [
+      {
+        "text": "Skip to Content",
+        "href": "/transportation/ride-share-services#main-content"
+      },
+      {
+        "text": "",
+        "href": "/"
+      },
+      {
+        "text": "",
+        "href": "/explore-jfk/accessibility-services"
+      }
+    ],
+    "footerLinks": [
+      {
+        "text": "",
+        "href": "http://www.panynj.gov/"
+      },
+      {
+        "text": "Accessibility",
+        "href": "/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Air Cargo",
+        "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+      },
+      {
+        "text": "Alerts and Advisories",
+        "href": "/alerts-advisories"
+      },
+      {
+        "text": "Contact Us",
+        "href": "/contact-us"
+      },
+      {
+        "text": "FAQ",
+        "href": "/frequently-asked-questions"
+      },
+      {
+        "text": "Feedback",
+        "href": "/feedback"
+      },
+      {
+        "text": "PANYNJ Airports Information",
+        "href": "https://www.panynj.gov/airports/en/index.html"
+      },
+      {
+        "text": "JFK Redevelopment",
+        "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+      },
+      {
+        "text": "Lost and Found",
+        "href": "/lost-and-found"
+      },
+      {
+        "text": "Press",
+        "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+      },
+      {
+        "text": "",
+        "href": "http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/"
+      },
+      {
+        "text": "",
+        "href": "http://www.twitter.com/JFKairport"
+      },
+      {
+        "text": "",
+        "href": "https://www.panynj.gov/WhatsApp_JFK"
+      },
+      {
+        "text": "Website Disclaimer",
+        "href": "/website-disclaimer"
+      },
+      {
+        "text": "Privacy Statement",
+        "href": "/privacy"
+      }
+    ]
+  },
+  "_domCounts": {
+    "totalElements": 212,
+    "sampledElements": 212
+  },
+  "screenshot": "assets/screenshots/transportation__ride-share-services.png"
+}

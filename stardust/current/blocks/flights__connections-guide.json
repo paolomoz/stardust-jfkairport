@@ -1,0 +1,278 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:49.081Z",
+    "url": "https://www.jfkairport.com/flights/connections-guide",
+    "slug": "flights__connections-guide",
+    "httpStatus": 200,
+    "totalMs": 4445,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": null,
+  "h1": "Connections Guide",
+  "lede": "The AirTrain connects all passenger terminals at JFK Airport. If your connecting flight departs from a different terminal, use the AirTrain to get to your next terminal. The AirTrain is free for trips between terminals. Check whether your connecting flight departs from the same terminal you are arriving at. Many airlines codeshare connecting flights. Make sure you check the terminal of the operating carrier. For example, if you booked through Finnair but your flight is operated by American Airlines, you’ll need to go to the American Airlines terminal. If you need to change terminals, follow airport signs to the AirTrain and to your next terminal. Once you get to your departure terminal, you will need to go through TSA security screening again. If you are arriving on an international flight: Collect your checked bags at baggage claim, even if they are tagged to your final destination. Deposit your bags at the baggage recheck facility before heading to your next flight.",
+  "heroImage": null,
+  "blocks": [
+    {
+      "h2": "Connecting Flights at JFK",
+      "h3s": [],
+      "paragraphs": [
+        "JFK has multiple terminals, so you may arrive at one terminal and depart from another. Please budget additional travel time as you will need to go through the TSA screening process again. All terminals are connected by AirTrain, which you can take for free between terminals. Be sure to check your airline app or in-terminal monitors for your next gate.",
+        "Connecting at a different local airport? Review our traveling between airports guide."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Review our traveling between airports guide",
+          "href": "/flights/connections-guide/travel-between-airports"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Common types of JFK connections",
+      "h3s": [],
+      "paragraphs": [
+        "Plan your journey using our interactive map opens in a new tab. When you arrive at JFK, we encourage you to visit our departures guide, to view current security wait times and walk times to gates.",
+        "AirTrain is free for trips between terminals"
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-2_4_TransportationandParkingCard:square-1x1?wid=1200&hei=1200&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1200,
+          "h": 1200
+        }
+      ],
+      "ctas": [
+        {
+          "text": "Preclearance international arrival to domestic flight"
+        }
+      ],
+      "links": [
+        {
+          "text": "interactive map opens in a new tab",
+          "href": "https://maps.jfkairport.com/"
+        },
+        {
+          "text": "departures guide",
+          "href": "/flights/departures"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Get to your connecting flight on AirTrain",
+      "h3s": [],
+      "paragraphs": [
+        "The AirTrain connects all passenger terminals at JFK Airport. If your connecting flight departs from a different terminal, use the AirTrain to get to your next terminal. The AirTrain is free for trips between terminals.",
+        "If you are arriving on an international flight:"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Make sure you check the terminal",
+          "href": "/flights/airlines"
+        },
+        {
+          "text": "AirTrain",
+          "href": "/transportation/airtrain"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Traveling through Terminal 4",
+      "h3s": [],
+      "paragraphs": [
+        "Delta offers a free shuttle bus between concourses within Terminal 4 to minimize walking distances. You will not need to go through TSA security again.",
+        "Note that the shuttle is not necessarily a faster option than walking.",
+        "Bus stops are located at:",
+        "Terminal 4 shuttle routes (PDF) opens in a new tab"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Terminal 4 shuttle routes (PDF) opens in a new tab",
+          "href": "/images/jfk/flights/t4-shuttle-map.pdf"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Accessibility assistance at JFK",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/3-2-5_2_wheelchairservices:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1440
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Contact your airline",
+          "href": "/flights/airlines"
+        },
+        {
+          "text": "General accessibility services",
+          "href": "/explore-jfk/accessibility-services"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Make the most of your layover at JFK",
+      "h3s": [
+        "Grab a snack, pick up a gift, or take a break",
+        "Find carts, cash, and baggage help",
+        "Airport hotels make long layovers easier"
+      ],
+      "paragraphs": [
+        "Before you leave JFK, stop by for a quick bite, grab a last-minute gift, or relax at one of our lounges or shops.",
+        "After you arrive at JFK, you can find luggage carts, ATMs, porter services, and help with baggage issues. For lost or delayed bags, contact your airline first, then visit a baggage office if needed.",
+        "If you have a long connection time at JFK, book an airport hotel to get some rest and freshen up between flights."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/4-1-1_2_snacksanddrinkscard:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/3-4_2_baggageservices:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1919,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-4_3_airporthotelscard:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1919,
+          "h": 1080
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Browse dine, shop, and relax",
+          "href": "/dine-shop-relax"
+        },
+        {
+          "text": "Find JFK services & amenities",
+          "href": "/explore-jfk/services"
+        },
+        {
+          "text": "Where to stay near JFK",
+          "href": "/explore-jfk/hotels"
+        }
+      ],
+      "tables": [],
+      "subPattern": "service-grid",
+      "subData": [
+        {
+          "title": "Grab a snack, pick up a gift, or take a break",
+          "text": "Before you leave JFK, stop by for a quick bite, grab a last-minute gift, or relax at one of our lounges or shops.",
+          "href": "/dine-shop-relax"
+        },
+        {
+          "title": "Find carts, cash, and baggage help",
+          "text": "After you arrive at JFK, you can find luggage carts, ATMs, porter services, and help with baggage issues. For lost or delayed bags, contact your airline first, then visit a baggage office if needed.",
+          "href": "/explore-jfk/services"
+        },
+        {
+          "title": "Airport hotels make long layovers easier",
+          "text": "If you have a long connection time at JFK, book an airport hotel to get some rest and freshen up between flights.",
+          "href": "/explore-jfk/hotels"
+        }
+      ]
+    },
+    {
+      "h2": "FAQs",
+      "h3s": [],
+      "paragraphs": [
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "What happens if I booked separate tickets for my flights?"
+        },
+        {
+          "text": "How do I get around JFK Terminal 4?"
+        }
+      ],
+      "links": [
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

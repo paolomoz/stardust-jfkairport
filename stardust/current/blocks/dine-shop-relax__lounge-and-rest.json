@@ -1,0 +1,299 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:23.723Z",
+    "url": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest",
+    "slug": "dine-shop-relax__lounge-and-rest",
+    "httpStatus": 200,
+    "totalMs": 4316,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": null,
+  "h1": "Relaxation and Lounges",
+  "lede": "",
+  "heroImage": null,
+  "blocks": [
+    {
+      "h2": "Unwind before you fly",
+      "h3s": [],
+      "paragraphs": [
+        "Whether you are in the mood for a massage or a last-minute manicure, there is something for everyone. Browse through airport lounges, spas, relaxation areas and more.",
+        "Showing 1-12 of 38 results",
+        "Guests can enjoy comfortable seating, complimentary food and beverages, and thoughtfully designed areas for dining, working, or unwinding. Whether you're preparing for a long-haul journey or simply taking a moment to relax, the Aer Lingus Lounge offers a peaceful pre-departure experience inspired by the spirit of Ireland.",
+        "A quiet escape for eligible passengers. Enjoy a buffet featuring authentic Indian cuisine, a self-service bar, and a comfortable atmosphere to relax before your flight.",
+        "Relax at the recently renovated AirFrance Lounge while enjoying a view of the New York City skyline.",
+        "American Airlines Admirals Club offers food, drinks, Wi-Fi, and a kids room.",
+        "The American Express Centurion Lounge offers a premium experience for Platinum, Delta SkyMiles Reserve, and Centurion Card members. Featuring chef-curated dining, a full-service coffee bar, and a hidden speakeasy, it is the ideal destination to unwind before your flight.",
+        "Be Relax has all you need for you to relax before the journey - from massaging chairs to nail services.",
+        "JetBlue's new take on the airport lounge welcomes eligible travelers with 2 levels of thoughtfully designed spaces to play, work and lounge pre-flight. Features 2 bars, fresh food, and a relaxed vibe with nods to its NYC home. Complimentary access to TrueBlue Mosaic 4 members, JetBlue Premier Cardmembers, and JetBlue transatlantic customers traveling in Mint. (Lounge access not available with Blue Basic fares.)",
+        "Offering dining stations, a full bar, a coffee bar, and private shower suites.",
+        "A unique collaboration between Chase and Etihad Airways. Guests enjoy made-to-order dining, signature cocktails, and premium wellness amenities, including shower suites and prayer rooms in an intimate, upscale setting.",
+        "Terminal 8's most exclusive lounge allows you to relax in an elegant, modern atmosphere. Sip a drink at the circular champagne bar or enjoy a meal prepared with our partners at the James Beard Foundation.",
+        "Religious space for worship and prayer.",
+        "The Delta One Lounge is Delta Air Lines' flagship retreat, reserved exclusively for Delta One travelers. With features including a relaxing spa, a full-service brasserie, and extensive luxury amenities, the lounge provides top-tier service and a refined pre-flight experience."
+      ],
+      "images": [
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/381f4ebe-22dc-4c62-8b07-dfac8686712f",
+          "alt": "Aer Lingus Lounge",
+          "w": 800,
+          "h": 512
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/a918f49e-f30f-4cc6-9051-d3f87367165c",
+          "alt": "Air India Maharaja Lounge",
+          "w": 1053,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/0241-jfk-1-airfrancelounge.jpg",
+          "alt": "AirFrance Lounge",
+          "w": 750,
+          "h": 422
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/c393e19c-95f4-47c3-a252-b106c0809905",
+          "alt": "American Airlines Admirals Club Lounge",
+          "w": 643,
+          "h": 431
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/39199957-6729-4a8c-b714-04c757fb85e7",
+          "alt": "American Express Centurion Lounge",
+          "w": 1053,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/a073586c-bb85-40db-b355-cf3f9ab83d62",
+          "alt": "Be Relax",
+          "w": 1053,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/49b8ad68-258b-46ae-9fb7-d24499684395",
+          "alt": "BlueHouse",
+          "w": 1053,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/667884e5-af78-4424-afbd-d31f3c3c29b8",
+          "alt": "Capital One Lounge",
+          "w": 1053,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/60d62c7a-849c-483e-b3a1-44c6c71ac8f5",
+          "alt": "Chase Sapphire Lounge by The Club with Etihad Airways",
+          "w": 360,
+          "h": 340
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/e1fbb0cd-3aee-4c93-99b4-223491907509",
+          "alt": "Chelsea Lounge",
+          "w": 494,
+          "h": 330
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/1c1e8f35-4e13-4ec7-8fd6-86690a5997b6",
+          "alt": "Christ for the World Chapel",
+          "w": 1053,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/01182072-345d-41e6-90a1-a90d29fa60c2",
+          "alt": "Delta One Lounge",
+          "w": 1053,
+          "h": 591
+        }
+      ],
+      "ctas": [
+        {
+          "text": "Reset"
+        },
+        {
+          "text": "Load more"
+        }
+      ],
+      "links": [
+        {
+          "text": "Aer Lingus Lounge",
+          "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=4005122&name=Aer%20Lingus%20Lounge&structureName=Terminal%207&returnTo=/dine-shop-relax/lounge-and-rest"
+        },
+        {
+          "text": "Terminal 7 Gate 1",
+          "href": "http://maps.jfkairport.com?poiId=4005122"
+        },
+        {
+          "text": "Air India Maharaja Lounge",
+          "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=1325&name=Air%20India%20Maharaja%20Lounge&structureName=Terminal%204&returnTo=/dine-shop-relax/lounge-and-rest"
+        },
+        {
+          "text": "Terminal 4 Gate A5",
+          "href": "http://maps.jfkairport.com?poiId=1325"
+        },
+        {
+          "text": "AirFrance Lounge",
+          "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=241&name=AirFrance%20Lounge&structureName=Terminal%201&returnTo=/dine-shop-relax/lounge-and-rest"
+        },
+        {
+          "text": "Terminal 1 Gate 1",
+          "href": "http://maps.jfkairport.com?poiId=241"
+        },
+        {
+          "text": "American Airlines Admirals Club Lounge",
+          "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=4005806&name=American%20Airlines%20Admirals%20Club%20Lounge&structureName=Terminal%208&returnTo=/dine-shop-relax/lounge-and-rest"
+        },
+        {
+          "text": "Terminal 8",
+          "href": "http://maps.jfkairport.com?poiId=4005806"
+        },
+        {
+          "text": "American Express Centurion Lounge",
+          "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=4000795&name=American%20Express%20Centurion%20Lounge&structureName=Terminal%204&returnTo=/dine-shop-relax/lounge-and-rest"
+        },
+        {
+          "text": "Terminal 4",
+          "href": "http://maps.jfkairport.com?poiId=4000795"
+        },
+        {
+          "text": "Be Relax",
+          "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=4005878&name=Be%20Relax&structureName=Terminal%201&returnTo=/dine-shop-relax/lounge-and-rest"
+        },
+        {
+          "text": "Terminal 1",
+          "href": "http://maps.jfkairport.com?poiId=4005878"
+        },
+        {
+          "text": "BlueHouse",
+          "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=4005871&name=BlueHouse&structureName=Terminal%205&returnTo=/dine-shop-relax/lounge-and-rest"
+        },
+        {
+          "text": "Terminal 5 Gate 526",
+          "href": "http://maps.jfkairport.com?poiId=4005871"
+        },
+        {
+          "text": "Capital One Lounge",
+          "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=4005557&name=Capital%20One%20Lounge&structureName=Terminal%204&returnTo=/dine-shop-relax/lounge-and-rest"
+        },
+        {
+          "text": "Terminal 4 Retail Hall",
+          "href": "http://maps.jfkairport.com?poiId=4005557"
+        },
+        {
+          "text": "Chase Sapphire Lounge by The Club with Etihad Airways",
+          "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=1288&name=Chase%20Sapphire%20Lounge%20by%20The%20Club%20with%20Etihad%20Airways&structureName=Terminal%204&returnTo=/dine-shop-relax/lounge-and-rest"
+        },
+        {
+          "text": "Terminal 4",
+          "href": "http://maps.jfkairport.com?poiId=1288"
+        },
+        {
+          "text": "Chelsea Lounge",
+          "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=4004787&name=Chelsea%20Lounge&structureName=Terminal%208&returnTo=/dine-shop-relax/lounge-and-rest"
+        },
+        {
+          "text": "Terminal 8",
+          "href": "http://maps.jfkairport.com?poiId=4004787"
+        },
+        {
+          "text": "Christ for the World Chapel",
+          "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=3383&name=Christ%20for%20the%20World%20Chapel&structureName=Terminal%204&returnTo=/dine-shop-relax/lounge-and-rest"
+        },
+        {
+          "text": "Terminal 4 Check-In",
+          "href": "http://maps.jfkairport.com?poiId=3383"
+        },
+        {
+          "text": "Delta One Lounge",
+          "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=4005425&name=Delta%20One%20Lounge&structureName=Terminal%204&returnTo=/dine-shop-relax/lounge-and-rest"
+        },
+        {
+          "text": "Terminal 4",
+          "href": "http://maps.jfkairport.com?poiId=4005425"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "FAQs",
+      "h3s": [],
+      "paragraphs": [
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "Are lounges available at JFK?"
+        },
+        {
+          "text": "Are there spa services at JFK?"
+        },
+        {
+          "text": "Are there sleeping facilities at JFK Airport?"
+        },
+        {
+          "text": "Are there shower facilities at JFK Airport?"
+        },
+        {
+          "text": "Are there prayer or meditation rooms at JFK Airport?"
+        }
+      ],
+      "links": [
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

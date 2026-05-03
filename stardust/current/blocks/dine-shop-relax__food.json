@@ -1,0 +1,290 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:18.661Z",
+    "url": "https://www.jfkairport.com/dine-shop-relax/food",
+    "slug": "dine-shop-relax__food",
+    "httpStatus": 200,
+    "totalMs": 4448,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": null,
+  "h1": "Where To Eat",
+  "lede": "",
+  "heroImage": null,
+  "blocks": [
+    {
+      "h2": "Find something delicious",
+      "h3s": [],
+      "paragraphs": [
+        "From quick snacks to sit-down restaurants, you will find everything from pizza and sandwiches to international dishes and healthy options. Whether you want coffee, desserts, a nice cocktail, a glass of wine, or a full meal, JFK’s airport restaurants have something for everyone.",
+        "Showing 1-12 of 178 results",
+        "The Air Bar at Jamaica Station is a conveniently located, casual spot upstairs between the LIRR and AirTrain to JFK, known for quick drinks, TVs, sports, cocktails, beer, and sometimes karaoke.",
+        "An Italian specialty sandwich shop originally founded in 1986 in the heart of New York City's SoHo, now with locations across NYC. We offer over 40 different sandwiches that we make fresh daily from only the finest Italian ingredients.",
+        "Inspired by the feel of a classic New York apartment, Apt 7B is built for quick bites and busy days in the city. Offering fresh sandwiches, grab-and-go favorites, and everyday comfort food, it brings fast-paced NYC flavor with convenience to match",
+        "Arrivals Eatery features various eateries such as Dunkin', Camden Food Company, and other cafes for travelers after clearing customs, offering quick bites and drinks before exiting the airport.",
+        "This quick service restaurant offers travelers passing through the LGA Terminal C Food Hall pizza from renowned New York's very own Artichoke pizza.",
+        "This Brooklyn style Bakery and Cafe brings New York's Favorite Chocolate Mousse Cake to T5, along with its line of gourmet coffee and bakery items.",
+        "Enjoy classic New York-style bagels, flagels, Black & White cookies, deli items, coffee, and more, providing a taste of authentic NYC.",
+        "Restaurant & Bar concept serving American cuisine",
+        "Bento features grab & go sushi and donburi rice bowls.",
+        "Japanese-style grab-and-go sushi and fresh rolls, prepared daily and perfect for travelers who want a quick, clean, delicious meal before takeoff. Bento brings the craft of fresh and high-quality sushi from the counter to your tray.",
+        "This Brooklyn-based Black-owned juice bar provides healthy smoothies, shakes, nutritious foods, and fresh juices.",
+        "This duty free shop specializes in fragrances, skincare products, gourmet confections, wines and spirits."
+      ],
+      "images": [
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/39f771b9-da93-468e-91b6-4b8c3ca9e037",
+          "alt": "Air Bar",
+          "w": 800,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/f867569b-41b0-4227-b190-e58ac249e6d7",
+          "alt": "Alidoro",
+          "w": 1053,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/71e59a93-4b5b-41fa-a9d5-2d82667542c2",
+          "alt": "Apartment 7B Deli & Market",
+          "w": 800,
+          "h": 461
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/JFK_T1_ArrivalsEatery.jpg",
+          "alt": "Arrivals Eatery",
+          "w": 750,
+          "h": 422
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/e4d4f103-458d-4107-8900-fe312257515c",
+          "alt": "Artichoke Pizzeria",
+          "w": 750,
+          "h": 422
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/bda3b06f-ca2c-40c6-813e-7e494ff2d22b",
+          "alt": "Aunt Butchie's Bakery Café - CEGM",
+          "w": 750,
+          "h": 422
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/da7bff36-84db-4961-bb7f-84e5ded9f197",
+          "alt": "Bagel Boss",
+          "w": 1053,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/d4690950-4c19-4e4c-99cf-1ea78893ce7f",
+          "alt": "Beacon Bar & Kitchen",
+          "w": 1024,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/35a0893f-08a7-4441-a75c-7ba8b84ecd05.jpg",
+          "alt": "Bento Sushi",
+          "w": 750,
+          "h": 422
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/7d727dcf-4033-4da0-a2b8-927b0aa03b42",
+          "alt": "Bento Sushi",
+          "w": 1053,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/62976cc2-0607-4c95-9c89-007936dc0587",
+          "alt": "BKLYN Blend",
+          "w": 1024,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/80630f2f-42ef-4029-9fed-bef0c5db152b",
+          "alt": "BKLYN Shopping Duty Free",
+          "w": 1053,
+          "h": 591
+        }
+      ],
+      "ctas": [
+        {
+          "text": "Reset"
+        },
+        {
+          "text": "Load more"
+        }
+      ],
+      "links": [
+        {
+          "text": "Air Bar",
+          "href": "/dine-shop-relax/food/detail?poiId=4004714&name=Air%20Bar&structureName=Jamaica%20Station%20(AirTrain)&returnTo=/dine-shop-relax/food"
+        },
+        {
+          "text": "Jamaica Station (AirTrain)",
+          "href": "http://maps.jfkairport.com?poiId=4004714"
+        },
+        {
+          "text": "Alidoro",
+          "href": "/dine-shop-relax/food/detail?poiId=4005552&name=Alidoro&structureName=Terminal%208&returnTo=/dine-shop-relax/food"
+        },
+        {
+          "text": "Terminal 8 Gates 39 and 41",
+          "href": "http://maps.jfkairport.com?poiId=4005552"
+        },
+        {
+          "text": "Apartment 7B Deli & Market",
+          "href": "/dine-shop-relax/food/detail?poiId=4002464&name=Apartment%207B%20Deli%20%26%20Market&structureName=Terminal%207&returnTo=/dine-shop-relax/food"
+        },
+        {
+          "text": "Terminal 7 Gate 6",
+          "href": "http://maps.jfkairport.com?poiId=4002464"
+        },
+        {
+          "text": "Arrivals Eatery",
+          "href": "/dine-shop-relax/food/detail?poiId=1425&name=Arrivals%20Eatery&structureName=Terminal%201&returnTo=/dine-shop-relax/food"
+        },
+        {
+          "text": "Terminal 1 Arrivals",
+          "href": "http://maps.jfkairport.com?poiId=1425"
+        },
+        {
+          "text": "Artichoke Pizzeria",
+          "href": "/dine-shop-relax/food/detail?poiId=3211&name=Artichoke%20Pizzeria&structureName=Terminal%205&returnTo=/dine-shop-relax/food"
+        },
+        {
+          "text": "Terminal 5 Food Hall",
+          "href": "http://maps.jfkairport.com?poiId=3211"
+        },
+        {
+          "text": "Aunt Butchie's Bakery Café - CEGM",
+          "href": "/dine-shop-relax/food/detail?poiId=171&name=Aunt%20Butchie%27s%20Bakery%20Caf%C3%A9%20-%20CEGM&structureName=Terminal%205&returnTo=/dine-shop-relax/food"
+        },
+        {
+          "text": "Terminal 5 Gate 512",
+          "href": "http://maps.jfkairport.com?poiId=171"
+        },
+        {
+          "text": "Bagel Boss",
+          "href": "/dine-shop-relax/food/detail?poiId=4005800&name=Bagel%20Boss&structureName=Terminal%208&returnTo=/dine-shop-relax/food"
+        },
+        {
+          "text": "Terminal 8 Food Hall",
+          "href": "http://maps.jfkairport.com?poiId=4005800"
+        },
+        {
+          "text": "Beacon Bar & Kitchen",
+          "href": "/dine-shop-relax/food/detail?poiId=4005233&name=Beacon%20Bar%20%26%20Kitchen&structureName=Terminal%204&returnTo=/dine-shop-relax/food"
+        },
+        {
+          "text": "Terminal 4 Gate A11",
+          "href": "http://maps.jfkairport.com?poiId=4005233"
+        },
+        {
+          "text": "Bento Sushi",
+          "href": "/dine-shop-relax/food/detail?poiId=1154&name=Bento%20Sushi&structureName=Terminal%204&returnTo=/dine-shop-relax/food"
+        },
+        {
+          "text": "Terminal 4 Gate B25",
+          "href": "http://maps.jfkairport.com?poiId=1154"
+        },
+        {
+          "text": "Bento Sushi",
+          "href": "/dine-shop-relax/food/detail?poiId=4005321&name=Bento%20Sushi&structureName=Terminal%207&returnTo=/dine-shop-relax/food"
+        },
+        {
+          "text": "Terminal 7",
+          "href": "http://maps.jfkairport.com?poiId=4005321"
+        },
+        {
+          "text": "BKLYN Blend",
+          "href": "/dine-shop-relax/food/detail?poiId=4005797&name=BKLYN%20Blend&structureName=Terminal%208&returnTo=/dine-shop-relax/food"
+        },
+        {
+          "text": "Terminal 8 Gate 12",
+          "href": "http://maps.jfkairport.com?poiId=4005797"
+        },
+        {
+          "text": "BKLYN Shopping Duty Free",
+          "href": "/dine-shop-relax/food/detail?poiId=4005525&name=BKLYN%20Shopping%20Duty%20Free&structureName=Terminal%208&returnTo=/dine-shop-relax/food"
+        },
+        {
+          "text": "Terminal 8 Gate 42",
+          "href": "http://maps.jfkairport.com?poiId=4005525"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "FAQs",
+      "h3s": [],
+      "paragraphs": [
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "Where can I find quick meals at JFK?"
+        },
+        {
+          "text": "Are any restaurants at JFK Airport open 24 hours a day?"
+        }
+      ],
+      "links": [
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:39.056Z",
+    "url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-1/airlines-at-terminal-1",
+    "slug": "explore-jfk__terminals__terminal-1__airlines-at-terminal-1",
+    "httpStatus": 200,
+    "totalMs": 4093,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": null,
+  "h1": "Airlines at JFK Terminal 1",
+  "lede": "",
+  "heroImage": null,
+  "blocks": []
+}

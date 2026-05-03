@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>jfkairport.com — redesign direction analysis</title>
+<style>
+  @page { size: Letter; margin: 18mm 16mm 20mm 16mm; }
+  :root {
+    --ink: #09090B;
+    --slate-900: #0F172A;
+    --slate-700: #334155;
+    --slate-600: #475569;
+    --slate-400: #94A3B8;
+    --slate-300: #CBD5E1;
+    --slate-200: #E2E8F0;
+    --slate-100: #F1F5F9;
+    --panynj-blue: #0045FF;
+    --panynj-deep: #022DB7;
+    --panynj-navy: #011565;
+    --advisory-yellow: #FFCD00;
+    --advisory-tint: #FFFBEA;
+    --success-green: #1B7A2F;
+    --ice-blue: #EFF9FF;
+    --mint-tint: #F1FCF2;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #fff; color: var(--ink);
+    font-family: "Helvetica Neue", Helvetica, "Inter", "Arial", sans-serif;
+    font-size: 10.5pt; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+  .display { font-family: "Sharp Grotesk", "Helvetica Neue Condensed Bold", "Inter", system-ui, sans-serif;
+    font-weight: 800; letter-spacing: -0.02em; }
+  .mono { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    background: var(--slate-100); padding: 1px 5px; border-radius: 2px; font-size: 0.9em; color: var(--panynj-navy); }
+
+  /* Cover page */
+  .cover { padding: 18mm 14mm 0; min-height: 100vh; display: flex; flex-direction: column;
+    page-break-after: always; }
+  .cover .meta { display: flex; justify-content: space-between; align-items: flex-start;
+    border-bottom: 2px solid var(--panynj-blue); padding-bottom: 12pt; }
+  .cover .meta .left { font-size: 9pt; letter-spacing: 0.08em; text-transform: uppercase; color: var(--slate-600); }
+  .cover .meta .right { font-size: 9pt; color: var(--slate-600); text-align: right; }
+  .cover .title { margin-top: 36pt; }
+  .cover .title h1 { font-family: "Sharp Grotesk", "Helvetica Neue Condensed Bold", system-ui, sans-serif;
+    font-weight: 800; letter-spacing: -0.04em; font-size: 64pt; line-height: 0.92;
+    text-transform: uppercase; margin: 0; color: var(--ink); }
+  .cover .title .sub { font-size: 18pt; line-height: 1.25; margin-top: 18pt; max-width: 90%;
+    color: var(--slate-700); font-weight: 400; }
+  .cover .summary { margin-top: auto; padding-top: 24pt; border-top: 1px solid var(--slate-300);
+    display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; font-size: 10pt; color: var(--slate-700); }
+  .cover .summary h4 { font-size: 9pt; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--panynj-navy); margin: 0 0 6pt; font-weight: 700; }
+  .cover .summary p { margin: 0; }
+
+  /* Body */
+  .page { padding: 0; max-width: 100%; }
+  h1.section { font-family: "Sharp Grotesk", "Helvetica Neue Condensed Bold", system-ui, sans-serif;
+    font-weight: 800; letter-spacing: -0.025em; font-size: 26pt; line-height: 1.05;
+    margin: 28pt 0 4pt; color: var(--ink); }
+  h1.section .num { color: var(--panynj-blue); font-family: inherit; margin-right: 12pt; }
+  .section-lede { color: var(--slate-700); font-size: 11pt; line-height: 1.5; max-width: 92%; margin: 0 0 18pt; }
+  h2 { font-family: "Sharp Grotesk", "Helvetica Neue", sans-serif;
+    font-weight: 700; font-size: 14pt; line-height: 1.2; margin: 18pt 0 6pt; color: var(--ink); }
+  h3 { font-weight: 700; font-size: 11pt; line-height: 1.3; margin: 12pt 0 4pt; color: var(--ink); }
+  p { margin: 6pt 0; }
+  ul, ol { margin: 6pt 0; padding-left: 18pt; }
+  li { margin: 3pt 0; line-height: 1.5; }
+  strong { color: var(--ink); }
+  em { color: var(--slate-700); font-style: italic; }
+  .muted { color: var(--slate-600); }
+
+  /* Avoid page breaks inside cards / important blocks */
+  .keep, h1.section, h2, .tension, .direction, .peer-row { page-break-inside: avoid; }
+
+  /* Tension card */
+  .tensions { display: grid; grid-template-columns: 1fr 1fr; gap: 10pt; margin: 12pt 0; }
+  .tension { background: var(--advisory-tint); border-left: 3px solid var(--advisory-yellow);
+    padding: 10pt 12pt; border-radius: 2px; }
+  .tension .id { display: inline-block; background: var(--panynj-navy); color: #fff;
+    font-size: 7.5pt; font-weight: 700; padding: 2pt 6pt; border-radius: 2px;
+    letter-spacing: 0.04em; margin-bottom: 5pt; font-family: ui-monospace, monospace; }
+  .tension h4 { margin: 0 0 4pt; font-size: 11pt; color: var(--ink); font-weight: 700; }
+  .tension p { margin: 0; font-size: 9.5pt; line-height: 1.45; color: var(--slate-900); }
+
+  /* Peers table */
+  .peers { width: 100%; border-collapse: collapse; margin: 8pt 0; font-size: 10pt; }
+  .peers th { background: var(--ice-blue); color: var(--panynj-navy); font-weight: 700;
+    text-align: left; padding: 8pt 10pt; border-bottom: 2px solid var(--panynj-blue); font-size: 9.5pt;
+    letter-spacing: 0.02em; }
+  .peers td { padding: 8pt 10pt; border-bottom: 1px solid var(--slate-200); vertical-align: top; line-height: 1.45; }
+  .peers tr:last-child td { border-bottom: 0; }
+  .peers .airport { font-weight: 700; color: var(--ink); white-space: nowrap; }
+
+  /* Direction cards */
+  .direction { border: 1px solid var(--slate-300); border-radius: 3px; padding: 14pt 16pt;
+    margin: 10pt 0 14pt; background: #fff; }
+  .direction.recommended { border-color: var(--panynj-blue); border-width: 1px; box-shadow: inset 4px 0 0 var(--panynj-blue); padding-left: 18pt; }
+  .direction-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12pt; margin-bottom: 4pt; }
+  .direction-head .letter { font-family: "Sharp Grotesk", "Helvetica Neue Condensed Bold", system-ui, sans-serif;
+    font-weight: 800; font-size: 28pt; line-height: 1; color: var(--panynj-blue); margin-right: 8pt; }
+  .direction-head .name { font-family: "Sharp Grotesk", "Helvetica Neue", sans-serif;
+    font-weight: 700; font-size: 16pt; line-height: 1.15; color: var(--ink); flex: 1; }
+  .direction-head .badges { display: flex; gap: 4pt; flex-shrink: 0; }
+  .badge { display: inline-block; padding: 2pt 7pt; border-radius: 2px; font-size: 7.5pt;
+    font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; font-family: ui-monospace, monospace; }
+  .badge.risk-low { background: #DCF8E2; color: var(--success-green); }
+  .badge.risk-med { background: var(--advisory-yellow); color: var(--panynj-navy); }
+  .badge.risk-high { background: #FFE2E5; color: #B00020; }
+  .badge.recommended { background: var(--panynj-blue); color: #fff; }
+  .direction .tagline { font-style: italic; color: var(--slate-700); margin: 4pt 0 8pt;
+    font-size: 10.5pt; padding-left: 36pt; }
+  .direction .body { padding-left: 36pt; font-size: 10pt; line-height: 1.5; }
+  .direction .body p { margin: 4pt 0; }
+  .direction .meta { padding-left: 36pt; margin-top: 8pt; display: grid;
+    grid-template-columns: max-content 1fr; gap: 4pt 12pt; font-size: 9.5pt; }
+  .direction .meta dt { font-weight: 700; color: var(--panynj-navy); }
+  .direction .meta dd { margin: 0; color: var(--slate-700); }
+
+  /* Big numbers */
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10pt; margin: 12pt 0; }
+  .stat { background: var(--slate-100); border-radius: 3px; padding: 10pt 12pt; }
+  .stat .num { font-family: "Sharp Grotesk", "Helvetica Neue Condensed Bold", system-ui, sans-serif;
+    font-weight: 800; font-size: 28pt; line-height: 1; color: var(--panynj-blue); display: block; }
+  .stat .label { font-size: 9pt; color: var(--slate-700); margin-top: 4pt; line-height: 1.3; display: block; }
+
+  /* Read / recommendation */
+  .recommendation { background: var(--ice-blue); border: 1px solid var(--panynj-blue);
+    border-left-width: 4px; padding: 14pt 18pt; border-radius: 2px; margin: 14pt 0 18pt; }
+  .recommendation h2 { margin-top: 0; color: var(--panynj-navy); }
+  .recommendation p { margin: 6pt 0; font-size: 10.5pt; }
+
+  /* Questions */
+  .questions { background: var(--mint-tint); border-radius: 3px; padding: 14pt 18pt; margin: 12pt 0; }
+  .questions h2 { margin: 0 0 8pt; color: var(--panynj-navy); }
+  .questions ol { margin: 0; padding-left: 20pt; }
+  .questions li { margin: 6pt 0; font-size: 10.5pt; }
+
+  /* Footer */
+  .doc-footer { margin-top: 30pt; padding-top: 10pt; border-top: 1px solid var(--slate-300);
+    font-size: 8pt; color: var(--slate-600); display: flex; justify-content: space-between; }
+
+  /* Color swatch row used inline */
+  .palette-strip { display: flex; gap: 0; margin: 8pt 0 4pt; border: 1px solid var(--slate-300); border-radius: 2px; overflow: hidden; }
+  .palette-strip .sw { flex: 1; height: 28pt; display: flex; align-items: flex-end; justify-content: center;
+    padding: 4pt; font-size: 7pt; font-family: ui-monospace, monospace; color: rgba(255,255,255,0.95); text-shadow: 0 1px 1px rgba(0,0,0,0.3); }
+  .palette-strip .sw.dark { color: rgba(0,0,0,0.7); text-shadow: none; }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<section class="cover">
+  <div class="meta">
+    <div class="left">Stardust direction analysis · Internal</div>
+    <div class="right">2026-05-03 · Prepared for the JFK redesign team</div>
+  </div>
+  <div class="title">
+    <h1>Where do we<br>take JFK?</h1>
+    <div class="sub">A grounded read of <span class="mono">jfkairport.com</span> as it stands today, what peer airports do, and five directions worth weighing.</div>
+  </div>
+  <div class="summary">
+    <div>
+      <h4>What's inside</h4>
+      <p>An audit of the current site (palette, type, motifs, IA, tensions), a peer-airport landscape, and five strategic directions ranging from low-risk refresh to full premium-gateway repositioning — each with risk/cost trade-offs.</p>
+    </div>
+    <div>
+      <h4>Decision needed</h4>
+      <p>Which direction — A, B, B+C, D, or E — is the right one to brief into a target visual system. Two convergence questions on the final page.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 1: WHAT WE FOUND -->
+<section class="page">
+  <h1 class="section"><span class="num">01</span>What we found</h1>
+  <p class="section-lede">A 5-page crawl (home + four IA pillars: flights, transportation, explore-jfk, dine-shop-relax) parsed against the brand surface — palette frequency, type families, system components, voice samples, accessibility tensions.</p>
+
+  <div class="stats">
+    <div class="stat"><span class="num">11</span><span class="label">distinct colors in the captured palette</span></div>
+    <div class="stat"><span class="num">2</span><span class="label">custom-licensed type families (Sharp Grotesk + Helvetica Now)</span></div>
+    <div class="stat"><span class="num">320<span style="font-size: 14pt">px</span></span><span class="label">hero "JFK" wordmark — heroic-scale display</span></div>
+    <div class="stat"><span class="num">5</span><span class="label">distinct audiences sharing one home page</span></div>
+  </div>
+
+  <h2>Brand investment is real</h2>
+  <p>Two custom-licensed type families: <strong>Sharp Grotesk Semibold</strong> (Lucas Sharp / Sharp Type — the same family Adobe and several Pentagram clients use) for display, and <strong>Helvetica Now for PANYNJ</strong> (Monotype private cut) for body. A heroic 320px "JFK" wordmark above the fold. A single vivid primary, <code>#0045FF</code>, doing the brand work. This isn't a generic template skin — someone bought the right type and committed to a confident wordmark moment.</p>
+  <div class="palette-strip">
+    <div class="sw" style="background: #0045FF">#0045FF</div>
+    <div class="sw" style="background: #022DB7">#022DB7</div>
+    <div class="sw" style="background: #011565">#011565</div>
+    <div class="sw dark" style="background: #FFCD00">#FFCD00</div>
+    <div class="sw" style="background: #1B7A2F">#1B7A2F</div>
+    <div class="sw dark" style="background: #EFF9FF">#EFF9FF</div>
+    <div class="sw dark" style="background: #F1FCF2">#F1FCF2</div>
+    <div class="sw" style="background: #09090B">#09090B</div>
+    <div class="sw" style="background: #475569">#475569</div>
+  </div>
+
+  <h2>Execution under-cashes the investment</h2>
+  <p>The hero says "global brand"; everything below it reverts to a 2019-era municipal template — full-bleed photo → 52px h2 → 3-column icon-card grid → tinted alt section → repeat. The same skeleton on home, flights, transportation, explore-jfk, and dine-shop-relax. The site is recognisable as <em>a template</em>, not as <em>JFK</em>. The 320px hero gets the budget; everything beneath it gets the framework.</p>
+</section>
+
+<!-- SECTION 2: TENSIONS -->
+<section class="page">
+  <h1 class="section"><span class="num">02</span>Six load-bearing tensions</h1>
+  <p class="section-lede">Detected by rule-based scans against the per-page JSON and the consolidated brand-extraction. Each one is specific enough to brief a fix against.</p>
+
+  <div class="tensions">
+    <div class="tension">
+      <span class="id">T-color-imbalance</span>
+      <h4>One hue carries every affordance</h4>
+      <p><code>#0045FF</code> appears 211 times across the sample, used identically for plain link text, primary CTAs, active tabs, and headline accents. When one color does every job, hierarchy collapses — users can't tell "navigate" from "submit" at a glance.</p>
+    </div>
+    <div class="tension">
+      <span class="id">T-display-body-cliff</span>
+      <h4>Heroic display, conventional body</h4>
+      <p>The 320px Sharp Grotesk hero is exceptional. The very next viewport collapses to a generic 16/20px Helvetica Now grid that any 2019 municipal site could produce. The type investment is being under-cashed below the fold.</p>
+    </div>
+    <div class="tension">
+      <span class="id">T-template-silhouette</span>
+      <h4>Same composition on every IA pillar</h4>
+      <p>Full-bleed photo → "Welcome / Discover / Get / Find" h2 → 3-column icon-card grid → cross-promo → footer. Five pages, identical skeleton. Recognisable as municipal-modernism, not as JFK.</p>
+    </div>
+    <div class="tension">
+      <span class="id">T-audience-collision</span>
+      <h4>Five audiences, one undifferentiated home</h4>
+      <p>A panicked late traveller, a relaxed early arrival, a pickup driver during construction, a connecting passenger, and a dwell-time visitor share the same first viewport. Audience routing is implicit, not explicit.</p>
+    </div>
+    <div class="tension">
+      <span class="id">T-voice-distance</span>
+      <h4>No human warmth in a high-anxiety context</h4>
+      <p>Airports induce anxiety. The voice is uniformly procedural — "Welcome to John F. Kennedy International Airport," "Get your essentials and more at JFK." No NYC flavour, no acknowledgment of stress. Compare with Singapore Changi (theatrical) or Heathrow (concierge).</p>
+    </div>
+    <div class="tension">
+      <span class="id">T-perf-and-a11y</span>
+      <h4>Editorial images 12× oversampled, alt-text mostly empty</h4>
+      <p>Editorial card images are served at 1080×1440 intrinsic but rendered at 312×416 — ~12× oversampled by area. Nine of ten sampled hero/card images have empty <code>alt</code>. Real perf cost on mobile; meaningful accessibility gap.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 3: PEER LANDSCAPE -->
+<section class="page">
+  <h1 class="section"><span class="num">03</span>How peer airports solve this</h1>
+  <p class="section-lede">A landscape pass across the airports JFK gets compared to. Each one stakes a different posture — there's no "right" answer, but there are coherent answers and incoherent ones.</p>
+
+  <table class="peers">
+    <thead>
+      <tr><th style="width: 24%">Airport</th><th style="width: 24%">Posture</th><th>Move worth stealing</th></tr>
+    </thead>
+    <tbody>
+      <tr class="peer-row">
+        <td class="airport">Singapore Changi</td>
+        <td>Lifestyle / theatrical</td>
+        <td>Treats itself as a destination brand, not infrastructure. Editorial layouts, integrated retail and dining stories, distinctive identity that earns dwell time. Not "an airport site"; "the Changi experience."</td>
+      </tr>
+      <tr class="peer-row">
+        <td class="airport">Heathrow</td>
+        <td>Concierge / personalised</td>
+        <td>"Your journey" personalisation, calm premium tone, deep booking funnels for parking/lounges/security fast-track. Premium feel without being aspirational.</td>
+      </tr>
+      <tr class="peer-row">
+        <td class="airport">Schiphol</td>
+        <td>Calm utility</td>
+        <td>Information density without clutter. Multilingual-native. Reads as a Dutch design product rather than a corporate site. Closest visual cousin to where JFK currently lives, but better executed.</td>
+      </tr>
+      <tr class="peer-row">
+        <td class="airport">SFO</td>
+        <td>Playful civic</td>
+        <td>Warm voice, art program elevated to brand surface, distinctive identity. Civic but human — a rare combination JFK could plausibly land.</td>
+      </tr>
+      <tr class="peer-row">
+        <td class="airport">LAX (recent)</td>
+        <td>Wayfinding-led</td>
+        <td>Strong real-time integration, branded but functional. Coral accents introduce warmth without losing the operational tone.</td>
+      </tr>
+      <tr class="peer-row">
+        <td class="airport">DXB · AUH</td>
+        <td>Premium gateway</td>
+        <td>Cinematic video heroes, dark-mode editorial, marketing-grade lifestyle content. Off-strategy for a public agency, but a useful reference point for what "premium gateway" looks like.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Where JFK currently sits</h2>
+  <p>Closest to <strong>Schiphol minus the calm</strong> — same utility-led ambition, but cluttered with colliding audiences, a single-hue affordance system, and a template silhouette that doesn't match the type investment. The brand surface implies a more confident posture than the page composition delivers.</p>
+</section>
+
+<!-- SECTION 4: DIRECTIONS -->
+<section class="page">
+  <h1 class="section"><span class="num">04</span>Five directions worth weighing</h1>
+  <p class="section-lede">Each direction is internally coherent. They imply different trade-offs in cost, risk, and PANYNJ buy-in. Recommendation flagged on the right.</p>
+
+  <!-- Direction A -->
+  <div class="direction recommended">
+    <div class="direction-head">
+      <span class="letter">A</span>
+      <span class="name">Civic-confident refresh</span>
+      <span class="badges"><span class="badge risk-low">Risk low</span><span class="badge recommended">Recommended baseline</span></span>
+    </div>
+    <p class="tagline">"The brand was right, the execution wasn't."</p>
+    <div class="body">
+      <p>Keep Sharp Grotesk + Helvetica Now + the PANYNJ blue family. Fix the six tensions without rewriting the brand. Differentiate the affordance system (CTA fill ≠ link text ≠ active tab). Cash in the display family below the fold (editorial layouts on transportation and explore). Add explicit audience routing on the home page. Ship perf and alt-text fixes.</p>
+      <dl class="meta">
+        <dt>Peers</dt><dd>Schiphol, Heathrow (visual register)</dd>
+        <dt>Cost</dt><dd>Medium — composition rewrite per page, palette role-renaming, affordance hierarchy redesign.</dd>
+        <dt>Doesn't fix</dt><dd>Template silhouette feeling. Voice stays civic.</dd>
+      </dl>
+    </div>
+  </div>
+
+  <!-- Direction B -->
+  <div class="direction">
+    <div class="direction-head">
+      <span class="letter">B</span>
+      <span class="name">New York–flavoured gateway</span>
+      <span class="badges"><span class="badge risk-med">Risk medium</span></span>
+    </div>
+    <p class="tagline">"The airport <em>of</em> NYC, not just <em>in</em> NYC."</p>
+    <div class="body">
+      <p>Direction A plus: let New York editorial sensibility into the site. Editorial photography on neighborhoods, terminals, and people. Voice warms ("Welcome to New York" before "Welcome to JFK"). Type plays bigger (Sharp Grotesk gets more room, more contrast). Section sequence shifts toward "discover" alongside "function."</p>
+      <dl class="meta">
+        <dt>Peers</dt><dd>Changi (lifestyle-led), but NYC-tonal not Singapore-polished.</dd>
+        <dt>Cost</dt><dd>High — needs new editorial photography, new copywriting, more layout variety.</dd>
+        <dt>Doesn't fix</dt><dd>The panicked late traveller in viewport one. Could conflict with PANYNJ's "agency, not airline" reflex.</dd>
+      </dl>
+    </div>
+  </div>
+
+  <!-- Direction C -->
+  <div class="direction">
+    <div class="direction-head">
+      <span class="letter">C</span>
+      <span class="name">Anxiety-first, journey-staged</span>
+      <span class="badges"><span class="badge risk-med">Risk medium</span></span>
+    </div>
+    <p class="tagline">"The product is calm."</p>
+    <div class="body">
+      <p>Restructure around traveller journey stages — <em>Before you fly · While you're here · After you land</em>. First viewport is "what stage are you in?" routing, not a hero photo. Status, wait times, construction advisories, and pickup state become primary content; marketing content gets demoted. Personalisation hooks (your flight, your terminal). Layerable on top of A or B.</p>
+      <dl class="meta">
+        <dt>Peers</dt><dd>Heathrow's "My Journey," many transit-authority sites.</dd>
+        <dt>Cost</dt><dd>High — requires real-time data integration (security wait, pickup status, construction state).</dd>
+        <dt>Doesn't fix</dt><dd>The brand visually; could read as a "downgrade" to functional dashboard if used alone.</dd>
+      </dl>
+    </div>
+  </div>
+
+  <!-- Direction D -->
+  <div class="direction">
+    <div class="direction-head">
+      <span class="letter">D</span>
+      <span class="name">Construction-era honest</span>
+      <span class="badges"><span class="badge risk-med">Risk medium-high</span></span>
+    </div>
+    <p class="tagline">"The site that gets you through 2025–2028."</p>
+    <div class="body">
+      <p>JFK is mid-$19B redevelopment until ~2028 — that's three years of visible upheaval. Lean into it: the site openly acknowledges "we're under construction" as the dominant editorial lens. "What's open today / what's changed / where's pickup right now" becomes the first viewport. The yellow advisory band gets promoted from band to surface.</p>
+      <dl class="meta">
+        <dt>Peers</dt><dd>TfL during Crossrail; emergency-response government sites.</dd>
+        <dt>Cost</dt><dd>Medium.</dd>
+        <dt>Doesn't fix</dt><dd>Time-bound — wrong frame after 2028. Brand team may resist framing as "the construction site."</dd>
+      </dl>
+    </div>
+  </div>
+
+  <!-- Direction E -->
+  <div class="direction">
+    <div class="direction-head">
+      <span class="letter">E</span>
+      <span class="name">Premium gateway</span>
+      <span class="badges"><span class="badge risk-high">Risk high</span></span>
+    </div>
+    <p class="tagline">"NYC deserves a world-class welcome." <em>(Rebrand-shaped — would need explicit opt-in.)</em></p>
+    <div class="body">
+      <p>Reposition JFK as a destination brand the way DXB / AUH / Changi do. Cinematic video heroes, dark-mode editorial sections, marketing-grade lifestyle content. Probably drops Sharp Grotesk for a more distinctive serif/grotesk pairing. Shifts register from civic to premium-consumer.</p>
+      <dl class="meta">
+        <dt>Peers</dt><dd>DXB, AUH, Changi.</dd>
+        <dt>Cost</dt><dd>Very high — this is a rebrand, not a refresh.</dd>
+        <dt>Doesn't fix</dt><dd>Likely off-strategy. PANYNJ is a public agency, not a luxury brand.</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 5: RECOMMENDATION + QUESTIONS -->
+<section class="page">
+  <h1 class="section"><span class="num">05</span>The read</h1>
+  <p class="section-lede">An honest convergence of what the data, the peer landscape, and PANYNJ's positioning all point toward.</p>
+
+  <div class="recommendation keep">
+    <h2>Recommendation: A or B, with C layered onto whichever wins.</h2>
+    <p><strong>A (civic-confident refresh)</strong> is the safe presales answer — same brand surface, fixed execution. Brand team will recognise themselves immediately.</p>
+    <p><strong>B (NYC-flavoured)</strong> is the more interesting answer but needs PANYNJ buy-in on warmth and on letting an editorial register into a civic site. If buy-in is plausible, B is more durable.</p>
+    <p><strong>C (anxiety-first, journey-staged)</strong> is an IA decision that can be made independently of the visual direction. Either A or B is improved by adopting C.</p>
+    <p><strong>D and E</strong> are real options but have clear failure modes. D ages out at the end of redevelopment. E is off-strategy for a public agency and would need an explicit rebrand mandate.</p>
+  </div>
+
+  <div class="questions keep">
+    <h2>Two questions to converge before we brief the spec</h2>
+    <ol>
+      <li><strong>Direction.</strong> A (civic refresh) vs B (NYC-flavoured) vs B+C (NYC-flavoured + journey-staged IA)?</li>
+      <li><strong>Mode.</strong> Should we keep the Sharp Grotesk + Helvetica Now + PANYNJ blue brand surface (recommended; signal is strong), or are you open to a partial palette/type move?</li>
+    </ol>
+  </div>
+
+  <h2>What happens after we agree</h2>
+  <p>Once direction lands, the next step is <code>stardust:direct</code> — it produces a target <code>PRODUCT.md</code>, target <code>DESIGN.md</code>, a <code>direction.md</code> reasoning trace, and a per-page improvements list. From there <code>stardust:prototype</code> renders one or more prototype pages we can review before committing to a full migration.</p>
+
+  <div class="doc-footer">
+    <span>jfkairport.com — redesign direction analysis · Internal · 2026-05-03</span>
+    <span>Source: stardust 0.3.0 · 5-page sitemap crawl + brand-surface extraction</span>
+  </div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:22.600Z",
+    "url": "https://www.jfkairport.com/explore-jfk/accessibility-services/hearing-accessibility",
+    "slug": "explore-jfk__accessibility-services__hearing-accessibility",
+    "httpStatus": 200,
+    "totalMs": 3193,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": null,
+  "h1": "Deaf or Hard of Hearing Services",
+  "lede": "JFK offers on-demand video interpreting in American Sign Language (ASL) through Convo Now. This service is free and helps Deaf or hard-of-hearing travelers communicate with Airport Customer Service Specialists (ACES). To use it: Find an ACES wearing a red shirt at a Information Center near Baggage Claim. Scan the QR code they provide to connect with a live ASL interpreter in your browser. Access Convo from your phone or tablet",
+  "heroImage": {
+    "src": "https://s7d9.scene7.com/is/image/panynjaviation/3-2-4_2_CONVO:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+    "alt": "",
+    "w": 1000,
+    "h": 562
+  },
+  "blocks": [
+    {
+      "h2": "American Sign Language (ASL) services",
+      "h3s": [],
+      "paragraphs": [
+        "JFK offers on-demand video interpreting in American Sign Language (ASL) through Convo Now. This service is free and helps Deaf or hard-of-hearing travelers communicate with Airport Customer Service Specialists (ACES).",
+        "To use it:"
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/3-2-4_3_hearingloops:square-1x1?wid=1200&hei=1200&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1200,
+          "h": 1200
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Access Convo from your phone or tablet",
+          "href": "https://now.convo.io/QRWebApp/qr-business"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Hearing loops",
+      "h3s": [],
+      "paragraphs": [
+        "Sometimes referred to as an audio induction loop, hearing loops are an assistive technology that allows hearing device users to have sound broadcasted directly to their hearing devices when the device is set to the “T” (Telecoil) setting.",
+        "Hearing loops are available at all JFK terminals at the following locations:"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Terminal 1 Information Center opens in a new tab",
+          "href": "https://maps.jfkairport.com/su/N2hNl29S"
+        },
+        {
+          "text": "Terminal 4 Domestic and International Information Centers opens in a new tab",
+          "href": "https://maps.jfkairport.com/su/gXXWrXhw"
+        },
+        {
+          "text": "Terminal 5 Domestic Information Center opens in a new tab",
+          "href": "https://maps.jfkairport.com/su/cRRknZa3"
+        },
+        {
+          "text": "Terminal 7 Information Center opens in a new tab",
+          "href": "https://maps.jfkairport.com/su/yyC57Fi8"
+        },
+        {
+          "text": "Terminal 8 Information Center opens in a new tab",
+          "href": "https://maps.jfkairport.com/su/GZEfdJdS"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Accessibility assistance at JFK",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/3-2-5_2_wheelchairservices:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1440
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Contact your airline",
+          "href": "/flights/airlines"
+        },
+        {
+          "text": "General accessibility services",
+          "href": "/explore-jfk/accessibility-services"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "All JFK accessibility services",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Accessible transportation",
+          "href": "/explore-jfk/accessibility-services/handicap-transportation"
+        },
+        {
+          "text": "Blind or low vision services",
+          "href": "/explore-jfk/accessibility-services/vision-accessibility-services"
+        },
+        {
+          "text": "Non-visible disability services",
+          "href": "/explore-jfk/accessibility-services/hidden-disabilities-accessibility"
+        },
+        {
+          "text": "Limited mobility services",
+          "href": "/explore-jfk/accessibility-services/mobility-accessibility"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "FAQs",
+      "h3s": [],
+      "paragraphs": [
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "How do I access ASL interpretation at JFK?"
+        }
+      ],
+      "links": [
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

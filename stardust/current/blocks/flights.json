@@ -1,0 +1,153 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:09.208Z",
+    "url": "https://www.jfkairport.com/flights?direction=departures&showAllFlights=true",
+    "slug": "flights",
+    "httpStatus": 200,
+    "totalMs": 5024,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": null,
+  "h1": "Search Flights",
+  "lede": "",
+  "heroImage": null,
+  "blocks": [
+    {
+      "h2": "May 3 Departures",
+      "h3s": [],
+      "paragraphs": [
+        "Flight information is subject to change. Please verify details with your airline before traveling."
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "Load more"
+        }
+      ],
+      "links": [],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Your Guide to JFK",
+      "h3s": [],
+      "paragraphs": [
+        "Interactive Map",
+        "Departures Guide",
+        "Arrivals Guide",
+        "Connections Guide",
+        "All Terminals",
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/JFK%20Airport%20041326:card-portrait-3x4?wid=1080&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1078,
+          "h": 1440
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-1_departurescard:card-portrait-3x4?wid=1080&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 924,
+          "h": 1232
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-2_1_arrivalsguidehero:card-portrait-3x4?wid=1080&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1078,
+          "h": 1440
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/0-1_2_general:card-portrait-3x4?wid=1080&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1078,
+          "h": 1440
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/3_6-1_allterminalshero:card-portrait-3x4?wid=1080&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1080,
+          "h": 1440
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Interactive Map",
+          "href": "/explore-jfk/airport-map"
+        },
+        {
+          "text": "Departures Guide",
+          "href": "/flights/departures"
+        },
+        {
+          "text": "Arrivals Guide",
+          "href": "/flights/arrivals"
+        },
+        {
+          "text": "Connections Guide",
+          "href": "/flights/connections-guide"
+        },
+        {
+          "text": "All Terminals",
+          "href": "/explore-jfk/terminals"
+        },
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:43.843Z",
+    "url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-5",
+    "slug": "explore-jfk__terminals__terminal-5",
+    "httpStatus": 200,
+    "totalMs": 4341,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": {
+    "text": "infoThere are multiple advisories affecting Terminal 5 ride app pick up locations, Terminal 5 roadway access changes, and the Terminal 5 taxi stand.",
+    "ctas": [
+      {
+        "text": "Terminal 5 ride app pick up",
+        "href": "/alerts-advisories/t5-t7-ride-app-relocations"
+      },
+      {
+        "text": "Terminal 5 roadway access changes,",
+        "href": "/alerts-advisories/t5-t7-t8-access-changes"
+      },
+      {
+        "text": "Terminal 5 taxi stand",
+        "href": "/alerts-advisories/t5-taxi-yellow-cab-relocated"
+      }
+    ]
+  },
+  "h1": "JFK Terminal 5",
+  "lede": "Earn TrueBlue points when you dine, shop and park at JFK and 100+ airports. Sign up now and earn 100 TrueBlue points. Sign up for TrueBlue points",
+  "heroImage": null,
+  "blocks": [
+    {
+      "h2": "A new era is taking off at JetBlue's Terminal 5",
+      "h3s": [
+        "Inspired by NYC. Built for you.",
+        "40+ new shops & dining options.",
+        "Park yourself in the T5 Marketplace."
+      ],
+      "paragraphs": [
+        "As the official home of New York’s hometown airline, JetBlue’s award-winning Terminal 5 has always been about making flying fun and easy—from free wi-fi and abundant charging stations, to its post-security outdoor rooftop deck, live entertainment and more.",
+        "Please pardon the dust while we roll out a bold, new travel experience—with full completion in 2026.",
+        "Every space is getting a makeover—with new amenities for more comfort and convenience.",
+        "From iconic NYC bites and buzz-worthy retailers to a mix of global brands.",
+        "Think greenery, park-like seating, natural light, and a relaxed environment to recharge."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/T5_Inspired:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 732,
+          "h": 368
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/20250807-924A1407:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1200,
+          "h": 600
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/T5_Parkyourself:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 751,
+          "h": 377
+        }
+      ],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": "service-grid",
+      "subData": [
+        {
+          "title": "Inspired by NYC. Built for you.",
+          "text": "As the official home of New York’s hometown airline, JetBlue’s award-winning Terminal 5 has always been about making flying fun and easy—from free wi-fi and abundant charging stations, to its post-security outdoor rooftop deck, live entertainment and more.",
+          "href": null
+        },
+        {
+          "title": "40+ new shops & dining options.",
+          "text": "Please pardon the dust while we roll out a bold, new travel experience—with full completion in 2026.",
+          "href": null
+        },
+        {
+          "title": "Park yourself in the T5 Marketplace.",
+          "text": "Every space is getting a makeover—with new amenities for more comfort and convenience.",
+          "href": null
+        }
+      ]
+    },
+    {
+      "h2": "Dine. Shop. Relax.",
+      "h3s": [
+        "Dine",
+        "Shop",
+        "Relax"
+      ],
+      "paragraphs": [
+        "T5 lives up to NYC’s foodie reputation—from standout sit-down restaurants for dining and unwinding to your favorite places to grab food on the fly.",
+        "Pick up some last-minute gifts, travel essentials or replace that lost phone charger. Or just stock up on candy. (We won’t judge.)",
+        "Travelers of all ages (including four-legged ones) will feel right at home at T5, where you can people-watch, play, plug in or just unplug."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/Serafina:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 635,
+          "h": 357
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/20240306-3N5A6244:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1916,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/T5-Rooftop-1280x720:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1279,
+          "h": 720
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/BlueHouse-feature-lounge:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1199,
+          "h": 600
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "JFK Terminal 5 restaurants",
+          "href": "/dine-shop-relax/food?structureName=Terminal+5"
+        },
+        {
+          "text": "JFK Terminal 5 shops",
+          "href": "/dine-shop-relax/shops?structureName=Terminal+5"
+        },
+        {
+          "text": "Places to relax at JFK Terminal 5",
+          "href": "/dine-shop-relax/lounge-and-rest?structureName=Terminal+5"
+        }
+      ],
+      "tables": [],
+      "subPattern": "sub-ia",
+      "subData": [
+        {
+          "title": "Dine",
+          "href": "/dine-shop-relax/food?structureName=Terminal+5",
+          "linkText": "JFK Terminal 5 restaurants"
+        },
+        {
+          "title": "Shop",
+          "href": "/dine-shop-relax/shops?structureName=Terminal+5",
+          "linkText": "JFK Terminal 5 shops"
+        },
+        {
+          "title": "Relax",
+          "href": "/dine-shop-relax/lounge-and-rest?structureName=Terminal+5",
+          "linkText": "Places to relax at JFK Terminal 5"
+        }
+      ]
+    },
+    {
+      "h2": "Play. Work. Lounge. Repeat.",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Learn more",
+          "href": "https://www.jetblue.com/bluehouse"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Book your parking",
+      "h3s": [
+        "Current availability",
+        "Additional lots"
+      ],
+      "paragraphs": [
+        "Long-Term",
+        "47% Full",
+        "Terminal 8 (Red)",
+        "56% Full",
+        "Terminal 5 (Yellow)",
+        "66% Full",
+        "Terminal 4 (Blue)",
+        "79% Full",
+        "Terminal Parking lots are located at terminals and connected by the AirTrain system.",
+        "Federal Circle Station",
+        "Reservation only",
+        "Terminal 1 (Green)",
+        "Closed (Use Terminal 8 Red Lot)",
+        "Terminal 7 (Orange)"
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "Book your parking"
+        },
+        {
+          "text": "Lot locations on map"
+        }
+      ],
+      "links": [
+        {
+          "text": "Parking rates and info",
+          "href": "/transportation/airport-parking"
+        },
+        {
+          "text": "Parking FAQs",
+          "href": "/frequently-asked-questions"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Airlines at Terminal 5",
+      "h3s": [],
+      "paragraphs": [
+        "Terminal 5 is the flagship terminal for JetBlue, and is also served by Cape Air and Sun Country Airlines."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "JetBlue",
+          "href": "https://www.jetblue.com/"
+        },
+        {
+          "text": "Cape Air",
+          "href": "https://www.capeair.com/"
+        },
+        {
+          "text": "Sun Country Airlines",
+          "href": "https://www.suncountry.com/"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Walk times to gates",
+      "h3s": [],
+      "paragraphs": [
+        "For step-by-step directions and more precise estimates, use the interactive map to route directly to your gate opens in a new tab.",
+        "Be sure to arrange for any special assistance you may need in advance, including wheelchair assistance, either directly with your airline or through a travel agent.",
+        "501-507",
+        "3-5 minutes",
+        "508-521",
+        "5-10 minutes",
+        "522-530",
+        "3-7 minutes"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "use the interactive map to route directly to your gate opens in a new tab",
+          "href": "https://maps.jfkairport.com/"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Make the most of your time at T5",
+      "h3s": [
+        "Explore art",
+        "The T5 Rooftop & Wooftop Lounge",
+        "Plan for accessibility"
+      ],
+      "paragraphs": [
+        "Terminal 5 is in midst of an art makeover—more to come soon. If you have BlueHouse access, you’ll find the walls (and even the ceilings) adorned by the work of local artists. Pre-security, you can marvel at MCM art, architecture and aviation artifacts at the TWA Hotel, connected to T5 via Eero Saarinen’s iconic flight tubes (a work of art themselves).",
+        "Get some air before you're up in the air at our post-security outdoor space, complete with places to plug in and a dog walk. Open daily, 6:00 a.m. to 10:00 p.m. (Across from Gate 528).",
+        "Traveling on JetBlue with a wheelchair, a service animal or a medical condition? Get info on Accessibility Services available at the link below. If you’re traveling on another airline out of T5, please contact them directly."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/color-palette-icon-2x1-1:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 959,
+          "h": 479
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/check-in-icon-2x1:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 959,
+          "h": 479
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/accessible-icon-2x1:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 959,
+          "h": 479
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/AirportRewards:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 621,
+          "h": 349
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Learn more about accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        }
+      ],
+      "tables": [],
+      "subPattern": "service-grid",
+      "subData": [
+        {
+          "title": "Explore art",
+          "text": "Terminal 5 is in midst of an art makeover—more to come soon. If you have BlueHouse access, you’ll find the walls (and even the ceilings) adorned by the work of local artists. Pre-security, you can marvel at MCM art, architecture and aviation artifacts at the TWA Hotel, connected to T5 via Eero Saarinen’s iconic flight tubes (a work of art themselves).",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "title": "The T5 Rooftop & Wooftop Lounge",
+          "text": "Get some air before you're up in the air at our post-security outdoor space, complete with places to plug in and a dog walk. Open daily, 6:00 a.m. to 10:00 p.m. (Across from Gate 528).",
+          "href": null
+        },
+        {
+          "title": "Plan for accessibility",
+          "text": "Traveling on JetBlue with a wheelchair, a service animal or a medical condition? Get info on Accessibility Services available at the link below. If you’re traveling on another airline out of T5, please contact them directly.",
+          "href": null
+        }
+      ]
+    },
+    {
+      "h2": "Land more TrueBlue points at the airport.",
+      "h3s": [],
+      "paragraphs": [
+        "Earn TrueBlue points when you dine, shop and park at JFK and 100+ airports. Sign up now and earn 100 TrueBlue points."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/TWA_Entry:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 920,
+          "h": 461
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Sign up for TrueBlue points",
+          "href": "https://trueblue.thanksagain.com/"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "TWA Hotel",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Book a stay at the TWA Hotel",
+          "href": "https://www.twahotel.com/hotel"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Your Guide to JFK",
+      "h3s": [],
+      "paragraphs": [
+        "Interactive Map",
+        "Departures Guide",
+        "Arrivals Guide",
+        "Connections Guide",
+        "All Terminals",
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/JFK%20Airport%20041326:card-portrait-3x4?wid=1080&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1078,
+          "h": 1440
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-1_departurescard:card-portrait-3x4?wid=1080&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 924,
+          "h": 1232
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-2_1_arrivalsguidehero:card-portrait-3x4?wid=1080&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1078,
+          "h": 1440
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/0-1_2_general:card-portrait-3x4?wid=1080&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1078,
+          "h": 1440
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/3_6-1_allterminalshero:card-portrait-3x4?wid=1080&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1080,
+          "h": 1440
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Interactive Map",
+          "href": "/explore-jfk/airport-map"
+        },
+        {
+          "text": "Departures Guide",
+          "href": "/flights/departures"
+        },
+        {
+          "text": "Arrivals Guide",
+          "href": "/flights/arrivals"
+        },
+        {
+          "text": "Connections Guide",
+          "href": "/flights/connections-guide"
+        },
+        {
+          "text": "All Terminals",
+          "href": "/explore-jfk/terminals"
+        },
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

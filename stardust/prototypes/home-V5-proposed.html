@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<!--
+_provenance:
+  writtenBy: stardust:prototype
+  writtenAt: 2026-05-03T00:00:00Z
+  variant: V5 (axis: voice / stories-people-led)
+  trait: captured pattern of editorial photography of named program participants
+  againstDirection: stardust/direction.md (2026-05-03 — direction B + Mode A)
+  shapeBrief: stardust/prototypes/home-variants-shape.md § V5
+  improvementsApplied: stardust/prototypes/home-improvements.md (all 6)
+  contentSource: stardust/current/pages/home.json
+  unsourcedContent:
+    - all named-person identities ("Maria, T4 ground services since 1998", etc.)
+    - all named-person quotes (illustrative; demonstrate the pattern, not the people)
+    - "612 flights today" subhead numerals
+  renderedVia: stardust-direct (5-variant batch; iteration via $impeccable live)
+  stardustVersion: 0.3.0
+-->
+<meta charset="utf-8">
+<title>JFK Airport — V5 Stories prototype</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0045FF">
+<meta name="description" content="JFK Airport — the people who make 612 flights a day happen.">
+<style>
+  :root {
+    --ground-white: #FFFFFF;
+    --ice-blue: #EFF9FF;
+    --mint-tint: #F1FCF2;
+    --ink: #09090B;
+    --slate-900: #0F172A;
+    --slate-700: #334155;
+    --slate-600: #475569;
+    --slate-400: #94A3B8;
+    --slate-300: #CBD5E1;
+    --slate-200: #E2E8F0;
+    --slate-100: #F1F5F9;
+    --panynj-blue: #0045FF;
+    --panynj-deep-blue: #022DB7;
+    --panynj-navy: #011565;
+    --advisory-yellow: #FFCD00;
+    --advisory-tint: #FFFBEA;
+    --success-green: #1B7A2F;
+    --display-family: "Sharp Grotesk Semibold", "Helvetica Neue Condensed Bold", "Inter", system-ui, sans-serif;
+    --body-family: "Helvetica Now for PANYNJ", "Helvetica Neue", "Inter", "Arial", sans-serif;
+    --section-pad-d: 64px;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--ground-white); color: var(--ink);
+    font-family: var(--body-family); font-size: 16px; line-height: 1.6; }
+  .display { font-family: var(--display-family); font-weight: 700; letter-spacing: -0.025em; }
+  a { color: var(--panynj-deep-blue); text-decoration: none; }
+  a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  img { max-width: 100%; display: block; }
+  [data-placeholder] { outline: 2px dashed var(--advisory-yellow); outline-offset: 2px; background: var(--advisory-tint); padding: 0 4px; border-radius: 2px; }
+
+  header[data-section="header"] { position: sticky; top: 0; z-index: 50; background: var(--ground-white);
+    border-bottom: 1px solid var(--slate-200); padding: 12px 32px; display: flex; align-items: center; gap: 32px; }
+  header .logo img { height: 30px; }
+  header nav { display: flex; gap: 26px; flex: 1; margin-left: 16px; }
+  header nav a { font-size: 14px; font-weight: 700; color: var(--ink); }
+  header .right { display: flex; gap: 12px; }
+  header .right .icon-btn { width: 32px; height: 32px; display: inline-flex; align-items: center;
+    justify-content: center; background: var(--slate-100); border-radius: 4px; cursor: pointer; color: var(--ink); border: 0; }
+  header .right .search-cta { background: var(--ink); color: var(--ground-white); border: 0; padding: 8px 16px;
+    border-radius: 2px; font-family: inherit; font-size: 13px; font-weight: 700; cursor: pointer; }
+
+  /* Portrait collage hero */
+  .portrait-hero { position: relative; min-height: 88vh; display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; }
+  .portrait-hero .portrait { position: relative; overflow: hidden; }
+  .portrait-hero .portrait img { width: 100%; height: 100%; object-fit: cover; aspect-ratio: 4/5; min-height: 88vh; }
+  .portrait-hero .portrait::after { content: ""; position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(9,9,11,0.6) 0%, rgba(9,9,11,0.05) 30%, rgba(9,9,11,0.55) 100%); pointer-events: none; }
+  .portrait-hero .name { position: absolute; left: 16px; bottom: 16px; right: 16px; color: var(--ground-white);
+    font-family: var(--display-family); font-weight: 700; font-size: 16px; line-height: 1.15; text-shadow: 0 2px 6px rgba(0,0,0,0.55); }
+  .portrait-hero .name .role { display: block; font-family: var(--body-family); font-size: 13px; font-weight: 500; color: var(--slate-300); margin-top: 4px; }
+  .portrait-hero .copy { position: absolute; left: 48px; bottom: 56px; right: 48px;
+    color: var(--ground-white); pointer-events: none; }
+  .portrait-hero h1 { font-family: var(--display-family); font-weight: 700; font-size: clamp(56px, 8vw, 120px);
+    line-height: 0.95; letter-spacing: -0.035em; margin: 0; max-width: 22ch; text-shadow: 0 4px 18px rgba(0,0,0,0.55); }
+  .portrait-hero .deck { color: var(--slate-300); font-size: 20px; line-height: 1.45; margin-top: 18px; max-width: 50ch; text-shadow: 0 2px 8px rgba(0,0,0,0.45); }
+  .portrait-hero .meta { position: absolute; left: 48px; top: 24px; right: 48px; display: flex; justify-content: space-between;
+    color: var(--slate-300); font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; pointer-events: none; }
+
+  /* Big quote feature */
+  .big-quote { background: var(--ink); color: var(--ground-white); padding: 96px 32px;
+    display: grid; grid-template-columns: 1.5fr 1fr; gap: 48px; align-items: center; }
+  .big-quote blockquote { margin: 0; font-family: var(--display-family); font-weight: 700;
+    font-size: clamp(48px, 6.5vw, 96px); line-height: 1.02; letter-spacing: -0.03em; color: var(--ground-white); }
+  .big-quote .attr { margin-top: 32px; font-family: var(--body-family); font-size: 16px; color: var(--slate-300); font-weight: 500; }
+  .big-quote .attr strong { color: var(--ground-white); font-weight: 700; }
+  .big-quote figure { margin: 0; }
+  .big-quote figure img { width: 100%; aspect-ratio: 4/5; object-fit: cover; }
+
+  /* 4-up people strip */
+  .people-strip { padding: 96px 32px; max-width: 1440px; margin: 0 auto; }
+  .people-strip .head { display: flex; justify-content: space-between; align-items: end; margin-bottom: 36px; }
+  .people-strip h2 { font-family: var(--display-family); font-weight: 700; font-size: 56px; line-height: 1.05;
+    letter-spacing: -0.025em; margin: 0; max-width: 16ch; }
+  .people-strip .all { font-weight: 700; color: var(--panynj-deep-blue); }
+  .people-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+  .person-card { display: flex; flex-direction: column; }
+  .person-card .photo { aspect-ratio: 4/5; overflow: hidden; }
+  .person-card .photo img { width: 100%; height: 100%; object-fit: cover; }
+  .person-card .body { padding-top: 20px; }
+  .person-card .name { font-family: var(--display-family); font-weight: 700; font-size: 22px; line-height: 1.15; letter-spacing: -0.01em; }
+  .person-card .role { font-size: 13px; color: var(--slate-600); margin-top: 4px; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 700; }
+  .person-card .quote { font-size: 16px; line-height: 1.55; color: var(--slate-700); margin-top: 14px; }
+  .person-card .read { display: inline-block; margin-top: 12px; font-weight: 700; font-size: 14px; color: var(--ink); border-bottom: 2px solid var(--panynj-blue); padding-bottom: 2px; }
+
+  /* "Today at JFK" practical strip */
+  .today-strip { padding: 56px 32px; max-width: 1440px; margin: 0 auto; }
+  .today-strip .head { display: flex; justify-content: space-between; align-items: end; margin-bottom: 20px;
+    border-bottom: 1px solid var(--slate-300); padding-bottom: 14px; }
+  .today-strip h3 { font-family: var(--display-family); font-weight: 700; font-size: 28px; line-height: 1.1; letter-spacing: -0.015em; margin: 0; }
+  .today-strip .live { font-size: 13px; color: var(--slate-600); }
+  .today-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+  .today-card { padding: 4px 0; }
+  .today-card .num { font-family: var(--display-family); font-weight: 700; font-size: 48px; line-height: 1; letter-spacing: -0.025em; }
+  .today-card .label { font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--slate-600); font-weight: 700; margin-top: 8px; }
+  .today-card .meta { color: var(--slate-700); font-size: 14px; margin-top: 6px; }
+
+  /* Audience routing — quiet */
+  .audience-quiet { padding: 56px 32px 80px; max-width: 1440px; margin: 0 auto; }
+  .audience-quiet h3 { font-family: var(--display-family); font-weight: 700; font-size: 24px; letter-spacing: -0.015em; margin: 0 0 16px; }
+  .aq-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
+  .aq-tile { background: var(--ice-blue); padding: 18px 20px; border-radius: 2px; cursor: pointer; transition: background 0.15s; }
+  .aq-tile:hover { background: var(--ground-white); border: 1px solid var(--panynj-blue); padding: 17px 19px; }
+  .aq-tile .l { font-family: var(--display-family); font-weight: 700; font-size: 18px; line-height: 1.1; }
+  .aq-tile .m { font-size: 13px; color: var(--slate-700); margin-top: 4px; }
+
+  /* Visit & welcome */
+  .visit-welcome { padding: 96px 32px; background: var(--mint-tint);
+    display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; max-width: none; }
+  .visit-welcome .copy { max-width: 50ch; padding-left: 32px; }
+  .visit-welcome h3 { font-family: var(--display-family); font-weight: 700; font-size: clamp(48px, 6vw, 80px); line-height: 1; letter-spacing: -0.03em; margin: 0 0 18px; }
+  .visit-welcome p { font-size: 18px; line-height: 1.65; color: var(--slate-700); margin: 0 0 18px; }
+  .visit-welcome figure { margin: 0; padding-right: 32px; }
+  .visit-welcome figure img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 2px; }
+  .visit-welcome .ctas { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 12px; }
+  .visit-welcome .ctas a { color: var(--ink); font-weight: 700; border-bottom: 2px solid var(--panynj-blue); padding-bottom: 2px; }
+
+  /* Footer */
+  footer[data-section="footer"] { background: var(--ink); color: var(--slate-300); padding: 72px 32px 28px; }
+  footer .inner { max-width: 1440px; margin: 0 auto; }
+  footer .top { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 32px; padding-bottom: 28px; border-bottom: 1px solid #1f1f23; }
+  footer .col h5 { font-family: var(--display-family); color: var(--ground-white); font-size: 14px; font-weight: 700;
+    letter-spacing: 0.05em; text-transform: uppercase; margin: 0 0 12px; }
+  footer .col a { display: block; color: var(--slate-300); font-size: 14px; padding: 4px 0; }
+  footer .col a:hover { color: var(--ground-white); text-decoration: none; }
+  footer .bottom { display: flex; justify-content: space-between; padding-top: 24px; font-size: 12px; color: var(--slate-400); }
+
+  @media (max-width: 1024px) {
+    .portrait-hero { grid-template-columns: repeat(2, 1fr); }
+    .portrait-hero .portrait img { min-height: 50vh; }
+    .portrait-hero h1 { font-size: 56px; }
+    .big-quote, .people-grid, .today-grid, .aq-grid, .visit-welcome { grid-template-columns: 1fr; gap: 32px; padding: 48px 24px; }
+    .visit-welcome .copy, .visit-welcome figure { padding: 0; }
+  }
+</style>
+</head>
+<body data-variant="V5" data-axis="voice-stories">
+
+<header data-section="header" role="banner">
+  <a href="/" class="logo" aria-label="John F. Kennedy International Airport">
+    <img src="../current/assets/media/JFK-cd579a20.svg" alt="JFK — John F. Kennedy International Airport">
+  </a>
+  <nav data-section="primary-nav" aria-label="Main">
+    <a href="/flights">Flights</a>
+    <a href="/transportation">Transportation</a>
+    <a href="/explore-jfk">Explore</a>
+    <a href="/dine-shop-relax">Dine, Shop, Relax</a>
+  </nav>
+  <div class="right">
+    <button class="icon-btn" aria-label="Accessibility services">♿</button>
+    <button class="search-cta">Search flights</button>
+  </div>
+</header>
+
+<main>
+  <section data-section="portrait-hero" data-purpose="brand-statement" class="portrait-hero">
+    <div class="meta">
+      <span><span data-placeholder>612 flights</span> · 6 terminals · 1 city</span>
+      <span><a href="#today" style="color: var(--ground-white);">Today at JFK →</a></span>
+    </div>
+    <div class="portrait">
+      <img src="../current/assets/media/3-2-3_6_sunflowerlanyard_card-wide-16x9-c46049d2.jpg" alt="A traveler at JFK wearing the Hidden Disabilities Sunflower lanyard.">
+      <div class="name" data-placeholder>Aisha · accessibility services<span class="role">T5 since 2019</span></div>
+    </div>
+    <div class="portrait">
+      <img src="../current/assets/media/3-2-5_2_wheelchairservices_photo-4x3-aa6da664.jpg" alt="A wheelchair services attendant at JFK.">
+      <div class="name" data-placeholder>James · mobility assistance<span class="role">T8 since 2014</span></div>
+    </div>
+    <div class="portrait">
+      <img src="../current/assets/media/4-0_5_wevalueyoulabel_photo-4x3-d22bfa7f.jpg" alt="A JFK ground services worker greeting a traveler.">
+      <div class="name" data-placeholder>Marcus · ground services<span class="role">T4 since 2008</span></div>
+    </div>
+    <div class="portrait">
+      <img src="../current/assets/media/3-2_5_animalreliefareas_card-wide-16x9-cb9d1e14.jpg" alt="A staff member working in a JFK pet relief area.">
+      <div class="name" data-placeholder>Lena · facilities<span class="role">all terminals since 2011</span></div>
+    </div>
+    <div class="copy">
+      <h1><span data-placeholder>612 flights today.</span><br>The people who make it happen.</h1>
+      <p class="deck">JFK runs on people, not machines. Meet a few of them — and find your way around the airport they keep moving.</p>
+    </div>
+  </section>
+
+  <section data-section="big-quote" data-purpose="brand-narrative" class="big-quote">
+    <div>
+      <blockquote data-placeholder>"I started at T4 in 1998. The terminals changed. The planes got quieter. The welcome didn't."</blockquote>
+      <div class="attr"><strong data-placeholder>Maria</strong> · <span data-placeholder>T4 ground services since 1998</span></div>
+    </div>
+    <figure>
+      <img src="../current/assets/media/3_6-1_allterminalshero_card-portrait-3x4-4efc8669.jpg" alt="A wide view inside a JFK terminal at boarding gates.">
+    </figure>
+  </section>
+
+  <section data-section="people-strip" data-purpose="brand-narrative" class="people-strip">
+    <div class="head">
+      <h2 class="display">More from the people of JFK.</h2>
+      <a href="/news" class="all">All stories →</a>
+    </div>
+    <div class="people-grid">
+      <article class="person-card">
+        <div class="photo"><img src="../current/assets/media/4-0_2_shopteasercard_card-wide-16x9-25a97a96.jpg" alt="A shopkeeper at a JFK terminal store.">
+        </div>
+        <div class="body">
+          <div class="name" data-placeholder>Diane</div>
+          <div class="role" data-placeholder>T5 retail · since 2017</div>
+          <p class="quote" data-placeholder>"The 4 a.m. crowd is honest. They want coffee, water, gum, and to be left alone. I respect that."</p>
+          <a href="#" class="read">Read →</a>
+        </div>
+      </article>
+      <article class="person-card">
+        <div class="photo"><img src="../current/assets/media/4-0_4_SDRcard_card-wide-16x9-0765162a.jpg" alt="A chef plating food at a JFK restaurant."></div>
+        <div class="body">
+          <div class="name" data-placeholder>Akira</div>
+          <div class="role" data-placeholder>T4 culinary · since 2021</div>
+          <p class="quote" data-placeholder>"Yes, you can get a good ramen at JFK. We open at 6. We close at 11. Come back."</p>
+          <a href="#" class="read">Read →</a>
+        </div>
+      </article>
+      <article class="person-card">
+        <div class="photo"><img src="../current/assets/media/4-0_4_RelaxTeaser_card-wide-16x9-f2de0260.jpg" alt="A lounge attendant at JFK preparing the space for guests."></div>
+        <div class="body">
+          <div class="name" data-placeholder>Sam</div>
+          <div class="role" data-placeholder>T7 lounges · since 2016</div>
+          <p class="quote" data-placeholder>"You learn fast which travelers want quiet and which want a chat. Both are correct answers."</p>
+          <a href="#" class="read">Read →</a>
+        </div>
+      </article>
+      <article class="person-card">
+        <div class="photo"><img src="../current/assets/media/2-0_2_drivingdirectionspromo_hero-2x1-846dd894.jpg" alt="An AirTrain operator at the Howard Beach station."></div>
+        <div class="body">
+          <div class="name" data-placeholder>Juan</div>
+          <div class="role" data-placeholder>AirTrain ops · since 2009</div>
+          <p class="quote" data-placeholder>"The system runs on a 7-minute headway. Most days. Some days it's 8. Either way, you'll get there."</p>
+          <a href="#" class="read">Read →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section data-section="today-strip" data-purpose="crisis-affordance" class="today-strip" id="today">
+    <div class="head">
+      <h3 class="display">Today at JFK.</h3>
+      <span class="live">Live · updated <span data-placeholder>10:42</span></span>
+    </div>
+    <div class="today-grid">
+      <div class="today-card">
+        <div class="num"><span data-placeholder>22</span><span style="font-size:18px;color:var(--slate-600);">m</span></div>
+        <div class="label">Busiest security wait — T4</div>
+        <div class="meta">Other terminals: <span data-placeholder>9–17m</span></div>
+      </div>
+      <div class="today-card">
+        <div class="num">3</div>
+        <div class="label">Pickup-zone changes</div>
+        <div class="meta">T5, T7 ride-app moved to Lot 2; T7 taxi relocated.</div>
+      </div>
+      <div class="today-card">
+        <div class="num"><span data-placeholder>612</span></div>
+        <div class="label">Departures today</div>
+        <div class="meta"><a href="/flights/departures">Live board →</a></div>
+      </div>
+      <div class="today-card">
+        <div class="num">Clear</div>
+        <div class="label">Weather · NY</div>
+        <div class="meta"><span data-placeholder>61°F</span> · light winds · no ground stop</div>
+      </div>
+    </div>
+  </section>
+
+  <section data-section="audience-quiet" data-purpose="audience-routing" class="audience-quiet">
+    <h3 class="display">Get to what you need.</h3>
+    <div class="aq-grid">
+      <a href="#search" class="aq-tile"><div class="l">Departing</div><div class="m">Search · parking · security</div></a>
+      <a href="#arrivals" class="aq-tile"><div class="l">Arriving</div><div class="m">Track · baggage · ground</div></a>
+      <a href="#pickup" class="aq-tile"><div class="l">Picking up</div><div class="m">Live pickup zones</div></a>
+      <a href="#connecting" class="aq-tile"><div class="l">Connecting</div><div class="m">Terminal map · AirTrain</div></a>
+      <a href="#visiting" class="aq-tile"><div class="l">Visiting</div><div class="m">Maps · dining · accessibility</div></a>
+    </div>
+  </section>
+
+  <section data-section="visit-welcome" data-purpose="brand-narrative" class="visit-welcome">
+    <figure>
+      <img src="../current/assets/media/032_26_JFK_20Hero_20Image_v1_r0_promo-5x2-99093042.jpg" alt="Manhattan skyline visible from JFK approach.">
+    </figure>
+    <div class="copy">
+      <h3 class="display">Welcome to New York.</h3>
+      <p>If you're flying in: the AirTrain to Jamaica beats traffic 9 days out of 10. If you're flying out: the food is better than it used to be, and the lounges are better than you'd expect.</p>
+      <p>If you're just here picking someone up — we know it's a mess right now. Construction is rerouting pickup zones; here's the current state.</p>
+      <div class="ctas">
+        <a href="/explore-jfk">Explore JFK →</a>
+        <a href="/dine-shop-relax">Dine, Shop, Relax →</a>
+        <a href="/explore-jfk/accessibility-services">Accessibility →</a>
+        <a href="/transportation">Transportation →</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer data-section="footer" role="contentinfo">
+  <div class="inner">
+    <div class="top">
+      <div class="col">
+        <h5>Help</h5>
+        <a href="/contact-us">Contact us</a>
+        <a href="/frequently-asked-questions">FAQ</a>
+        <a href="/lost-and-found">Lost &amp; Found</a>
+        <a href="/feedback">Feedback</a>
+      </div>
+      <div class="col">
+        <h5>Travel info</h5>
+        <a href="/alerts-advisories">Alerts &amp; advisories</a>
+        <a href="/explore-jfk/accessibility-services">Accessibility</a>
+        <a href="/transportation/airport-parking">Parking</a>
+        <a href="/explore-jfk/airport-map">Airport map</a>
+      </div>
+      <div class="col">
+        <h5>About</h5>
+        <a href="https://www.panynj.gov/airports/en/index.html">Port Authority airports</a>
+        <a href="https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html">JFK Redevelopment</a>
+        <a href="https://www.panynj.gov/airports/en/air-cargo/jfk.html">Air Cargo</a>
+        <a href="https://www.panynj.gov/port-authority/en/press-room.html">Press</a>
+      </div>
+      <div class="col">
+        <h5>Connect</h5>
+        <a href="http://www.facebook.com/" aria-label="Facebook">Facebook</a>
+        <a href="http://www.twitter.com/JFKairport" aria-label="X">X / Twitter</a>
+        <a href="https://www.panynj.gov/WhatsApp_JFK" aria-label="WhatsApp">WhatsApp</a>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© 2026 Port Authority of New York &amp; New Jersey · <a href="/privacy" style="color: var(--slate-300);">Privacy</a> · <a href="/website-disclaimer" style="color: var(--slate-300);">Website disclaimer</a></span>
+      <span>JFK · LGA · EWR · SWF · TEB</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

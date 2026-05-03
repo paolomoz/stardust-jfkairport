@@ -1,0 +1,2096 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-03T13:13:03.557Z",
+    "url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-4",
+    "slug": "explore-jfk__terminals__terminal-4",
+    "startedAt": "2026-05-03T13:12:28.541Z",
+    "waitMode": "medium",
+    "httpStatus": 200,
+    "contentType": "text/html; charset=utf-8",
+    "waitMs": 2501,
+    "endedAt": "2026-05-03T13:13:03.557Z",
+    "totalMs": 34824,
+    "stardustVersion": "0.3.0"
+  },
+  "url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-4",
+  "meta": {
+    "title": "JFK Terminal 4 - JFK Airport",
+    "description": "Your gateway at JFK Terminal 4. Find flight info, maps, lounges, dining, and transportation details for a stress-free trip.",
+    "themeColor": "",
+    "lang": "en-us"
+  },
+  "ogTags": {
+    "og:title": "JFK Terminal 4 - JFK Airport",
+    "og:description": "Your gateway at JFK Terminal 4. Find flight info, maps, lounges, dining, and transportation details for a stress-free trip.",
+    "og:type": "website",
+    "og:url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-4",
+    "og:image": "https://s7d9.scene7.com/is/image/panynjaviation/jfk_ogimage:card-wide-16x9",
+    "og:image:alt": "John F. Kennedy International Airport logo"
+  },
+  "headings": [
+    {
+      "level": 1,
+      "text": "JFK Terminal 4"
+    },
+    {
+      "level": 2,
+      "text": "Welcome to Terminal 4"
+    },
+    {
+      "level": 2,
+      "text": "Book your parking"
+    },
+    {
+      "level": 3,
+      "text": "Current availability"
+    },
+    {
+      "level": 3,
+      "text": "Additional lots"
+    },
+    {
+      "level": 2,
+      "text": "Getting through Terminal 4: Fast Track Tips"
+    },
+    {
+      "level": 3,
+      "text": "Book your free security time slot with T4 Reserve."
+    },
+    {
+      "level": 3,
+      "text": "Want faster security every trip?"
+    },
+    {
+      "level": 3,
+      "text": "Travel internationally often?"
+    },
+    {
+      "level": 3,
+      "text": "Speed up your arrival with Mobile Passport Control"
+    },
+    {
+      "level": 2,
+      "text": "Finding your way around Terminal 4"
+    },
+    {
+      "level": 2,
+      "text": "Traveling through Terminal 4"
+    },
+    {
+      "level": 2,
+      "text": "Discover the T4 experience"
+    },
+    {
+      "level": 3,
+      "text": "Dine"
+    },
+    {
+      "level": 3,
+      "text": "Shop"
+    },
+    {
+      "level": 3,
+      "text": "Relax"
+    },
+    {
+      "level": 2,
+      "text": "Walk times to gates"
+    },
+    {
+      "level": 2,
+      "text": "Personalized travel services"
+    },
+    {
+      "level": 3,
+      "text": "VIP Meet and Greet"
+    },
+    {
+      "level": 3,
+      "text": "Porter service"
+    },
+    {
+      "level": 3,
+      "text": "Baggage storage"
+    },
+    {
+      "level": 3,
+      "text": "Additional services"
+    },
+    {
+      "level": 2,
+      "text": "Terminal 4 supports the Sunflower Lanyard Program"
+    },
+    {
+      "level": 2,
+      "text": "Art at Terminal 4"
+    },
+    {
+      "level": 2,
+      "text": "Terminal 4 is home to 22 airlines"
+    },
+    {
+      "level": 2,
+      "text": "Terminal 4 by the numbers"
+    },
+    {
+      "level": 3,
+      "text": "1.2M"
+    },
+    {
+      "level": 3,
+      "text": "20M"
+    },
+    {
+      "level": 3,
+      "text": "75K"
+    },
+    {
+      "level": 3,
+      "text": "50%"
+    },
+    {
+      "level": 3,
+      "text": "135K"
+    },
+    {
+      "level": 2,
+      "text": "Your host at Terminal 4"
+    },
+    {
+      "level": 2,
+      "text": "Your Guide to JFK"
+    }
+  ],
+  "landmarks": [
+    {
+      "role": "main",
+      "label": "",
+      "headingPreview": "JFK Terminal 4"
+    },
+    {
+      "role": "header",
+      "label": "",
+      "headingPreview": ""
+    },
+    {
+      "role": "nav",
+      "label": "main",
+      "headingPreview": ""
+    },
+    {
+      "role": "footer",
+      "label": "",
+      "headingPreview": ""
+    }
+  ],
+  "sections": [
+    {
+      "index": 0,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack AdvisoryNotification_messageText__pr4ei css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "There is an advisory affecting Terminal 4 roadway changes. Blue lot (surface level) now has height restrictions. Learn more",
+      "rect": {
+        "x": 153,
+        "y": 425,
+        "w": 1182,
+        "h": 24
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(1, 118, 163)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "20px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "Terminal 4 roadway changes.",
+          "href": "/alerts-advisories/t4-roadway-changes"
+        },
+        {
+          "tag": "a",
+          "text": "Learn more",
+          "href": "/alerts-advisories/terminal-4-blue-parking-lot-height-restriction"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack TitleLockup_description__77Ju9 css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Terminal 4 is one of the largest terminals at New York’s John F. Kennedy International Airport and the first privately operated terminal in the United States, operated by JFKIAT.",
+      "rect": {
+        "x": 740,
+        "y": 734.4,
+        "w": 620,
+        "h": 88
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "16px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 2,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack TitleLockup_description__77Ju9 css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "We offer several options to help you move around Terminal 4 comfortably and with ease. Delta operates a free shuttle bus between concourses within Terminal 4, allowing you to move between A and B gates more efficiently. The shuttle helps reduce walking distances, though it may no",
+      "rect": {
+        "x": 80,
+        "y": 3096.9,
+        "w": 620,
+        "h": 588
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "16px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "Terminal 4 shuttle routes (PDF) opens in a new tab",
+          "href": "/images/jfk/flights/t4-shuttle-map.pdf"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack RichTextEditorWrapper_container__7b_DK css-sekf8j",
+      "ariaLabel": "",
+      "heading": "Walk times to gates",
+      "textPreview": "Walk times to gatesFor step-by-step directions and more precise estimates, use the interactive map to route directly to your gate opens in a new tab. Be sure to arrange for any special assistance you may need in advance, including wheelchair assistance, either directly with your ",
+      "rect": {
+        "x": 297.3,
+        "y": 4454.9,
+        "w": 845.3,
+        "h": 184
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 4,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "A3-A8",
+      "rect": {
+        "x": 313.3,
+        "y": 4771.9,
+        "w": 390.7,
+        "h": 22
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 5,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "3-6 minutes",
+      "rect": {
+        "x": 736,
+        "y": 4771.9,
+        "w": 390.7,
+        "h": 22
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 6,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "A9-A21",
+      "rect": {
+        "x": 313.3,
+        "y": 4836.4,
+        "w": 390.7,
+        "h": 22
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 7,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "8-10 minutes",
+      "rect": {
+        "x": 736,
+        "y": 4836.4,
+        "w": 390.7,
+        "h": 22
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 8,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "B18-B31",
+      "rect": {
+        "x": 313.3,
+        "y": 4900.4,
+        "w": 390.7,
+        "h": 22
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 9,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "4-6 minutes",
+      "rect": {
+        "x": 736,
+        "y": 4900.4,
+        "w": 390.7,
+        "h": 22
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 10,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "B32-B41",
+      "rect": {
+        "x": 313.3,
+        "y": 4964.4,
+        "w": 390.7,
+        "h": 22
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 11,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "7-9 minutes",
+      "rect": {
+        "x": 736,
+        "y": 4964.4,
+        "w": 390.7,
+        "h": 22
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 12,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "B42-B55",
+      "rect": {
+        "x": 313.3,
+        "y": 5028.4,
+        "w": 390.7,
+        "h": 22
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 13,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "10-14 minutes",
+      "rect": {
+        "x": 736,
+        "y": 5028.4,
+        "w": 390.7,
+        "h": 22
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 14,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack TitleLockup_description__77Ju9 css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "If you or someone you're traveling with has a hidden disability, wearing a Sunflower Lanyard lets our team know you may appreciate extra time, patience, or assistance during your journey. You can pick up a free Sunflower Lanyard at the Welcome Center in the Arrivals Hall, at the ",
+      "rect": {
+        "x": 740,
+        "y": 6474.5,
+        "w": 620,
+        "h": 544
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "16px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "request a Lanyard in advance by email",
+          "href": "/explore-jfk/accessibility-services/hidden-disabilities-accessibility"
+        },
+        {
+          "tag": "a",
+          "text": "email us",
+          "href": "mailto:contact@jfkiat.com"
+        },
+        {
+          "tag": "a",
+          "text": "Email T4",
+          "href": "mailto:contact@jfkiat.com"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "The heaviest aircraft departing from T4, the Airbus A380, weighs 1.2 million pounds (that's over 600 tons)!",
+      "rect": {
+        "x": 96,
+        "y": 8354.8,
+        "w": 384,
+        "h": 72
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 16,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Bags handled at T4 annually. That’s more than 2,000 bags an hour, or almost 40 bags a minute, every day. Whew!",
+      "rect": {
+        "x": 528,
+        "y": 8354.8,
+        "w": 384,
+        "h": 96
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 17,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "People never forget how you made them feel: On average, T4 employees say “Have a great flight!” to 75,000 passengers daily.",
+      "rect": {
+        "x": 960,
+        "y": 8354.8,
+        "w": 384,
+        "h": 96
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 18,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Au revoir, adiós, arrivederci, sayonara: About 50% of our passengers are bound for international destinations.",
+      "rect": {
+        "x": 96,
+        "y": 8822.8,
+        "w": 384,
+        "h": 72
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 19,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack css-sekf8j",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "Get those miles in: T4 has more than 135,000 square feet of shops and restaurants. That’s a mile end-to-end — perfect for doing some cardio before your flight!",
+      "rect": {
+        "x": 528,
+        "y": 8822.8,
+        "w": 384,
+        "h": 120
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    },
+    {
+      "index": 20,
+      "tag": "section",
+      "id": "_r_1a_",
+      "className": "Carousel_draggable__8CZaI css-0",
+      "ariaLabel": "",
+      "heading": "",
+      "textPreview": "1 of 5Interactive Map 2 of 5Departures Guide3 of 5Arrivals Guide4 of 5Connections Guide5 of 5All Terminals",
+      "rect": {
+        "x": 76,
+        "y": 9506.8,
+        "w": 1364,
+        "h": 432
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "8px",
+        "paddingBottom": "8px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": [
+        {
+          "tag": "a",
+          "text": "Interactive Map",
+          "href": "/explore-jfk/airport-map"
+        },
+        {
+          "tag": "a",
+          "text": "Departures Guide",
+          "href": "/flights/departures"
+        },
+        {
+          "tag": "a",
+          "text": "Arrivals Guide",
+          "href": "/flights/arrivals"
+        },
+        {
+          "tag": "a",
+          "text": "Connections Guide",
+          "href": "/flights/connections-guide"
+        },
+        {
+          "tag": "a",
+          "text": "All Terminals",
+          "href": "/explore-jfk/terminals"
+        }
+      ]
+    }
+  ],
+  "ctas": [
+    {
+      "tag": "a",
+      "text": "Skip to Content",
+      "href": "/explore-jfk/terminals/terminal-4#main-content",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Flights",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Transportation & Parking",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Explore JFK",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Dine, Shop, Relax",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Book your parking",
+      "href": null,
+      "backgroundColor": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "4px",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "20px"
+    },
+    {
+      "tag": "a",
+      "text": "Parking rates and info",
+      "href": "/transportation/airport-parking",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Parking FAQs",
+      "href": "/frequently-asked-questions",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Lot locations on map",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Book your time slot here",
+      "href": "https://jfkt4.seamless.aero/flight?date=now",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Learn more",
+      "href": "https://enroll.clearme.com/enroll/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Learn more or begin your application",
+      "href": "https://www.cbp.gov/travel/trusted-traveler-programs/global-entry",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Learn more and download the app",
+      "href": "https://www.cbp.gov/travel/us-citizens/mobile-passport-control",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Explore the terminal map",
+      "href": "https://maps.jfkairport.com/su/IGmwCb0r",
+      "backgroundColor": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "4px",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px"
+    },
+    {
+      "tag": "a",
+      "text": "Use Google Indoor Live View",
+      "href": "https://www.google.com/maps/place/Terminal+4,+Terminal+4+Departures,+Queens,+NY+11430/",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "borderRadius": "4px",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px"
+    },
+    {
+      "tag": "a",
+      "text": "JFK Terminal 4 restaurants",
+      "href": "/dine-shop-relax/food?structureName=Terminal+4",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "JFK Terminal 4 shops",
+      "href": "/dine-shop-relax/shops?structureName=Terminal+4",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Places to relax at JFK Terminal 4",
+      "href": "/dine-shop-relax/lounge-and-rest?structureName=Terminal+4",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Schedule appointment",
+      "href": "https://app.squarespacescheduling.com/schedule/2c1fb017/appointment/37987811/calendar/7397577",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Schedule appointment",
+      "href": "https://app.squarespacescheduling.com/schedule/a9528e06/appointment/38892391/calendar/7557464",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Explore services at JFK",
+      "href": "/explore-jfk/services",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Find airlines operating out of T4",
+      "href": "/explore-jfk/terminals/terminal-4/Airlines-in-T4",
+      "backgroundColor": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "4px",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px"
+    },
+    {
+      "tag": "a",
+      "text": "Visit our About page",
+      "href": "/explore-jfk/terminals/terminal-4/About-JFKIAT",
+      "backgroundColor": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "4px",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px"
+    },
+    {
+      "tag": "a",
+      "text": "Interactive Map",
+      "href": "/explore-jfk/airport-map",
+      "backgroundColor": "rgb(236, 236, 236)",
+      "color": "rgb(9, 9, 11)",
+      "borderRadius": "4px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Departures Guide",
+      "href": "/flights/departures",
+      "backgroundColor": "rgb(236, 236, 236)",
+      "color": "rgb(9, 9, 11)",
+      "borderRadius": "4px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Arrivals Guide",
+      "href": "/flights/arrivals",
+      "backgroundColor": "rgb(236, 236, 236)",
+      "color": "rgb(9, 9, 11)",
+      "borderRadius": "4px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Connections Guide",
+      "href": "/flights/connections-guide",
+      "backgroundColor": "rgb(236, 236, 236)",
+      "color": "rgb(9, 9, 11)",
+      "borderRadius": "4px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "All Terminals",
+      "href": "/explore-jfk/terminals",
+      "backgroundColor": "rgb(236, 236, 236)",
+      "color": "rgb(9, 9, 11)",
+      "borderRadius": "4px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Accessibility",
+      "href": "/explore-jfk/accessibility-services",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Air Cargo",
+      "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Alerts and Advisories",
+      "href": "/alerts-advisories",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Contact Us",
+      "href": "/contact-us",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "FAQ",
+      "href": "/frequently-asked-questions",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Feedback",
+      "href": "/feedback",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "PANYNJ Airports Information",
+      "href": "https://www.panynj.gov/airports/en/index.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "JFK Redevelopment",
+      "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Lost and Found",
+      "href": "/lost-and-found",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Press",
+      "href": "https://www.panynj.gov/port-authority/en/press-room.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Website Disclaimer",
+      "href": "/website-disclaimer",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Privacy Statement",
+      "href": "/privacy",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "text": "Skip to Content",
+        "href": "https://www.jfkairport.com/explore-jfk/terminals/terminal-4#main-content"
+      },
+      {
+        "text": "",
+        "href": "https://www.jfkairport.com/"
+      },
+      {
+        "text": "",
+        "href": "https://www.jfkairport.com/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Terminal 4 roadway changes.",
+        "href": "https://www.jfkairport.com/alerts-advisories/t4-roadway-changes"
+      },
+      {
+        "text": "Learn more",
+        "href": "https://www.jfkairport.com/alerts-advisories/terminal-4-blue-parking-lot-height-restriction"
+      },
+      {
+        "text": "Parking rates and info",
+        "href": "https://www.jfkairport.com/transportation/airport-parking"
+      },
+      {
+        "text": "Parking FAQs",
+        "href": "https://www.jfkairport.com/frequently-asked-questions"
+      },
+      {
+        "text": "Terminal 4 shuttle routes (PDF) opens in a new tab",
+        "href": "https://www.jfkairport.com/images/jfk/flights/t4-shuttle-map.pdf"
+      },
+      {
+        "text": "JFK Terminal 4 restaurants",
+        "href": "https://www.jfkairport.com/dine-shop-relax/food?structureName=Terminal+4"
+      },
+      {
+        "text": "JFK Terminal 4 shops",
+        "href": "https://www.jfkairport.com/dine-shop-relax/shops?structureName=Terminal+4"
+      },
+      {
+        "text": "Places to relax at JFK Terminal 4",
+        "href": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest?structureName=Terminal+4"
+      },
+      {
+        "text": "Explore services at JFK",
+        "href": "https://www.jfkairport.com/explore-jfk/services"
+      },
+      {
+        "text": "request a Lanyard in advance by email",
+        "href": "https://www.jfkairport.com/explore-jfk/accessibility-services/hidden-disabilities-accessibility"
+      },
+      {
+        "text": "T4 offers a range of accessibility services to help make your journey smoother",
+        "href": "https://www.jfkairport.com/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Find airlines operating out of T4",
+        "href": "https://www.jfkairport.com/explore-jfk/terminals/terminal-4/Airlines-in-T4"
+      },
+      {
+        "text": "Visit our About page",
+        "href": "https://www.jfkairport.com/explore-jfk/terminals/terminal-4/About-JFKIAT"
+      },
+      {
+        "text": "Interactive Map",
+        "href": "https://www.jfkairport.com/explore-jfk/airport-map"
+      },
+      {
+        "text": "Departures Guide",
+        "href": "https://www.jfkairport.com/flights/departures"
+      },
+      {
+        "text": "Arrivals Guide",
+        "href": "https://www.jfkairport.com/flights/arrivals"
+      },
+      {
+        "text": "Connections Guide",
+        "href": "https://www.jfkairport.com/flights/connections-guide"
+      },
+      {
+        "text": "All Terminals",
+        "href": "https://www.jfkairport.com/explore-jfk/terminals"
+      },
+      {
+        "text": "Accessibility",
+        "href": "https://www.jfkairport.com/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Alerts and Advisories",
+        "href": "https://www.jfkairport.com/alerts-advisories"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.jfkairport.com/contact-us"
+      },
+      {
+        "text": "FAQ",
+        "href": "https://www.jfkairport.com/frequently-asked-questions"
+      },
+      {
+        "text": "Feedback",
+        "href": "https://www.jfkairport.com/feedback"
+      },
+      {
+        "text": "Lost and Found",
+        "href": "https://www.jfkairport.com/lost-and-found"
+      },
+      {
+        "text": "Website Disclaimer",
+        "href": "https://www.jfkairport.com/website-disclaimer"
+      },
+      {
+        "text": "Privacy Statement",
+        "href": "https://www.jfkairport.com/privacy"
+      }
+    ],
+    "external": [
+      {
+        "text": "Book your time slot here",
+        "href": "https://jfkt4.seamless.aero/flight?date=now"
+      },
+      {
+        "text": "Learn more",
+        "href": "https://enroll.clearme.com/enroll/"
+      },
+      {
+        "text": "Learn more or begin your application",
+        "href": "https://www.cbp.gov/travel/trusted-traveler-programs/global-entry"
+      },
+      {
+        "text": "Learn more and download the app",
+        "href": "https://www.cbp.gov/travel/us-citizens/mobile-passport-control"
+      },
+      {
+        "text": "Explore the terminal map",
+        "href": "https://maps.jfkairport.com/su/IGmwCb0r"
+      },
+      {
+        "text": "Use Google Indoor Live View",
+        "href": "https://www.google.com/maps/place/Terminal+4,+Terminal+4+Departures,+Queens,+NY+11430/"
+      },
+      {
+        "text": "use the interactive map to route directly to your gate opens in a new tab",
+        "href": "https://maps.jfkairport.com/"
+      },
+      {
+        "text": "Schedule appointment",
+        "href": "https://app.squarespacescheduling.com/schedule/2c1fb017/appointment/37987811/calendar/7397577"
+      },
+      {
+        "text": "Schedule appointment",
+        "href": "https://app.squarespacescheduling.com/schedule/a9528e06/appointment/38892391/calendar/7557464"
+      },
+      {
+        "text": "",
+        "href": "http://www.panynj.gov/"
+      },
+      {
+        "text": "Air Cargo",
+        "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+      },
+      {
+        "text": "PANYNJ Airports Information",
+        "href": "https://www.panynj.gov/airports/en/index.html"
+      },
+      {
+        "text": "JFK Redevelopment",
+        "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+      },
+      {
+        "text": "Press",
+        "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+      },
+      {
+        "text": "",
+        "href": "http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/"
+      },
+      {
+        "text": "",
+        "href": "http://www.twitter.com/JFKairport"
+      },
+      {
+        "text": "",
+        "href": "https://www.panynj.gov/WhatsApp_JFK"
+      }
+    ],
+    "counts": {
+      "internal": 29,
+      "external": 17
+    }
+  },
+  "tokens": {
+    "colors": {
+      "rgb(9, 9, 11)": 516,
+      "rgb(0, 69, 255)": 46,
+      "rgb(0, 0, 0)": 223,
+      "rgb(1, 118, 163)": 12,
+      "rgb(113, 113, 113)": 4,
+      "rgb(255, 255, 255)": 39,
+      "rgb(27, 122, 47)": 2,
+      "rgb(137, 83, 10)": 2,
+      "rgb(236, 236, 236)": 15
+    },
+    "backgrounds": {
+      "rgb(255, 255, 255)": 34,
+      "rgb(255, 185, 49)": 1,
+      "rgb(240, 250, 255)": 1,
+      "rgb(0, 0, 0)": 5,
+      "rgb(236, 236, 236)": 8,
+      "rgb(241, 252, 242)": 2,
+      "rgb(27, 122, 47)": 2,
+      "rgb(255, 254, 231)": 2,
+      "rgb(242, 169, 0)": 2,
+      "rgb(208, 235, 255)": 6,
+      "rgb(119, 187, 255)": 1,
+      "rgba(0, 0, 0, 0.25)": 1,
+      "rgb(1, 21, 101)": 1
+    },
+    "fonts": {
+      "Helvetica Now for PANYNJ": 844,
+      "Sharp Grotesk Semibold": 15
+    },
+    "sizes": {
+      "16px": 574,
+      "20px": 118,
+      "24px": 7,
+      "28px": 8,
+      "14px": 109,
+      "32px": 17,
+      "52px": 4,
+      "12px": 8,
+      "18px": 3,
+      "40px": 6,
+      "88px": 5
+    },
+    "radii": {
+      "2px": 32,
+      "8px": 1,
+      "4px": 56,
+      "9999px": 8
+    },
+    "shadows": {
+      "rgba(0, 0, 0, 0.25) 0px 0px 4px 0px": 17
+    }
+  },
+  "headingStyles": {
+    "h1": {
+      "fontFamily": "Helvetica Now for PANYNJ",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "textTransform": "none",
+      "letterSpacing": "normal"
+    },
+    "h2": {
+      "fontFamily": "Sharp Grotesk Semibold",
+      "fontSize": "52px",
+      "fontWeight": "400",
+      "lineHeight": "64px",
+      "textTransform": "none",
+      "letterSpacing": "normal"
+    },
+    "h3": {
+      "fontFamily": "Helvetica Now for PANYNJ",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "lineHeight": "24px",
+      "textTransform": "none",
+      "letterSpacing": "normal"
+    }
+  },
+  "bodyStyles": {
+    "fontFamily": "Helvetica Now for PANYNJ",
+    "fontSize": "20px",
+    "lineHeight": "24px",
+    "color": "rgb(0, 0, 0)"
+  },
+  "media": {
+    "images": [
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airports/jfk/JFK.svg",
+        "srcset": "",
+        "alt": "John F. Kennedy International Airport",
+        "loading": "eager",
+        "intrinsicW": 300,
+        "intrinsicH": 61,
+        "renderedW": 205,
+        "renderedH": 42,
+        "localPath": "assets/media/JFK-cd579a20.svg"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airports/jfk/terminals/T4_Logo_White.svg",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 507,
+        "intrinsicH": 106,
+        "renderedW": 383,
+        "renderedH": 80,
+        "localPath": "assets/media/T4_Logo_White-8c277e28.svg"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/T4-exterior-new:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1920,
+        "intrinsicH": 1080,
+        "renderedW": 620,
+        "renderedH": 349,
+        "localPath": "assets/media/T4-exterior-new_card-wide-16x9-eb1e1760.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/T4-fast-track-T4-reserve:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1192,
+        "intrinsicH": 670,
+        "renderedW": 308,
+        "renderedH": 173,
+        "localPath": "assets/media/T4-fast-track-T4-reserve_card-wide-16x9-f8e54fe0.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/T4-fast-track-TSA-Pre-check-Clear:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1192,
+        "intrinsicH": 670,
+        "renderedW": 308,
+        "renderedH": 173,
+        "localPath": "assets/media/T4-fast-track-TSA-Pre-check-Clear_card-wide-16x9-2c40d4f2.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/T4-fast-track-Global-Entry:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1192,
+        "intrinsicH": 670,
+        "renderedW": 308,
+        "renderedH": 173,
+        "localPath": "assets/media/T4-fast-track-Global-Entry_card-wide-16x9-b02ecca5.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/T4-fast-track-MPC-app:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1192,
+        "intrinsicH": 670,
+        "renderedW": 308,
+        "renderedH": 173,
+        "localPath": "assets/media/T4-fast-track-MPC-app_card-wide-16x9-b78bda7b.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/google-live-view-c:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1423,
+        "intrinsicH": 1067,
+        "renderedW": 427,
+        "renderedH": 320,
+        "localPath": "assets/media/google-live-view-c_photo-4x3-8b496f80.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/t4-cart-service-sign:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1920,
+        "intrinsicH": 1440,
+        "renderedW": 620,
+        "renderedH": 465,
+        "localPath": "assets/media/t4-cart-service-sign_photo-4x3-c6c1f817.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/Van%20Wyck%20Bar:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1919,
+        "intrinsicH": 1080,
+        "renderedW": 416,
+        "renderedH": 234,
+        "localPath": "assets/media/Van_20Wyck_20Bar_card-wide-16x9-028a7bfe.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/t4-Shop:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1919,
+        "intrinsicH": 1080,
+        "renderedW": 416,
+        "renderedH": 234,
+        "localPath": "assets/media/t4-Shop_card-wide-16x9-c09c4200.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/CapitalOneLoungeGrandOpening_003:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1920,
+        "intrinsicH": 1080,
+        "renderedW": 416,
+        "renderedH": 234,
+        "localPath": "assets/media/CapitalOneLoungeGrandOpening_003_card-wide-16x9-6b958bb6.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/T4%20Meet%20and%20Greet%202:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1919,
+        "intrinsicH": 1080,
+        "renderedW": 416,
+        "renderedH": 234,
+        "localPath": "assets/media/T4_20Meet_20and_20Greet_202_card-wide-16x9-af03cd54.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/SCI%20Porter%20Standing%20with%20Cart%20at%20JFK%20Horizontal:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1919,
+        "intrinsicH": 1080,
+        "renderedW": 416,
+        "renderedH": 234,
+        "localPath": "assets/media/SCI_20Porter_20Standing_20with_20Cart_20at_20JFK_20Horizonta-22934407.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/Female%20SCI%20Employee%20Helping%20at%20Bag%20Storage%20Close%20Up%20at%20JFK%20Horizontal:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1919,
+        "intrinsicH": 1080,
+        "renderedW": 416,
+        "renderedH": 234,
+        "localPath": "assets/media/Female_20SCI_20Employee_20Helping_20at_20Bag_20Storage_20Clo-682094b6.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/3-2_5_animalreliefareas:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1920,
+        "intrinsicH": 1080,
+        "renderedW": 416,
+        "renderedH": 234,
+        "localPath": "assets/media/3-2_5_animalreliefareas_card-wide-16x9-cb9d1e14.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/t4%20accessibility%20sunflower%20lanyard:square-1x1?wid=1200&hei=1200&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1200,
+        "intrinsicH": 1200,
+        "renderedW": 620,
+        "renderedH": 620,
+        "localPath": "assets/media/t4_20accessibility_20sunflower_20lanyard_square-1x1-618016e9.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/t4-Art:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 1200,
+        "intrinsicH": 599,
+        "renderedW": 737,
+        "renderedH": 368,
+        "localPath": "assets/media/t4-Art_hero-2x1-ee4ab99d.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/T4%20Airlines%20Tail%20Lineup:photo-4x3",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 0,
+        "intrinsicH": 0,
+        "renderedW": 427,
+        "renderedH": 320,
+        "localPath": "assets/media/T4_20Airlines_20Tail_20Lineup_photo-4x3-09db671a.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/illo-plane-front:hero-2x1",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 0,
+        "intrinsicH": 0,
+        "renderedW": 416,
+        "renderedH": 208,
+        "localPath": "assets/media/illo-plane-front_hero-2x1-3b69eedd.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/illo-globey-binoculars:hero-2x1",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 0,
+        "intrinsicH": 0,
+        "renderedW": 416,
+        "renderedH": 208,
+        "localPath": "assets/media/illo-globey-binoculars_hero-2x1-6b8dd16d.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/illo-wave:hero-2x1",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 0,
+        "intrinsicH": 0,
+        "renderedW": 416,
+        "renderedH": 208,
+        "localPath": "assets/media/illo-wave_hero-2x1-c98744ed.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/illo-international:hero-2x1",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 0,
+        "intrinsicH": 0,
+        "renderedW": 416,
+        "renderedH": 208,
+        "localPath": "assets/media/illo-international_hero-2x1-4c53e9f8.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/illo-explore:hero-2x1",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 0,
+        "intrinsicH": 0,
+        "renderedW": 416,
+        "renderedH": 208,
+        "localPath": "assets/media/illo-explore_hero-2x1-139d6ddc.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/T4-employee-appreciation-day-2025-b:photo-4x3",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 0,
+        "intrinsicH": 0,
+        "renderedW": 427,
+        "renderedH": 320,
+        "localPath": "assets/media/T4-employee-appreciation-day-2025-b_photo-4x3-2b265567.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/JFK%20Airport%20041326:card-portrait-3x4",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 0,
+        "intrinsicH": 0,
+        "renderedW": 312,
+        "renderedH": 416,
+        "localPath": "assets/media/JFK_20Airport_20041326_card-portrait-3x4-88a464f7.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-1_departurescard:card-portrait-3x4",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 0,
+        "intrinsicH": 0,
+        "renderedW": 312,
+        "renderedH": 416,
+        "localPath": "assets/media/1-1_departurescard_card-portrait-3x4-d21ddd92.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-2_1_arrivalsguidehero:card-portrait-3x4",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 0,
+        "intrinsicH": 0,
+        "renderedW": 312,
+        "renderedH": 416,
+        "localPath": "assets/media/1-2_1_arrivalsguidehero_card-portrait-3x4-a6656163.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/0-1_2_general:card-portrait-3x4",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 0,
+        "intrinsicH": 0,
+        "renderedW": 312,
+        "renderedH": 416,
+        "localPath": "assets/media/0-1_2_general_card-portrait-3x4-27413e50.bin"
+      },
+      {
+        "src": "https://s7d9.scene7.com/is/image/panynjaviation/3_6-1_allterminalshero:card-portrait-3x4",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 0,
+        "intrinsicH": 0,
+        "renderedW": 312,
+        "renderedH": 416,
+        "localPath": "assets/media/3_6-1_allterminalshero_card-portrait-3x4-47965f1a.bin"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/Port_Authority_NYNJ_logo.svg",
+        "srcset": "",
+        "alt": "Port Authority New York New Jersey Air Land Rail Sea",
+        "loading": "eager",
+        "intrinsicW": 252,
+        "intrinsicH": 121,
+        "renderedW": 164,
+        "renderedH": 79,
+        "localPath": "assets/media/Port_Authority_NYNJ_logo-40276be9.svg"
+      }
+    ],
+    "inlineSvgCount": 1,
+    "videos": [],
+    "iframes": []
+  },
+  "forms": [
+    {
+      "action": "https://parking.jfkairport.com/book/JFK/Parking",
+      "method": "get",
+      "ariaLabel": "",
+      "fields": [
+        {
+          "tag": "input",
+          "type": "",
+          "name": "entryDate",
+          "placeholder": "Entry date",
+          "required": false,
+          "ariaLabel": "Entry Date (Required)"
+        },
+        {
+          "tag": "input",
+          "type": "",
+          "name": "entryTime",
+          "placeholder": "Entry time",
+          "required": false,
+          "ariaLabel": "Entry Time (Required)"
+        },
+        {
+          "tag": "input",
+          "type": "",
+          "name": "exitDate",
+          "placeholder": "Exit date",
+          "required": false,
+          "ariaLabel": "Exit Date (Required)"
+        },
+        {
+          "tag": "input",
+          "type": "",
+          "name": "exitTime",
+          "placeholder": "Exit time",
+          "required": false,
+          "ariaLabel": "Exit Time (Required)"
+        },
+        {
+          "tag": "select",
+          "type": "",
+          "name": "terminalid",
+          "placeholder": "",
+          "required": false,
+          "ariaLabel": "Departure Terminal"
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "lang",
+          "placeholder": "",
+          "required": false,
+          "ariaLabel": ""
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "parkingDetailsSubmitted",
+          "placeholder": "",
+          "required": false,
+          "ariaLabel": ""
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "progressToNextStep",
+          "placeholder": "",
+          "required": false,
+          "ariaLabel": ""
+        },
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "promocodes",
+          "placeholder": "",
+          "required": false,
+          "ariaLabel": ""
+        }
+      ]
+    }
+  ],
+  "logoCandidates": [
+    {
+      "type": "img",
+      "src": "https://www.jfkairport.com/images/shared/logos/airports/jfk/JFK.svg",
+      "outerHTMLPreview": "<img alt=\"John F. Kennedy International Airport\" class=\"Image_image__LITrj WideHeader_logo__nAh0x\" loading=\"eager\" data-testid=\"logo\" src=\"/images/shared/logos/airports/jfk/JFK.svg\">",
+      "localPath": "assets/media/JFK-cd579a20.svg"
+    },
+    {
+      "type": "og:image",
+      "src": "https://s7d9.scene7.com/is/image/panynjaviation/jfk_ogimage:card-wide-16x9",
+      "localPath": "assets/media/jfk_ogimage_card-wide-16x9-3041f9a7.bin"
+    },
+    {
+      "type": "favicon",
+      "src": "https://www.jfkairport.com/images/shared/favicon/jfk_favicon.ico",
+      "localPath": "assets/media/jfk_favicon-a7892a40.ico"
+    }
+  ],
+  "voice": {
+    "heroHeading": "JFK Terminal 4",
+    "heroParagraph": "Current wait times"
+  },
+  "systemBlocks": {
+    "headerHTML": "<header class=\"Header_header__Qb7xT css-0\" data-testid=\"header\"><a aria-label=\"Skip to Content\" tabindex=\"0\" class=\"chakra-link Header_skipToContent__n9lzS css-iw9gdm\" href=\"/explore-jfk/terminals/terminal-4#main-content\">Skip to Content</a><div class=\"Grid_grid__k5z8n WideHeader_wideHeader__WUcQz css-8yzm79\" data-testid=\"wide-header\"><a tabindex=\"0\" class=\"chakra-link WideHeader_logoContainer__OVb_m css-1mw5ttv\" href=\"/\"><img alt=\"John F. Kennedy International Airport\" class=\"Image_image__LITrj WideHeader_logo__nAh0x\" loading=\"eager\" data-testid=\"logo\" src=\"/images/shared/logos/airports/jfk/JFK.svg\"></a><nav class=\"chakra-stack WideHeader_navBar__V9qem css-1igwmid\" aria-label=\"main\"><div class=\"chakra-stack WideHeader_expandableNav__tw5MU css-1igwmid\"><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Flights\">Flights</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Transportation &amp; Parking\">Transportation &amp; Parking</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Explore JFK\">Explore JFK</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Dine, Shop, Relax\">Dine, Shop, Relax</button></div><a aria-label=\"Accessibility Services\" tabindex=\"0\" target=\"_self\" class=\"chakra-link WideHeader_accessibility__zCHWK css-1mw5ttv\" data-testid=\"accessibility-cta\" href=\"/explore-jfk/accessibility-services\"><span class=\"icon-accessible css-5lgiqp\" data-testid=\"icon\" tabindex=\"-1\" aria-hidden=\"true\"></span></a><button class=\"WideHeader_search__RDBrN css-0\" tabindex=\"0\" aria-expanded=\"false\" aria-label=\"Search\" data-testid=\"search\"><span class=\"icon-search css-5lgiqp\" data-testid=\"icon-search\" tabindex=\"-1\" aria-hidden=\"true\"></span></button></div></nav></div></header>",
+    "footerHTML": "<footer class=\"Footer_footerContainer__h6KnL css-0\" data-theme=\"aviation\"><div class=\"Grid_grid__k5z8n Footer_footer__nCxey css-8yzm79\"><a tabindex=\"0\" class=\"chakra-link Footer_logoContainer__YztlK css-1mw5ttv\" href=\"http://www.panynj.gov/\"><img alt=\"Port Authority New York New Jersey Air Land Rail Sea\" class=\"Image_image__LITrj Footer_logo__dJ82V\" loading=\"eager\" data-testid=\"default-image\" src=\"/images/shared/logos/Port_Authority_NYNJ_logo.svg\"></a><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"Accessibility\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/explore-jfk/accessibility-services\">Accessibility</a><a aria-label=\"Air Cargo opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/airports/en/air-cargo/jfk.html\">Air Cargo<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Alerts and Advisories\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/alerts-advisories\">Alerts and Advisories</a><a aria-label=\"Contact Us\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/contact-us\">Contact Us</a></div><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"FAQ\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/frequently-asked-questions\">FAQ</a><a aria-label=\"Feedback\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/feedback\">Feedback</a><a aria-label=\"General Airport Information opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/airports/en/index.html\">PANYNJ Airports Information<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"JFK Redevelopment opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html\">JFK Redevelopment<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"Lost and Found\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/lost-and-found\">Lost and Found</a><a aria-label=\"Press opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/port-authority/en/press-room.html\">Press<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><div class=\"chakra-stack Footer_socialLinks__xfpNq css-1igwmid\"><a aria-label=\"Connect with us on Facebook opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/\"><span class=\"icon-logo-facebook css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Connect with us on X (previously Twitter) opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"http://www.twitter.com/JFKairport\"><span class=\"icon-logo-x css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Connect with us on Whats App opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"https://www.panynj.gov/WhatsApp_JFK\"><span class=\"icon-logo-whatsapp css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><span role=\"separator\" aria-orientation=\"horizontal\" class=\"chakra-separator Footer_separator___6pPI css-wyc8fo\"></span><div class=\"Footer_address__l_LYP css-0\"><p>The Port Authority of New York and New Jersey<br>\n  4 World Trade Center, 150 Greenw",
+    "headerLinks": [
+      {
+        "text": "Skip to Content",
+        "href": "/explore-jfk/terminals/terminal-4#main-content"
+      },
+      {
+        "text": "",
+        "href": "/"
+      },
+      {
+        "text": "",
+        "href": "/explore-jfk/accessibility-services"
+      }
+    ],
+    "footerLinks": [
+      {
+        "text": "",
+        "href": "http://www.panynj.gov/"
+      },
+      {
+        "text": "Accessibility",
+        "href": "/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Air Cargo",
+        "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+      },
+      {
+        "text": "Alerts and Advisories",
+        "href": "/alerts-advisories"
+      },
+      {
+        "text": "Contact Us",
+        "href": "/contact-us"
+      },
+      {
+        "text": "FAQ",
+        "href": "/frequently-asked-questions"
+      },
+      {
+        "text": "Feedback",
+        "href": "/feedback"
+      },
+      {
+        "text": "PANYNJ Airports Information",
+        "href": "https://www.panynj.gov/airports/en/index.html"
+      },
+      {
+        "text": "JFK Redevelopment",
+        "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+      },
+      {
+        "text": "Lost and Found",
+        "href": "/lost-and-found"
+      },
+      {
+        "text": "Press",
+        "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+      },
+      {
+        "text": "",
+        "href": "http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/"
+      },
+      {
+        "text": "",
+        "href": "http://www.twitter.com/JFKairport"
+      },
+      {
+        "text": "",
+        "href": "https://www.panynj.gov/WhatsApp_JFK"
+      },
+      {
+        "text": "Website Disclaimer",
+        "href": "/website-disclaimer"
+      },
+      {
+        "text": "Privacy Statement",
+        "href": "/privacy"
+      }
+    ]
+  },
+  "_domCounts": {
+    "totalElements": 859,
+    "sampledElements": 859
+  },
+  "screenshot": "assets/screenshots/explore-jfk__terminals__terminal-4.png"
+}

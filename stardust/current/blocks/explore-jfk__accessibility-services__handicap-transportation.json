@@ -1,0 +1,248 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:23.056Z",
+    "url": "https://www.jfkairport.com/explore-jfk/accessibility-services/handicap-transportation",
+    "slug": "explore-jfk__accessibility-services__handicap-transportation",
+    "httpStatus": 200,
+    "totalMs": 3649,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": null,
+  "h1": "Accessible Transportation",
+  "lede": "We offer accessible transportation options designed to support your needs at every step. From public transit to shuttles and on-airport connections, getting around JFK is simple and comfortable.",
+  "heroImage": {
+    "src": "https://s7d9.scene7.com/is/image/panynjaviation/3-2-3_1_nonvisiblehero:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+    "alt": "",
+    "w": 1920,
+    "h": 1080
+  },
+  "blocks": [
+    {
+      "h2": "Transportation that works for you",
+      "h3s": [],
+      "paragraphs": [
+        "We offer accessible transportation options designed to support your needs at every step. From public transit to shuttles and on-airport connections, getting around JFK is simple and comfortable.",
+        "On track with accessibility"
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-5_airtrainsubway:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1440
+        }
+      ],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Accessible public transportation",
+      "h3s": [],
+      "paragraphs": [
+        "The AirTrain system is fully ADA-compliant, making it easier for everyone, including those with mobility devices, strollers, or luggage, to travel comfortably and safely.",
+        "The AirTrain connects with the NYC subway system. The NYC subway system offers many accessible options, including wheelchair-friendly buses that travel around the airport. For more details, you can call 511 or (888) GO511NY (+1 (888) 465-1169), or visit the MTA website opens in a new tab."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "511",
+          "href": "tel:1511"
+        },
+        {
+          "text": "+1 (888) 465-1169",
+          "href": "tel:18884651169"
+        },
+        {
+          "text": "the MTA website opens in a new tab",
+          "href": "https://www.mta.info/accessibility"
+        },
+        {
+          "text": "Learn more about public transportation options",
+          "href": "/transportation/public-transport"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Accessible parking",
+      "h3s": [],
+      "paragraphs": [
+        "Parking spaces for customers with disabilities are available in every parking lot, including near terminal entrances and in the long-term lot near the Howard Beach and Lefferts Boulevard AirTrain JFK stations. Subject to availability. Vehicles must prominently display a non-expired, state-issued ADA license plate, placard, or permit. Violators will be towed. Learn more about Parking at JFK.",
+        "A courtesy discount is available to customers with official, non-expired, state-issued ADA license plates, placards, or permits."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Learn more about Parking at JFK",
+          "href": "/transportation/airport-parking"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Accessible rental cars, taxis, ride shares, and shuttles",
+      "h3s": [],
+      "paragraphs": [
+        "Rental Cars",
+        "Some on-airport car rental companies offer vehicles with hand controls. For details or to arrange shuttle service to or from your terminal, please contact the rental company directly.",
+        "Taxis",
+        "You can request a wheelchair-accessible taxi from the Accessible Dispatch Program opens in a new tab or by using apps like Curb opens in a new tabor ARRO. opens in a new tab You can also call or text the dispatch service directly:",
+        "Accessible taxis cost the same as regular ones —they’ll have a wheelchair symbol on the vehicle.",
+        "Ride Share Apps",
+        "Many ride-share apps—including Uber, Lyft, and others—offer options to request accessible vehicles. These may include cars with wheelchair ramps, extra space, or other features to support mobility needs. In most apps, you can filter for accessible rides right in the settings or ride request screen. Customers with accessibility needs using ride-share apps can still be picked up and dropped off curbside, even when remote ride-share lot operations are in effect.",
+        "Shuttles",
+        "If you prefer a shuttle, accessible airport shuttles are also available. These services can be arranged in advance and are a great option for travelers who need extra support or space. To make sure your accessible ride is ready when you are, it’s best to book at least 24 hours ahead."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "rental company directly",
+          "href": "/transportation/car-rentals"
+        },
+        {
+          "text": "Accessible Dispatch Program opens in a new tab",
+          "href": "https://accessibledispatch.com/"
+        },
+        {
+          "text": "Curb opens in a new tab",
+          "href": "https://www.gocurb.com/"
+        },
+        {
+          "text": "ARRO. opens in a new tab",
+          "href": "https://www.ridearro.com/"
+        },
+        {
+          "text": "+1 (646) 599-9999",
+          "href": "tel:16465999999"
+        },
+        {
+          "text": "+1 (646) 400-0789",
+          "href": "sms:16464000789"
+        },
+        {
+          "text": "ride-share apps",
+          "href": "/transportation/ride-share-services"
+        },
+        {
+          "text": "accessible airport shuttles",
+          "href": "/transportation/van-shuttle-service"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "All JFK accessibility services",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Blind or low vision services",
+          "href": "/explore-jfk/accessibility-services/vision-accessibility-services"
+        },
+        {
+          "text": "Non-visible disability services",
+          "href": "/explore-jfk/accessibility-services/hidden-disabilities-accessibility"
+        },
+        {
+          "text": "Deaf or hard of hearing services",
+          "href": "/explore-jfk/accessibility-services/hearing-accessibility"
+        },
+        {
+          "text": "Limited mobility services",
+          "href": "/explore-jfk/accessibility-services/mobility-accessibility"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "FAQs",
+      "h3s": [],
+      "paragraphs": [
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "Are accessible JFK airport shuttles available?"
+        },
+        {
+          "text": "How can I request an accessible taxi in NYC?"
+        },
+        {
+          "text": "Is accessible parking available at JFK?"
+        }
+      ],
+      "links": [
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

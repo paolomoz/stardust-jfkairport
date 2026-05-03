@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<!--
+_provenance:
+  writtenBy: stardust:prototype
+  writtenAt: 2026-05-03T00:00:00Z
+  variant: V4 (axis: data / live-ops-led)
+  trait: real-time departures table pattern (captured on /flights)
+  againstDirection: stardust/direction.md (2026-05-03 — direction B + Mode A)
+  shapeBrief: stardust/prototypes/home-variants-shape.md § V4
+  improvementsApplied: stardust/prototypes/home-improvements.md (all 6)
+  contentSource: stardust/current/pages/home.json + stardust/current/pages/flights.json (departures pattern)
+  unsourcedContent:
+    - all live numerals (security waits, parking availability, weather, departures, status pills)
+    - sample flight rows (carriers + flight numbers + destinations are illustrative)
+  renderedVia: stardust-direct (5-variant batch; iteration via $impeccable live)
+  stardustVersion: 0.3.0
+-->
+<meta charset="utf-8">
+<title>JFK Airport — V4 Live-ops prototype</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0045FF">
+<meta name="description" content="JFK Airport live status — departures, security waits, pickup zones, construction state.">
+<style>
+  :root {
+    --ground-white: #FFFFFF;
+    --ice-blue: #EFF9FF;
+    --mint-tint: #F1FCF2;
+    --ink: #09090B;
+    --slate-900: #0F172A;
+    --slate-700: #334155;
+    --slate-600: #475569;
+    --slate-400: #94A3B8;
+    --slate-300: #CBD5E1;
+    --slate-200: #E2E8F0;
+    --slate-100: #F1F5F9;
+    --panynj-blue: #0045FF;
+    --panynj-deep-blue: #022DB7;
+    --panynj-navy: #011565;
+    --advisory-yellow: #FFCD00;
+    --advisory-tint: #FFFBEA;
+    --success-green: #1B7A2F;
+    --success-tint: #DCF8E2;
+    --display-family: "Sharp Grotesk Semibold", "Helvetica Neue Condensed Bold", "Inter", system-ui, sans-serif;
+    --body-family: "Helvetica Now for PANYNJ", "Helvetica Neue", "Inter", "Arial", sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    --section-pad-d: 56px;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--ground-white); color: var(--ink);
+    font-family: var(--body-family); font-size: 16px; line-height: 1.55; }
+  .display { font-family: var(--display-family); font-weight: 700; letter-spacing: -0.025em; }
+  .mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  a { color: var(--panynj-deep-blue); text-decoration: none; }
+  a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  img { max-width: 100%; display: block; }
+  [data-placeholder] { outline: 2px dashed var(--advisory-yellow); outline-offset: 2px; background: var(--advisory-tint); padding: 0 4px; border-radius: 2px; }
+
+  /* Mini status strip (above header) */
+  .mini-status { background: var(--panynj-navy); color: var(--ground-white); padding: 6px 24px;
+    display: flex; gap: 24px; align-items: center; font-size: 13px; }
+  .mini-status .label { color: var(--slate-400); letter-spacing: 0.06em; text-transform: uppercase; font-size: 11px; font-weight: 700; }
+  .mini-status .num { font-family: var(--mono); font-weight: 700; color: var(--ground-white); }
+  .mini-status .item { display: inline-flex; align-items: center; gap: 8px; }
+  .mini-status .item + .item { padding-left: 24px; border-left: 1px solid rgba(255,255,255,0.15); }
+  .mini-status .right { margin-left: auto; }
+  .mini-status .right a { color: var(--slate-300); font-weight: 600; }
+
+  header[data-section="header"] { position: sticky; top: 0; z-index: 50; background: var(--ground-white);
+    border-bottom: 1px solid var(--slate-200); padding: 12px 24px; display: flex; align-items: center; gap: 28px; }
+  header .logo img { height: 32px; }
+  header nav { display: flex; gap: 24px; flex: 1; margin-left: 12px; }
+  header nav a { font-size: 14px; font-weight: 700; color: var(--ink); }
+  header .right { display: flex; gap: 12px; }
+  header .right .icon-btn { width: 32px; height: 32px; display: inline-flex; align-items: center;
+    justify-content: center; background: var(--slate-100); border-radius: 4px; cursor: pointer; color: var(--ink); border: 0; }
+
+  main { max-width: 1440px; margin: 0 auto; padding: 0 24px; }
+  main > section.full-bleed { max-width: none; padding-left: 0; padding-right: 0; margin: 0 -24px; }
+
+  /* Live departures board hero */
+  .board { background: var(--ink); color: var(--ground-white); padding: 32px 32px 40px; }
+  .board .head { display: flex; justify-content: space-between; align-items: end; margin-bottom: 18px;
+    padding-bottom: 14px; border-bottom: 1px solid #1f1f23; }
+  .board .head h1 { font-family: var(--display-family); font-weight: 700; font-size: 56px; line-height: 1;
+    letter-spacing: -0.025em; margin: 0; color: var(--ground-white); }
+  .board .head .meta { font-size: 13px; color: var(--slate-400); letter-spacing: 0.04em; text-transform: uppercase; text-align: right; }
+  .board .head .meta .num { color: var(--ground-white); font-family: var(--mono); font-weight: 700; }
+  .board .filter-row { display: flex; gap: 18px; align-items: center; padding-bottom: 18px; }
+  .board .tabs { display: flex; gap: 24px; }
+  .board .tab { font-family: var(--display-family); font-weight: 700; font-size: 22px; padding: 0 0 8px;
+    color: var(--slate-400); cursor: pointer; }
+  .board .tab.active { color: var(--ground-white); box-shadow: inset 0 -3px 0 var(--panynj-blue); }
+  .board .filters { display: flex; gap: 10px; margin-left: auto; }
+  .board .filters input, .board .filters select { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.15);
+    color: var(--ground-white); border-radius: 2px; padding: 8px 10px; font-family: inherit; font-size: 13px; }
+  .board .filters input::placeholder { color: var(--slate-400); }
+  .board .subscribe { background: var(--panynj-blue); color: var(--ground-white); border: 0; padding: 9px 14px;
+    border-radius: 2px; font-family: inherit; font-size: 13px; font-weight: 700; cursor: pointer; }
+  .board table { width: 100%; border-collapse: collapse; }
+  .board thead th { font-family: var(--display-family); text-align: left; font-size: 14px; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--slate-400); font-weight: 700; padding: 10px 12px; border-bottom: 1px solid #1f1f23; }
+  .board tbody td { padding: 14px 12px; border-bottom: 1px solid #1f1f23; font-size: 15px; vertical-align: middle; }
+  .board tbody td.t { font-family: var(--mono); font-weight: 700; font-size: 18px; color: var(--ground-white); }
+  .board tbody td.dest { color: var(--ground-white); font-weight: 600; }
+  .board tbody td.airline { color: var(--slate-300); }
+  .board tbody td.flight { font-family: var(--mono); color: var(--slate-300); }
+  .board tbody td.gate { font-family: var(--mono); font-weight: 700; color: var(--ground-white); }
+  .pill { display: inline-block; padding: 3px 10px; border-radius: 9999px; font-size: 12px; font-weight: 700; letter-spacing: 0.02em; }
+  .pill.ok { background: rgba(27,122,47,0.2); color: #6EDB85; }
+  .pill.delay { background: rgba(71,85,105,0.4); color: var(--slate-300); }
+  .pill.board { background: var(--panynj-blue); color: var(--ground-white); }
+  .pill.gate { background: var(--advisory-yellow); color: var(--panynj-navy); }
+  .board .footer-row { padding: 18px 0 0; display: flex; gap: 16px; align-items: center; }
+  .board .footer-row .all-link { color: var(--slate-300); font-weight: 700; font-size: 14px; }
+  .board .footer-row .all-link:hover { color: var(--ground-white); text-decoration: none; }
+
+  /* Today at JFK dashboard */
+  .dashboard { padding: 56px 0; }
+  .dashboard h2 { font-family: var(--display-family); font-weight: 700; font-size: 48px; line-height: 1.05;
+    letter-spacing: -0.02em; margin: 0 0 24px; }
+  .dash-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .dash-card { background: var(--ground-white); border: 1px solid var(--slate-200); border-radius: 4px;
+    padding: 22px 24px; }
+  .dash-card .label { font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--slate-600); font-weight: 700; }
+  .dash-card .big { font-family: var(--display-family); font-size: 80px; line-height: 1; letter-spacing: -0.03em;
+    font-weight: 700; margin: 8px 0 14px; color: var(--ink); }
+  .dash-card .big .unit { font-size: 22px; color: var(--slate-600); margin-left: 4px; }
+  .dash-card .breakdown { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 16px; font-size: 13px; color: var(--slate-700); }
+  .dash-card .breakdown .num { font-family: var(--mono); font-weight: 700; color: var(--ink); }
+  .dash-card .row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid var(--slate-100); font-size: 14px; }
+  .dash-card .row:last-child { border-bottom: 0; }
+  .dash-card .row .l { color: var(--slate-700); }
+  .dash-card .row .v { font-family: var(--mono); font-weight: 700; color: var(--ink); }
+
+  /* Quick-access mini router */
+  .mini-router { padding: 36px 0 56px; }
+  .mini-router h3 { font-family: var(--display-family); font-weight: 700; font-size: 28px; letter-spacing: -0.01em; margin: 0 0 16px; }
+  .mr-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
+  .mr-tile { padding: 16px 18px; background: var(--ice-blue); border-radius: 2px; cursor: pointer;
+    display: flex; flex-direction: column; gap: 4px; transition: background 0.15s; border: 0; text-align: left; font-family: inherit; }
+  .mr-tile:hover { background: var(--ground-white); border: 1px solid var(--panynj-blue); padding: 15px 17px; }
+  .mr-tile .mt-l { font-family: var(--display-family); font-weight: 700; font-size: 18px; line-height: 1.1; color: var(--ink); }
+  .mr-tile .mt-m { font-size: 12px; color: var(--slate-700); }
+
+  /* Editorial accent strip */
+  .editorial-accent { padding: 56px 0 64px; }
+  .ea-card { display: grid; grid-template-columns: 1fr 1.2fr; gap: 32px; background: var(--slate-100);
+    border-radius: 4px; overflow: hidden; align-items: stretch; }
+  .ea-card .photo { aspect-ratio: 4/3; }
+  .ea-card .photo img { width: 100%; height: 100%; object-fit: cover; }
+  .ea-card .copy { padding: 36px 40px; display: flex; flex-direction: column; justify-content: center; }
+  .ea-card .eyebrow { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--panynj-deep-blue); font-weight: 700; }
+  .ea-card h3 { font-family: var(--display-family); font-weight: 700; font-size: 40px; line-height: 1.05; letter-spacing: -0.02em; margin: 8px 0 12px; }
+  .ea-card p { color: var(--slate-700); font-size: 16px; line-height: 1.6; margin: 0 0 16px; }
+
+  /* Footer */
+  footer[data-section="footer"] { background: var(--ink); color: var(--slate-300); padding: 56px 24px 24px; }
+  footer .inner { max-width: 1440px; margin: 0 auto; }
+  footer .top { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 32px; padding-bottom: 28px; border-bottom: 1px solid #1f1f23; }
+  footer .col h5 { font-family: var(--display-family); color: var(--ground-white); font-size: 14px; font-weight: 700;
+    letter-spacing: 0.05em; text-transform: uppercase; margin: 0 0 12px; }
+  footer .col a { display: block; color: var(--slate-300); font-size: 14px; padding: 4px 0; }
+  footer .col a:hover { color: var(--ground-white); text-decoration: none; }
+  footer .bottom { display: flex; justify-content: space-between; padding-top: 24px; font-size: 12px; color: var(--slate-400); }
+
+  @media (max-width: 1024px) {
+    .dash-grid, .mr-grid, .ea-card { grid-template-columns: 1fr; }
+    .board .filter-row { flex-wrap: wrap; }
+  }
+</style>
+</head>
+<body data-variant="V4" data-axis="live-ops-data">
+
+<div class="mini-status" data-section="status-strip" data-purpose="crisis-affordance" role="status" aria-label="Live system status">
+  <span class="item"><span class="label">Security T4</span> <span class="num"><span data-placeholder>22</span> min</span></span>
+  <span class="item"><span class="label">T5 pickup</span> <span class="num">Lot 2</span></span>
+  <span class="item"><span class="label">AirTrain</span> <span class="num">Normal</span></span>
+  <span class="item"><span class="label">Weather</span> <span class="num">Clear · <span data-placeholder>61°F</span></span></span>
+  <span class="item"><span class="label">Departures today</span> <span class="num"><span data-placeholder>612</span></span></span>
+  <span class="right"><a href="#alerts">3 active alerts →</a></span>
+</div>
+
+<header data-section="header" role="banner">
+  <a href="/" class="logo" aria-label="John F. Kennedy International Airport">
+    <img src="../current/assets/media/JFK-cd579a20.svg" alt="JFK — John F. Kennedy International Airport">
+  </a>
+  <nav data-section="primary-nav" aria-label="Main">
+    <a href="/flights">Flights</a>
+    <a href="/transportation">Transportation &amp; Parking</a>
+    <a href="/explore-jfk">Explore JFK</a>
+    <a href="/dine-shop-relax">Dine, Shop, Relax</a>
+  </nav>
+  <div class="right">
+    <button class="icon-btn" aria-label="Accessibility services">♿</button>
+  </div>
+</header>
+
+<main>
+  <section data-section="departures-board" data-purpose="commercial-conversion" class="board full-bleed">
+    <div class="head">
+      <h1 class="display">Live departures.</h1>
+      <div class="meta">
+        Updated <span class="num"><span data-placeholder>10:42:18</span></span> · <a href="#" style="color: var(--slate-300);">Subscribe to updates</a>
+      </div>
+    </div>
+    <div class="filter-row">
+      <div class="tabs">
+        <div class="tab active">Departures</div>
+        <div class="tab">Arrivals</div>
+      </div>
+      <div class="filters">
+        <input placeholder="Flight, destination, or airline">
+        <select><option>All terminals</option><option>T1</option><option>T4</option><option>T5</option><option>T7</option><option>T8</option></select>
+        <select><option>Next 4 hours</option><option>Today</option><option>Tomorrow</option></select>
+        <button class="subscribe">Subscribe to gate changes</button>
+      </div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 100px;">Time</th>
+          <th>Destination</th>
+          <th>Airline</th>
+          <th style="width: 120px;">Flight</th>
+          <th style="width: 100px;">Terminal</th>
+          <th style="width: 80px;">Gate</th>
+          <th style="width: 130px;">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="t">10:55</td><td class="dest" data-placeholder>London Heathrow (LHR)</td><td class="airline" data-placeholder>British Airways</td><td class="flight" data-placeholder>BA 178</td><td>T7</td><td class="gate" data-placeholder>B14</td><td><span class="pill board">Boarding</span></td></tr>
+        <tr><td class="t">11:05</td><td class="dest" data-placeholder>Los Angeles (LAX)</td><td class="airline" data-placeholder>JetBlue</td><td class="flight" data-placeholder>B6 23</td><td>T5</td><td class="gate" data-placeholder>16</td><td><span class="pill ok">On Time</span></td></tr>
+        <tr><td class="t">11:15</td><td class="dest" data-placeholder>San Juan (SJU)</td><td class="airline" data-placeholder>JetBlue</td><td class="flight" data-placeholder>B6 1505</td><td>T5</td><td class="gate" data-placeholder>22</td><td><span class="pill ok">On Time</span></td></tr>
+        <tr><td class="t">11:30</td><td class="dest" data-placeholder>Tokyo Narita (NRT)</td><td class="airline" data-placeholder>ANA</td><td class="flight" data-placeholder>NH 9</td><td>T7</td><td class="gate" data-placeholder>B22</td><td><span class="pill gate">Gate change → B22</span></td></tr>
+        <tr><td class="t">11:40</td><td class="dest" data-placeholder>Atlanta (ATL)</td><td class="airline" data-placeholder>Delta</td><td class="flight" data-placeholder>DL 2401</td><td>T4</td><td class="gate" data-placeholder>A4</td><td><span class="pill ok">On Time</span></td></tr>
+        <tr><td class="t">12:00</td><td class="dest" data-placeholder>Mexico City (MEX)</td><td class="airline" data-placeholder>AeroMéxico</td><td class="flight" data-placeholder>AM 405</td><td>T1</td><td class="gate" data-placeholder>3</td><td><span class="pill ok">On Time</span></td></tr>
+        <tr><td class="t">12:15</td><td class="dest" data-placeholder>Madrid (MAD)</td><td class="airline" data-placeholder>Iberia</td><td class="flight" data-placeholder>IB 6252</td><td>T7</td><td class="gate" data-placeholder>B6</td><td><span class="pill delay">Delayed → 12:55</span></td></tr>
+        <tr><td class="t">12:30</td><td class="dest" data-placeholder>Paris CDG (CDG)</td><td class="airline" data-placeholder>Air France</td><td class="flight" data-placeholder>AF 11</td><td>T1</td><td class="gate" data-placeholder>5</td><td><span class="pill ok">On Time</span></td></tr>
+      </tbody>
+    </table>
+    <div class="footer-row">
+      <a href="/flights/departures" class="all-link">See all <span data-placeholder>612</span> departures →</a>
+      <a href="/flights/arrivals" class="all-link">Track an arrival →</a>
+    </div>
+  </section>
+
+  <section data-section="dashboard" data-purpose="crisis-affordance" class="dashboard" id="alerts">
+    <h2 class="display">Today at JFK.</h2>
+    <div class="dash-grid">
+      <div class="dash-card">
+        <div class="label">Security wait — by terminal</div>
+        <div class="big"><span data-placeholder>22</span><span class="unit">min · busiest</span></div>
+        <div class="row"><span class="l">T4</span><span class="v" data-placeholder>22 min</span></div>
+        <div class="row"><span class="l">T8</span><span class="v" data-placeholder>17 min</span></div>
+        <div class="row"><span class="l">T5</span><span class="v" data-placeholder>14 min</span></div>
+        <div class="row"><span class="l">T1</span><span class="v" data-placeholder>11 min</span></div>
+        <div class="row"><span class="l">T7</span><span class="v" data-placeholder>9 min</span></div>
+      </div>
+      <div class="dash-card">
+        <div class="label">Pickup zones — current</div>
+        <div class="big">3<span class="unit">changes</span></div>
+        <div class="row"><span class="l">T5 ride-app</span><span class="v"><span class="pill gate">Lot 2</span></span></div>
+        <div class="row"><span class="l">T7 ride-app</span><span class="v"><span class="pill gate">Lot 2</span></span></div>
+        <div class="row"><span class="l">T7 taxi</span><span class="v"><span class="pill gate">Relocated</span></span></div>
+        <div class="row"><span class="l">T4</span><span class="v"><span class="pill ok">Normal</span></span></div>
+        <div class="row"><span class="l">T1, T8</span><span class="v"><span class="pill ok">Normal</span></span></div>
+      </div>
+      <div class="dash-card">
+        <div class="label">Parking — availability</div>
+        <div class="big"><span data-placeholder>62</span><span class="unit">% open · across lots</span></div>
+        <div class="row"><span class="l">Lefferts Blvd Lot</span><span class="v" data-placeholder>78%</span></div>
+        <div class="row"><span class="l">Yellow / Green</span><span class="v" data-placeholder>54%</span></div>
+        <div class="row"><span class="l">Long-term</span><span class="v" data-placeholder>71%</span></div>
+        <div class="row"><span class="l">Valet</span><span class="v" data-placeholder>FULL</span></div>
+        <div class="row"><span class="l"><a href="/transportation/airport-parking" style="font-weight: 700;">Reserve →</a></span><span class="v"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section data-section="audience-router-mini" data-purpose="audience-routing" class="mini-router">
+    <h3 class="display">What are you here for?</h3>
+    <div class="mr-grid">
+      <a href="#search" class="mr-tile"><span class="mt-l">Departing</span><span class="mt-m">Search · parking · security</span></a>
+      <a href="#arrivals" class="mr-tile"><span class="mt-l">Arriving</span><span class="mt-m">Track · baggage · ground</span></a>
+      <a href="#pickup" class="mr-tile"><span class="mt-l">Picking up</span><span class="mt-m">Live pickup zones</span></a>
+      <a href="#connecting" class="mr-tile"><span class="mt-l">Connecting</span><span class="mt-m">Terminal map · AirTrain</span></a>
+      <a href="#visiting" class="mr-tile"><span class="mt-l">Visiting</span><span class="mt-m">Maps · dining · accessibility</span></a>
+    </div>
+  </section>
+
+  <section data-section="editorial-accent" data-purpose="brand-narrative" class="editorial-accent">
+    <article class="ea-card">
+      <div class="photo">
+        <img src="../current/assets/media/3-2-3_6_sunflowerlanyard_card-wide-16x9-c46049d2.jpg" alt="A traveler wearing the Hidden Disabilities Sunflower lanyard at JFK.">
+      </div>
+      <div class="copy">
+        <span class="eyebrow">Accessibility · Hidden Disabilities Sunflower</span>
+        <h3>The lanyard that tells the airport you might need a minute.</h3>
+        <p>Pick one up at any accessibility service desk. Trained staff in every terminal will give you the time and help you need — quietly.</p>
+        <a href="/explore-jfk/accessibility-services/hidden-disabilities-accessibility" style="font-weight: 700; color: var(--ink); border-bottom: 2px solid var(--panynj-blue); padding-bottom: 2px; align-self: flex-start;">How it works →</a>
+      </div>
+    </article>
+  </section>
+</main>
+
+<footer data-section="footer" role="contentinfo">
+  <div class="inner">
+    <div class="top">
+      <div class="col">
+        <h5>Help</h5>
+        <a href="/contact-us">Contact us</a>
+        <a href="/frequently-asked-questions">FAQ</a>
+        <a href="/lost-and-found">Lost &amp; Found</a>
+        <a href="/feedback">Feedback</a>
+      </div>
+      <div class="col">
+        <h5>Travel info</h5>
+        <a href="/alerts-advisories">Alerts &amp; advisories</a>
+        <a href="/explore-jfk/accessibility-services">Accessibility</a>
+        <a href="/transportation/airport-parking">Parking</a>
+        <a href="/explore-jfk/airport-map">Airport map</a>
+      </div>
+      <div class="col">
+        <h5>About</h5>
+        <a href="https://www.panynj.gov/airports/en/index.html">Port Authority airports</a>
+        <a href="https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html">JFK Redevelopment</a>
+        <a href="https://www.panynj.gov/airports/en/air-cargo/jfk.html">Air Cargo</a>
+        <a href="https://www.panynj.gov/port-authority/en/press-room.html">Press</a>
+      </div>
+      <div class="col">
+        <h5>Connect</h5>
+        <a href="http://www.facebook.com/" aria-label="Facebook">Facebook</a>
+        <a href="http://www.twitter.com/JFKairport" aria-label="X">X / Twitter</a>
+        <a href="https://www.panynj.gov/WhatsApp_JFK" aria-label="WhatsApp">WhatsApp</a>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© 2026 Port Authority of New York &amp; New Jersey · <a href="/privacy" style="color: var(--slate-300);">Privacy</a> · <a href="/website-disclaimer" style="color: var(--slate-300);">Website disclaimer</a></span>
+      <span>JFK · LGA · EWR · SWF · TEB</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

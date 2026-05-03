@@ -1,0 +1,232 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:43.177Z",
+    "url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-4/About-JFKIAT",
+    "slug": "explore-jfk__terminals__terminal-4__About-JFKIAT",
+    "httpStatus": 200,
+    "totalMs": 3696,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": null,
+  "h1": "JFK Terminal 4",
+  "lede": "Our role is to run, maintain, and continually improve the terminal in partnership with the Port Authority and the many organizations that make up the airport community. Every day, our work is guided by a commitment to safety, efficiency, hospitality, and the experience of the millions of passengers who travel through T4.",
+  "heroImage": {
+    "src": "https://s7d9.scene7.com/is/image/panynjaviation/T4-check-in-counters:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+    "alt": "",
+    "w": 1778,
+    "h": 1333
+  },
+  "blocks": [
+    {
+      "h2": "JFKIAT is the private operator of Terminal 4 at JFK",
+      "h3s": [],
+      "paragraphs": [
+        "Our role is to run, maintain, and continually improve the terminal in partnership with the Port Authority and the many organizations that make up the airport community. Every day, our work is guided by a commitment to safety, efficiency, hospitality, and the experience of the millions of passengers who travel through T4."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/T4-employee-appreciation-day-2025-b:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1440
+        }
+      ],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Our Purpose: Creating Incredible Journeys",
+      "h3s": [],
+      "paragraphs": [
+        "Creating incredible journeys is more than our purpose, it’s the spirit behind everything we do. As the only privately operated terminal at John F. Kennedy International Airport, Terminal 4 blends world-class operations with the energy and warmth of New York City to make every traveler feel welcome from the moment they arrive.",
+        "Our Mission",
+        "We proudly facilitate a safe and seamless passenger journey, inspire our employees, and strengthen our communities through innovation, excellence, and sustainable operations."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/t4-NYC:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1917,
+          "h": 1440
+        }
+      ],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Experience NYC with Terminal 4",
+      "h3s": [],
+      "paragraphs": [
+        "New York is a city defined by energy, culture, and character. At T4, we believe your connection to the city should feel just as strong in the terminal as it does out on the streets.",
+        "We build this Sense of Place through our arts and culture program, highlighting the creativity that makes New York unique, and through a food and beverage selection curated from well-known local favorites. Whether you are arriving, connecting, or departing, we want you to continue feeling the spirit of NYC right up to the boarding door.",
+        "From first-time visitors to returning travelers, our aim is for every passenger to feel welcomed, inspired, and immersed in the essence of New York throughout their time at T4.",
+        "Sustainability"
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/IMG_0204:square-1x1?wid=1200&hei=1200&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1200,
+          "h": 1200
+        }
+      ],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "When you travel through Terminal 4, you are part of our effort to build a more sustainable future for New York.",
+      "h3s": [],
+      "paragraphs": [
+        "We’re committed to reducing our environmental impact and creating a healthier space for travelers, employees, and our community. Across the terminal, you’ll find initiatives that conserve resources, reduce waste, and support a more sustainable future.",
+        "Water bottle refill stations and water-efficient fixtures help reduce single-use plastics. Our catch basin cleaning program keeps pollutants out of local waterways and protects surrounding ecosystems in and around Jamaica Bay.",
+        "We sort and manage waste responsibly, with recyclables and organics separated, and compost sent to a local New York farm where it is put to",
+        "Inside the terminal, we continuously monitor indoor air quality, and all cleaning products meet strict safety standards so you can feel comfortable during your time at T4."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/t4-ecobus-electric-bus:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1200,
+          "h": 600
+        }
+      ],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Reducing our footprint across operations.",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/T4-Work-at-T4:square-1x1?wid=1200&hei=1200&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1080,
+          "h": 1080
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Download our latest Sustainability report",
+          "href": "https://assets.takeshape.io/068c892d-2bca-468f-8ba0-7ca9d5f19862/dev/a4ec0dae-832d-415a-b826-4d4de12fc2f3/2025%20JFKIAT%20Annual%20Report.pdf"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Jobs at JFKIAT",
+      "h3s": [],
+      "paragraphs": [
+        "We believe in making an impact not only within our industry, but also with our employees.",
+        "We believe that creating a positive impact starts with the people who work at the terminal. At JFKIAT, the private operator of Terminal 4 at John F. Kennedy International Airport, we are proud to have been recognized in Crain’s Best Places to Work in New York for six consecutive years.",
+        "We strive to provide a welcoming and rewarding environment where every team member can grow, contribute, and feel supported. We are also committed to giving our employees opportunities to make a difference in the communities where they live, work, and play.",
+        "If you would like to be part of our team, please check our open positions."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "See our open positions",
+          "href": "https://jfkinternationalairterminalllc.applytojob.com/apply/jobs/"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Follow us on social media for events, travel tips, local insights, and a look behind the scenes at New York’s busiest terminal!",
+      "h3s": [],
+      "paragraphs": [
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/t4-Instagram:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1440
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Follow us on Instagram",
+          "href": "https://www.instagram.com/jfkt4/"
+        },
+        {
+          "text": "Follow us on LinkedIn",
+          "href": "https://www.linkedin.com/company/jfkiat"
+        },
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

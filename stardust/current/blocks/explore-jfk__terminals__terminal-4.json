@@ -1,0 +1,729 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:38.665Z",
+    "url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-4",
+    "slug": "explore-jfk__terminals__terminal-4",
+    "httpStatus": 200,
+    "totalMs": 3700,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": {
+    "text": "infoThere is an advisory affecting Terminal 4 roadway changes. Blue lot (surface level) now has height restrictions. Learn more",
+    "ctas": [
+      {
+        "text": "Terminal 4 roadway changes.",
+        "href": "/alerts-advisories/t4-roadway-changes"
+      },
+      {
+        "text": "Learn more",
+        "href": "/alerts-advisories/terminal-4-blue-parking-lot-height-restriction"
+      }
+    ]
+  },
+  "h1": "JFK Terminal 4",
+  "lede": "Terminal 4 is one of the largest terminals at New York’s John F. Kennedy International Airport and the first privately operated terminal in the United States, operated by JFKIAT.",
+  "heroImage": {
+    "src": "https://s7d9.scene7.com/is/image/panynjaviation/T4-exterior-new:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+    "alt": "",
+    "w": 1920,
+    "h": 1080
+  },
+  "blocks": [
+    {
+      "h2": "Welcome to Terminal 4",
+      "h3s": [],
+      "paragraphs": [
+        "Terminal 4 is one of the largest terminals at New York’s John F. Kennedy International Airport and the first privately operated terminal in the United States, operated by JFKIAT."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Book your parking",
+      "h3s": [
+        "Current availability",
+        "Additional lots"
+      ],
+      "paragraphs": [
+        "Long-Term",
+        "47% Full",
+        "Terminal 8 (Red)",
+        "56% Full",
+        "Terminal 5 (Yellow)",
+        "66% Full",
+        "Terminal 4 (Blue)",
+        "79% Full",
+        "Terminal Parking lots are located at terminals and connected by the AirTrain system.",
+        "Federal Circle Station",
+        "Reservation only",
+        "Terminal 1 (Green)",
+        "Closed (Use Terminal 8 Red Lot)",
+        "Terminal 7 (Orange)"
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "Book your parking"
+        },
+        {
+          "text": "Lot locations on map"
+        }
+      ],
+      "links": [
+        {
+          "text": "Parking rates and info",
+          "href": "/transportation/airport-parking"
+        },
+        {
+          "text": "Parking FAQs",
+          "href": "/frequently-asked-questions"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Getting through Terminal 4: Fast Track Tips",
+      "h3s": [
+        "Book your free security time slot with T4 Reserve.",
+        "Want faster security every trip?",
+        "Travel internationally often?",
+        "Speed up your arrival with Mobile Passport Control"
+      ],
+      "paragraphs": [
+        "Time slots open 7 days ahead of your flight, and availability may vary by airline and destination. When you reach the terminal, simply follow the RESERVE signs, show your QR code to an Ambassador, and enjoy a more predictable experience at security.",
+        "Enroll in CLEAR or TSA PreCheck to fly through the line. These affordable programs allow you to save time while traveling and have an easier experience overall.",
+        "Global Entry offers faster entry into the United States for approved travelers from many countries. You can complete your interview at T4. Interviews are scheduled through U S Customs and Border Protection.",
+        "Download the app to breeze through customs with shorter processing times. You can find it on the iOS App Store and Google Play Store."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/T4-fast-track-T4-reserve:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1192,
+          "h": 670
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/T4-fast-track-TSA-Pre-check-Clear:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1192,
+          "h": 670
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/T4-fast-track-Global-Entry:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1192,
+          "h": 670
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/T4-fast-track-MPC-app:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1192,
+          "h": 670
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Book your time slot here",
+          "href": "https://jfkt4.seamless.aero/flight?date=now"
+        },
+        {
+          "text": "Learn more",
+          "href": "https://enroll.clearme.com/enroll/"
+        },
+        {
+          "text": "Learn more or begin your application",
+          "href": "https://www.cbp.gov/travel/trusted-traveler-programs/global-entry"
+        },
+        {
+          "text": "Learn more and download the app",
+          "href": "https://www.cbp.gov/travel/us-citizens/mobile-passport-control"
+        }
+      ],
+      "tables": [],
+      "subPattern": "service-grid",
+      "subData": [
+        {
+          "title": "Book your free security time slot with T4 Reserve.",
+          "text": "Time slots open 7 days ahead of your flight, and availability may vary by airline and destination. When you reach the terminal, simply follow the RESERVE signs, show your QR code to an Ambassador, and enjoy a more predictable experience at security.",
+          "href": "https://jfkt4.seamless.aero/flight?date=now"
+        },
+        {
+          "title": "Want faster security every trip?",
+          "text": "Enroll in CLEAR or TSA PreCheck to fly through the line. These affordable programs allow you to save time while traveling and have an easier experience overall.",
+          "href": "https://enroll.clearme.com/enroll/"
+        },
+        {
+          "title": "Travel internationally often?",
+          "text": "Global Entry offers faster entry into the United States for approved travelers from many countries. You can complete your interview at T4. Interviews are scheduled through U S Customs and Border Protection.",
+          "href": "https://www.cbp.gov/travel/trusted-traveler-programs/global-entry"
+        },
+        {
+          "title": "Speed up your arrival with Mobile Passport Control",
+          "text": "Download the app to breeze through customs with shorter processing times. You can find it on the iOS App Store and Google Play Store.",
+          "href": "https://www.cbp.gov/travel/us-citizens/mobile-passport-control"
+        }
+      ]
+    },
+    {
+      "h2": "Finding your way around Terminal 4",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/google-live-view-c:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1423,
+          "h": 1067
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/t4-cart-service-sign:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1440
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Explore the terminal map",
+          "href": "https://maps.jfkairport.com/su/IGmwCb0r"
+        },
+        {
+          "text": "Use Google Indoor Live View",
+          "href": "https://www.google.com/maps/place/Terminal+4,+Terminal+4+Departures,+Queens,+NY+11430/"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Traveling through Terminal 4",
+      "h3s": [],
+      "paragraphs": [
+        "We offer several options to help you move around Terminal 4 comfortably and with ease.",
+        "Delta operates a free shuttle bus between concourses within Terminal 4, allowing you to move between A and B gates more efficiently. The shuttle helps reduce walking distances, though it may not always be faster than walking.",
+        "Shuttle bus stops are located at:",
+        "For those with reduced mobility or passengers who may need additional assistance reaching their gate, electric carts are also available past security. Real-time information at designated locations helps indicate cart availability and estimated wait times, making it easier to decide the best way to get around. Note: mobility assistance access to Gate A9-21 and B42-54 is via wheelchair only.",
+        "Terminal 4 shuttle routes (PDF) opens in a new tab"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Terminal 4 shuttle routes (PDF) opens in a new tab",
+          "href": "/images/jfk/flights/t4-shuttle-map.pdf"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Discover the T4 experience",
+      "h3s": [
+        "Dine",
+        "Shop",
+        "Relax"
+      ],
+      "paragraphs": [
+        "Looking for something that works for you? T4 offers a wide range of restaurants and quick-service options, including vegan, vegetarian, and gluten-free choices throughout the terminal. Whether you want a sit-down meal or something quick to take on board, you’ll find options that fit your needs.",
+        "Forgot something? Find last minute travel essentials like snacks, sunglasses, chargers, souvenirs and more.",
+        "T4 is home to several lounges for eligible travelers, including: Air India Maharaja Lounge, Capital One Lounge, Centurion Lounge (Amex), Chase Sapphire Lounge, Delta One Lounge, Delta Sky Club (Concourses A & B), HelloSky Lounge, and Virgin Atlantic Clubhouse. You’ll find a mix of airline, credit-card, and pay-access lounges so you can relax, refresh, or work comfortably before your flight."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/Van%20Wyck%20Bar:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1919,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/t4-Shop:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1919,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/CapitalOneLoungeGrandOpening_003:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1080
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "JFK Terminal 4 restaurants",
+          "href": "/dine-shop-relax/food?structureName=Terminal+4"
+        },
+        {
+          "text": "JFK Terminal 4 shops",
+          "href": "/dine-shop-relax/shops?structureName=Terminal+4"
+        },
+        {
+          "text": "Places to relax at JFK Terminal 4",
+          "href": "/dine-shop-relax/lounge-and-rest?structureName=Terminal+4"
+        }
+      ],
+      "tables": [],
+      "subPattern": "sub-ia",
+      "subData": [
+        {
+          "title": "Dine",
+          "href": "/dine-shop-relax/food?structureName=Terminal+4",
+          "linkText": "JFK Terminal 4 restaurants"
+        },
+        {
+          "title": "Shop",
+          "href": "/dine-shop-relax/shops?structureName=Terminal+4",
+          "linkText": "JFK Terminal 4 shops"
+        },
+        {
+          "title": "Relax",
+          "href": "/dine-shop-relax/lounge-and-rest?structureName=Terminal+4",
+          "linkText": "Places to relax at JFK Terminal 4"
+        }
+      ]
+    },
+    {
+      "h2": "Walk times to gates",
+      "h3s": [],
+      "paragraphs": [
+        "For step-by-step directions and more precise estimates, use the interactive map to route directly to your gate opens in a new tab.",
+        "Be sure to arrange for any special assistance you may need in advance, including wheelchair assistance, either directly with your airline or through a travel agent.",
+        "A3-A8",
+        "3-6 minutes",
+        "A9-A21",
+        "8-10 minutes",
+        "B18-B31",
+        "4-6 minutes",
+        "B32-B41",
+        "7-9 minutes",
+        "B42-B55",
+        "10-14 minutes"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "use the interactive map to route directly to your gate opens in a new tab",
+          "href": "https://maps.jfkairport.com/"
+        }
+      ],
+      "tables": [],
+      "subPattern": "walk-times",
+      "subData": [
+        {
+          "gates": "A3-A8",
+          "time": "3-6 minutes"
+        },
+        {
+          "gates": "A9-A21",
+          "time": "8-10 minutes"
+        },
+        {
+          "gates": "B18-B31",
+          "time": "4-6 minutes"
+        },
+        {
+          "gates": "B32-B41",
+          "time": "7-9 minutes"
+        },
+        {
+          "gates": "B42-B55",
+          "time": "10-14 minutes"
+        }
+      ]
+    },
+    {
+      "h2": "Personalized travel services",
+      "h3s": [
+        "VIP Meet and Greet",
+        "Porter service",
+        "Baggage storage",
+        "Additional services"
+      ],
+      "paragraphs": [
+        "If you prefer a more guided experience, our VIP Meet and Greet service offers warm, personal support throughout your time in T4. A dedicated team member stays with you, assists you through check-in and security, and accompanies you to your gate or baggage claim. It is a calm, seamless way to travel whether you are departing, arriving, or connecting.",
+        "Travel feels easier when someone is there to help. Our porter service offers friendly support from the moment you arrive at T4. Porters are available curbside for departing flights and by the baggage carousels for arriving flights. They can assist with your luggage, help with lifting and loading, and guide you through the terminal so you can start your trip feeling comfortable and unhurried.",
+        "You can store your bags securely at T4 for a few hours or up to 72 hours, regardless of which terminal you are flying to or from. You can pre-book your storage or visit the desk when you arrive. All customers must have a confirmed ticket, and items are subject to inspection by the TSA.",
+        "T4 also offers helpful services throughout the terminal such as currency exchange, lost and found, information assistance, and pet relief areas.",
+        "Accessibility"
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/T4%20Meet%20and%20Greet%202:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1919,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/SCI%20Porter%20Standing%20with%20Cart%20at%20JFK%20Horizontal:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1919,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/Female%20SCI%20Employee%20Helping%20at%20Bag%20Storage%20Close%20Up%20at%20JFK%20Horizontal:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1919,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/3-2_5_animalreliefareas:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/t4%20accessibility%20sunflower%20lanyard:square-1x1?wid=1200&hei=1200&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1200,
+          "h": 1200
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Schedule appointment",
+          "href": "https://app.squarespacescheduling.com/schedule/2c1fb017/appointment/37987811/calendar/7397577"
+        },
+        {
+          "text": "Schedule appointment",
+          "href": "https://app.squarespacescheduling.com/schedule/a9528e06/appointment/38892391/calendar/7557464"
+        },
+        {
+          "text": "Explore services at JFK",
+          "href": "/explore-jfk/services"
+        }
+      ],
+      "tables": [],
+      "subPattern": "service-grid",
+      "subData": [
+        {
+          "title": "VIP Meet and Greet",
+          "text": "If you prefer a more guided experience, our VIP Meet and Greet service offers warm, personal support throughout your time in T4. A dedicated team member stays with you, assists you through check-in and security, and accompanies you to your gate or baggage claim. It is a calm, seamless way to travel whether you are departing, arriving, or connecting.",
+          "href": "https://app.squarespacescheduling.com/schedule/2c1fb017/appointment/37987811/calendar/7397577"
+        },
+        {
+          "title": "Porter service",
+          "text": "Travel feels easier when someone is there to help. Our porter service offers friendly support from the moment you arrive at T4. Porters are available curbside for departing flights and by the baggage carousels for arriving flights. They can assist with your luggage, help with lifting and loading, and guide you through the terminal so you can start your trip feeling comfortable and unhurried.",
+          "href": "https://app.squarespacescheduling.com/schedule/a9528e06/appointment/38892391/calendar/7557464"
+        },
+        {
+          "title": "Baggage storage",
+          "text": "You can store your bags securely at T4 for a few hours or up to 72 hours, regardless of which terminal you are flying to or from. You can pre-book your storage or visit the desk when you arrive. All customers must have a confirmed ticket, and items are subject to inspection by the TSA.",
+          "href": "/explore-jfk/services"
+        },
+        {
+          "title": "Additional services",
+          "text": "T4 also offers helpful services throughout the terminal such as currency exchange, lost and found, information assistance, and pet relief areas.",
+          "href": null
+        }
+      ]
+    },
+    {
+      "h2": "Terminal 4 supports the Sunflower Lanyard Program",
+      "h3s": [],
+      "paragraphs": [
+        "If you or someone you're traveling with has a hidden disability, wearing a Sunflower Lanyard lets our team know you may appreciate extra time, patience, or assistance during your journey.",
+        "You can pick up a free Sunflower Lanyard at the Welcome Center in the Arrivals Hall, at the Info Desk in the Retail Hall, or request a Lanyard in advance by email.",
+        "We also offer the Hidden Disabilities International Arrivals Assistance Program for those coming from abroad. Please email us to arrange this service.",
+        "Need additional support?",
+        "T4 offers a range of accessibility services to help make your journey smoother. If there’s something we can do to assist, please let us know.",
+        "Traveling with a large group? Tell us in advance so we can help you plan your arrival and move through the terminal more easily.",
+        "Email T4"
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/t4-Art:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1200,
+          "h": 599
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "request a Lanyard in advance by email",
+          "href": "/explore-jfk/accessibility-services/hidden-disabilities-accessibility"
+        },
+        {
+          "text": "email us",
+          "href": "mailto:contact@jfkiat.com"
+        },
+        {
+          "text": "T4 offers a range of accessibility services to help make your journey smoother",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Email T4",
+          "href": "mailto:contact@jfkiat.com"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Art at Terminal 4",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Terminal 4 is home to 22 airlines",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/T4%20Airlines%20Tail%20Lineup:photo-4x3",
+          "alt": "",
+          "w": 0,
+          "h": 0
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Find airlines operating out of T4",
+          "href": "/explore-jfk/terminals/terminal-4/Airlines-in-T4"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Terminal 4 by the numbers",
+      "h3s": [
+        "1.2M",
+        "20M",
+        "75K",
+        "50%",
+        "135K"
+      ],
+      "paragraphs": [
+        "The heaviest aircraft departing from T4, the Airbus A380, weighs 1.2 million pounds (that's over 600 tons)!",
+        "Bags handled at T4 annually. That’s more than 2,000 bags an hour, or almost 40 bags a minute, every day. Whew!",
+        "People never forget how you made them feel: On average, T4 employees say “Have a great flight!” to 75,000 passengers daily.",
+        "Au revoir, adiós, arrivederci, sayonara: About 50% of our passengers are bound for international destinations.",
+        "Get those miles in: T4 has more than 135,000 square feet of shops and restaurants. That’s a mile end-to-end — perfect for doing some cardio before your flight!"
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/illo-plane-front:hero-2x1",
+          "alt": "",
+          "w": 0,
+          "h": 0
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/illo-globey-binoculars:hero-2x1",
+          "alt": "",
+          "w": 0,
+          "h": 0
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/illo-wave:hero-2x1",
+          "alt": "",
+          "w": 0,
+          "h": 0
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/illo-international:hero-2x1",
+          "alt": "",
+          "w": 0,
+          "h": 0
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/illo-explore:hero-2x1",
+          "alt": "",
+          "w": 0,
+          "h": 0
+        }
+      ],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": "stat-grid",
+      "subData": [
+        {
+          "value": "1.2M",
+          "detail": "The heaviest aircraft departing from T4, the Airbus A380, weighs 1.2 million pounds (that's over 600 tons)!"
+        },
+        {
+          "value": "20M",
+          "detail": "Bags handled at T4 annually. That’s more than 2,000 bags an hour, or almost 40 bags a minute, every day. Whew!"
+        },
+        {
+          "value": "75K",
+          "detail": "People never forget how you made them feel: On average, T4 employees say “Have a great flight!” to 75,000 passengers daily."
+        },
+        {
+          "value": "50%",
+          "detail": "Au revoir, adiós, arrivederci, sayonara: About 50% of our passengers are bound for international destinations."
+        },
+        {
+          "value": "135K",
+          "detail": "Get those miles in: T4 has more than 135,000 square feet of shops and restaurants. That’s a mile end-to-end — perfect for doing some cardio before your flight!"
+        }
+      ]
+    },
+    {
+      "h2": "Your host at Terminal 4",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/T4-employee-appreciation-day-2025-b:photo-4x3",
+          "alt": "",
+          "w": 0,
+          "h": 0
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Visit our About page",
+          "href": "/explore-jfk/terminals/terminal-4/About-JFKIAT"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Your Guide to JFK",
+      "h3s": [],
+      "paragraphs": [
+        "Interactive Map",
+        "Departures Guide",
+        "Arrivals Guide",
+        "Connections Guide",
+        "All Terminals",
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/JFK%20Airport%20041326:card-portrait-3x4",
+          "alt": "",
+          "w": 0,
+          "h": 0
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-1_departurescard:card-portrait-3x4",
+          "alt": "",
+          "w": 0,
+          "h": 0
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-2_1_arrivalsguidehero:card-portrait-3x4",
+          "alt": "",
+          "w": 0,
+          "h": 0
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/0-1_2_general:card-portrait-3x4",
+          "alt": "",
+          "w": 0,
+          "h": 0
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/3_6-1_allterminalshero:card-portrait-3x4",
+          "alt": "",
+          "w": 0,
+          "h": 0
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Interactive Map",
+          "href": "/explore-jfk/airport-map"
+        },
+        {
+          "text": "Departures Guide",
+          "href": "/flights/departures"
+        },
+        {
+          "text": "Arrivals Guide",
+          "href": "/flights/arrivals"
+        },
+        {
+          "text": "Connections Guide",
+          "href": "/flights/connections-guide"
+        },
+        {
+          "text": "All Terminals",
+          "href": "/explore-jfk/terminals"
+        },
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

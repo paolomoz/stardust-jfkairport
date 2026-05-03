@@ -1,0 +1,232 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:08.070Z",
+    "url": "https://www.jfkairport.com/alerts-advisories",
+    "slug": "alerts-advisories",
+    "httpStatus": 200,
+    "totalMs": 3887,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": null,
+  "h1": "Alerts and Advisories",
+  "lede": "",
+  "heroImage": null,
+  "blocks": [
+    {
+      "h2": "Airport-wide advisories",
+      "h3s": [],
+      "paragraphs": [
+        "JFK Redevelopment",
+        "09/01/2022 - ongoing"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Details",
+          "href": "/alerts-advisories/jfk-redevelopment"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Terminal 1",
+      "h3s": [],
+      "paragraphs": [
+        "Road Access Changes",
+        "01/06/2026 - ongoing"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Details",
+          "href": "/alerts-advisories/t4-roadway-changes"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Terminal 4",
+      "h3s": [],
+      "paragraphs": [
+        "Road Access Changes",
+        "01/06/2026 - ongoing",
+        "Terminal 4 Blue Parking Lot Height Restriction",
+        "04/06/2026 - ongoing"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Details",
+          "href": "/alerts-advisories/t4-roadway-changes"
+        },
+        {
+          "text": "Details",
+          "href": "https://www.jfkairport.com/alerts-advisories/terminal-4-blue-parking-lot-height-restriction"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Terminal 5",
+      "h3s": [],
+      "paragraphs": [
+        "Ride App Pick-Up is Located at Howard Beach AirTrain Station",
+        "05/02/2025 - ongoing",
+        "Road Access Changes",
+        "10/15/2025 - ongoing",
+        "Taxi Stand Relocation",
+        "06/01/2023 - ongoing"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Details",
+          "href": "/alerts-advisories/t5-t7-ride-app-relocations"
+        },
+        {
+          "text": "Details",
+          "href": "/alerts-advisories/t5-t7-t8-access-changes"
+        },
+        {
+          "text": "Details",
+          "href": "/alerts-advisories/t5-taxi-yellow-cab-relocated"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Terminal 7",
+      "h3s": [],
+      "paragraphs": [
+        "Ride App Pick-Up is Located at Howard Beach AirTrain Station",
+        "05/02/2025 - ongoing",
+        "Taxi Stand Relocation",
+        "10/22/2024 - ongoing",
+        "Road Access Changes",
+        "10/15/2025 - ongoing"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Details",
+          "href": "/alerts-advisories/t5-t7-ride-app-relocations"
+        },
+        {
+          "text": "Details",
+          "href": "/alerts-advisories/t7-taxi-relocation"
+        },
+        {
+          "text": "Details",
+          "href": "/alerts-advisories/t5-t7-t8-access-changes"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Terminal 8",
+      "h3s": [],
+      "paragraphs": [
+        "Road Access Changes",
+        "10/15/2025 - ongoing"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Details",
+          "href": "/alerts-advisories/t5-t7-t8-access-changes"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Do not miss an update",
+      "h3s": [],
+      "paragraphs": [
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Sign up for Port Authority Alerts",
+          "href": "https://member.everbridge.net/892807736725495/new"
+        },
+        {
+          "text": "Current FAA flight advisories",
+          "href": "https://nasstatus.faa.gov/"
+        },
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

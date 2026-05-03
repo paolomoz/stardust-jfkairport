@@ -1,0 +1,1171 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-03T13:13:43.817Z",
+    "url": "https://www.jfkairport.com/dine-shop-relax/shops",
+    "slug": "dine-shop-relax__shops",
+    "startedAt": "2026-05-03T13:13:22.702Z",
+    "waitMode": "medium",
+    "httpStatus": 200,
+    "contentType": "text/html; charset=utf-8",
+    "waitMs": 3239,
+    "endedAt": "2026-05-03T13:13:43.817Z",
+    "totalMs": 20896,
+    "stardustVersion": "0.3.0"
+  },
+  "url": "https://www.jfkairport.com/dine-shop-relax/shops",
+  "meta": {
+    "title": "Where To Shop - JFK Airport",
+    "description": "Shop at JFK Airport before your flight. Discover duty-free stores, fashion brands, travel essentials, and local favorites.",
+    "themeColor": "",
+    "lang": "en-us"
+  },
+  "ogTags": {
+    "og:title": "Where To Shop - JFK Airport",
+    "og:description": "Shop at JFK Airport before your flight. Discover duty-free stores, fashion brands, travel essentials, and local favorites.",
+    "og:type": "website",
+    "og:url": "https://www.jfkairport.com/dine-shop-relax/shops",
+    "og:image": "https://s7d9.scene7.com/is/image/panynjaviation/jfk_ogimage:card-wide-16x9",
+    "og:image:alt": "John F. Kennedy International Airport logo"
+  },
+  "headings": [
+    {
+      "level": 1,
+      "text": "Where To Shop"
+    },
+    {
+      "level": 2,
+      "text": "From essentials to treats"
+    },
+    {
+      "level": 2,
+      "text": "FAQs"
+    }
+  ],
+  "landmarks": [
+    {
+      "role": "main",
+      "label": "",
+      "headingPreview": "Where To Shop"
+    },
+    {
+      "role": "header",
+      "label": "",
+      "headingPreview": ""
+    },
+    {
+      "role": "nav",
+      "label": "main",
+      "headingPreview": ""
+    },
+    {
+      "role": "footer",
+      "label": "",
+      "headingPreview": ""
+    }
+  ],
+  "sections": [
+    {
+      "index": 0,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack RichTextEditorWrapper_container__7b_DK css-sekf8j",
+      "ariaLabel": "",
+      "heading": "From essentials to treats",
+      "textPreview": "From essentials to treatsFind everything from fashion and travel essentials to duty-free deals and local favorites. Whether you're picking up last-minute gifts or just browsing, JFK’s airport shops make shopping easy.",
+      "rect": {
+        "x": 297.3,
+        "y": 392,
+        "w": 845.3,
+        "h": 140
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    }
+  ],
+  "ctas": [
+    {
+      "tag": "a",
+      "text": "Skip to Content",
+      "href": "/dine-shop-relax/shops#main-content",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Flights",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Transportation & Parking",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Explore JFK",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Dine, Shop, Relax",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Reset",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "20px"
+    },
+    {
+      "tag": "a",
+      "text": "alchemy.",
+      "href": "/dine-shop-relax/shops/detail?poiId=4005473&name=alchemy.&structureName=Terminal%208&returnTo=/dine-shop-relax/shops",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 8 Gate 8",
+      "href": "http://maps.jfkairport.com?poiId=4005473",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Bally",
+      "href": "/dine-shop-relax/shops/detail?poiId=1411&name=Bally&structureName=Terminal%201&returnTo=/dine-shop-relax/shops",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 1 Gate 4",
+      "href": "http://maps.jfkairport.com?poiId=1411",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Beautiful Amore",
+      "href": "/dine-shop-relax/shops/detail?poiId=4005476&name=Beautiful%20Amore&structureName=Terminal%208&returnTo=/dine-shop-relax/shops",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 8 Gate 6",
+      "href": "http://maps.jfkairport.com?poiId=4005476",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Beauty on 5th Duty Free",
+      "href": "/dine-shop-relax/shops/detail?poiId=4005779&name=Beauty%20on%205th%20Duty%20Free&structureName=Terminal%208&returnTo=/dine-shop-relax/shops",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 8 The Great Hall",
+      "href": "http://maps.jfkairport.com?poiId=4005779",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Better+",
+      "href": "/dine-shop-relax/shops/detail?poiId=4005756&name=Better%2B&structureName=Terminal%207&returnTo=/dine-shop-relax/shops",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 7 Gate 2",
+      "href": "http://maps.jfkairport.com?poiId=4005756",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Bevo's Kitchen",
+      "href": "/dine-shop-relax/shops/detail?poiId=4005478&name=Bevo%27s%20Kitchen&structureName=Terminal%208&returnTo=/dine-shop-relax/shops",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 8 Gate 38",
+      "href": "http://maps.jfkairport.com?poiId=4005478",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "BKLYN Shopping Duty Free",
+      "href": "/dine-shop-relax/shops/detail?poiId=4005525&name=BKLYN%20Shopping%20Duty%20Free&structureName=Terminal%208&returnTo=/dine-shop-relax/shops",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 8 Gate 42",
+      "href": "http://maps.jfkairport.com?poiId=4005525",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Blue Sky Traders",
+      "href": "/dine-shop-relax/shops/detail?poiId=145&name=Blue%20Sky%20Traders&structureName=Terminal%205&returnTo=/dine-shop-relax/shops",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 5 Baggage Claim",
+      "href": "http://maps.jfkairport.com?poiId=145",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Boss",
+      "href": "/dine-shop-relax/shops/detail?poiId=4005892&name=Boss&structureName=Terminal%208&returnTo=/dine-shop-relax/shops",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 8",
+      "href": "http://maps.jfkairport.com?poiId=4005892",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Breitling",
+      "href": "/dine-shop-relax/shops/detail?poiId=4005895&name=Breitling&structureName=Terminal%208&returnTo=/dine-shop-relax/shops",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 8",
+      "href": "http://maps.jfkairport.com?poiId=4005895",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Brookstone",
+      "href": "/dine-shop-relax/shops/detail?poiId=4005201&name=Brookstone&structureName=Terminal%201&returnTo=/dine-shop-relax/shops",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 1 Gate 3",
+      "href": "http://maps.jfkairport.com?poiId=4005201",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Bryant Park Market",
+      "href": "/dine-shop-relax/shops/detail?poiId=4005451&name=Bryant%20Park%20Market&structureName=Terminal%205&returnTo=/dine-shop-relax/shops",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 5 Gate 521",
+      "href": "http://maps.jfkairport.com?poiId=4005451",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Load more",
+      "href": null,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "20px"
+    },
+    {
+      "tag": "button",
+      "text": "What types of products can I shop for at JFK?",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(1, 21, 101)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px 0px"
+    },
+    {
+      "tag": "button",
+      "text": "Are there duty-free shops at JFK?",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(1, 21, 101)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px 0px"
+    },
+    {
+      "tag": "a",
+      "text": "Accessibility",
+      "href": "/explore-jfk/accessibility-services",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Air Cargo",
+      "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Alerts and Advisories",
+      "href": "/alerts-advisories",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Contact Us",
+      "href": "/contact-us",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "FAQ",
+      "href": "/frequently-asked-questions",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Feedback",
+      "href": "/feedback",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "PANYNJ Airports Information",
+      "href": "https://www.panynj.gov/airports/en/index.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "JFK Redevelopment",
+      "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Lost and Found",
+      "href": "/lost-and-found",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Press",
+      "href": "https://www.panynj.gov/port-authority/en/press-room.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Website Disclaimer",
+      "href": "/website-disclaimer",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Privacy Statement",
+      "href": "/privacy",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "text": "Skip to Content",
+        "href": "https://www.jfkairport.com/dine-shop-relax/shops#main-content"
+      },
+      {
+        "text": "",
+        "href": "https://www.jfkairport.com/"
+      },
+      {
+        "text": "",
+        "href": "https://www.jfkairport.com/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "alchemy.",
+        "href": "https://www.jfkairport.com/dine-shop-relax/shops/detail?poiId=4005473&name=alchemy.&structureName=Terminal%208&returnTo=/dine-shop-relax/shops"
+      },
+      {
+        "text": "Bally",
+        "href": "https://www.jfkairport.com/dine-shop-relax/shops/detail?poiId=1411&name=Bally&structureName=Terminal%201&returnTo=/dine-shop-relax/shops"
+      },
+      {
+        "text": "Beautiful Amore",
+        "href": "https://www.jfkairport.com/dine-shop-relax/shops/detail?poiId=4005476&name=Beautiful%20Amore&structureName=Terminal%208&returnTo=/dine-shop-relax/shops"
+      },
+      {
+        "text": "Beauty on 5th Duty Free",
+        "href": "https://www.jfkairport.com/dine-shop-relax/shops/detail?poiId=4005779&name=Beauty%20on%205th%20Duty%20Free&structureName=Terminal%208&returnTo=/dine-shop-relax/shops"
+      },
+      {
+        "text": "Better+",
+        "href": "https://www.jfkairport.com/dine-shop-relax/shops/detail?poiId=4005756&name=Better%2B&structureName=Terminal%207&returnTo=/dine-shop-relax/shops"
+      },
+      {
+        "text": "Bevo's Kitchen",
+        "href": "https://www.jfkairport.com/dine-shop-relax/shops/detail?poiId=4005478&name=Bevo%27s%20Kitchen&structureName=Terminal%208&returnTo=/dine-shop-relax/shops"
+      },
+      {
+        "text": "BKLYN Shopping Duty Free",
+        "href": "https://www.jfkairport.com/dine-shop-relax/shops/detail?poiId=4005525&name=BKLYN%20Shopping%20Duty%20Free&structureName=Terminal%208&returnTo=/dine-shop-relax/shops"
+      },
+      {
+        "text": "Blue Sky Traders",
+        "href": "https://www.jfkairport.com/dine-shop-relax/shops/detail?poiId=145&name=Blue%20Sky%20Traders&structureName=Terminal%205&returnTo=/dine-shop-relax/shops"
+      },
+      {
+        "text": "Boss",
+        "href": "https://www.jfkairport.com/dine-shop-relax/shops/detail?poiId=4005892&name=Boss&structureName=Terminal%208&returnTo=/dine-shop-relax/shops"
+      },
+      {
+        "text": "Breitling",
+        "href": "https://www.jfkairport.com/dine-shop-relax/shops/detail?poiId=4005895&name=Breitling&structureName=Terminal%208&returnTo=/dine-shop-relax/shops"
+      },
+      {
+        "text": "Brookstone",
+        "href": "https://www.jfkairport.com/dine-shop-relax/shops/detail?poiId=4005201&name=Brookstone&structureName=Terminal%201&returnTo=/dine-shop-relax/shops"
+      },
+      {
+        "text": "Bryant Park Market",
+        "href": "https://www.jfkairport.com/dine-shop-relax/shops/detail?poiId=4005451&name=Bryant%20Park%20Market&structureName=Terminal%205&returnTo=/dine-shop-relax/shops"
+      },
+      {
+        "text": "Accessibility",
+        "href": "https://www.jfkairport.com/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Alerts and Advisories",
+        "href": "https://www.jfkairport.com/alerts-advisories"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.jfkairport.com/contact-us"
+      },
+      {
+        "text": "FAQ",
+        "href": "https://www.jfkairport.com/frequently-asked-questions"
+      },
+      {
+        "text": "Feedback",
+        "href": "https://www.jfkairport.com/feedback"
+      },
+      {
+        "text": "Lost and Found",
+        "href": "https://www.jfkairport.com/lost-and-found"
+      },
+      {
+        "text": "Website Disclaimer",
+        "href": "https://www.jfkairport.com/website-disclaimer"
+      },
+      {
+        "text": "Privacy Statement",
+        "href": "https://www.jfkairport.com/privacy"
+      }
+    ],
+    "external": [
+      {
+        "text": "Terminal 8 Gate 8",
+        "href": "http://maps.jfkairport.com/?poiId=4005473"
+      },
+      {
+        "text": "Terminal 1 Gate 4",
+        "href": "http://maps.jfkairport.com/?poiId=1411"
+      },
+      {
+        "text": "Terminal 8 Gate 6",
+        "href": "http://maps.jfkairport.com/?poiId=4005476"
+      },
+      {
+        "text": "Terminal 8 The Great Hall",
+        "href": "http://maps.jfkairport.com/?poiId=4005779"
+      },
+      {
+        "text": "Terminal 7 Gate 2",
+        "href": "http://maps.jfkairport.com/?poiId=4005756"
+      },
+      {
+        "text": "Terminal 8 Gate 38",
+        "href": "http://maps.jfkairport.com/?poiId=4005478"
+      },
+      {
+        "text": "Terminal 8 Gate 42",
+        "href": "http://maps.jfkairport.com/?poiId=4005525"
+      },
+      {
+        "text": "Terminal 5 Baggage Claim",
+        "href": "http://maps.jfkairport.com/?poiId=145"
+      },
+      {
+        "text": "Terminal 8",
+        "href": "http://maps.jfkairport.com/?poiId=4005892"
+      },
+      {
+        "text": "Terminal 8",
+        "href": "http://maps.jfkairport.com/?poiId=4005895"
+      },
+      {
+        "text": "Terminal 1 Gate 3",
+        "href": "http://maps.jfkairport.com/?poiId=4005201"
+      },
+      {
+        "text": "Terminal 5 Gate 521",
+        "href": "http://maps.jfkairport.com/?poiId=4005451"
+      },
+      {
+        "text": "",
+        "href": "http://www.panynj.gov/"
+      },
+      {
+        "text": "Air Cargo",
+        "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+      },
+      {
+        "text": "PANYNJ Airports Information",
+        "href": "https://www.panynj.gov/airports/en/index.html"
+      },
+      {
+        "text": "JFK Redevelopment",
+        "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+      },
+      {
+        "text": "Press",
+        "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+      },
+      {
+        "text": "",
+        "href": "http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/"
+      },
+      {
+        "text": "",
+        "href": "http://www.twitter.com/JFKairport"
+      },
+      {
+        "text": "",
+        "href": "https://www.panynj.gov/WhatsApp_JFK"
+      }
+    ],
+    "counts": {
+      "internal": 23,
+      "external": 20
+    }
+  },
+  "tokens": {
+    "colors": {
+      "rgb(9, 9, 11)": 168,
+      "rgb(0, 69, 255)": 107,
+      "rgb(255, 255, 255)": 31,
+      "rgb(1, 21, 101)": 7,
+      "rgb(51, 65, 85)": 2,
+      "rgb(15, 23, 42)": 17,
+      "rgb(71, 85, 105)": 12
+    },
+    "backgrounds": {
+      "rgb(255, 255, 255)": 37,
+      "rgb(239, 249, 255)": 12,
+      "rgb(1, 21, 101)": 1
+    },
+    "fonts": {
+      "Helvetica Now for PANYNJ": 341,
+      "Sharp Grotesk Semibold": 3
+    },
+    "sizes": {
+      "16px": 213,
+      "20px": 106,
+      "24px": 2,
+      "72px": 1,
+      "40px": 2,
+      "12px": 2,
+      "18px": 6,
+      "32px": 3,
+      "14px": 9
+    },
+    "radii": {
+      "2px": 31,
+      "4px": 64,
+      "9999px": 10
+    },
+    "shadows": {
+      "rgba(0, 0, 0, 0.25) 0px 0px 4px 0px": 12
+    }
+  },
+  "headingStyles": {
+    "h1": {
+      "fontFamily": "Sharp Grotesk Semibold",
+      "fontSize": "72px",
+      "fontWeight": "400",
+      "lineHeight": "80px",
+      "textTransform": "none",
+      "letterSpacing": "-2px"
+    },
+    "h2": {
+      "fontFamily": "Sharp Grotesk Semibold",
+      "fontSize": "40px",
+      "fontWeight": "400",
+      "lineHeight": "52px",
+      "textTransform": "none",
+      "letterSpacing": "-0.5px"
+    }
+  },
+  "bodyStyles": {
+    "fontFamily": "Helvetica Now for PANYNJ",
+    "fontSize": "20px",
+    "lineHeight": "24px",
+    "color": "rgb(51, 65, 85)"
+  },
+  "media": {
+    "images": [
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airports/jfk/JFK.svg",
+        "srcset": "",
+        "alt": "John F. Kennedy International Airport",
+        "loading": "eager",
+        "intrinsicW": 300,
+        "intrinsicH": 61,
+        "renderedW": 205,
+        "renderedH": 42,
+        "localPath": "assets/media/JFK-cd579a20.svg"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/f2a0075f-27bb-4327-816e-a8f8c684a5b2",
+        "srcset": "",
+        "alt": "alchemy.",
+        "loading": "lazy",
+        "intrinsicW": 1053,
+        "intrinsicH": 591,
+        "renderedW": 413,
+        "renderedH": 232,
+        "localPath": "assets/media/f2a0075f-27bb-4327-816e-a8f8c684a5b2-2b543b79.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/42fcd71f-f48d-45f7-a802-5979c7378d71",
+        "srcset": "",
+        "alt": "Bally",
+        "loading": "lazy",
+        "intrinsicW": 750,
+        "intrinsicH": 422,
+        "renderedW": 413,
+        "renderedH": 232,
+        "localPath": "assets/media/42fcd71f-f48d-45f7-a802-5979c7378d71-6ca279e5.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/295b7f98-3e2e-4f47-a28b-b6d567bbacbc",
+        "srcset": "",
+        "alt": "Beautiful Amore",
+        "loading": "lazy",
+        "intrinsicW": 1053,
+        "intrinsicH": 591,
+        "renderedW": 413,
+        "renderedH": 233,
+        "localPath": "assets/media/295b7f98-3e2e-4f47-a28b-b6d567bbacbc-60dbf058.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/f3e6fa52-3fa2-4992-9080-30cd93669838",
+        "srcset": "",
+        "alt": "Beauty on 5th Duty Free",
+        "loading": "lazy",
+        "intrinsicW": 1053,
+        "intrinsicH": 591,
+        "renderedW": 413,
+        "renderedH": 232,
+        "localPath": "assets/media/f3e6fa52-3fa2-4992-9080-30cd93669838-935f5fdc.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/efec9928-9c09-499c-bc47-cc42ae30dc85",
+        "srcset": "",
+        "alt": "Better+",
+        "loading": "lazy",
+        "intrinsicW": 1053,
+        "intrinsicH": 591,
+        "renderedW": 413,
+        "renderedH": 232,
+        "localPath": "assets/media/efec9928-9c09-499c-bc47-cc42ae30dc85-8180e177.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/2c453822-018d-41e0-a62c-1223f0eecb48",
+        "srcset": "",
+        "alt": "Bevo's Kitchen",
+        "loading": "lazy",
+        "intrinsicW": 1053,
+        "intrinsicH": 591,
+        "renderedW": 413,
+        "renderedH": 233,
+        "localPath": "assets/media/2c453822-018d-41e0-a62c-1223f0eecb48-9ebfdc5b.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/80630f2f-42ef-4029-9fed-bef0c5db152b",
+        "srcset": "",
+        "alt": "BKLYN Shopping Duty Free",
+        "loading": "lazy",
+        "intrinsicW": 1053,
+        "intrinsicH": 591,
+        "renderedW": 413,
+        "renderedH": 232,
+        "localPath": "assets/media/80630f2f-42ef-4029-9fed-bef0c5db152b-1dc2b706.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/2016-03-09%2009.21.51.jpg",
+        "srcset": "",
+        "alt": "Blue Sky Traders",
+        "loading": "lazy",
+        "intrinsicW": 750,
+        "intrinsicH": 422,
+        "renderedW": 413,
+        "renderedH": 232,
+        "localPath": "assets/media/2016-03-09_2009.21.51-21810dc0.jpg"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/fe96f64e-eaf2-4e0b-a052-ca5b1400fff7",
+        "srcset": "",
+        "alt": "Boss",
+        "loading": "lazy",
+        "intrinsicW": 1053,
+        "intrinsicH": 591,
+        "renderedW": 413,
+        "renderedH": 233,
+        "localPath": "assets/media/fe96f64e-eaf2-4e0b-a052-ca5b1400fff7-1f3bf450.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/7296ecb2-2c61-4a2b-9d6b-81dbc13f6b3f",
+        "srcset": "",
+        "alt": "Breitling",
+        "loading": "lazy",
+        "intrinsicW": 1053,
+        "intrinsicH": 591,
+        "renderedW": 413,
+        "renderedH": 232,
+        "localPath": "assets/media/7296ecb2-2c61-4a2b-9d6b-81dbc13f6b3f-843a5fdf.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/3798faf6-60ff-4649-866a-b806ededad5d",
+        "srcset": "",
+        "alt": "Brookstone",
+        "loading": "lazy",
+        "intrinsicW": 1053,
+        "intrinsicH": 591,
+        "renderedW": 413,
+        "renderedH": 232,
+        "localPath": "assets/media/3798faf6-60ff-4649-866a-b806ededad5d-98633d3e.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/e7f216e6-9d5f-43aa-a2ea-b033dce2ea19",
+        "srcset": "",
+        "alt": "Bryant Park Market",
+        "loading": "lazy",
+        "intrinsicW": 1053,
+        "intrinsicH": 591,
+        "renderedW": 413,
+        "renderedH": 233,
+        "localPath": "assets/media/e7f216e6-9d5f-43aa-a2ea-b033dce2ea19-4e5d0c1c.bin"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/Port_Authority_NYNJ_logo.svg",
+        "srcset": "",
+        "alt": "Port Authority New York New Jersey Air Land Rail Sea",
+        "loading": "eager",
+        "intrinsicW": 252,
+        "intrinsicH": 121,
+        "renderedW": 164,
+        "renderedH": 79,
+        "localPath": "assets/media/Port_Authority_NYNJ_logo-40276be9.svg"
+      }
+    ],
+    "inlineSvgCount": 7,
+    "videos": [],
+    "iframes": []
+  },
+  "forms": [
+    {
+      "action": "",
+      "method": "get",
+      "ariaLabel": "",
+      "fields": [
+        {
+          "tag": "input",
+          "type": "search",
+          "name": "search",
+          "placeholder": "What can we help you find?",
+          "required": false,
+          "ariaLabel": "What can we help you find?"
+        }
+      ]
+    }
+  ],
+  "logoCandidates": [
+    {
+      "type": "img",
+      "src": "https://www.jfkairport.com/images/shared/logos/airports/jfk/JFK.svg",
+      "outerHTMLPreview": "<img alt=\"John F. Kennedy International Airport\" class=\"Image_image__LITrj WideHeader_logo__nAh0x\" loading=\"eager\" data-testid=\"logo\" src=\"/images/shared/logos/airports/jfk/JFK.svg\">",
+      "localPath": "assets/media/JFK-cd579a20.svg"
+    },
+    {
+      "type": "og:image",
+      "src": "https://s7d9.scene7.com/is/image/panynjaviation/jfk_ogimage:card-wide-16x9",
+      "localPath": "assets/media/jfk_ogimage_card-wide-16x9-3041f9a7.bin"
+    },
+    {
+      "type": "favicon",
+      "src": "https://www.jfkairport.com/images/shared/favicon/jfk_favicon.ico",
+      "localPath": "assets/media/jfk_favicon-a7892a40.ico"
+    }
+  ],
+  "voice": {
+    "heroHeading": "Where To Shop",
+    "heroParagraph": "Find everything from fashion and travel essentials to duty-free deals and local favorites. Whether you're picking up last-minute gifts or just browsing, JFK’s airport shops make shopping easy."
+  },
+  "systemBlocks": {
+    "headerHTML": "<header class=\"Header_header__Qb7xT css-0\" data-testid=\"header\"><a aria-label=\"Skip to Content\" tabindex=\"0\" class=\"chakra-link Header_skipToContent__n9lzS css-iw9gdm\" href=\"/dine-shop-relax/shops#main-content\">Skip to Content</a><div class=\"Grid_grid__k5z8n WideHeader_wideHeader__WUcQz css-8yzm79\" data-testid=\"wide-header\"><a tabindex=\"0\" class=\"chakra-link WideHeader_logoContainer__OVb_m css-1mw5ttv\" href=\"/\"><img alt=\"John F. Kennedy International Airport\" class=\"Image_image__LITrj WideHeader_logo__nAh0x\" loading=\"eager\" data-testid=\"logo\" src=\"/images/shared/logos/airports/jfk/JFK.svg\"></a><nav class=\"chakra-stack WideHeader_navBar__V9qem css-1igwmid\" aria-label=\"main\"><div class=\"chakra-stack WideHeader_expandableNav__tw5MU css-1igwmid\"><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Flights\">Flights</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Transportation &amp; Parking\">Transportation &amp; Parking</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Explore JFK\">Explore JFK</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Dine, Shop, Relax\">Dine, Shop, Relax</button></div><a aria-label=\"Accessibility Services\" tabindex=\"0\" target=\"_self\" class=\"chakra-link WideHeader_accessibility__zCHWK css-1mw5ttv\" data-testid=\"accessibility-cta\" href=\"/explore-jfk/accessibility-services\"><span class=\"icon-accessible css-5lgiqp\" data-testid=\"icon\" tabindex=\"-1\" aria-hidden=\"true\"></span></a><button class=\"WideHeader_search__RDBrN css-0\" tabindex=\"0\" aria-expanded=\"false\" aria-label=\"Search\" data-testid=\"search\"><span class=\"icon-search css-5lgiqp\" data-testid=\"icon-search\" tabindex=\"-1\" aria-hidden=\"true\"></span></button></div></nav></div></header>",
+    "footerHTML": "<footer class=\"Footer_footerContainer__h6KnL css-0\" data-theme=\"aviation\"><div class=\"Grid_grid__k5z8n Footer_footer__nCxey css-8yzm79\"><a tabindex=\"0\" class=\"chakra-link Footer_logoContainer__YztlK css-1mw5ttv\" href=\"http://www.panynj.gov/\"><img alt=\"Port Authority New York New Jersey Air Land Rail Sea\" class=\"Image_image__LITrj Footer_logo__dJ82V\" loading=\"eager\" data-testid=\"default-image\" src=\"/images/shared/logos/Port_Authority_NYNJ_logo.svg\"></a><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"Accessibility\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/explore-jfk/accessibility-services\">Accessibility</a><a aria-label=\"Air Cargo opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/airports/en/air-cargo/jfk.html\">Air Cargo<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Alerts and Advisories\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/alerts-advisories\">Alerts and Advisories</a><a aria-label=\"Contact Us\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/contact-us\">Contact Us</a></div><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"FAQ\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/frequently-asked-questions\">FAQ</a><a aria-label=\"Feedback\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/feedback\">Feedback</a><a aria-label=\"General Airport Information opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/airports/en/index.html\">PANYNJ Airports Information<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"JFK Redevelopment opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html\">JFK Redevelopment<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"Lost and Found\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/lost-and-found\">Lost and Found</a><a aria-label=\"Press opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/port-authority/en/press-room.html\">Press<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><div class=\"chakra-stack Footer_socialLinks__xfpNq css-1igwmid\"><a aria-label=\"Connect with us on Facebook opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/\"><span class=\"icon-logo-facebook css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Connect with us on X (previously Twitter) opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"http://www.twitter.com/JFKairport\"><span class=\"icon-logo-x css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Connect with us on Whats App opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"https://www.panynj.gov/WhatsApp_JFK\"><span class=\"icon-logo-whatsapp css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><span role=\"separator\" aria-orientation=\"horizontal\" class=\"chakra-separator Footer_separator___6pPI css-wyc8fo\"></span><div class=\"Footer_address__l_LYP css-0\"><p>The Port Authority of New York and New Jersey<br>\n  4 World Trade Center, 150 Greenw",
+    "headerLinks": [
+      {
+        "text": "Skip to Content",
+        "href": "/dine-shop-relax/shops#main-content"
+      },
+      {
+        "text": "",
+        "href": "/"
+      },
+      {
+        "text": "",
+        "href": "/explore-jfk/accessibility-services"
+      }
+    ],
+    "footerLinks": [
+      {
+        "text": "",
+        "href": "http://www.panynj.gov/"
+      },
+      {
+        "text": "Accessibility",
+        "href": "/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Air Cargo",
+        "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+      },
+      {
+        "text": "Alerts and Advisories",
+        "href": "/alerts-advisories"
+      },
+      {
+        "text": "Contact Us",
+        "href": "/contact-us"
+      },
+      {
+        "text": "FAQ",
+        "href": "/frequently-asked-questions"
+      },
+      {
+        "text": "Feedback",
+        "href": "/feedback"
+      },
+      {
+        "text": "PANYNJ Airports Information",
+        "href": "https://www.panynj.gov/airports/en/index.html"
+      },
+      {
+        "text": "JFK Redevelopment",
+        "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+      },
+      {
+        "text": "Lost and Found",
+        "href": "/lost-and-found"
+      },
+      {
+        "text": "Press",
+        "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+      },
+      {
+        "text": "",
+        "href": "http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/"
+      },
+      {
+        "text": "",
+        "href": "http://www.twitter.com/JFKairport"
+      },
+      {
+        "text": "",
+        "href": "https://www.panynj.gov/WhatsApp_JFK"
+      },
+      {
+        "text": "Website Disclaimer",
+        "href": "/website-disclaimer"
+      },
+      {
+        "text": "Privacy Statement",
+        "href": "/privacy"
+      }
+    ]
+  },
+  "_domCounts": {
+    "totalElements": 344,
+    "sampledElements": 344
+  },
+  "screenshot": "assets/screenshots/dine-shop-relax__shops.png"
+}

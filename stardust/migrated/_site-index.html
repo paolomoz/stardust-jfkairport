@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Site index, jfkairport.com migrated prototype</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/assets/canon.css">
+<link rel="stylesheet" href="/assets/migrate.css">
+<style>
+  body { padding-bottom: 64px; }
+  .si-hero { padding: 96px 32px 48px; max-width: 1200px; margin: 0 auto; }
+  .si-hero h1 { font-family: var(--display-family); font-weight: 700; font-size: clamp(56px, 8vw, 96px); line-height: 1.0; letter-spacing: -0.04em; margin: 0 0 18px; color: var(--panynj-navy); }
+  .si-hero .deck { font-size: 20px; color: var(--slate-700); max-width: 60ch; line-height: 1.5; }
+  .si-hero .stats { display: flex; gap: 32px; margin-top: 28px; padding-top: 24px; border-top: 1px solid color-mix(in oklch, var(--panynj-navy) 14%, transparent); flex-wrap: wrap; }
+  .si-hero .stat .num { font-family: var(--display-family); font-weight: 700; font-size: 40px; line-height: 1; letter-spacing: -0.025em; color: var(--panynj-navy); display: block; font-variant-numeric: tabular-nums; }
+  .si-hero .stat .lbl { font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--slate-700); font-weight: 700; margin-top: 6px; display: block; }
+  .si-section { padding: 48px 32px; max-width: 1200px; margin: 0 auto; }
+  .si-section h2 { font-family: var(--display-family); font-weight: 700; font-size: 32px; letter-spacing: -0.025em; margin: 0 0 6px; color: var(--panynj-navy); }
+  .si-section .si-count { font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--slate-600); font-weight: 700; margin-bottom: 24px; display: block; }
+  .si-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 8px; }
+  .si-grid a { display: block; padding: 14px 18px; border: 1px solid var(--slate-200); border-radius: 4px; color: var(--ink); transition: border-color 200ms var(--ease-out-quart), transform 200ms var(--ease-out-quart), background 200ms var(--ease-out-quart); text-decoration: none; }
+  .si-grid a:hover { border-color: var(--panynj-blue); background: var(--ice-blue); transform: translateY(-1px); text-decoration: none; }
+  .si-grid .si-title { font-family: var(--display-family); font-weight: 700; font-size: 16px; letter-spacing: -0.01em; line-height: 1.2; color: var(--panynj-navy); }
+  .si-grid .si-path { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 11px; color: var(--slate-600); margin-top: 4px; word-break: break-all; }
+  .si-notes { padding: 32px; max-width: 1200px; margin: 48px auto 0; background: var(--slate-100); border-radius: 4px; }
+  .si-notes h3 { font-family: var(--display-family); font-weight: 700; font-size: 22px; letter-spacing: -0.015em; margin: 0 0 14px; color: var(--panynj-navy); }
+  .si-notes p, .si-notes li { font-size: 14px; line-height: 1.6; color: var(--slate-900); }
+  .si-notes ul { padding-left: 20px; margin: 0 0 14px; }
+  .si-notes code { font-family: ui-monospace, monospace; background: var(--ground-white); padding: 1px 6px; border-radius: 2px; font-size: 12px; color: var(--panynj-navy); border: 1px solid var(--slate-200); }
+</style>
+</head>
+<body>
+
+<section class="si-hero">
+  <h1>Migrated site index.</h1>
+  <p class="deck">jfkairport.com redesign prototype: 56 pages across 7 page types, generated from the locked design and captured content. Open any page below.</p>
+  <div class="stats">
+    <div class="stat"><span class="num">56</span><span class="lbl">Pages migrated</span></div>
+    <div class="stat"><span class="num">7</span><span class="lbl">Page types</span></div>
+    <div class="stat"><span class="num">281</span><span class="lbl">Images shipped</span></div>
+    <div class="stat"><span class="num">15</span><span class="lbl">Iterations on home</span></div>
+  </div>
+</section>
+
+
+<section class="si-section">
+  <h2>Home</h2>
+  <span class="si-count">1 page</span>
+  <div class="si-grid">
+    <a href="/">
+      <div class="si-title">John F. Kennedy International Airport</div>
+      <div class="si-path">/</div>
+    </a>
+  </div>
+</section>
+<section class="si-section">
+  <h2>IA pillar pages</h2>
+  <span class="si-count">4 pages</span>
+  <div class="si-grid">
+    <a href="/dine-shop-relax/">
+      <div class="si-title">Dine, Shop and Relax - Things to Do</div>
+      <div class="si-path">/dine-shop-relax/</div>
+    </a><a href="/explore-jfk/">
+      <div class="si-title">Explore JFK Airport</div>
+      <div class="si-path">/explore-jfk/</div>
+    </a><a href="/flights/">
+      <div class="si-title">Flights</div>
+      <div class="si-path">/flights/</div>
+    </a><a href="/transportation/">
+      <div class="si-title">Transportation Options</div>
+      <div class="si-path">/transportation/</div>
+    </a>
+  </div>
+</section>
+<section class="si-section">
+  <h2>Flight information</h2>
+  <span class="si-count">5 pages</span>
+  <div class="si-grid">
+    <a href="/flights/airlines/">
+      <div class="si-title">All Airlines</div>
+      <div class="si-path">/flights/airlines/</div>
+    </a><a href="/flights/arrivals/">
+      <div class="si-title">Flight Arrivals Guide</div>
+      <div class="si-path">/flights/arrivals/</div>
+    </a><a href="/flights/connections-guide/">
+      <div class="si-title">Flight Connections Guide</div>
+      <div class="si-path">/flights/connections-guide/</div>
+    </a><a href="/flights/connections-guide/travel-between-airports/">
+      <div class="si-title">Transferring Between Airports Guide</div>
+      <div class="si-path">/flights/connections-guide/travel-between-airports/</div>
+    </a><a href="/flights/departures/">
+      <div class="si-title">Flight Departures Guide</div>
+      <div class="si-path">/flights/departures/</div>
+    </a>
+  </div>
+</section>
+<section class="si-section">
+  <h2>Service and detail pages</h2>
+  <span class="si-count">30 pages</span>
+  <div class="si-grid">
+    <a href="/dine-shop-relax/food/">
+      <div class="si-title">Where To Eat</div>
+      <div class="si-path">/dine-shop-relax/food/</div>
+    </a><a href="/dine-shop-relax/lounge-and-rest/">
+      <div class="si-title">Relaxation and Lounges</div>
+      <div class="si-path">/dine-shop-relax/lounge-and-rest/</div>
+    </a><a href="/dine-shop-relax/shops/">
+      <div class="si-title">Where To Shop</div>
+      <div class="si-path">/dine-shop-relax/shops/</div>
+    </a><a href="/explore-jfk/accessibility-services/">
+      <div class="si-title">Accessibility Services</div>
+      <div class="si-path">/explore-jfk/accessibility-services/</div>
+    </a><a href="/explore-jfk/accessibility-services/handicap-transportation/">
+      <div class="si-title">Accessible Transportation</div>
+      <div class="si-path">/explore-jfk/accessibility-services/handicap-transportation/</div>
+    </a><a href="/explore-jfk/accessibility-services/hearing-accessibility/">
+      <div class="si-title">Deaf or Hard of Hearing Services</div>
+      <div class="si-path">/explore-jfk/accessibility-services/hearing-accessibility/</div>
+    </a><a href="/explore-jfk/accessibility-services/hidden-disabilities-accessibility/">
+      <div class="si-title">Invisible Disabilities Services</div>
+      <div class="si-path">/explore-jfk/accessibility-services/hidden-disabilities-accessibility/</div>
+    </a><a href="/explore-jfk/accessibility-services/mobility-accessibility/">
+      <div class="si-title">Mobility Services</div>
+      <div class="si-path">/explore-jfk/accessibility-services/mobility-accessibility/</div>
+    </a><a href="/explore-jfk/accessibility-services/vision-accessibility-services/">
+      <div class="si-title">Blind or Low-Vision Services</div>
+      <div class="si-path">/explore-jfk/accessibility-services/vision-accessibility-services/</div>
+    </a><a href="/explore-jfk/airport-map/">
+      <div class="si-title">JFK Airport Maps</div>
+      <div class="si-path">/explore-jfk/airport-map/</div>
+    </a><a href="/explore-jfk/hotels/">
+      <div class="si-title">Hotels</div>
+      <div class="si-path">/explore-jfk/hotels/</div>
+    </a><a href="/explore-jfk/services/">
+      <div class="si-title">Airport Services &amp; Amenities</div>
+      <div class="si-path">/explore-jfk/services/</div>
+    </a><a href="/explore-jfk/terminals/">
+      <div class="si-title">Explore All Terminals</div>
+      <div class="si-path">/explore-jfk/terminals/</div>
+    </a><a href="/explore-jfk/terminals/terminal-1/">
+      <div class="si-title">JFK Terminal 1</div>
+      <div class="si-path">/explore-jfk/terminals/terminal-1/</div>
+    </a><a href="/explore-jfk/terminals/terminal-1/airlines-at-terminal-1/">
+      <div class="si-title">Airlines at T1</div>
+      <div class="si-path">/explore-jfk/terminals/terminal-1/airlines-at-terminal-1/</div>
+    </a><a href="/explore-jfk/terminals/terminal-4/">
+      <div class="si-title">JFK Terminal 4</div>
+      <div class="si-path">/explore-jfk/terminals/terminal-4/</div>
+    </a><a href="/explore-jfk/terminals/terminal-4/About-JFKIAT/">
+      <div class="si-title">About JFKIAT</div>
+      <div class="si-path">/explore-jfk/terminals/terminal-4/About-JFKIAT/</div>
+    </a><a href="/explore-jfk/terminals/terminal-4/Airlines-in-T4/">
+      <div class="si-title">Airlines in T4</div>
+      <div class="si-path">/explore-jfk/terminals/terminal-4/Airlines-in-T4/</div>
+    </a><a href="/explore-jfk/terminals/terminal-5/">
+      <div class="si-title">JFK Terminal 5</div>
+      <div class="si-path">/explore-jfk/terminals/terminal-5/</div>
+    </a><a href="/explore-jfk/terminals/terminal-7/">
+      <div class="si-title">JFK Terminal 7</div>
+      <div class="si-path">/explore-jfk/terminals/terminal-7/</div>
+    </a><a href="/explore-jfk/terminals/terminal-8/">
+      <div class="si-title">JFK Terminal 8</div>
+      <div class="si-path">/explore-jfk/terminals/terminal-8/</div>
+    </a><a href="/explore-jfk/terminals/terminal-8/airlines-at-terminal-8/">
+      <div class="si-title">Airlines at T8</div>
+      <div class="si-path">/explore-jfk/terminals/terminal-8/airlines-at-terminal-8/</div>
+    </a><a href="/transportation/airport-parking/">
+      <div class="si-title">Parking</div>
+      <div class="si-path">/transportation/airport-parking/</div>
+    </a><a href="/transportation/airtrain/">
+      <div class="si-title">AirTrain JFK</div>
+      <div class="si-path">/transportation/airtrain/</div>
+    </a><a href="/transportation/car-rentals/">
+      <div class="si-title">Car Rentals</div>
+      <div class="si-path">/transportation/car-rentals/</div>
+    </a><a href="/transportation/pick-up-drop-off/">
+      <div class="si-title">Pick-up and Drop-off Areas</div>
+      <div class="si-path">/transportation/pick-up-drop-off/</div>
+    </a><a href="/transportation/public-transport/">
+      <div class="si-title">Public Transportation</div>
+      <div class="si-path">/transportation/public-transport/</div>
+    </a><a href="/transportation/ride-share-services/">
+      <div class="si-title">Ride Share Information</div>
+      <div class="si-path">/transportation/ride-share-services/</div>
+    </a><a href="/transportation/taxi-service/">
+      <div class="si-title">Taxis</div>
+      <div class="si-path">/transportation/taxi-service/</div>
+    </a><a href="/transportation/van-shuttle-service/">
+      <div class="si-title">Van and Shuttle Service</div>
+      <div class="si-path">/transportation/van-shuttle-service/</div>
+    </a>
+  </div>
+</section>
+<section class="si-section">
+  <h2>Alerts and advisories</h2>
+  <span class="si-count">10 pages</span>
+  <div class="si-grid">
+    <a href="/alerts-advisories/">
+      <div class="si-title">Alerts and Advisories</div>
+      <div class="si-path">/alerts-advisories/</div>
+    </a><a href="/alerts-advisories/jfk-redevelopment/">
+      <div class="si-title">JFK Redevelopment</div>
+      <div class="si-path">/alerts-advisories/jfk-redevelopment/</div>
+    </a><a href="/alerts-advisories/jfk-security-wait-times-suspended/">
+      <div class="si-title">JFK Security Wait Times Suspended</div>
+      <div class="si-path">/alerts-advisories/jfk-security-wait-times-suspended/</div>
+    </a><a href="/alerts-advisories/t4-ride-app-relocation/">
+      <div class="si-title">Terminal 4 Ride App Relocation</div>
+      <div class="si-path">/alerts-advisories/t4-ride-app-relocation/</div>
+    </a><a href="/alerts-advisories/t4-roadway-changes/">
+      <div class="si-title">Terminal 4 Roadway Changes</div>
+      <div class="si-path">/alerts-advisories/t4-roadway-changes/</div>
+    </a><a href="/alerts-advisories/t5-t7-ride-app-relocations/">
+      <div class="si-title">Terminal 5 and Terminal 7 Ride App Relocations</div>
+      <div class="si-path">/alerts-advisories/t5-t7-ride-app-relocations/</div>
+    </a><a href="/alerts-advisories/t5-t7-t8-access-changes/">
+      <div class="si-title">Terminal 5, Terminal 7 and Terminal 8 Access Changes</div>
+      <div class="si-path">/alerts-advisories/t5-t7-t8-access-changes/</div>
+    </a><a href="/alerts-advisories/t5-taxi-yellow-cab-relocated/">
+      <div class="si-title">Terminal 5 Taxi and Yellow Cab Stand Relocated</div>
+      <div class="si-path">/alerts-advisories/t5-taxi-yellow-cab-relocated/</div>
+    </a><a href="/alerts-advisories/t7-taxi-relocation/">
+      <div class="si-title">Terminal 7 Taxi Stand Relocation</div>
+      <div class="si-path">/alerts-advisories/t7-taxi-relocation/</div>
+    </a><a href="/alerts-advisories/terminal-4-blue-parking-lot-height-restriction/">
+      <div class="si-title">Terminal 4 Blue Parking Lot Height Restriction</div>
+      <div class="si-path">/alerts-advisories/terminal-4-blue-parking-lot-height-restriction/</div>
+    </a>
+  </div>
+</section>
+<section class="si-section">
+  <h2>Forms and contact</h2>
+  <span class="si-count">3 pages</span>
+  <div class="si-grid">
+    <a href="/contact-us/">
+      <div class="si-title">Contact Us</div>
+      <div class="si-path">/contact-us/</div>
+    </a><a href="/feedback/">
+      <div class="si-title">Share Your Feedback</div>
+      <div class="si-path">/feedback/</div>
+    </a><a href="/lost-and-found/">
+      <div class="si-title">Lost and Found</div>
+      <div class="si-path">/lost-and-found/</div>
+    </a>
+  </div>
+</section>
+<section class="si-section">
+  <h2>Static / legal</h2>
+  <span class="si-count">3 pages</span>
+  <div class="si-grid">
+    <a href="/frequently-asked-questions/">
+      <div class="si-title">Frequently Asked Questions</div>
+      <div class="si-path">/frequently-asked-questions/</div>
+    </a><a href="/privacy/">
+      <div class="si-title">Privacy Statement</div>
+      <div class="si-path">/privacy/</div>
+    </a><a href="/website-disclaimer/">
+      <div class="si-title">Website Disclaimer</div>
+      <div class="si-path">/website-disclaimer/</div>
+    </a>
+  </div>
+</section>
+
+<section class="si-notes">
+  <h3>Run notes</h3>
+  <p><strong>Locked design:</strong> <code>stardust/prototypes/home-proposed.html</code> — direction B (NYC-flavoured gateway) with Mode A pin (Sharp Grotesk + Helvetica Now + PANYNJ blue). Iterations 1 through 7 plus herofeed plus adapt+polish.</p>
+  <p><strong>How to view:</strong> from the project root, run <code>python3 -m http.server 8765 --directory stardust/migrated</code>, then visit <code>http://127.0.0.1:8765/</code>. Or open <code>stardust/migrated/index.html</code> directly with file:// (some assets may break without the server).</p>
+  <p><strong>Placeholder content:</strong></p>
+  <ul>
+    <li>Live numerals (security wait, pickup state, weather, departures count, parking %) are illustrative; no backend feed wired.</li>
+    <li>Sample flight rows on /arrivals and /departures are fabricated example data labeled as such in the page.</li>
+    <li>Voice-rephrased H2s on home and several archetypes are voice-authored under direction.md, not direct quotes from the source site.</li>
+    <li>Form submission is non-functional (alert-only).</li>
+  </ul>
+  <p><strong>Per-page provenance</strong> is recorded inside each <code>index.html</code> as an HTML comment in the document head. Search any file for <code>_provenance</code>.</p>
+  <p><strong>Detailed plan:</strong> <code>stardust/migration-plan.md</code>. <strong>Dogfood feedback:</strong> <code>/Users/paolo/excat/stardust-2/notes/dogfood-jfkairport-findings-2026-05-03.md</code>.</p>
+</section>
+
+</body>
+</html>

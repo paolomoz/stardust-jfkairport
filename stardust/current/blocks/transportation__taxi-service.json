@@ -1,0 +1,390 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:59.518Z",
+    "url": "https://www.jfkairport.com/transportation/taxi-service",
+    "slug": "transportation__taxi-service",
+    "httpStatus": 200,
+    "totalMs": 4872,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": {
+    "text": "infoTaxi pick-ups and drop-offs may take longer than usual due to construction at JFK. Plan accordingly and allow for extra time. During this period we recommend taking Public Transportation to the airport.Learn more",
+    "ctas": [
+      {
+        "text": "Public Transportation",
+        "href": "/transportation/public-transport"
+      },
+      {
+        "text": "Learn more",
+        "href": "/alerts-advisories"
+      }
+    ]
+  },
+  "h1": "Taxis to and from JFK Airport",
+  "lede": "Taxi cab service is available at all airport terminals. Simply get in line and the dispatcher will direct you to the next available cab, no reservations needed. Wait times are updated in real-time throughout the day.",
+  "heroImage": null,
+  "blocks": [
+    {
+      "h2": "Taxi wait times",
+      "h3s": [
+        "Terminal 1",
+        "Terminal 4",
+        "Terminal 5",
+        "Terminal 7",
+        "Terminal 8"
+      ],
+      "paragraphs": [
+        "Taxi cab service is available at all airport terminals. Simply get in line and the dispatcher will direct you to the next available cab, no reservations needed. Wait times are updated in real-time throughout the day.",
+        "Last updated at 11:43 AM ET",
+        "Taxis at Terminal 1 can be found curbside at the arrivals level roadway.",
+        "Taxis at Terminal 4 can be found on the Arrivals level. Follow the posted signage to the indoor queuing area.",
+        "The Taxi Stand in Terminal 5 is located on the ground floor of the Terminal 5 Yellow Parking Garage, which is near the AirTrain station.",
+        "Taxis at Terminal 7 can be found curbside at the departures level roadway.",
+        "Taxis at T8 can be found curbside at the arrivals level roadway."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-6_2_T1taxiwaittime:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "Image of taxi stand location",
+          "w": 1919,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-6_3_T4taxiwaittime:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "Image of taxi stand",
+          "w": 1920,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-6_4_T5taxiwaittime:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "Image of taxi stand near Yellow Parking",
+          "w": 1919,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-6_5_T7taxiwaittime:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "Image of taxi stand T7",
+          "w": 1919,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-6_6%20T8%20taxi%20wait%20time%20card:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "Image of taxi stand",
+          "w": 1920,
+          "h": 1080
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Curbside Arrivals",
+          "href": "https://maps.jfkairport.com/?lang=en&s=eyJvbmxpbmUvcG9pVmlldyI6eyJwb2lJZCI6IjQwMDM0NjIifSwibWFwUmVuZGVyZXIiOnsidnAiOnsibGF0Ijo0MC42NDMzODIsImxuZyI6LTczLjc5MDA4NCwiem9vbSI6MjAuMTc0NDUxLCJiZWFyaW5nIjowLCJwaXRjaCI6MH0sIm9yZCI6MX19"
+        },
+        {
+          "text": "Curbside Arrivals",
+          "href": "https://maps.jfkairport.com/?lang=en&s=eyJtYXBSZW5kZXJlciI6eyJ2cCI6eyJsYXQiOjQwLjY0NDUxNCwibG5nIjotNzMuNzgxODcxLCJ6b29tIjoyMiwiYmVhcmluZyI6LTEwNi45NjI1MDksInBpdGNoIjo2MH0sIm9yZCI6MX0sIm9ubGluZS9wb2lWaWV3Ijp7InBvaUlkIjoiOTIyIn19"
+        },
+        {
+          "text": "Yellow Parking Garage ground floor, near AirTrain",
+          "href": "https://maps.jfkairport.com/?lang=en&s=eyJtYXBSZW5kZXJlciI6eyJ2cCI6eyJsYXQiOjQwLjY0NjUzOCwibG5nIjotNzMuNzc5NzQ4LCJ6b29tIjoyMC4xNzQ0NTEsImJlYXJpbmciOi0xMDYuOTYyNTA5LCJwaXRjaCI6NjB9LCJvcmQiOjF9LCJvbmxpbmUvcG9pVmlldyI6eyJwb2lJZCI6Ijk1MSJ9fQ%3D%3D"
+        },
+        {
+          "text": "Curbside Arrivals, Outside Information Center",
+          "href": "https://maps.jfkairport.com/?lang=en&s=eyJtYXBSZW5kZXJlciI6eyJ2cCI6eyJsYXQiOjQwLjY0NjUzOCwibG5nIjotNzMuNzc5NzQ4LCJ6b29tIjoyMiwiYmVhcmluZyI6LTEwNi45NjI1MDksInBpdGNoIjo2MH0sIm9yZCI6MX0sIm9ubGluZS9wb2lWaWV3Ijp7InBvaUlkIjoiMTM5OCJ9fQ%3D%3D"
+        },
+        {
+          "text": "Curbside, Near AirTrain Connections Tunnel",
+          "href": "https://maps.jfkairport.com/?lang=en&s=eyJtYXBSZW5kZXJlciI6eyJ2cCI6eyJsYXQiOjQwLjY0ODY3MSwibG5nIjotNzMuNzgzNDIsInpvb20iOjIyLCJiZWFyaW5nIjotMTA2Ljk2MjUwOSwicGl0Y2giOjYwfSwib3JkIjoxfSwib25saW5lL3BvaVZpZXciOnsicG9pSWQiOiIxMTcwIn19"
+        }
+      ],
+      "tables": [],
+      "subPattern": "service-grid",
+      "subData": [
+        {
+          "title": "Terminal 1",
+          "text": "Taxi cab service is available at all airport terminals. Simply get in line and the dispatcher will direct you to the next available cab, no reservations needed. Wait times are updated in real-time throughout the day.",
+          "href": "https://maps.jfkairport.com/?lang=en&s=eyJvbmxpbmUvcG9pVmlldyI6eyJwb2lJZCI6IjQwMDM0NjIifSwibWFwUmVuZGVyZXIiOnsidnAiOnsibGF0Ijo0MC42NDMzODIsImxuZyI6LTczLjc5MDA4NCwiem9vbSI6MjAuMTc0NDUxLCJiZWFyaW5nIjowLCJwaXRjaCI6MH0sIm9yZCI6MX19"
+        },
+        {
+          "title": "Terminal 4",
+          "text": "Last updated at 11:43 AM ET",
+          "href": "https://maps.jfkairport.com/?lang=en&s=eyJtYXBSZW5kZXJlciI6eyJ2cCI6eyJsYXQiOjQwLjY0NDUxNCwibG5nIjotNzMuNzgxODcxLCJ6b29tIjoyMiwiYmVhcmluZyI6LTEwNi45NjI1MDksInBpdGNoIjo2MH0sIm9yZCI6MX0sIm9ubGluZS9wb2lWaWV3Ijp7InBvaUlkIjoiOTIyIn19"
+        },
+        {
+          "title": "Terminal 5",
+          "text": "Taxis at Terminal 1 can be found curbside at the arrivals level roadway.",
+          "href": "https://maps.jfkairport.com/?lang=en&s=eyJtYXBSZW5kZXJlciI6eyJ2cCI6eyJsYXQiOjQwLjY0NjUzOCwibG5nIjotNzMuNzc5NzQ4LCJ6b29tIjoyMC4xNzQ0NTEsImJlYXJpbmciOi0xMDYuOTYyNTA5LCJwaXRjaCI6NjB9LCJvcmQiOjF9LCJvbmxpbmUvcG9pVmlldyI6eyJwb2lJZCI6Ijk1MSJ9fQ%3D%3D"
+        },
+        {
+          "title": "Terminal 7",
+          "text": "Taxis at Terminal 4 can be found on the Arrivals level. Follow the posted signage to the indoor queuing area.",
+          "href": "https://maps.jfkairport.com/?lang=en&s=eyJtYXBSZW5kZXJlciI6eyJ2cCI6eyJsYXQiOjQwLjY0NjUzOCwibG5nIjotNzMuNzc5NzQ4LCJ6b29tIjoyMiwiYmVhcmluZyI6LTEwNi45NjI1MDksInBpdGNoIjo2MH0sIm9yZCI6MX0sIm9ubGluZS9wb2lWaWV3Ijp7InBvaUlkIjoiMTM5OCJ9fQ%3D%3D"
+        },
+        {
+          "title": "Terminal 8",
+          "text": "The Taxi Stand in Terminal 5 is located on the ground floor of the Terminal 5 Yellow Parking Garage, which is near the AirTrain station.",
+          "href": "https://maps.jfkairport.com/?lang=en&s=eyJtYXBSZW5kZXJlciI6eyJ2cCI6eyJsYXQiOjQwLjY0ODY3MSwibG5nIjotNzMuNzgzNDIsInpvb20iOjIyLCJiZWFyaW5nIjotMTA2Ljk2MjUwOSwicGl0Y2giOjYwfSwib3JkIjoxfSwib25saW5lL3BvaVZpZXciOnsicG9pSWQiOiIxMTcwIn19"
+        }
+      ]
+    },
+    {
+      "h2": "Taxi fares between JFK Airport and Manhattan",
+      "h3s": [],
+      "paragraphs": [
+        "For your convenience, taxis from JFK to Manhattan have a flat rate of $70, plus tolls, tip, and $2.75-$8.50 in additional fees which vary by time of day and destinations. The meter and receipt will show this fixed price.",
+        "Flat Fare Policy: If passengers ask the driver to stop at more than one stop within Manhattan, the flat fare policy applies to the first stop. After that, the meter will start a new trip, which will incur additional costs above the $70 and fees. There are no extra charges for these trips for peak times or night."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Taxi safety tips",
+      "h3s": [
+        "Taxi fares between JFK Airport and other NYC area destinations",
+        "Connecting to LaGuardia Airport and Newark Liberty International Airport"
+      ],
+      "paragraphs": [
+        "Note: Meter must read $3.00 at the start of the trip (except for JFK-Manhattan $70 Flat Fare trips).",
+        "The Bronx",
+        "Riverdale $110",
+        "South Bronx $80",
+        "Brooklyn",
+        "Coney Island $70",
+        "Downtown Brooklyn $90",
+        "East New York $40",
+        "Williamsburg $80",
+        "Queens",
+        "Corona and Forest Hills $40",
+        "Flushing $60",
+        "Long Island City and Astoria $70",
+        "Ozone Park $30",
+        "Staten Island",
+        "Eltingville, Annadale, and Prince’s Bay $130",
+        "Saint George and New Brighton $100",
+        "Nassau/Westchester, NY",
+        "The fare shown on the meter from JFK to NYC boundary, then double the fare from there to final stop.",
+        "Connecticut/Suffolk/New Jersey/north and west of Westchester County",
+        "Price is negotiated between passenger and driver at the start of the trip.",
+        "Review our guide on transferring airports for more information on connecting to flights at LaGuardia and Newark Liberty International Airports.",
+        "LaGuardia Airport",
+        "$60",
+        "Newark Liberty International Airport",
+        "$160"
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-6_7_taxisafetytips:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1440
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Locate a terminal taxi stand",
+          "href": "https://maps.jfkairport.com/su/uyCa0Ql6"
+        },
+        {
+          "text": "Review our guide on transferring airports",
+          "href": "/flights/connections-guide/travel-between-airports"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "New York taxi tips",
+      "h3s": [],
+      "paragraphs": [
+        "Tipping is optional but appreciated and encouraged.",
+        "One fare pays for all passengers going to the same place.",
+        "4 passengers is the limit for NYC cabs (5 for minivans).",
+        "Don’t forget to take your receipt before you go!"
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/cash-icon-2x1:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 959,
+          "h": 479
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/passenger-icon-2x1:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 959,
+          "h": 479
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/taxis-icon-2x1-1:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 959,
+          "h": 479
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/receipt-icon-2x1%20(1):hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 959,
+          "h": 479
+        }
+      ],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Accessible NYC taxis",
+      "h3s": [],
+      "paragraphs": [
+        "You can request a wheelchair-accessible taxi through the Accessible Dispatch program opens in a new tab or by using apps like Curb opens in a new tab or ARRO opens in a new tab.",
+        "You can also call or text the dispatch service directly:",
+        "Accessible taxis cost the same as regular ones, and you can even hail one on the street—they’ll have a wheelchair symbol on the vehicle.",
+        "Curb opens in a new tab",
+        "ARRO opens in a new tab"
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/Curb:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1200,
+          "h": 600
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/Arro:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 512,
+          "h": 256
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Accessible Dispatch program opens in a new tab",
+          "href": "https://accessibledispatch.com/"
+        },
+        {
+          "text": "Curb opens in a new tab",
+          "href": "https://www.gocurb.com/"
+        },
+        {
+          "text": "ARRO opens in a new tab",
+          "href": "https://www.ridearro.com/"
+        },
+        {
+          "text": "+1 (646)-599-9999",
+          "href": "tel:16465999999"
+        },
+        {
+          "text": "+1 (646)-400-0789",
+          "href": "tel:16464000789"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Taxi commission information",
+      "h3s": [],
+      "paragraphs": [
+        "Taxis are regulated by the NYC Taxi and Limousine Commission. For taxi compliments, complaints and lost property, call 311 or visit the NYC Taxi & Limousine Commission website. opens in a new tab"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "311",
+          "href": "tel:1311"
+        },
+        {
+          "text": "NYC Taxi & Limousine Commission website. opens in a new tab",
+          "href": "https://www.nyc.gov/site/tlc/index.page"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "FAQs",
+      "h3s": [],
+      "paragraphs": [
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "How much is a taxi between JFK and Manhattan?"
+        },
+        {
+          "text": "Are wheelchair-accessible taxis available at JFK Airport?"
+        },
+        {
+          "text": "How do I pay for a NYC taxi?"
+        }
+      ],
+      "links": [
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-03T00:00:00Z",
+    "stardustVersion": "0.3.0",
+    "aggregationScope": "5 pages (home, flights, transportation, explore-jfk, dine-shop-relax)",
+    "notes": "Site uses two custom-licensed type families (Sharp Grotesk Semibold for display, Helvetica Now for PANYNJ for body) — these are Port-Authority-licensed brand assets, not generic webfonts. Treat as signal-strong inheritance candidates for any brand-faithful redesign."
+  },
+  "site": {
+    "originUrl": "https://www.jfkairport.com/",
+    "owner": "Port Authority of New York & New Jersey (PANYNJ)",
+    "title": "John F. Kennedy International Airport - JFK Airport",
+    "description": "Welcome to JFK Airport, New York's international gateway. Find flight info, maps, transportation, parking, and traveler tips all in one place.",
+    "lang": "en-us"
+  },
+  "logo": {
+    "source": "img with data-testid=\"logo\"",
+    "src": "https://www.jfkairport.com/images/shared/logos/airports/jfk/JFK.svg",
+    "localPath": "assets/media/JFK-cd579a20.svg",
+    "alt": "John F. Kennedy International Airport",
+    "renderedWidth": 205,
+    "intrinsicWidth": 300,
+    "treatment": "Wordmark 'JFK' in deep navy + 'PORT AUTHORITY OF NY & NJ' lockup in a thin-bordered framed mark — co-branded with the parent agency."
+  },
+  "palette": {
+    "_provenance": "frequency-sorted across 5 pages, near-duplicates clustered",
+    "background": [
+      { "name": "ground-white", "value": "#FFFFFF", "rgb": "rgb(255, 255, 255)", "instances": 57, "role": "primary section ground" },
+      { "name": "ice-blue", "value": "#EFF9FF", "rgb": "rgb(239, 249, 255)", "instances": 21, "role": "alt section / informational tint" },
+      { "name": "mint-tint", "value": "#F1FCF2", "rgb": "rgb(241, 252, 242)", "instances": 18, "role": "alt section / success tint" }
+    ],
+    "foreground": [
+      { "name": "ink", "value": "#09090B", "rgb": "rgb(9, 9, 11)", "instances": 956, "role": "body text (dominant)" },
+      { "name": "slate-900", "value": "#0F172A", "rgb": "rgb(15, 23, 42)", "instances": 573, "role": "secondary text" },
+      { "name": "slate-600", "value": "#475569", "rgb": "rgb(71, 85, 105)", "instances": 372, "role": "muted text / metadata" },
+      { "name": "panynj-blue", "value": "#0045FF", "rgb": "rgb(0, 69, 255)", "instances": 211, "role": "primary brand color — CTAs, link text, headlines, active tab" },
+      { "name": "panynj-deep-blue", "value": "#022DB7", "rgb": "rgb(2, 45, 183)", "instances": 14, "role": "primary CTA hover / dark blue ground" },
+      { "name": "panynj-navy", "value": "#011565", "rgb": "rgb(1, 21, 101)", "instances": 30, "role": "logo navy / dark accent" }
+    ],
+    "accent": [
+      { "name": "advisory-yellow", "value": "#FFCD00", "rgb": "rgb(255, 205, 0)", "instances": 5, "role": "advisory / warning band ground" },
+      { "name": "success-green", "value": "#1B7A2F", "rgb": "rgb(27, 122, 47)", "instances": 35, "role": "status indicators (likely on-time)" }
+    ],
+    "totalDistinct": 11,
+    "summary": "Single dominant brand hue (vivid royal blue #0045FF) used heavily for everything from CTAs to plain link text. Three near-white grounds (white + ice-blue tint + mint tint) for section alternation. Yellow advisory and green status. Restrained, utility-led, no decorative accents."
+  },
+  "type": {
+    "headingFamily": {
+      "name": "Sharp Grotesk Semibold",
+      "source": "custom licensed; not a free webfont — this is a deliberate brand investment",
+      "designer": "Lucas Sharp / Sharp Type",
+      "register": "editorial-grade contemporary grotesk; same family used by Adobe brand, Pentagram clients, NYT editorial features"
+    },
+    "bodyFamily": {
+      "name": "Helvetica Now for PANYNJ",
+      "source": "custom-licensed Helvetica Now (Monotype) — PANYNJ has a private cut",
+      "register": "modern Helvetica revival, neutral, screen-optimised"
+    },
+    "scale": [
+      { "size": "12px", "instances": 20, "role": "fine print / metadata (very tight)" },
+      { "size": "14px", "instances": 379, "role": "secondary body" },
+      { "size": "16px", "instances": 1059, "role": "body (dominant)" },
+      { "size": "18px", "instances": 3, "role": "rare" },
+      { "size": "20px", "instances": 875, "role": "lead body / large UI" },
+      { "size": "24px", "instances": 32, "role": "h4 / small subheads" },
+      { "size": "28px", "instances": 40, "role": "h3 (one variant)" },
+      { "size": "32px", "instances": 37, "role": "h3 (another variant)" },
+      { "size": "40px", "instances": 12, "role": "card title / large h3" },
+      { "size": "52px", "instances": 6, "role": "h2 section heads" },
+      { "size": "96px", "instances": 4, "role": "h2 large display" },
+      { "size": "320px", "instances": 1, "role": "hero h1 — 'JFK' wordmark scale" }
+    ],
+    "headingDeployments": {
+      "h1_hero": { "fontFamily": "Sharp Grotesk Semibold", "fontSize": "320px", "fontWeight": "400", "lineHeight": "192px", "textTransform": "uppercase", "letterSpacing": "-8px" },
+      "h2_section": { "fontFamily": "Sharp Grotesk Semibold", "fontSize": "52px", "fontWeight": "400", "lineHeight": "64px", "textTransform": "none", "letterSpacing": "normal" },
+      "h3_card": { "fontFamily": "Helvetica Now for PANYNJ", "fontSize": "20px", "fontWeight": "700", "lineHeight": "24px", "textTransform": "none", "letterSpacing": "normal" }
+    },
+    "scaleAudit": {
+      "kind": "modular",
+      "ratio": "1.25–1.3 inside body range, then a heroic jump to 320px hero",
+      "notes": "The 320px hero is exceptional — it commits to 'JFK' as a wordmark moment. The remaining scale is well-mannered (16/20/52). H3 switches family from Sharp Grotesk to Helvetica Now — display family is reserved for h1/h2 only, which is a defensible discipline."
+    }
+  },
+  "motifs": {
+    "borderRadius": {
+      "primary": "2px",
+      "secondary": "4px",
+      "pillRadius": "9999px",
+      "summary": "Aggressively low radii — the page reads as crisp/architectural, not friendly/rounded. Pills used sparingly for pill-style filters."
+    },
+    "shadows": {
+      "primary": "rgba(0, 0, 0, 0.25) 0px 0px 4px 0px",
+      "summary": "Single soft halo shadow used sparingly. The site is largely shadow-free; depth is encoded by tinted alt grounds, not by elevation."
+    },
+    "gradients": {
+      "found": "none in computed style sample (heroes use raster photos, not gradients)"
+    },
+    "patterns": [
+      "full-bleed photographic hero with overlay headline",
+      "3-column card grid (icon + h3 + description) — used on every IA pillar page",
+      "tinted-ground informational band (mint, ice-blue, yellow advisory)",
+      "white card with thin border on tinted ground"
+    ]
+  },
+  "voice": {
+    "samples": {
+      "heroHeadlines": [
+        "JFK",
+        "Search Flights",
+        "Transportation Options",
+        "Explore JFK Airport",
+        "Dine, Shop and Relax"
+      ],
+      "sectionHeadlines": [
+        "Welcome to John F. Kennedy International Airport",
+        "Your Guide to JFK",
+        "An entirely new $19B JFK is being constructed",
+        "Get your essentials and more at JFK",
+        "Discover what JFK has to offer",
+        "Find your way to and from the airport",
+        "Do Not Accept Rides from Unsolicited Drivers"
+      ],
+      "ctaLabels": [
+        "Search",
+        "Learn more",
+        "Explore airport maps",
+        "Find taxi rates, locations, and rider tips",
+        "Book your parking",
+        "JFK Airport restaurants"
+      ]
+    },
+    "registerInferred": "brand + service-utility hybrid. The hero moments lean editorial-confident ('JFK' at 320px); the body copy is procedural and instructional. The voice is corporate-civic — 'Welcome to John F. Kennedy International Airport' reads more agency than airline. No humor, no warmth signals beyond polite phrasing.",
+    "registerHeuristic": "brand"
+  },
+  "systemComponents": {
+    "_method": "cross-page DOM heuristic — header / footer / advisory band detected by repeated structure",
+    "header": {
+      "instances": 5,
+      "shape": "white background, 32px tall, logo-left + 4 primary nav buttons (Flights / Transportation & Parking / Explore JFK / Dine, Shop, Relax) + accessibility-icon link + search-icon button. Nav links rendered as <button>, not <a> — likely opens a mega-dropdown.",
+      "deployment": "site-wide, sticky behavior not verified",
+      "loadBearing": true
+    },
+    "footer": {
+      "instances": 5,
+      "shape": "PANYNJ master logo + 14 utility links (Accessibility / Air Cargo / Alerts / Contact / FAQ / Feedback / etc.) + 3 social icons (Facebook / X / WhatsApp).",
+      "deployment": "site-wide, flat link list (no grouping or visual hierarchy)",
+      "loadBearing": true
+    },
+    "constructionAdvisoryBand": {
+      "instances": "1 confirmed (transportation page); likely site-wide on impacted sections",
+      "shape": "yellow ground (#FFCD00) + warning icon + paragraph with inline links + 'Learn more →' affordance",
+      "deployment": "context-bound — surfaces near sections affected by JFK redevelopment",
+      "loadBearing": true,
+      "note": "JFK is mid-$19B redevelopment until ~2028; this band is editorially load-bearing and will outlive the redesign."
+    },
+    "flightSearchModule": {
+      "instances": 2,
+      "shape": "tabbed panel (DEPARTURES / ARRIVALS / PARKING) with radio toggle (Destination / Flight Number) + date picker + destination autocomplete + Search CTA",
+      "deployment": "floating over hero on home; inline on /flights page (PARKING tab dropped on /flights)",
+      "loadBearing": true,
+      "note": "This is the conversion centerpiece of the site."
+    },
+    "guideToJfkBlock": {
+      "instances": "≥2 (home, flights)",
+      "shape": "section h2 'Your Guide to JFK' followed by card grid linking to IA pillar pages",
+      "deployment": "cross-promo on multiple pages",
+      "loadBearing": false
+    }
+  },
+  "accessibility": {
+    "skipLink": true,
+    "lang": "en-us (no per-page locale variation observed)",
+    "imageAltCoverage": "POOR — 9 of 10 sampled hero/card images on home have empty alt; logo has descriptive alt only",
+    "focusVisible": "not assessed",
+    "contrast": {
+      "panynjBlueOnWhite": "#0045FF on #FFFFFF → 4.65:1 (passes WCAG AA normal text, passes AAA only at 18pt+)",
+      "panynjBlueOnIceBlue": "#0045FF on #EFF9FF → ~4.4:1 (borderline AA)",
+      "inkOnWhite": "#09090B on #FFFFFF → 20.8:1 (passes AAA)"
+    }
+  },
+  "performance": {
+    "imageOversampling": "Editorial card images served at 1080×1440 intrinsic but rendered at 312×416 — ~12× oversampled by area. Major perf liability.",
+    "lazyLoading": "loading=eager on logo only; rest unspecified (browser default)"
+  }
+}

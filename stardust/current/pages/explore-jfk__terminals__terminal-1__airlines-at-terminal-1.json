@@ -1,0 +1,1477 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-03T13:12:32.863Z",
+    "url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-1/airlines-at-terminal-1",
+    "slug": "explore-jfk__terminals__terminal-1__airlines-at-terminal-1",
+    "startedAt": "2026-05-03T13:12:28.542Z",
+    "waitMode": "medium",
+    "httpStatus": 200,
+    "contentType": "text/html; charset=utf-8",
+    "waitMs": 1133,
+    "endedAt": "2026-05-03T13:12:32.863Z",
+    "totalMs": 4130,
+    "stardustVersion": "0.3.0"
+  },
+  "url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-1/airlines-at-terminal-1",
+  "meta": {
+    "title": "Airlines at T1 - JFK Airport",
+    "description": "",
+    "themeColor": "",
+    "lang": "en-us"
+  },
+  "ogTags": {
+    "og:title": "Airlines at T1 - JFK Airport",
+    "og:description": "",
+    "og:type": "website",
+    "og:url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-1/airlines-at-terminal-1",
+    "og:image": "https://s7d9.scene7.com/is/image/panynjaviation/jfk_ogimage:card-wide-16x9",
+    "og:image:alt": "John F. Kennedy International Airport logo"
+  },
+  "headings": [
+    {
+      "level": 1,
+      "text": "Airlines at JFK Terminal 1"
+    }
+  ],
+  "landmarks": [
+    {
+      "role": "main",
+      "label": "",
+      "headingPreview": "Airlines at JFK Terminal 1"
+    },
+    {
+      "role": "header",
+      "label": "",
+      "headingPreview": ""
+    },
+    {
+      "role": "nav",
+      "label": "main",
+      "headingPreview": ""
+    },
+    {
+      "role": "footer",
+      "label": "",
+      "headingPreview": ""
+    }
+  ],
+  "sections": [],
+  "ctas": [
+    {
+      "tag": "a",
+      "text": "Skip to Content",
+      "href": "/explore-jfk/terminals/terminal-1/airlines-at-terminal-1#main-content",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Flights",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Transportation & Parking",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Explore JFK",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Dine, Shop, Relax",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Air China (CA)",
+      "href": "https://www.airchina.us/US/GB/Home",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (800) 882-8122",
+      "href": "tel:+18008828122",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Air France (AF)",
+      "href": "http://www.airfrance.com/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (800) 237-2747",
+      "href": "tel:+18002372747",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Air New Zealand (NZ)",
+      "href": "https://www.airnewzealand.com/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (800) 262-1234",
+      "href": "tel:+18002621234",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Air Serbia (JU)",
+      "href": "https://www.airserbia.com/en/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (718) 725-8642",
+      "href": "tel:+17187258642",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Asiana Airlines (OZ)",
+      "href": "https://flyasiana.com/C/US/EN/index",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (718) 751-1606",
+      "href": "tel:+17187511606",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Austrian Airlines (OS)",
+      "href": "http://www.avianca.com/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (800) 843-0002",
+      "href": "tel:+18008430002",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "SATA International (S4)",
+      "href": "https://www.azoresairlines.pt/en",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+351 296 209 720",
+      "href": "tel:+351296209720",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Brussels Airlines (SN)",
+      "href": "https://www.brusselsairlines.com/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (800) 401-1801",
+      "href": "tel:+18004011801",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Cayman Airways (KX)",
+      "href": "https://www.caymanairways.com/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (800) 422-9626",
+      "href": "tel:+18004229626",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "China Eastern (MU)",
+      "href": "http://us.ceair.com/en/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "86 (21) 2069-5530",
+      "href": "tel:862120695530",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "EgyptAir (MS)",
+      "href": "https://www.egyptair.com/en/Pages/default.aspx",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (212) 315-0900",
+      "href": "tel:+12123150900",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "EVA Air (BR)",
+      "href": "http://www.evaair.com/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (800) 695-1188",
+      "href": "tel:+18006951188",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Gulf Air (GF)",
+      "href": "https://www.gulfair.com",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (888) 359-4853",
+      "href": "tel:+18883594853",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "ITA Airways (AZ)",
+      "href": "https://www.itaspa.com/en_us/fly-ita/check-in/check-in-time-limits.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (877) 793-1717",
+      "href": "tel:+18777931717",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Korean Air (KE)",
+      "href": "http://www.koreanair.com/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (800) 438-5000",
+      "href": "tel:+18004385000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "LOT Polish (LO)",
+      "href": "http://www.lot.com/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (212) 789-0970",
+      "href": "tel:+12127890970",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Lufthansa (LH)",
+      "href": "http://www.lufthansa.com/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (800) 645-3880",
+      "href": "tel:+18006453880",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Neos (NO)",
+      "href": "https://www.neosair.it/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (833) 703-6367",
+      "href": "tel:+18337036367",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Philippine Airlines (PR)",
+      "href": "http://www.philippineairlines.com/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (800) 435-9725",
+      "href": "tel:+18004359725",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Royal Air Maroc (AT)",
+      "href": "http://www.royalairmaroc.com/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (800) 344-6726",
+      "href": "tel:+18003446726",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Saudi Arabian Airlines (SV)",
+      "href": "http://www.saudia.com/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (800) 472-8342",
+      "href": "tel:+18004728342",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "SAS - Scandinavian Airlines (SK)",
+      "href": "https://www.flysas.com/en",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (800) 221-2350",
+      "href": "tel:+18002212350",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "SWISS (LX)",
+      "href": "http://www.swiss.com/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (833) 626-0737",
+      "href": "tel:+18336260737",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "TAP Portugal (TP)",
+      "href": "https://www.flytap.com/en-us",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (800) 903-7914",
+      "href": "tel:+18009037914",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Turkish Airlines (TK)",
+      "href": "http://www.turkishairlines.com/",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (800) 874-8875",
+      "href": "tel:+18008748875",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "VB (VB)",
+      "href": "https://www.vivaaerobus.com/en",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "+1 (866) 359-8482",
+      "href": "tel:+18663598482",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Accessibility",
+      "href": "/explore-jfk/accessibility-services",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Air Cargo",
+      "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Alerts and Advisories",
+      "href": "/alerts-advisories",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "text": "Skip to Content",
+        "href": "https://www.jfkairport.com/explore-jfk/terminals/terminal-1/airlines-at-terminal-1#main-content"
+      },
+      {
+        "text": "",
+        "href": "https://www.jfkairport.com/"
+      },
+      {
+        "text": "",
+        "href": "https://www.jfkairport.com/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Accessibility",
+        "href": "https://www.jfkairport.com/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Alerts and Advisories",
+        "href": "https://www.jfkairport.com/alerts-advisories"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.jfkairport.com/contact-us"
+      },
+      {
+        "text": "FAQ",
+        "href": "https://www.jfkairport.com/frequently-asked-questions"
+      },
+      {
+        "text": "Feedback",
+        "href": "https://www.jfkairport.com/feedback"
+      },
+      {
+        "text": "Lost and Found",
+        "href": "https://www.jfkairport.com/lost-and-found"
+      },
+      {
+        "text": "Website Disclaimer",
+        "href": "https://www.jfkairport.com/website-disclaimer"
+      },
+      {
+        "text": "Privacy Statement",
+        "href": "https://www.jfkairport.com/privacy"
+      }
+    ],
+    "external": [
+      {
+        "text": "Air China (CA)",
+        "href": "https://www.airchina.us/US/GB/Home"
+      },
+      {
+        "text": "Air France (AF)",
+        "href": "http://www.airfrance.com/"
+      },
+      {
+        "text": "Air New Zealand (NZ)",
+        "href": "https://www.airnewzealand.com/"
+      },
+      {
+        "text": "Air Serbia (JU)",
+        "href": "https://www.airserbia.com/en/"
+      },
+      {
+        "text": "Asiana Airlines (OZ)",
+        "href": "https://flyasiana.com/C/US/EN/index"
+      },
+      {
+        "text": "Austrian Airlines (OS)",
+        "href": "http://www.avianca.com/"
+      },
+      {
+        "text": "SATA International (S4)",
+        "href": "https://www.azoresairlines.pt/en"
+      },
+      {
+        "text": "Brussels Airlines (SN)",
+        "href": "https://www.brusselsairlines.com/"
+      },
+      {
+        "text": "Cayman Airways (KX)",
+        "href": "https://www.caymanairways.com/"
+      },
+      {
+        "text": "China Eastern (MU)",
+        "href": "http://us.ceair.com/en/"
+      },
+      {
+        "text": "EgyptAir (MS)",
+        "href": "https://www.egyptair.com/en/Pages/default.aspx"
+      },
+      {
+        "text": "EVA Air (BR)",
+        "href": "http://www.evaair.com/"
+      },
+      {
+        "text": "Gulf Air (GF)",
+        "href": "https://www.gulfair.com/"
+      },
+      {
+        "text": "ITA Airways (AZ)",
+        "href": "https://www.itaspa.com/en_us/fly-ita/check-in/check-in-time-limits.html"
+      },
+      {
+        "text": "Korean Air (KE)",
+        "href": "http://www.koreanair.com/"
+      },
+      {
+        "text": "LOT Polish (LO)",
+        "href": "http://www.lot.com/"
+      },
+      {
+        "text": "Lufthansa (LH)",
+        "href": "http://www.lufthansa.com/"
+      },
+      {
+        "text": "Neos (NO)",
+        "href": "https://www.neosair.it/"
+      },
+      {
+        "text": "Philippine Airlines (PR)",
+        "href": "http://www.philippineairlines.com/"
+      },
+      {
+        "text": "Royal Air Maroc (AT)",
+        "href": "http://www.royalairmaroc.com/"
+      },
+      {
+        "text": "Saudi Arabian Airlines (SV)",
+        "href": "http://www.saudia.com/"
+      },
+      {
+        "text": "SAS - Scandinavian Airlines (SK)",
+        "href": "https://www.flysas.com/en"
+      },
+      {
+        "text": "SWISS (LX)",
+        "href": "http://www.swiss.com/"
+      },
+      {
+        "text": "TAP Portugal (TP)",
+        "href": "https://www.flytap.com/en-us"
+      },
+      {
+        "text": "Turkish Airlines (TK)",
+        "href": "http://www.turkishairlines.com/"
+      },
+      {
+        "text": "VB (VB)",
+        "href": "https://www.vivaaerobus.com/en"
+      },
+      {
+        "text": "",
+        "href": "http://www.panynj.gov/"
+      },
+      {
+        "text": "Air Cargo",
+        "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+      },
+      {
+        "text": "PANYNJ Airports Information",
+        "href": "https://www.panynj.gov/airports/en/index.html"
+      },
+      {
+        "text": "JFK Redevelopment",
+        "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+      },
+      {
+        "text": "Press",
+        "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+      },
+      {
+        "text": "",
+        "href": "http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/"
+      },
+      {
+        "text": "",
+        "href": "http://www.twitter.com/JFKairport"
+      },
+      {
+        "text": "",
+        "href": "https://www.panynj.gov/WhatsApp_JFK"
+      }
+    ],
+    "counts": {
+      "internal": 11,
+      "external": 34
+    }
+  },
+  "tokens": {
+    "colors": {
+      "rgb(9, 9, 11)": 145,
+      "rgb(0, 69, 255)": 119,
+      "rgb(255, 255, 255)": 34,
+      "rgb(15, 23, 42)": 1,
+      "rgb(71, 85, 105)": 104
+    },
+    "backgrounds": {
+      "rgb(255, 255, 255)": 3,
+      "rgb(0, 69, 255)": 1,
+      "rgb(239, 249, 255)": 1,
+      "rgb(2, 45, 183)": 1,
+      "rgb(1, 21, 101)": 1
+    },
+    "fonts": {
+      "Helvetica Now for PANYNJ": 403
+    },
+    "sizes": {
+      "16px": 68,
+      "20px": 158,
+      "24px": 3,
+      "28px": 1,
+      "14px": 170,
+      "32px": 3
+    },
+    "radii": {
+      "2px": 71,
+      "8px": 1,
+      "4px": 2
+    },
+    "shadows": {
+      "rgba(0, 0, 0, 0.25) 0px 0px 4px 0px": 1
+    }
+  },
+  "headingStyles": {
+    "h1": {
+      "fontFamily": "Helvetica Now for PANYNJ",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "textTransform": "none",
+      "letterSpacing": "normal"
+    }
+  },
+  "bodyStyles": {
+    "fontFamily": "Helvetica Now for PANYNJ",
+    "fontSize": "20px",
+    "lineHeight": "24px",
+    "color": "rgb(255, 255, 255)"
+  },
+  "media": {
+    "images": [
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airports/jfk/JFK.svg",
+        "srcset": "",
+        "alt": "John F. Kennedy International Airport",
+        "loading": "eager",
+        "intrinsicW": 300,
+        "intrinsicH": 61,
+        "renderedW": 205,
+        "renderedH": 42,
+        "localPath": "assets/media/JFK-cd579a20.svg"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airports/jfk/terminals/JFK_oldT1_white.svg",
+        "srcset": "",
+        "alt": "",
+        "loading": "lazy",
+        "intrinsicW": 259,
+        "intrinsicH": 54,
+        "renderedW": 384,
+        "renderedH": 80,
+        "localPath": "assets/media/JFK_oldT1_white-a9b9ec64.svg"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/ca.png",
+        "srcset": "",
+        "alt": "Air China",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/ca-a4db228b.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/af.png",
+        "srcset": "",
+        "alt": "Air France",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/af-8fbc4325.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/nz.png",
+        "srcset": "",
+        "alt": "Air New Zealand",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/nz-456a6848.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/ju.png",
+        "srcset": "",
+        "alt": "Air Serbia",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/ju-b567055c.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/oz.png",
+        "srcset": "",
+        "alt": "Asiana Airlines",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/oz-15a22c19.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/os.png",
+        "srcset": "",
+        "alt": "Austrian Airlines",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/os-9a1e07fa.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/s4.png",
+        "srcset": "",
+        "alt": "SATA International",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/s4-ebdaca2d.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/sn.png",
+        "srcset": "",
+        "alt": "Brussels Airlines",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/sn-7a18903b.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/kx.png",
+        "srcset": "",
+        "alt": "Cayman Airways",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/kx-11067098.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/mu.png",
+        "srcset": "",
+        "alt": "China Eastern",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/mu-e0f954c5.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/ms.png",
+        "srcset": "",
+        "alt": "EgyptAir",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/ms-918607e5.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/br.png",
+        "srcset": "",
+        "alt": "EVA Air",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/br-e3ce7957.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/gf.png",
+        "srcset": "",
+        "alt": "Gulf Air",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/gf-9a845add.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/az.png",
+        "srcset": "",
+        "alt": "ITA Airways",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/az-22e19b26.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/ke.png",
+        "srcset": "",
+        "alt": "Korean Air",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/ke-9cf0ac9f.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/lo.png",
+        "srcset": "",
+        "alt": "LOT Polish",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/lo-a8a1a484.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/lh.png",
+        "srcset": "",
+        "alt": "Lufthansa",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/lh-e73d2dcb.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/no.png",
+        "srcset": "",
+        "alt": "Neos",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/no-ec97d1f0.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/pr.png",
+        "srcset": "",
+        "alt": "Philippine Airlines",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/pr-8b7dc937.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/at.png",
+        "srcset": "",
+        "alt": "Royal Air Maroc",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/at-3a8c034e.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/sv.png",
+        "srcset": "",
+        "alt": "Saudi Arabian Airlines",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/sv-b8476a53.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/sk.png",
+        "srcset": "",
+        "alt": "SAS - Scandinavian Airlines",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/sk-5ce14bc7.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/lx.png",
+        "srcset": "",
+        "alt": "SWISS",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/lx-be17de5f.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/tp.png",
+        "srcset": "",
+        "alt": "TAP Portugal",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/tp-d9816035.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/tk.png",
+        "srcset": "",
+        "alt": "Turkish Airlines",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/tk-c7b87659.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airlines/vb.png",
+        "srcset": "",
+        "alt": "VB",
+        "loading": "lazy",
+        "intrinsicW": 200,
+        "intrinsicH": 200,
+        "renderedW": 40,
+        "renderedH": 40,
+        "localPath": "assets/media/vb-96f3604d.png"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/Port_Authority_NYNJ_logo.svg",
+        "srcset": "",
+        "alt": "Port Authority New York New Jersey Air Land Rail Sea",
+        "loading": "eager",
+        "intrinsicW": 252,
+        "intrinsicH": 121,
+        "renderedW": 164,
+        "renderedH": 79,
+        "localPath": "assets/media/Port_Authority_NYNJ_logo-40276be9.svg"
+      }
+    ],
+    "inlineSvgCount": 0,
+    "videos": [],
+    "iframes": []
+  },
+  "forms": [
+    {
+      "action": "",
+      "method": "get",
+      "ariaLabel": "",
+      "fields": [
+        {
+          "tag": "input",
+          "type": "search",
+          "name": "search",
+          "placeholder": "Search by airline",
+          "required": false,
+          "ariaLabel": "Search by airline"
+        }
+      ]
+    }
+  ],
+  "logoCandidates": [
+    {
+      "type": "img",
+      "src": "https://www.jfkairport.com/images/shared/logos/airports/jfk/JFK.svg",
+      "outerHTMLPreview": "<img alt=\"John F. Kennedy International Airport\" class=\"Image_image__LITrj WideHeader_logo__nAh0x\" loading=\"eager\" data-testid=\"logo\" src=\"/images/shared/logos/airports/jfk/JFK.svg\">",
+      "localPath": "assets/media/JFK-cd579a20.svg"
+    },
+    {
+      "type": "og:image",
+      "src": "https://s7d9.scene7.com/is/image/panynjaviation/jfk_ogimage:card-wide-16x9",
+      "localPath": "assets/media/jfk_ogimage_card-wide-16x9-3041f9a7.bin"
+    },
+    {
+      "type": "favicon",
+      "src": "https://www.jfkairport.com/images/shared/favicon/jfk_favicon.ico",
+      "localPath": "assets/media/jfk_favicon-a7892a40.ico"
+    }
+  ],
+  "voice": {
+    "heroHeading": "Airlines at JFK Terminal 1",
+    "heroParagraph": "Current wait times"
+  },
+  "systemBlocks": {
+    "headerHTML": "<header class=\"Header_header__Qb7xT css-0\" data-testid=\"header\"><a aria-label=\"Skip to Content\" tabindex=\"0\" class=\"chakra-link Header_skipToContent__n9lzS css-iw9gdm\" href=\"/explore-jfk/terminals/terminal-1/airlines-at-terminal-1#main-content\">Skip to Content</a><div class=\"Grid_grid__k5z8n WideHeader_wideHeader__WUcQz css-8yzm79\" data-testid=\"wide-header\"><a tabindex=\"0\" class=\"chakra-link WideHeader_logoContainer__OVb_m css-1mw5ttv\" href=\"/\"><img alt=\"John F. Kennedy International Airport\" class=\"Image_image__LITrj WideHeader_logo__nAh0x\" loading=\"eager\" data-testid=\"logo\" src=\"/images/shared/logos/airports/jfk/JFK.svg\"></a><nav class=\"chakra-stack WideHeader_navBar__V9qem css-1igwmid\" aria-label=\"main\"><div class=\"chakra-stack WideHeader_expandableNav__tw5MU css-1igwmid\"><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Flights\">Flights</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Transportation &amp; Parking\">Transportation &amp; Parking</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Explore JFK\">Explore JFK</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Dine, Shop, Relax\">Dine, Shop, Relax</button></div><a aria-label=\"Accessibility Services\" tabindex=\"0\" target=\"_self\" class=\"chakra-link WideHeader_accessibility__zCHWK css-1mw5ttv\" data-testid=\"accessibility-cta\" href=\"/explore-jfk/accessibility-services\"><span class=\"icon-accessible css-5lgiqp\" data-testid=\"icon\" tabindex=\"-1\" aria-hidden=\"true\"></span></a><button class=\"WideHeader_search__RDBrN css-0\" tabindex=\"0\" aria-expanded=\"false\" aria-label=\"Search\" data-testid=\"search\"><span class=\"icon-search css-5lgiqp\" data-testid=\"icon-search\" tabindex=\"-1\" aria-hidden=\"true\"></span></button></div></nav></div></header>",
+    "footerHTML": "<footer class=\"Footer_footerContainer__h6KnL css-0\" data-theme=\"aviation\"><div class=\"Grid_grid__k5z8n Footer_footer__nCxey css-8yzm79\"><a tabindex=\"0\" class=\"chakra-link Footer_logoContainer__YztlK css-1mw5ttv\" href=\"http://www.panynj.gov/\"><img alt=\"Port Authority New York New Jersey Air Land Rail Sea\" class=\"Image_image__LITrj Footer_logo__dJ82V\" loading=\"eager\" data-testid=\"default-image\" src=\"/images/shared/logos/Port_Authority_NYNJ_logo.svg\"></a><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"Accessibility\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/explore-jfk/accessibility-services\">Accessibility</a><a aria-label=\"Air Cargo opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/airports/en/air-cargo/jfk.html\">Air Cargo<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Alerts and Advisories\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/alerts-advisories\">Alerts and Advisories</a><a aria-label=\"Contact Us\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/contact-us\">Contact Us</a></div><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"FAQ\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/frequently-asked-questions\">FAQ</a><a aria-label=\"Feedback\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/feedback\">Feedback</a><a aria-label=\"General Airport Information opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/airports/en/index.html\">PANYNJ Airports Information<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"JFK Redevelopment opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html\">JFK Redevelopment<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"Lost and Found\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/lost-and-found\">Lost and Found</a><a aria-label=\"Press opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/port-authority/en/press-room.html\">Press<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><div class=\"chakra-stack Footer_socialLinks__xfpNq css-1igwmid\"><a aria-label=\"Connect with us on Facebook opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/\"><span class=\"icon-logo-facebook css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Connect with us on X (previously Twitter) opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"http://www.twitter.com/JFKairport\"><span class=\"icon-logo-x css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Connect with us on Whats App opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"https://www.panynj.gov/WhatsApp_JFK\"><span class=\"icon-logo-whatsapp css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><span role=\"separator\" aria-orientation=\"horizontal\" class=\"chakra-separator Footer_separator___6pPI css-wyc8fo\"></span><div class=\"Footer_address__l_LYP css-0\"><p>The Port Authority of New York and New Jersey<br>\n  4 World Trade Center, 150 Greenw",
+    "headerLinks": [
+      {
+        "text": "Skip to Content",
+        "href": "/explore-jfk/terminals/terminal-1/airlines-at-terminal-1#main-content"
+      },
+      {
+        "text": "",
+        "href": "/"
+      },
+      {
+        "text": "",
+        "href": "/explore-jfk/accessibility-services"
+      }
+    ],
+    "footerLinks": [
+      {
+        "text": "",
+        "href": "http://www.panynj.gov/"
+      },
+      {
+        "text": "Accessibility",
+        "href": "/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Air Cargo",
+        "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+      },
+      {
+        "text": "Alerts and Advisories",
+        "href": "/alerts-advisories"
+      },
+      {
+        "text": "Contact Us",
+        "href": "/contact-us"
+      },
+      {
+        "text": "FAQ",
+        "href": "/frequently-asked-questions"
+      },
+      {
+        "text": "Feedback",
+        "href": "/feedback"
+      },
+      {
+        "text": "PANYNJ Airports Information",
+        "href": "https://www.panynj.gov/airports/en/index.html"
+      },
+      {
+        "text": "JFK Redevelopment",
+        "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+      },
+      {
+        "text": "Lost and Found",
+        "href": "/lost-and-found"
+      },
+      {
+        "text": "Press",
+        "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+      },
+      {
+        "text": "",
+        "href": "http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/"
+      },
+      {
+        "text": "",
+        "href": "http://www.twitter.com/JFKairport"
+      },
+      {
+        "text": "",
+        "href": "https://www.panynj.gov/WhatsApp_JFK"
+      },
+      {
+        "text": "Website Disclaimer",
+        "href": "/website-disclaimer"
+      },
+      {
+        "text": "Privacy Statement",
+        "href": "/privacy"
+      }
+    ]
+  },
+  "_domCounts": {
+    "totalElements": 403,
+    "sampledElements": 403
+  },
+  "screenshot": "assets/screenshots/explore-jfk__terminals__terminal-1__airlines-at-terminal-1.png"
+}

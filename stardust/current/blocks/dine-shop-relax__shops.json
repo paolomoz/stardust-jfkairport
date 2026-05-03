@@ -1,0 +1,290 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:23.504Z",
+    "url": "https://www.jfkairport.com/dine-shop-relax/shops",
+    "slug": "dine-shop-relax__shops",
+    "httpStatus": 200,
+    "totalMs": 4098,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": null,
+  "h1": "Where To Shop",
+  "lede": "",
+  "heroImage": null,
+  "blocks": [
+    {
+      "h2": "From essentials to treats",
+      "h3s": [],
+      "paragraphs": [
+        "Find everything from fashion and travel essentials to duty-free deals and local favorites. Whether you're picking up last-minute gifts or just browsing, JFK’s airport shops make shopping easy.",
+        "Showing 1-12 of 142 results",
+        "A lifestyle boutique offering handcrafted candles, perfumes, jewelry, and home décor, made in NYC with a focus on sustainability and design.",
+        "The Bally Boutique features luxury handbags and shoes.",
+        "Plant-based, vegan skincare created in Queens by Amerrah Danielson, made for sensitive skin with love and purpose.",
+        "Shop an alluring lineup of world-renowned perfume and cosmetics brands like Dior, Lancôme, Estée Lauder, Kiehl's, La Mer, YSL, and Charlotte Tilbury.",
+        "Travel essentials, personal care, and everyday lifesavers-smartly stocked and ready 24/7. From toothpaste and razors to travel meds and fresh fixes, this vending machine has your back.",
+        "Small-batch jams and preserves made with love in Queens, inspired by the mantra \"you are what you eat.",
+        "This duty free shop specializes in fragrances, skincare products, gourmet confections, wines and spirits.",
+        "Blue Sky Traders brings a curated selection of globally inspired gifts and on-the-go conveniences. With travel essentials, unique finds and thoughtful souvenirs, Blue Sky Trader serves as a one-stop-shop for everything you need to elevate your travel day.",
+        "Modern European fashion offering sharp suiting, apparel, accessories, and travel essentials for confident, sophisticated style.",
+        "Swiss luxury watches renowned for precision, aviation heritage, and bold technical performance.",
+        "Brookstone offers a variety of electronics and essentials for travel.",
+        "A retail space inspired by Manhattan's iconic Bryant Park, offering travelers a mix of local brands, travel essentials, and distinctive gifts. Enjoy a Build-A-Bear station to purchase toys before your flights. The location also provides convenient grab‑and‑go options, including Kosher and vegetarian."
+      ],
+      "images": [
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/f2a0075f-27bb-4327-816e-a8f8c684a5b2",
+          "alt": "alchemy.",
+          "w": 1053,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/42fcd71f-f48d-45f7-a802-5979c7378d71",
+          "alt": "Bally",
+          "w": 750,
+          "h": 422
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/295b7f98-3e2e-4f47-a28b-b6d567bbacbc",
+          "alt": "Beautiful Amore",
+          "w": 1053,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/f3e6fa52-3fa2-4992-9080-30cd93669838",
+          "alt": "Beauty on 5th Duty Free",
+          "w": 1053,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/efec9928-9c09-499c-bc47-cc42ae30dc85",
+          "alt": "Better+",
+          "w": 1053,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/2c453822-018d-41e0-a62c-1223f0eecb48",
+          "alt": "Bevo's Kitchen",
+          "w": 1053,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/80630f2f-42ef-4029-9fed-bef0c5db152b",
+          "alt": "BKLYN Shopping Duty Free",
+          "w": 1053,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/2016-03-09%2009.21.51.jpg",
+          "alt": "Blue Sky Traders",
+          "w": 750,
+          "h": 422
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/fe96f64e-eaf2-4e0b-a052-ca5b1400fff7",
+          "alt": "Boss",
+          "w": 1053,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/7296ecb2-2c61-4a2b-9d6b-81dbc13f6b3f",
+          "alt": "Breitling",
+          "w": 1053,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/3798faf6-60ff-4649-866a-b806ededad5d",
+          "alt": "Brookstone",
+          "w": 1053,
+          "h": 591
+        },
+        {
+          "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/e7f216e6-9d5f-43aa-a2ea-b033dce2ea19",
+          "alt": "Bryant Park Market",
+          "w": 1053,
+          "h": 591
+        }
+      ],
+      "ctas": [
+        {
+          "text": "Reset"
+        },
+        {
+          "text": "Load more"
+        }
+      ],
+      "links": [
+        {
+          "text": "alchemy.",
+          "href": "/dine-shop-relax/shops/detail?poiId=4005473&name=alchemy.&structureName=Terminal%208&returnTo=/dine-shop-relax/shops"
+        },
+        {
+          "text": "Terminal 8 Gate 8",
+          "href": "http://maps.jfkairport.com?poiId=4005473"
+        },
+        {
+          "text": "Bally",
+          "href": "/dine-shop-relax/shops/detail?poiId=1411&name=Bally&structureName=Terminal%201&returnTo=/dine-shop-relax/shops"
+        },
+        {
+          "text": "Terminal 1 Gate 4",
+          "href": "http://maps.jfkairport.com?poiId=1411"
+        },
+        {
+          "text": "Beautiful Amore",
+          "href": "/dine-shop-relax/shops/detail?poiId=4005476&name=Beautiful%20Amore&structureName=Terminal%208&returnTo=/dine-shop-relax/shops"
+        },
+        {
+          "text": "Terminal 8 Gate 6",
+          "href": "http://maps.jfkairport.com?poiId=4005476"
+        },
+        {
+          "text": "Beauty on 5th Duty Free",
+          "href": "/dine-shop-relax/shops/detail?poiId=4005779&name=Beauty%20on%205th%20Duty%20Free&structureName=Terminal%208&returnTo=/dine-shop-relax/shops"
+        },
+        {
+          "text": "Terminal 8 The Great Hall",
+          "href": "http://maps.jfkairport.com?poiId=4005779"
+        },
+        {
+          "text": "Better+",
+          "href": "/dine-shop-relax/shops/detail?poiId=4005756&name=Better%2B&structureName=Terminal%207&returnTo=/dine-shop-relax/shops"
+        },
+        {
+          "text": "Terminal 7 Gate 2",
+          "href": "http://maps.jfkairport.com?poiId=4005756"
+        },
+        {
+          "text": "Bevo's Kitchen",
+          "href": "/dine-shop-relax/shops/detail?poiId=4005478&name=Bevo%27s%20Kitchen&structureName=Terminal%208&returnTo=/dine-shop-relax/shops"
+        },
+        {
+          "text": "Terminal 8 Gate 38",
+          "href": "http://maps.jfkairport.com?poiId=4005478"
+        },
+        {
+          "text": "BKLYN Shopping Duty Free",
+          "href": "/dine-shop-relax/shops/detail?poiId=4005525&name=BKLYN%20Shopping%20Duty%20Free&structureName=Terminal%208&returnTo=/dine-shop-relax/shops"
+        },
+        {
+          "text": "Terminal 8 Gate 42",
+          "href": "http://maps.jfkairport.com?poiId=4005525"
+        },
+        {
+          "text": "Blue Sky Traders",
+          "href": "/dine-shop-relax/shops/detail?poiId=145&name=Blue%20Sky%20Traders&structureName=Terminal%205&returnTo=/dine-shop-relax/shops"
+        },
+        {
+          "text": "Terminal 5 Baggage Claim",
+          "href": "http://maps.jfkairport.com?poiId=145"
+        },
+        {
+          "text": "Boss",
+          "href": "/dine-shop-relax/shops/detail?poiId=4005892&name=Boss&structureName=Terminal%208&returnTo=/dine-shop-relax/shops"
+        },
+        {
+          "text": "Terminal 8",
+          "href": "http://maps.jfkairport.com?poiId=4005892"
+        },
+        {
+          "text": "Breitling",
+          "href": "/dine-shop-relax/shops/detail?poiId=4005895&name=Breitling&structureName=Terminal%208&returnTo=/dine-shop-relax/shops"
+        },
+        {
+          "text": "Terminal 8",
+          "href": "http://maps.jfkairport.com?poiId=4005895"
+        },
+        {
+          "text": "Brookstone",
+          "href": "/dine-shop-relax/shops/detail?poiId=4005201&name=Brookstone&structureName=Terminal%201&returnTo=/dine-shop-relax/shops"
+        },
+        {
+          "text": "Terminal 1 Gate 3",
+          "href": "http://maps.jfkairport.com?poiId=4005201"
+        },
+        {
+          "text": "Bryant Park Market",
+          "href": "/dine-shop-relax/shops/detail?poiId=4005451&name=Bryant%20Park%20Market&structureName=Terminal%205&returnTo=/dine-shop-relax/shops"
+        },
+        {
+          "text": "Terminal 5 Gate 521",
+          "href": "http://maps.jfkairport.com?poiId=4005451"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "FAQs",
+      "h3s": [],
+      "paragraphs": [
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "What types of products can I shop for at JFK?"
+        },
+        {
+          "text": "Are there duty-free shops at JFK?"
+        }
+      ],
+      "links": [
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

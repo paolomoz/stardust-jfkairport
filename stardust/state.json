@@ -1,0 +1,466 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:direct",
+    "writtenAt": "2026-05-03T13:15:16.497Z",
+    "stardustVersion": "0.3.0",
+    "lastUpdate": "extract --prep batch (51 pages added; 5 prior); typing pass"
+  },
+  "site": {
+    "originUrl": "https://www.jfkairport.com/",
+    "extractedAt": "2026-05-03T00:00:00Z",
+    "pageCap": null,
+    "totalDiscovered": 56,
+    "crawled": 56
+  },
+  "direction": {
+    "resolvedAt": "2026-05-03T00:00:00Z",
+    "phrase": "Direction: B - Mode keep type and colors as is",
+    "directionFile": "stardust/direction.md",
+    "mode": "A (brand-faithful)",
+    "amplifiedTrait": "NYC editorial sensibility",
+    "variantMode": "user-requested 5-variant fork (axis-differentiated, per-trait amplification)",
+    "variants": [
+      {
+        "id": "V1",
+        "axis": "IA / audience-routing",
+        "trait": "the 5-audience IA need"
+      },
+      {
+        "id": "V2",
+        "axis": "composition / editorial-led",
+        "trait": "underused editorial photography"
+      },
+      {
+        "id": "V3",
+        "axis": "type / wordmark-heroic",
+        "trait": "Sharp Grotesk display capability"
+      },
+      {
+        "id": "V4",
+        "axis": "live-ops / data-led",
+        "trait": "real-time departures table pattern"
+      },
+      {
+        "id": "V5",
+        "axis": "voice / stories-led",
+        "trait": "named-people photography pattern"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "url": "https://www.jfkairport.com/",
+      "type": "home",
+      "currentStatePath": "stardust/current/pages/home.json",
+      "status": "approved",
+      "approvedAt": "2026-05-03T00:00:00Z",
+      "improvementsPath": "stardust/prototypes/home-improvements.md",
+      "shapePath": "stardust/prototypes/home-variants-shape.md",
+      "prototypePath": "stardust/prototypes/home-proposed.html",
+      "iterationHistory": [
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V5",
+        "V1-faithful",
+        "V1-faithful-navy",
+        "V1-faithful-navy-v2 (critique-rebuild)",
+        "V1-faithful-navy-v3 (delight)",
+        "V1-faithful-navy-v4 (animate)",
+        "V1-faithful-navy-v5 (typeset)",
+        "V1-faithful-navy-v6 (colorize)",
+        "V1-faithful-navy-v7 (overdrive: View Transitions)",
+        "V1-faithful-navy-v7-herofeed (status as hero overlay)",
+        "home-proposed (adapt+polish, locked)"
+      ],
+      "migratedPath": null
+    },
+    {
+      "slug": "dine-shop-relax",
+      "url": "https://www.jfkairport.com/dine-shop-relax",
+      "type": "ia-pillar",
+      "currentStatePath": "stardust/current/pages/dine-shop-relax.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk",
+      "url": "https://www.jfkairport.com/explore-jfk",
+      "type": "ia-pillar",
+      "currentStatePath": "stardust/current/pages/explore-jfk.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "flights",
+      "url": "https://www.jfkairport.com/flights?direction=departures&showAllFlights=true",
+      "type": "ia-pillar",
+      "currentStatePath": "stardust/current/pages/flights.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "transportation",
+      "url": "https://www.jfkairport.com/transportation",
+      "type": "ia-pillar",
+      "currentStatePath": "stardust/current/pages/transportation.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "alerts-advisories",
+      "url": "https://www.jfkairport.com/alerts-advisories",
+      "type": "alert-content",
+      "currentStatePath": "stardust/current/pages/alerts-advisories.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "alerts-advisories__jfk-redevelopment",
+      "url": "https://www.jfkairport.com/alerts-advisories/jfk-redevelopment",
+      "type": "alert-content",
+      "currentStatePath": "stardust/current/pages/alerts-advisories__jfk-redevelopment.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "alerts-advisories__jfk-security-wait-times-suspended",
+      "url": "https://www.jfkairport.com/alerts-advisories/jfk-security-wait-times-suspended",
+      "type": "alert-content",
+      "currentStatePath": "stardust/current/pages/alerts-advisories__jfk-security-wait-times-suspended.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "alerts-advisories__t4-ride-app-relocation",
+      "url": "https://www.jfkairport.com/alerts-advisories/t4-ride-app-relocation",
+      "type": "alert-content",
+      "currentStatePath": "stardust/current/pages/alerts-advisories__t4-ride-app-relocation.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "alerts-advisories__t4-roadway-changes",
+      "url": "https://www.jfkairport.com/alerts-advisories/t4-roadway-changes",
+      "type": "alert-content",
+      "currentStatePath": "stardust/current/pages/alerts-advisories__t4-roadway-changes.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "alerts-advisories__t5-t7-ride-app-relocations",
+      "url": "https://www.jfkairport.com/alerts-advisories/t5-t7-ride-app-relocations",
+      "type": "alert-content",
+      "currentStatePath": "stardust/current/pages/alerts-advisories__t5-t7-ride-app-relocations.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "alerts-advisories__t5-t7-t8-access-changes",
+      "url": "https://www.jfkairport.com/alerts-advisories/t5-t7-t8-access-changes",
+      "type": "alert-content",
+      "currentStatePath": "stardust/current/pages/alerts-advisories__t5-t7-t8-access-changes.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "alerts-advisories__t5-taxi-yellow-cab-relocated",
+      "url": "https://www.jfkairport.com/alerts-advisories/t5-taxi-yellow-cab-relocated",
+      "type": "alert-content",
+      "currentStatePath": "stardust/current/pages/alerts-advisories__t5-taxi-yellow-cab-relocated.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "alerts-advisories__t7-taxi-relocation",
+      "url": "https://www.jfkairport.com/alerts-advisories/t7-taxi-relocation",
+      "type": "alert-content",
+      "currentStatePath": "stardust/current/pages/alerts-advisories__t7-taxi-relocation.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "alerts-advisories__terminal-4-blue-parking-lot-height-restriction",
+      "url": "https://www.jfkairport.com/alerts-advisories/terminal-4-blue-parking-lot-height-restriction",
+      "type": "alert-content",
+      "currentStatePath": "stardust/current/pages/alerts-advisories__terminal-4-blue-parking-lot-height-restriction.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "contact-us",
+      "url": "https://www.jfkairport.com/contact-us",
+      "type": "form",
+      "currentStatePath": "stardust/current/pages/contact-us.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "dine-shop-relax__food",
+      "url": "https://www.jfkairport.com/dine-shop-relax/food",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/dine-shop-relax__food.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "dine-shop-relax__lounge-and-rest",
+      "url": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/dine-shop-relax__lounge-and-rest.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "dine-shop-relax__shops",
+      "url": "https://www.jfkairport.com/dine-shop-relax/shops",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/dine-shop-relax__shops.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk__accessibility-services",
+      "url": "https://www.jfkairport.com/explore-jfk/accessibility-services",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/explore-jfk__accessibility-services.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk__accessibility-services__handicap-transportation",
+      "url": "https://www.jfkairport.com/explore-jfk/accessibility-services/handicap-transportation",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/explore-jfk__accessibility-services__handicap-transportation.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk__accessibility-services__hearing-accessibility",
+      "url": "https://www.jfkairport.com/explore-jfk/accessibility-services/hearing-accessibility",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/explore-jfk__accessibility-services__hearing-accessibility.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk__accessibility-services__hidden-disabilities-accessibility",
+      "url": "https://www.jfkairport.com/explore-jfk/accessibility-services/hidden-disabilities-accessibility",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/explore-jfk__accessibility-services__hidden-disabilities-accessibility.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk__accessibility-services__mobility-accessibility",
+      "url": "https://www.jfkairport.com/explore-jfk/accessibility-services/mobility-accessibility",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/explore-jfk__accessibility-services__mobility-accessibility.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk__accessibility-services__vision-accessibility-services",
+      "url": "https://www.jfkairport.com/explore-jfk/accessibility-services/vision-accessibility-services",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/explore-jfk__accessibility-services__vision-accessibility-services.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk__airport-map",
+      "url": "https://www.jfkairport.com/explore-jfk/airport-map",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/explore-jfk__airport-map.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk__hotels",
+      "url": "https://www.jfkairport.com/explore-jfk/hotels",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/explore-jfk__hotels.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk__services",
+      "url": "https://www.jfkairport.com/explore-jfk/services",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/explore-jfk__services.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk__terminals",
+      "url": "https://www.jfkairport.com/explore-jfk/terminals",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/explore-jfk__terminals.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk__terminals__terminal-1",
+      "url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-1",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/explore-jfk__terminals__terminal-1.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk__terminals__terminal-1__airlines-at-terminal-1",
+      "url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-1/airlines-at-terminal-1",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/explore-jfk__terminals__terminal-1__airlines-at-terminal-1.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk__terminals__terminal-4",
+      "url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-4",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/explore-jfk__terminals__terminal-4.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk__terminals__terminal-4__About-JFKIAT",
+      "url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-4/About-JFKIAT",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/explore-jfk__terminals__terminal-4__About-JFKIAT.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk__terminals__terminal-4__Airlines-in-T4",
+      "url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-4/Airlines-in-T4",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/explore-jfk__terminals__terminal-4__Airlines-in-T4.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk__terminals__terminal-5",
+      "url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-5",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/explore-jfk__terminals__terminal-5.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk__terminals__terminal-7",
+      "url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-7",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/explore-jfk__terminals__terminal-7.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk__terminals__terminal-8",
+      "url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-8",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/explore-jfk__terminals__terminal-8.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "explore-jfk__terminals__terminal-8__airlines-at-terminal-8",
+      "url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-8/airlines-at-terminal-8",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/explore-jfk__terminals__terminal-8__airlines-at-terminal-8.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "feedback",
+      "url": "https://www.jfkairport.com/feedback",
+      "type": "form",
+      "currentStatePath": "stardust/current/pages/feedback.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "flights__airlines",
+      "url": "https://www.jfkairport.com/flights/airlines",
+      "type": "flight-info",
+      "currentStatePath": "stardust/current/pages/flights__airlines.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "flights__arrivals",
+      "url": "https://www.jfkairport.com/flights/arrivals",
+      "type": "flight-info",
+      "currentStatePath": "stardust/current/pages/flights__arrivals.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "flights__connections-guide",
+      "url": "https://www.jfkairport.com/flights/connections-guide",
+      "type": "flight-info",
+      "currentStatePath": "stardust/current/pages/flights__connections-guide.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "flights__connections-guide__travel-between-airports",
+      "url": "https://www.jfkairport.com/flights/connections-guide/travel-between-airports",
+      "type": "flight-info",
+      "currentStatePath": "stardust/current/pages/flights__connections-guide__travel-between-airports.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "flights__departures",
+      "url": "https://www.jfkairport.com/flights/departures",
+      "type": "flight-info",
+      "currentStatePath": "stardust/current/pages/flights__departures.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "frequently-asked-questions",
+      "url": "https://www.jfkairport.com/frequently-asked-questions",
+      "type": "static",
+      "currentStatePath": "stardust/current/pages/frequently-asked-questions.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "lost-and-found",
+      "url": "https://www.jfkairport.com/lost-and-found",
+      "type": "form",
+      "currentStatePath": "stardust/current/pages/lost-and-found.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "privacy",
+      "url": "https://www.jfkairport.com/privacy",
+      "type": "static",
+      "currentStatePath": "stardust/current/pages/privacy.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "transportation__airport-parking",
+      "url": "https://www.jfkairport.com/transportation/airport-parking",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/transportation__airport-parking.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "transportation__airtrain",
+      "url": "https://www.jfkairport.com/transportation/airtrain",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/transportation__airtrain.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "transportation__car-rentals",
+      "url": "https://www.jfkairport.com/transportation/car-rentals",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/transportation__car-rentals.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "transportation__pick-up-drop-off",
+      "url": "https://www.jfkairport.com/transportation/pick-up-drop-off",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/transportation__pick-up-drop-off.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "transportation__public-transport",
+      "url": "https://www.jfkairport.com/transportation/public-transport",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/transportation__public-transport.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "transportation__ride-share-services",
+      "url": "https://www.jfkairport.com/transportation/ride-share-services",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/transportation__ride-share-services.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "transportation__taxi-service",
+      "url": "https://www.jfkairport.com/transportation/taxi-service",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/transportation__taxi-service.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "transportation__van-shuttle-service",
+      "url": "https://www.jfkairport.com/transportation/van-shuttle-service",
+      "type": "service-info",
+      "currentStatePath": "stardust/current/pages/transportation__van-shuttle-service.json",
+      "status": "extracted"
+    },
+    {
+      "slug": "website-disclaimer",
+      "url": "https://www.jfkairport.com/website-disclaimer",
+      "type": "static",
+      "currentStatePath": "stardust/current/pages/website-disclaimer.json",
+      "status": "extracted"
+    }
+  ]
+}

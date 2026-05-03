@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>brand-review — jfkairport.com</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+_provenance:
+  writtenBy: stardust:extract
+  writtenAt: 2026-05-03T00:00:00Z
+  readArtifacts:
+    - stardust/current/_brand-extraction.json
+    - stardust/current/pages/{home,flights,transportation,explore-jfk,dine-shop-relax}.json
+  stardustVersion: 0.3.0
+-->
+<style>
+  :root {
+    --ground-white: #FFFFFF;
+    --ice-blue: #EFF9FF;
+    --mint-tint: #F1FCF2;
+    --ink: #09090B;
+    --slate-900: #0F172A;
+    --slate-600: #475569;
+    --slate-300: #CBD5E1;
+    --panynj-blue: #0045FF;
+    --panynj-deep-blue: #022DB7;
+    --panynj-navy: #011565;
+    --advisory-yellow: #FFCD00;
+    --success-green: #1B7A2F;
+    --warn-tint: #FFFBEA;
+  }
+  /* Render in the brand's own captured surface, not a stardust shell. */
+  html, body { margin: 0; padding: 0; background: var(--ground-white); color: var(--ink); font-family: "Helvetica Now", "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 56px 32px 96px; }
+  .display { font-family: "Sharp Grotesk", "Helvetica Now", system-ui, sans-serif; font-weight: 600; letter-spacing: -0.02em; }
+  h1.display { font-size: 96px; line-height: 0.92; text-transform: uppercase; margin: 0 0 12px; color: var(--ink); }
+  .lede { font-size: 20px; color: var(--slate-600); max-width: 700px; line-height: 1.5; margin: 0 0 48px; }
+  h2 { font-family: "Sharp Grotesk", "Helvetica Now", system-ui, sans-serif; font-size: 40px; line-height: 1.1; font-weight: 600; margin: 64px 0 8px; letter-spacing: -0.01em; }
+  h2 .src { display: block; font-family: "Helvetica Now", monospace; font-size: 12px; font-weight: 400; color: var(--slate-600); letter-spacing: 0; text-transform: lowercase; margin-top: 6px; }
+  p { line-height: 1.55; }
+  .grid { display: grid; gap: 16px; margin: 16px 0 24px; }
+  .grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+  .grid.cols-2 { grid-template-columns: repeat(2, 1fr); }
+  .grid.cols-4 { grid-template-columns: repeat(4, 1fr); }
+  .swatch { background: var(--ground-white); border: 1px solid var(--slate-300); border-radius: 2px; padding: 0; overflow: hidden; }
+  .swatch .chip { height: 88px; }
+  .swatch .meta { padding: 12px 14px; font-size: 13px; line-height: 1.45; }
+  .swatch .meta strong { display: block; font-size: 14px; color: var(--ink); margin-bottom: 2px; }
+  .swatch .meta code { font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12px; color: var(--slate-600); }
+  .type-sample { border: 1px solid var(--slate-300); border-radius: 2px; padding: 24px 28px; background: var(--ground-white); margin: 16px 0; }
+  .type-sample .label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--slate-600); margin-bottom: 12px; }
+  .h1-demo { font-family: "Sharp Grotesk", "Helvetica Now", system-ui, sans-serif; font-weight: 600; font-size: 96px; line-height: 0.9; letter-spacing: -0.04em; text-transform: uppercase; color: var(--ink); }
+  .h2-demo { font-family: "Sharp Grotesk", "Helvetica Now", system-ui, sans-serif; font-weight: 600; font-size: 52px; line-height: 1.15; color: var(--ink); }
+  .h3-demo { font-family: "Helvetica Now", "Helvetica Neue", sans-serif; font-weight: 700; font-size: 20px; line-height: 1.2; color: var(--ink); }
+  .body-demo { font-family: "Helvetica Now", "Helvetica Neue", sans-serif; font-size: 16px; line-height: 1.55; color: var(--ink); }
+  .body-demo.small { font-size: 14px; color: var(--slate-600); }
+  .components { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+  .comp { padding: 24px; background: var(--ground-white); border: 1px solid var(--slate-300); border-radius: 2px; }
+  .btn-primary { background: var(--panynj-blue); color: #fff; padding: 12px 24px; border: 0; border-radius: 2px; font-family: inherit; font-size: 16px; font-weight: 700; cursor: default; }
+  .btn-secondary { background: transparent; color: var(--panynj-blue); padding: 12px 0; border: 0; font-family: inherit; font-size: 16px; font-weight: 400; cursor: default; }
+  .card-demo { background: var(--ground-white); border: 1px solid var(--slate-300); border-radius: 4px; padding: 20px; }
+  .card-demo .icon { width: 32px; height: 32px; background: var(--panynj-blue); border-radius: 4px; display: inline-flex; align-items: center; justify-content: center; color: #fff; margin-bottom: 12px; font-weight: 700; }
+  .card-demo .h3 { font-family: "Helvetica Now"; font-weight: 700; font-size: 20px; line-height: 1.2; margin: 0 0 8px; }
+  .advisory-demo { background: var(--advisory-yellow); color: var(--panynj-navy); padding: 16px 20px; border-radius: 2px; display: flex; gap: 16px; align-items: flex-start; font-size: 14px; line-height: 1.5; }
+  .advisory-demo strong { color: var(--panynj-navy); }
+  .tabbed-demo { background: var(--ground-white); border: 1px solid var(--slate-300); border-radius: 2px; padding: 24px; }
+  .tabbed-demo .tabs { display: flex; gap: 24px; border-bottom: 1px solid var(--slate-300); padding-bottom: 0; }
+  .tabbed-demo .tab { font-family: "Sharp Grotesk", "Helvetica Now", sans-serif; font-weight: 700; font-size: 32px; text-transform: uppercase; padding: 0 0 12px; cursor: default; color: var(--panynj-blue); }
+  .tabbed-demo .tab.active { color: var(--panynj-navy); box-shadow: inset 0 -3px 0 var(--panynj-deep-blue); }
+  .tabbed-demo .form { display: grid; grid-template-columns: 200px 1fr 100px; gap: 12px; margin-top: 24px; align-items: end; }
+  .tabbed-demo input { border: 1px solid var(--slate-300); border-radius: 2px; padding: 10px 12px; font-family: inherit; font-size: 14px; }
+  .tension { background: var(--warn-tint); border: 1px solid var(--advisory-yellow); border-radius: 2px; padding: 18px 22px; margin: 12px 0; }
+  .tension .id { display: inline-block; background: var(--panynj-navy); color: #fff; font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 2px; letter-spacing: 0.04em; margin-bottom: 8px; }
+  .tension h3 { margin: 0 0 6px; font-size: 17px; color: var(--ink); }
+  .tension p { margin: 0; font-size: 14px; color: var(--slate-900); }
+  .tension code { font-family: ui-monospace, monospace; background: rgba(0,0,0,0.06); padding: 1px 5px; border-radius: 2px; font-size: 12px; }
+  .pages { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  .page-card { border: 1px solid var(--slate-300); border-radius: 2px; overflow: hidden; }
+  .page-card img { display: block; width: 100%; height: auto; background: var(--slate-300); }
+  .page-card .meta { padding: 14px 16px; font-size: 13px; line-height: 1.5; }
+  .page-card .meta strong { display: block; font-size: 14px; margin-bottom: 4px; }
+  .pill { display: inline-block; padding: 3px 10px; border-radius: 9999px; font-size: 12px; font-weight: 700; letter-spacing: 0.02em; }
+  .pill.ok { background: #DCF8E2; color: var(--success-green); }
+  .pill.warn { background: var(--advisory-yellow); color: var(--panynj-navy); }
+  .pill.fail { background: #FFE2E5; color: #B00020; }
+  .coverage { background: var(--ice-blue); border: 1px solid var(--panynj-blue); border-left-width: 4px; padding: 16px 20px; margin: 24px 0 0; font-size: 14px; line-height: 1.55; border-radius: 2px; }
+  .coverage strong { color: var(--panynj-navy); }
+  .footer-note { font-size: 12px; color: var(--slate-600); margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--slate-300); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1 class="display">Current state — jfkairport.com</h1>
+<p class="lede">A descriptive snapshot of the existing JFK Airport website, captured for redesign work. This page renders in the brand's own captured tokens — Sharp Grotesk display, Helvetica Now body, the PANYNJ blue family, and the architectural 2px radii — so misreads are visible at a glance.</p>
+
+<div class="coverage">
+  <strong>Coverage:</strong> 5 of 55 pages crawled (sitemap.xml). The 5-page sample covers all four IA pillars (flights, transportation, explore-jfk, dine-shop-relax) plus home — sufficient for cross-template aggregation. To go deeper, re-run extract with <code>--cap 25</code> or higher.
+</div>
+
+<h2>Pages captured <span class="src">stardust/current/pages/*.json + assets/screenshots/*.png</span></h2>
+<div class="pages">
+  <div class="page-card"><img src="assets/screenshots/home.png" alt="home page screenshot"><div class="meta"><strong>/ — home</strong>JFK / 320px Sharp Grotesk uppercase hero · tabbed flight-search panel (DEPARTURES / ARRIVALS / PARKING) · 3 IA card grids · accessibility band · news</div></div>
+  <div class="page-card"><img src="assets/screenshots/flights.png" alt="flights page screenshot"><div class="meta"><strong>/flights — IA pillar 1</strong>"Search Flights" hero · search panel · live "May 3 Departures" data table with airline + time-window filters</div></div>
+  <div class="page-card"><img src="assets/screenshots/transportation.png" alt="transportation page screenshot"><div class="meta"><strong>/transportation — IA pillar 2</strong>"Transportation Options" hero · construction advisory band · safety notice (blue tint) · 6 transportation modes in cards</div></div>
+  <div class="page-card"><img src="assets/screenshots/explore-jfk.png" alt="explore-jfk page screenshot"><div class="meta"><strong>/explore-jfk — IA pillar 3</strong>"Explore JFK Airport" hero · 3-card discover grid (maps, accessibility, services) · all-terminals listing</div></div>
+  <div class="page-card"><img src="assets/screenshots/dine-shop-relax.png" alt="dine-shop-relax page screenshot"><div class="meta"><strong>/dine-shop-relax — IA pillar 4</strong>"Dine, Shop and Relax" hero · 3-card grid (Dine / Shop / Relax) · affordable-choices band · lounges</div></div>
+</div>
+
+<h2>Palette <span class="src">_brand-extraction.json § palette</span></h2>
+<p class="body-demo">Single dominant brand hue (panynj-blue <code>#0045FF</code>) carries every interactive cue. Three near-white grounds for section alternation. Yellow is reserved for warnings; green for success. 11 distinct values total.</p>
+<div class="grid cols-4">
+  <div class="swatch"><div class="chip" style="background:#FFFFFF; border-bottom:1px solid var(--slate-300)"></div><div class="meta"><strong>ground-white</strong><code>#FFFFFF</code> · 57 instances · primary section ground</div></div>
+  <div class="swatch"><div class="chip" style="background:#EFF9FF"></div><div class="meta"><strong>ice-blue</strong><code>#EFF9FF</code> · 21 · alt section / informational</div></div>
+  <div class="swatch"><div class="chip" style="background:#F1FCF2"></div><div class="meta"><strong>mint-tint</strong><code>#F1FCF2</code> · 18 · alt section / success</div></div>
+  <div class="swatch"><div class="chip" style="background:#0045FF"></div><div class="meta"><strong>panynj-blue</strong><code>#0045FF</code> · 211 · primary brand: CTAs / links / headlines</div></div>
+  <div class="swatch"><div class="chip" style="background:#022DB7"></div><div class="meta"><strong>panynj-deep-blue</strong><code>#022DB7</code> · 14 · CTA hover / dark ground</div></div>
+  <div class="swatch"><div class="chip" style="background:#011565"></div><div class="meta"><strong>panynj-navy</strong><code>#011565</code> · 30 · logo / dark accent</div></div>
+  <div class="swatch"><div class="chip" style="background:#09090B"></div><div class="meta"><strong>ink</strong><code>#09090B</code> · 956 · body text (dominant)</div></div>
+  <div class="swatch"><div class="chip" style="background:#475569"></div><div class="meta"><strong>slate-600</strong><code>#475569</code> · 372 · muted text / metadata</div></div>
+  <div class="swatch"><div class="chip" style="background:#FFCD00"></div><div class="meta"><strong>advisory-yellow</strong><code>#FFCD00</code> · 5 · warning bands only</div></div>
+  <div class="swatch"><div class="chip" style="background:#1B7A2F"></div><div class="meta"><strong>success-green</strong><code>#1B7A2F</code> · 35 · status (on-time, etc.)</div></div>
+</div>
+
+<h2>Typography <span class="src">_brand-extraction.json § type</span></h2>
+<p class="body-demo">Two custom-licensed type families anchor the brand. <strong>Sharp Grotesk Semibold</strong> (Lucas Sharp / Sharp Type) for display — the same family used across editorial-grade brands like Adobe and several Pentagram clients. <strong>Helvetica Now for PANYNJ</strong> (Monotype, private cut) for body. The display family is reserved for h1/h2 only; h3 and below switch to body.</p>
+<div class="type-sample">
+  <div class="label">H1 hero — Sharp Grotesk Semibold · 320px · uppercase · -8px tracking · 192px line</div>
+  <div class="h1-demo">JFK</div>
+</div>
+<div class="type-sample">
+  <div class="label">H2 section — Sharp Grotesk Semibold · 52px · 64px line · normal case</div>
+  <div class="h2-demo">Welcome to John F. Kennedy International Airport</div>
+</div>
+<div class="type-sample">
+  <div class="label">H3 card — Helvetica Now Bold · 20px · 24px line</div>
+  <div class="h3-demo">Accessibility services at JFK</div>
+</div>
+<div class="type-sample">
+  <div class="label">Body — Helvetica Now · 16px · 1.55 line height</div>
+  <div class="body-demo">Plan ahead with our accessibility resources. From dedicated support for travelers with disabilities to accessible transportation, JFK is committed to making your journey seamless.</div>
+  <div class="body-demo small" style="margin-top:12px">Body small / muted — 14px slate-600 used for metadata, captions, footer.</div>
+</div>
+
+<h2>Motifs &amp; system components <span class="src">_brand-extraction.json § motifs / systemComponents</span></h2>
+<div class="components">
+  <div class="comp">
+    <div class="label" style="font-size:12px; text-transform:uppercase; letter-spacing:0.06em; color:var(--slate-600); margin-bottom:14px">button-primary</div>
+    <button class="btn-primary">Search</button> &nbsp; <button class="btn-secondary">Learn more →</button>
+    <p class="body-demo small" style="margin-top:12px">2px radius · 12/24 padding · 16px Helvetica Now bold · panynj-blue fill / white text. Secondary is text-only blue link.</p>
+  </div>
+  <div class="comp">
+    <div class="label" style="font-size:12px; text-transform:uppercase; letter-spacing:0.06em; color:var(--slate-600); margin-bottom:14px">card-with-icon · the dominant content unit</div>
+    <div class="card-demo">
+      <div class="icon">✈</div>
+      <div class="h3">Find your way to and from the airport</div>
+      <div class="body-demo small" style="margin-top:6px">Public transportation, ride-share, taxis, parking, and more. Plan your route before you arrive.</div>
+      <div style="margin-top:10px"><button class="btn-secondary">Explore →</button></div>
+    </div>
+  </div>
+  <div class="comp" style="grid-column: span 2">
+    <div class="label" style="font-size:12px; text-transform:uppercase; letter-spacing:0.06em; color:var(--slate-600); margin-bottom:14px">advisory-band — site-wide context-bound disruption disclosure</div>
+    <div class="advisory-demo"><span style="font-size:18px">⚠</span><div><strong>Construction at JFK is causing delays for all drop-off options</strong>, including taxis, ride apps, and private cars. Traffic is slow. Use <u>public transportation</u> if possible. If driving, <u>book parking early</u>. <span style="white-space:nowrap"><strong>Learn more →</strong></span></div></div>
+  </div>
+  <div class="comp" style="grid-column: span 2">
+    <div class="label" style="font-size:12px; text-transform:uppercase; letter-spacing:0.06em; color:var(--slate-600); margin-bottom:14px">tabbed-search-panel — the conversion centerpiece</div>
+    <div class="tabbed-demo">
+      <div class="tabs"><div class="tab active">Departures</div><div class="tab">Arrivals</div><div class="tab">Parking</div></div>
+      <div class="form"><input placeholder="05/03/2026"><input placeholder="Select your destination"><button class="btn-primary">Search</button></div>
+    </div>
+  </div>
+</div>
+
+<h2>Voice samples <span class="src">_brand-extraction.json § voice</span></h2>
+<p class="body-demo">Hero headlines: <em>"JFK"</em>, <em>"Search Flights"</em>, <em>"Transportation Options"</em>, <em>"Explore JFK Airport"</em>, <em>"Dine, Shop and Relax"</em> — declarative, owner-of-record, no marketing flourish.</p>
+<p class="body-demo">Section heads mix institutional (<em>"Welcome to John F. Kennedy International Airport"</em>) with practical (<em>"Find your way to and from the airport"</em>) and announcement (<em>"An entirely new $19B JFK is being constructed"</em>). Construction context is acknowledged head-on.</p>
+<p class="body-demo">CTAs are dutifully descriptive — <em>"Find taxi rates, locations, and rider tips"</em> — rather than urgent or punchy. <strong>Tone:</strong> civic-institutional. PANYNJ as the steward of the gateway, not a brand selling an experience.</p>
+
+<h2>Tensions surfaced <span class="src">brand-review-template.md § Detectors</span></h2>
+
+<div class="tension">
+  <span class="id">T-img-alt-empty</span>
+  <h3>Image alt-text coverage is poor</h3>
+  <p>9 of 10 sampled hero/card images on the home page have empty <code>alt</code> attributes — including editorial portraits in the IA cards and the full-bleed Manhattan skyline hero. The logo carries descriptive alt; nothing else does. Cosmetic-vs-informational distinction is not being made.</p>
+</div>
+
+<div class="tension">
+  <span class="id">T-color-imbalance</span>
+  <h3>Single hue carries every affordance</h3>
+  <p><code>panynj-blue #0045FF</code> appears 211 times across the sample, used identically for plain link text, primary CTAs, active tabs, headline accents, and discoverability cues. When one color carries every interactive signal, hierarchy collapses and the user can't distinguish "navigate" from "submit" at a glance. Risk amplifies on the busier IA pillar pages with many sibling links.</p>
+</div>
+
+<div class="tension">
+  <span class="id">T-image-perf</span>
+  <h3>Editorial card images are 12× oversampled</h3>
+  <p>Editorial card images are served at 1080×1440 intrinsic but rendered at 312×416 — roughly 12× oversampled by area. Likely real perf cost on mobile and a contributor to "feels heavy" perception. The CMS is not delivering a srcset that matches the rendered size.</p>
+</div>
+
+<div class="tension">
+  <span class="id">T-display-body-cliff</span>
+  <h3>Heroic display, conventional body — the brand investment doesn't carry through</h3>
+  <p>The 320px Sharp Grotesk hero is exceptional and signals real brand investment. The very next viewport collapses to a conventional 16/20px Helvetica Now body grid that any 2019 municipal site could produce. The page reads "the brand was hired for the wordmark, the template was reused for the rest" — the type investment is being under-cashed below the fold.</p>
+</div>
+
+<div class="tension">
+  <span class="id">T-template-silhouette</span>
+  <h3>3-column-card-grid silhouette on every page</h3>
+  <p>All five IA pillar pages use the same composition: full-bleed photo hero → "Welcome / Discover / Get / Find" h2 → 3-column icon-card grid → cross-promo → footer. The skeleton is identical, only the photo and copy change. This is the canonical 2017–2020 municipal-modernism template. Recognisable as a template, not as JFK.</p>
+</div>
+
+<div class="tension">
+  <span class="id">T-audience-collision</span>
+  <h3>Five audiences, one undifferentiated home</h3>
+  <p>The home page tries to serve a panicked late traveller, a relaxed early arrival, a pickup driver during construction, an institutional researcher, and a dwell-time visitor — all on the same first viewport. The flight-search module assumes "departing or arriving"; the pickup-driver crisis (the construction reality) is buried in the transportation page rather than surfaced as a first-viewport affordance. Audience routing is implicit, not explicit.</p>
+</div>
+
+<div class="tension">
+  <span class="id">T-voice-authorial-distance</span>
+  <h3>No human warmth in a high-anxiety context</h3>
+  <p>Airports are anxiety-inducing places (security wait, gate-changes, missed pickups). The site's voice is uniformly procedural — "Welcome to John F. Kennedy International Airport," "Transportation Options," "Get your essentials and more at JFK." There is no acknowledgment of traveller emotion, no warmth, no New York flavour. Compare with Singapore Changi (theatrical) or Heathrow (concierge-tonal).</p>
+</div>
+
+<p class="footer-note">Generated by <code>stardust:extract</code> 0.3.0 from a sitemap.xml-driven 5-page crawl. Tokens render in the brand's own captured surface (Sharp Grotesk display, Helvetica Now body, PANYNJ blue family). Tension cards trigger from rule-based detectors against the per-page JSON and the consolidated brand-extraction.</p>
+
+</div>
+</body>
+</html>

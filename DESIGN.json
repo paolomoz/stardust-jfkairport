@@ -1,0 +1,139 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:direct",
+    "writtenAt": "2026-05-03T00:00:00Z",
+    "stardustVersion": "0.3.0",
+    "schemaVersion": 2,
+    "basis": "direction B (NYC-flavoured) with Mode A pinned"
+  },
+  "name": "jfkairport.com — target",
+  "register": "brand",
+  "colors": {
+    "ground-white": "#FFFFFF",
+    "ice-blue": "#EFF9FF",
+    "mint-tint": "#F1FCF2",
+    "ink": "#09090B",
+    "slate-900": "#0F172A",
+    "slate-700": "#334155",
+    "slate-600": "#475569",
+    "slate-300": "#CBD5E1",
+    "slate-200": "#E2E8F0",
+    "slate-100": "#F1F5F9",
+    "panynj-blue": "#0045FF",
+    "panynj-deep-blue": "#022DB7",
+    "panynj-navy": "#011565",
+    "advisory-yellow": "#FFCD00",
+    "advisory-tint": "#FFFBEA",
+    "success-green": "#1B7A2F",
+    "success-tint": "#DCF8E2"
+  },
+  "typography": {
+    "display": "Sharp Grotesk Semibold",
+    "displayFallback": "\"Helvetica Neue Condensed Bold\", \"Inter\", system-ui, sans-serif",
+    "body": "Helvetica Now for PANYNJ",
+    "bodyFallback": "\"Helvetica Neue\", \"Inter\", \"Arial\", sans-serif",
+    "scale": [12, 14, 16, 20, 24, 32, 40, 64, 96, 160, 280],
+    "scaleKind": "modular-with-display-jumps"
+  },
+  "rounded": { "primary": "2px", "secondary": "4px", "pill": "9999px" },
+  "spacing": {
+    "base": "8px",
+    "sectionPadding": { "desktop": "64px", "tablet": "48px", "mobile": "32px" },
+    "densityTier": "balanced"
+  },
+  "extensions": {
+    "componentStyle": {
+      "buttons": {
+        "primary": { "background": "#0045FF", "color": "#FFFFFF", "radius": "2px", "padding": "14px 26px", "fontWeight": 700, "fontSize": "16px", "uppercase": false, "rule": "single primary action per surface" },
+        "secondary": { "background": "transparent", "color": "#0045FF", "border": "1px solid #0045FF", "radius": "2px", "padding": "13px 25px", "fontWeight": 600, "fontSize": "16px" },
+        "tertiary": { "background": "transparent", "color": "#022DB7", "padding": "0", "fontWeight": 500, "fontSize": "16px", "decoration": "underline-on-hover" }
+      },
+      "inputs": { "background": "#FFFFFF", "border": "1px solid #94A3B8", "radius": "2px", "padding": "12px 14px", "focusBorder": "2px solid #0045FF" },
+      "tabs": { "activeIndicator": "3px under-bar #022DB7", "inactiveColor": "#475569", "activeColor": "#011565" },
+      "advisoryBand": { "background": "#FFCD00", "color": "#011565", "iconColor": "#011565", "rule": "warning-only, never decorative" }
+    },
+    "voice": {
+      "dos": [
+        "Lead every page with audience routing in viewport one.",
+        "Use Sharp Grotesk Semibold ≥ 4 times per home, at scales ≥ 64px.",
+        "Reserve solid panynj-blue fill for the single primary action per surface.",
+        "Reuse captured photography at intended dimensions; always with descriptive alt.",
+        "Disclose construction state inline near the affected affordance.",
+        "Write headlines a New Yorker would say out loud."
+      ],
+      "donts": [
+        "No centered-hero + dual-CTA + 3-col-icon-card silhouette as default.",
+        "No 'the journal,' 'atelier,' 'the studio' — JFK is not a magazine.",
+        "No fare-deal banners or destination-promo carousels.",
+        "No gold accents, no dark-mode cinematic.",
+        "No yellow used decoratively — warnings only.",
+        "No panynj-blue solid text on body grounds — use panynj-deep-blue."
+      ]
+    },
+    "systemComponentRoles": {
+      "audienceRouter": { "purpose": "first-viewport 5-way audience routing", "position": "top, full-width, below header", "required": true },
+      "flightSearchPanel": { "purpose": "primary conversion under Departing/Arriving paths", "position": "nested in audience router default state on home; full-width on /flights" },
+      "departuresBoard": { "purpose": "live operational status", "position": "below routing on /flights; collapsed accordion on home" },
+      "advisoryBand": { "purpose": "acute construction/safety disclosure", "position": "inline near affected affordance" },
+      "editorialPhotoBlock": { "purpose": "NYC editorial sensibility", "position": "interleaved between operational sections, ≥ 1 per home" },
+      "storyCardStrip": { "purpose": "named people of JFK", "position": "below editorial block on home" },
+      "footer": { "purpose": "grouped utility links + PANYNJ co-brand + social", "position": "bottom" }
+    },
+    "iaPriorities": [
+      { "signal": "audience-routing", "evidence": "5 distinct audiences captured in pages/home.json + brand-extraction; current site routing is implicit", "preserveAs": "first 1.5 viewports on home; first viewport on IA pillar pages", "scope": "site-wide", "constraint": "every page must surface a 'who is this for' affordance before any editorial content" },
+      { "signal": "commercial-conversion", "evidence": "tabbed flight-search panel is the load-bearing conversion (captured pattern)", "preserveAs": "first-viewport on home (nested under Departing/Arriving routes), full-width inline on /flights", "scope": "home + /flights" },
+      { "signal": "crisis-affordance", "evidence": "$19B redevelopment causes ongoing pickup/access disruption (captured advisory on /transportation)", "preserveAs": "first-class section on home (status strip), inline on transportation/parking", "scope": "all pages touching pickup/parking/terminal access through 2028" },
+      { "signal": "accessibility-affordance", "evidence": "dedicated /accessibility-services hub with 5 sub-pages; current site surfaces it in primary nav", "preserveAs": "primary-nav-level entry retained", "scope": "site-wide" }
+    ],
+    "antiToolbox": {
+      "applied": [
+        { "rule": "Generic-2026-SaaS silhouette", "guardrail": "no centered-hero + dual-CTA + 3-col-icon-card-grid as the default home pattern" },
+        { "rule": "Editorial-register vocabulary applied to non-editorial brands", "guardrail": "no 'atelier' / 'journal' / 'studio' / 'gazette' headers — JFK is civic, not editorial" },
+        { "rule": "Hero text on photographic background without contrast scrim", "guardrail": "every overlaid headline gets a gradient scrim or a guaranteed contrast position" },
+        { "rule": "Single-hue affordance system", "guardrail": "panynj-blue solid fill = single primary action; everything else uses non-color cues + panynj-deep-blue link color" },
+        { "rule": "Fabricated content", "guardrail": "named-people stories use captured photo subjects only; no invented quotes or fake bios" }
+      ]
+    },
+    "divergence": {
+      "mode": "A (brand-faithful)",
+      "seed": {
+        "decade": { "value": "2025-now", "picked_by": "user-constraint (current site is current)" },
+        "register": { "value": "brand", "picked_by": "user-constraint (inherited from current PRODUCT.md)" },
+        "ground_family": { "value": "stark-white", "picked_by": "brand-faithful inherited from #FFFFFF dominant ground", "override": "brand-faithful" },
+        "amplified_trait": { "value": "NYC editorial sensibility", "picked_by": "user-direction (B with Mode A pin)", "evidence": "captured Sharp Grotesk capability + named-people photography pattern + NYC-as-context register" }
+      },
+      "font_deck": { "name": "brand-inherited", "picked_by": "user-constraint (Sharp Grotesk + Helvetica Now pinned)" },
+      "palette": { "source": "inherited from _brand-extraction.json", "picked_by": "user-constraint", "role_renames": [
+        { "from": "panynj-blue (was: link + cta + headline + active-tab)", "to": "primary-action (rule: single use per surface)" },
+        { "from": "panynj-deep-blue (was: cta-hover)", "to": "link (inline text)" },
+        { "from": "ink (was: body-text)", "to": "headline + body (lets type carry hierarchy)" }
+      ] },
+      "brand_faithful_inversions": [
+        { "from": "blue carries every cue (link, CTA, headline)", "to": "blue carries single primary action; type weight + scale carry hierarchy", "reason": "T-color-imbalance (improvement #2)" },
+        { "from": "Sharp Grotesk reserved for hero only", "to": "Sharp Grotesk used ≥ 4× per home at ≥ 64px", "reason": "T-display-body-cliff (improvement #3)" },
+        { "from": "5 audiences share undifferentiated home", "to": "explicit 5-way audience router in viewport one", "reason": "T-ia-clutter (improvement #1)" },
+        { "from": "editorial photos rendered at thumbnail scale, alt-text empty", "to": "full-bleed 16:9, descriptive alt, srcset matched to render size", "reason": "T-missed-opportunity-photography (improvement #4)" },
+        { "from": "civic-procedural section heads", "to": "warm, direct, faintly editorial voice", "reason": "T-voice-distance (improvement #5)" },
+        { "from": "template silhouette repeated across all IA pillars", "to": "broken on home; each IA pillar varies layout strategy", "reason": "T-template-silhouette (improvement #6)" }
+      ]
+    }
+  },
+  "narrative": {
+    "northStar": "A civic-grade airport service site that earns its New York identity through type, photography, and voice — without becoming a marketing brand.",
+    "overview": "Audience-aware home, editorial + operational sections interleaved, type-led hierarchy, single-action color discipline, construction-aware editorial.",
+    "keyCharacteristics": [
+      "Audience routing in viewport one on every page",
+      "Sharp Grotesk Semibold cashed at section scale, not just hero",
+      "Single primary action per surface in panynj-blue",
+      "Photography of named people at intended dimensions",
+      "Construction status as first-class section type"
+    ],
+    "rules": [
+      "Display family ≥ 4× per home at ≥ 64px",
+      "Solid panynj-blue = single primary action per surface",
+      "Inline links use panynj-deep-blue with hover underline",
+      "Yellow is warning-only",
+      "Every editorial photo carries descriptive alt + srcset"
+    ]
+  }
+}

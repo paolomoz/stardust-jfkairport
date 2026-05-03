@@ -1,0 +1,185 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:08.289Z",
+    "url": "https://www.jfkairport.com/dine-shop-relax",
+    "slug": "dine-shop-relax",
+    "httpStatus": 200,
+    "totalMs": 4105,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": null,
+  "h1": "Dine, Shop and Relax",
+  "lede": "JFK offers a selection of airport lounges to enhance your airport experience. Avoid the crowds and enjoy comfortable seating, a refreshing drink, or a quiet place to work and relax before your flight.Find an airport lounge",
+  "heroImage": null,
+  "blocks": [
+    {
+      "h2": "Get your essentials and more at JFK",
+      "h3s": [
+        "Dine",
+        "Shop",
+        "Relax"
+      ],
+      "paragraphs": [
+        "From quick bites to sit-down meals, our dining options cover a range of dietary needs and preferences—perfect whether you’re in a rush or ready to relax.",
+        "Forgot something? Find last minute travel essentials like snacks, sunglasses, chargers, souvenirs and more.",
+        "Looking for a place to relax before your flight? Discover airport lounges, spas and more."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/4-0_4_SDRcard:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1919,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/4-0_2_shopteasercard:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1274,
+          "h": 717
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/4-0_4_RelaxTeaser:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1919,
+          "h": 1080
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "JFK Airport restaurants",
+          "href": "/dine-shop-relax/food"
+        },
+        {
+          "text": "JFK Airport shops",
+          "href": "/dine-shop-relax/shops"
+        },
+        {
+          "text": "Places to relax at JFK Airport",
+          "href": "/dine-shop-relax/lounge-and-rest"
+        }
+      ],
+      "tables": [],
+      "subPattern": "sub-ia",
+      "subData": [
+        {
+          "title": "Dine",
+          "href": "/dine-shop-relax/food",
+          "linkText": "JFK Airport restaurants"
+        },
+        {
+          "title": "Shop",
+          "href": "/dine-shop-relax/shops",
+          "linkText": "JFK Airport shops"
+        },
+        {
+          "title": "Relax",
+          "href": "/dine-shop-relax/lounge-and-rest",
+          "linkText": "Places to relax at JFK Airport"
+        }
+      ]
+    },
+    {
+      "h2": "Affordable choices for your journey",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/4-0_5_wevalueyoulabel:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1440
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/3-0_0_serviceandamenityhighlight:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 862,
+          "h": 646
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Find JFK Airport shops",
+          "href": "/dine-shop-relax/shops"
+        },
+        {
+          "text": "Find JFK Airport restaurants",
+          "href": "/dine-shop-relax/food"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Relax in an airport lounge",
+      "h3s": [],
+      "paragraphs": [
+        "JFK offers a selection of airport lounges to enhance your airport experience. Avoid the crowds and enjoy comfortable seating, a refreshing drink, or a quiet place to work and relax before your flight.",
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Find an airport lounge",
+          "href": "/dine-shop-relax/lounge-and-rest?filterGroups=Lounges"
+        },
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

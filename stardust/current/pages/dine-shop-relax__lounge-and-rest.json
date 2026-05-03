@@ -1,0 +1,1207 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-03T13:13:38.851Z",
+    "url": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest",
+    "slug": "dine-shop-relax__lounge-and-rest",
+    "startedAt": "2026-05-03T13:13:22.701Z",
+    "waitMode": "medium",
+    "httpStatus": 200,
+    "contentType": "text/html; charset=utf-8",
+    "waitMs": 3725,
+    "endedAt": "2026-05-03T13:13:38.851Z",
+    "totalMs": 15929,
+    "stardustVersion": "0.3.0"
+  },
+  "url": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest",
+  "meta": {
+    "title": "Relaxation and Lounges - JFK Airport",
+    "description": "Relax before your flight at JFK. Find airport lounges, spas, and quiet areas to recharge during your journey.",
+    "themeColor": "",
+    "lang": "en-us"
+  },
+  "ogTags": {
+    "og:title": "Relaxation and Lounges - JFK Airport",
+    "og:description": "Relax before your flight at JFK. Find airport lounges, spas, and quiet areas to recharge during your journey.",
+    "og:type": "website",
+    "og:url": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest",
+    "og:image": "https://s7d9.scene7.com/is/image/panynjaviation/jfk_ogimage:card-wide-16x9",
+    "og:image:alt": "John F. Kennedy International Airport logo"
+  },
+  "headings": [
+    {
+      "level": 1,
+      "text": "Relaxation and Lounges"
+    },
+    {
+      "level": 2,
+      "text": "Unwind before you fly"
+    },
+    {
+      "level": 2,
+      "text": "FAQs"
+    }
+  ],
+  "landmarks": [
+    {
+      "role": "main",
+      "label": "",
+      "headingPreview": "Relaxation and Lounges"
+    },
+    {
+      "role": "header",
+      "label": "",
+      "headingPreview": ""
+    },
+    {
+      "role": "nav",
+      "label": "main",
+      "headingPreview": ""
+    },
+    {
+      "role": "footer",
+      "label": "",
+      "headingPreview": ""
+    }
+  ],
+  "sections": [
+    {
+      "index": 0,
+      "tag": "section",
+      "id": "",
+      "className": "chakra-stack RichTextEditorWrapper_container__7b_DK css-sekf8j",
+      "ariaLabel": "",
+      "heading": "Unwind before you fly",
+      "textPreview": "Unwind before you flyWhether you are in the mood for a massage or a last-minute manicure, there is something for everyone. Browse through airport lounges, spas, relaxation areas and more.",
+      "rect": {
+        "x": 297.3,
+        "y": 392,
+        "w": 845.3,
+        "h": 116
+      },
+      "styles": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(9, 9, 11)",
+        "fontFamily": "Helvetica Now for PANYNJ",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "borderRadius": "0px",
+        "boxShadow": null
+      },
+      "ctas": []
+    }
+  ],
+  "ctas": [
+    {
+      "tag": "a",
+      "text": "Skip to Content",
+      "href": "/dine-shop-relax/lounge-and-rest#main-content",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Flights",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Transportation & Parking",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Explore JFK",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Dine, Shop, Relax",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Reset",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "20px"
+    },
+    {
+      "tag": "a",
+      "text": "Aer Lingus Lounge",
+      "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=4005122&name=Aer%20Lingus%20Lounge&structureName=Terminal%207&returnTo=/dine-shop-relax/lounge-and-rest",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 7 Gate 1",
+      "href": "http://maps.jfkairport.com?poiId=4005122",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Air India Maharaja Lounge",
+      "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=1325&name=Air%20India%20Maharaja%20Lounge&structureName=Terminal%204&returnTo=/dine-shop-relax/lounge-and-rest",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 4 Gate A5",
+      "href": "http://maps.jfkairport.com?poiId=1325",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "AirFrance Lounge",
+      "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=241&name=AirFrance%20Lounge&structureName=Terminal%201&returnTo=/dine-shop-relax/lounge-and-rest",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 1 Gate 1",
+      "href": "http://maps.jfkairport.com?poiId=241",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "American Airlines Admirals Club Lounge",
+      "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=4005806&name=American%20Airlines%20Admirals%20Club%20Lounge&structureName=Terminal%208&returnTo=/dine-shop-relax/lounge-and-rest",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 8",
+      "href": "http://maps.jfkairport.com?poiId=4005806",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "American Express Centurion Lounge",
+      "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=4000795&name=American%20Express%20Centurion%20Lounge&structureName=Terminal%204&returnTo=/dine-shop-relax/lounge-and-rest",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 4",
+      "href": "http://maps.jfkairport.com?poiId=4000795",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Be Relax",
+      "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=4005878&name=Be%20Relax&structureName=Terminal%201&returnTo=/dine-shop-relax/lounge-and-rest",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 1",
+      "href": "http://maps.jfkairport.com?poiId=4005878",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "BlueHouse",
+      "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=4005871&name=BlueHouse&structureName=Terminal%205&returnTo=/dine-shop-relax/lounge-and-rest",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 5 Gate 526",
+      "href": "http://maps.jfkairport.com?poiId=4005871",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Capital One Lounge",
+      "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=4005557&name=Capital%20One%20Lounge&structureName=Terminal%204&returnTo=/dine-shop-relax/lounge-and-rest",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 4 Retail Hall",
+      "href": "http://maps.jfkairport.com?poiId=4005557",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Chase Sapphire Lounge by The Club with Etihad Airways",
+      "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=1288&name=Chase%20Sapphire%20Lounge%20by%20The%20Club%20with%20Etihad%20Airways&structureName=Terminal%204&returnTo=/dine-shop-relax/lounge-and-rest",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 4",
+      "href": "http://maps.jfkairport.com?poiId=1288",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Chelsea Lounge",
+      "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=4004787&name=Chelsea%20Lounge&structureName=Terminal%208&returnTo=/dine-shop-relax/lounge-and-rest",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 8",
+      "href": "http://maps.jfkairport.com?poiId=4004787",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Christ for the World Chapel",
+      "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=3383&name=Christ%20for%20the%20World%20Chapel&structureName=Terminal%204&returnTo=/dine-shop-relax/lounge-and-rest",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 4 Check-In",
+      "href": "http://maps.jfkairport.com?poiId=3383",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Delta One Lounge",
+      "href": "/dine-shop-relax/lounge-and-rest/detail?poiId=4005425&name=Delta%20One%20Lounge&structureName=Terminal%204&returnTo=/dine-shop-relax/lounge-and-rest",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Terminal 4",
+      "href": "http://maps.jfkairport.com?poiId=4005425",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "2px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "button",
+      "text": "Load more",
+      "href": null,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "color": "rgb(0, 69, 255)",
+      "borderRadius": "4px",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "20px"
+    },
+    {
+      "tag": "button",
+      "text": "Are lounges available at JFK?",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(1, 21, 101)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px 0px"
+    },
+    {
+      "tag": "button",
+      "text": "Are there spa services at JFK?",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(1, 21, 101)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px 0px"
+    },
+    {
+      "tag": "button",
+      "text": "Are there sleeping facilities at JFK Airport?",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(1, 21, 101)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px 0px"
+    },
+    {
+      "tag": "button",
+      "text": "Are there shower facilities at JFK Airport?",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(1, 21, 101)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px 0px"
+    },
+    {
+      "tag": "button",
+      "text": "Are there prayer or meditation rooms at JFK Airport?",
+      "href": null,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(1, 21, 101)",
+      "borderRadius": "4px",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "textTransform": "none",
+      "padding": "16px 0px"
+    },
+    {
+      "tag": "a",
+      "text": "Accessibility",
+      "href": "/explore-jfk/accessibility-services",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Air Cargo",
+      "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Alerts and Advisories",
+      "href": "/alerts-advisories",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Contact Us",
+      "href": "/contact-us",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "FAQ",
+      "href": "/frequently-asked-questions",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Feedback",
+      "href": "/feedback",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "PANYNJ Airports Information",
+      "href": "https://www.panynj.gov/airports/en/index.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "JFK Redevelopment",
+      "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Lost and Found",
+      "href": "/lost-and-found",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Press",
+      "href": "https://www.panynj.gov/port-authority/en/press-room.html",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Website Disclaimer",
+      "href": "/website-disclaimer",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    },
+    {
+      "tag": "a",
+      "text": "Privacy Statement",
+      "href": "/privacy",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "2px",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "textTransform": "none",
+      "padding": "0px"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "text": "Skip to Content",
+        "href": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest#main-content"
+      },
+      {
+        "text": "",
+        "href": "https://www.jfkairport.com/"
+      },
+      {
+        "text": "",
+        "href": "https://www.jfkairport.com/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Aer Lingus Lounge",
+        "href": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest/detail?poiId=4005122&name=Aer%20Lingus%20Lounge&structureName=Terminal%207&returnTo=/dine-shop-relax/lounge-and-rest"
+      },
+      {
+        "text": "Air India Maharaja Lounge",
+        "href": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest/detail?poiId=1325&name=Air%20India%20Maharaja%20Lounge&structureName=Terminal%204&returnTo=/dine-shop-relax/lounge-and-rest"
+      },
+      {
+        "text": "AirFrance Lounge",
+        "href": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest/detail?poiId=241&name=AirFrance%20Lounge&structureName=Terminal%201&returnTo=/dine-shop-relax/lounge-and-rest"
+      },
+      {
+        "text": "American Airlines Admirals Club Lounge",
+        "href": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest/detail?poiId=4005806&name=American%20Airlines%20Admirals%20Club%20Lounge&structureName=Terminal%208&returnTo=/dine-shop-relax/lounge-and-rest"
+      },
+      {
+        "text": "American Express Centurion Lounge",
+        "href": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest/detail?poiId=4000795&name=American%20Express%20Centurion%20Lounge&structureName=Terminal%204&returnTo=/dine-shop-relax/lounge-and-rest"
+      },
+      {
+        "text": "Be Relax",
+        "href": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest/detail?poiId=4005878&name=Be%20Relax&structureName=Terminal%201&returnTo=/dine-shop-relax/lounge-and-rest"
+      },
+      {
+        "text": "BlueHouse",
+        "href": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest/detail?poiId=4005871&name=BlueHouse&structureName=Terminal%205&returnTo=/dine-shop-relax/lounge-and-rest"
+      },
+      {
+        "text": "Capital One Lounge",
+        "href": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest/detail?poiId=4005557&name=Capital%20One%20Lounge&structureName=Terminal%204&returnTo=/dine-shop-relax/lounge-and-rest"
+      },
+      {
+        "text": "Chase Sapphire Lounge by The Club with Etihad Airways",
+        "href": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest/detail?poiId=1288&name=Chase%20Sapphire%20Lounge%20by%20The%20Club%20with%20Etihad%20Airways&structureName=Terminal%204&returnTo=/dine-shop-relax/lounge-and-rest"
+      },
+      {
+        "text": "Chelsea Lounge",
+        "href": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest/detail?poiId=4004787&name=Chelsea%20Lounge&structureName=Terminal%208&returnTo=/dine-shop-relax/lounge-and-rest"
+      },
+      {
+        "text": "Christ for the World Chapel",
+        "href": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest/detail?poiId=3383&name=Christ%20for%20the%20World%20Chapel&structureName=Terminal%204&returnTo=/dine-shop-relax/lounge-and-rest"
+      },
+      {
+        "text": "Delta One Lounge",
+        "href": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest/detail?poiId=4005425&name=Delta%20One%20Lounge&structureName=Terminal%204&returnTo=/dine-shop-relax/lounge-and-rest"
+      },
+      {
+        "text": "Accessibility",
+        "href": "https://www.jfkairport.com/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Alerts and Advisories",
+        "href": "https://www.jfkairport.com/alerts-advisories"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.jfkairport.com/contact-us"
+      },
+      {
+        "text": "FAQ",
+        "href": "https://www.jfkairport.com/frequently-asked-questions"
+      },
+      {
+        "text": "Feedback",
+        "href": "https://www.jfkairport.com/feedback"
+      },
+      {
+        "text": "Lost and Found",
+        "href": "https://www.jfkairport.com/lost-and-found"
+      },
+      {
+        "text": "Website Disclaimer",
+        "href": "https://www.jfkairport.com/website-disclaimer"
+      },
+      {
+        "text": "Privacy Statement",
+        "href": "https://www.jfkairport.com/privacy"
+      }
+    ],
+    "external": [
+      {
+        "text": "Terminal 7 Gate 1",
+        "href": "http://maps.jfkairport.com/?poiId=4005122"
+      },
+      {
+        "text": "Terminal 4 Gate A5",
+        "href": "http://maps.jfkairport.com/?poiId=1325"
+      },
+      {
+        "text": "Terminal 1 Gate 1",
+        "href": "http://maps.jfkairport.com/?poiId=241"
+      },
+      {
+        "text": "Terminal 8",
+        "href": "http://maps.jfkairport.com/?poiId=4005806"
+      },
+      {
+        "text": "Terminal 4",
+        "href": "http://maps.jfkairport.com/?poiId=4000795"
+      },
+      {
+        "text": "Terminal 1",
+        "href": "http://maps.jfkairport.com/?poiId=4005878"
+      },
+      {
+        "text": "Terminal 5 Gate 526",
+        "href": "http://maps.jfkairport.com/?poiId=4005871"
+      },
+      {
+        "text": "Terminal 4 Retail Hall",
+        "href": "http://maps.jfkairport.com/?poiId=4005557"
+      },
+      {
+        "text": "Terminal 4",
+        "href": "http://maps.jfkairport.com/?poiId=1288"
+      },
+      {
+        "text": "Terminal 8",
+        "href": "http://maps.jfkairport.com/?poiId=4004787"
+      },
+      {
+        "text": "Terminal 4 Check-In",
+        "href": "http://maps.jfkairport.com/?poiId=3383"
+      },
+      {
+        "text": "Terminal 4",
+        "href": "http://maps.jfkairport.com/?poiId=4005425"
+      },
+      {
+        "text": "",
+        "href": "http://www.panynj.gov/"
+      },
+      {
+        "text": "Air Cargo",
+        "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+      },
+      {
+        "text": "PANYNJ Airports Information",
+        "href": "https://www.panynj.gov/airports/en/index.html"
+      },
+      {
+        "text": "JFK Redevelopment",
+        "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+      },
+      {
+        "text": "Press",
+        "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+      },
+      {
+        "text": "",
+        "href": "http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/"
+      },
+      {
+        "text": "",
+        "href": "http://www.twitter.com/JFKairport"
+      },
+      {
+        "text": "",
+        "href": "https://www.panynj.gov/WhatsApp_JFK"
+      }
+    ],
+    "counts": {
+      "internal": 23,
+      "external": 20
+    }
+  },
+  "tokens": {
+    "colors": {
+      "rgb(9, 9, 11)": 168,
+      "rgb(0, 69, 255)": 97,
+      "rgb(255, 255, 255)": 31,
+      "rgb(1, 21, 101)": 7,
+      "rgb(51, 65, 85)": 2,
+      "rgb(15, 23, 42)": 16,
+      "rgb(71, 85, 105)": 12
+    },
+    "backgrounds": {
+      "rgb(255, 255, 255)": 31,
+      "rgb(239, 249, 255)": 12,
+      "rgb(1, 21, 101)": 1
+    },
+    "fonts": {
+      "Helvetica Now for PANYNJ": 330,
+      "Sharp Grotesk Semibold": 3
+    },
+    "sizes": {
+      "16px": 213,
+      "20px": 95,
+      "24px": 2,
+      "72px": 1,
+      "40px": 2,
+      "12px": 2,
+      "18px": 6,
+      "32px": 3,
+      "14px": 9
+    },
+    "radii": {
+      "2px": 31,
+      "4px": 64,
+      "9999px": 5
+    },
+    "shadows": {
+      "rgba(0, 0, 0, 0.25) 0px 0px 4px 0px": 12
+    }
+  },
+  "headingStyles": {
+    "h1": {
+      "fontFamily": "Sharp Grotesk Semibold",
+      "fontSize": "72px",
+      "fontWeight": "400",
+      "lineHeight": "80px",
+      "textTransform": "none",
+      "letterSpacing": "-2px"
+    },
+    "h2": {
+      "fontFamily": "Sharp Grotesk Semibold",
+      "fontSize": "40px",
+      "fontWeight": "400",
+      "lineHeight": "52px",
+      "textTransform": "none",
+      "letterSpacing": "-0.5px"
+    }
+  },
+  "bodyStyles": {
+    "fontFamily": "Helvetica Now for PANYNJ",
+    "fontSize": "20px",
+    "lineHeight": "24px",
+    "color": "rgb(51, 65, 85)"
+  },
+  "media": {
+    "images": [
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/airports/jfk/JFK.svg",
+        "srcset": "",
+        "alt": "John F. Kennedy International Airport",
+        "loading": "eager",
+        "intrinsicW": 300,
+        "intrinsicH": 61,
+        "renderedW": 205,
+        "renderedH": 42,
+        "localPath": "assets/media/JFK-cd579a20.svg"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/381f4ebe-22dc-4c62-8b07-dfac8686712f",
+        "srcset": "",
+        "alt": "Aer Lingus Lounge",
+        "loading": "lazy",
+        "intrinsicW": 800,
+        "intrinsicH": 512,
+        "renderedW": 413,
+        "renderedH": 232,
+        "localPath": "assets/media/381f4ebe-22dc-4c62-8b07-dfac8686712f-c60e7a13.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/a918f49e-f30f-4cc6-9051-d3f87367165c",
+        "srcset": "",
+        "alt": "Air India Maharaja Lounge",
+        "loading": "lazy",
+        "intrinsicW": 1053,
+        "intrinsicH": 591,
+        "renderedW": 413,
+        "renderedH": 232,
+        "localPath": "assets/media/a918f49e-f30f-4cc6-9051-d3f87367165c-ba7068a4.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/0241-jfk-1-airfrancelounge.jpg",
+        "srcset": "",
+        "alt": "AirFrance Lounge",
+        "loading": "lazy",
+        "intrinsicW": 750,
+        "intrinsicH": 422,
+        "renderedW": 413,
+        "renderedH": 233,
+        "localPath": "assets/media/0241-jfk-1-airfrancelounge-c5517381.jpg"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/c393e19c-95f4-47c3-a252-b106c0809905",
+        "srcset": "",
+        "alt": "American Airlines Admirals Club Lounge",
+        "loading": "lazy",
+        "intrinsicW": 643,
+        "intrinsicH": 431,
+        "renderedW": 413,
+        "renderedH": 232,
+        "localPath": "assets/media/c393e19c-95f4-47c3-a252-b106c0809905-f259991a.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/39199957-6729-4a8c-b714-04c757fb85e7",
+        "srcset": "",
+        "alt": "American Express Centurion Lounge",
+        "loading": "lazy",
+        "intrinsicW": 1053,
+        "intrinsicH": 591,
+        "renderedW": 413,
+        "renderedH": 232,
+        "localPath": "assets/media/39199957-6729-4a8c-b714-04c757fb85e7-16f01079.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/a073586c-bb85-40db-b355-cf3f9ab83d62",
+        "srcset": "",
+        "alt": "Be Relax",
+        "loading": "lazy",
+        "intrinsicW": 1053,
+        "intrinsicH": 591,
+        "renderedW": 413,
+        "renderedH": 233,
+        "localPath": "assets/media/a073586c-bb85-40db-b355-cf3f9ab83d62-b35f9bf6.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/49b8ad68-258b-46ae-9fb7-d24499684395",
+        "srcset": "",
+        "alt": "BlueHouse",
+        "loading": "lazy",
+        "intrinsicW": 1053,
+        "intrinsicH": 591,
+        "renderedW": 413,
+        "renderedH": 232,
+        "localPath": "assets/media/49b8ad68-258b-46ae-9fb7-d24499684395-0c2f123d.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/667884e5-af78-4424-afbd-d31f3c3c29b8",
+        "srcset": "",
+        "alt": "Capital One Lounge",
+        "loading": "lazy",
+        "intrinsicW": 1053,
+        "intrinsicH": 591,
+        "renderedW": 413,
+        "renderedH": 232,
+        "localPath": "assets/media/667884e5-af78-4424-afbd-d31f3c3c29b8-8d5d1213.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/60d62c7a-849c-483e-b3a1-44c6c71ac8f5",
+        "srcset": "",
+        "alt": "Chase Sapphire Lounge by The Club with Etihad Airways",
+        "loading": "lazy",
+        "intrinsicW": 360,
+        "intrinsicH": 340,
+        "renderedW": 413,
+        "renderedH": 233,
+        "localPath": "assets/media/60d62c7a-849c-483e-b3a1-44c6c71ac8f5-035214ae.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/e1fbb0cd-3aee-4c93-99b4-223491907509",
+        "srcset": "",
+        "alt": "Chelsea Lounge",
+        "loading": "lazy",
+        "intrinsicW": 494,
+        "intrinsicH": 330,
+        "renderedW": 413,
+        "renderedH": 232,
+        "localPath": "assets/media/e1fbb0cd-3aee-4c93-99b4-223491907509-b5cac4df.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/1c1e8f35-4e13-4ec7-8fd6-86690a5997b6",
+        "srcset": "",
+        "alt": "Christ for the World Chapel",
+        "loading": "lazy",
+        "intrinsicW": 1053,
+        "intrinsicH": 591,
+        "renderedW": 413,
+        "renderedH": 232,
+        "localPath": "assets/media/1c1e8f35-4e13-4ec7-8fd6-86690a5997b6-472337cf.bin"
+      },
+      {
+        "src": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/01182072-345d-41e6-90a1-a90d29fa60c2",
+        "srcset": "",
+        "alt": "Delta One Lounge",
+        "loading": "lazy",
+        "intrinsicW": 1053,
+        "intrinsicH": 591,
+        "renderedW": 413,
+        "renderedH": 233,
+        "localPath": "assets/media/01182072-345d-41e6-90a1-a90d29fa60c2-83fdfc19.bin"
+      },
+      {
+        "src": "https://www.jfkairport.com/images/shared/logos/Port_Authority_NYNJ_logo.svg",
+        "srcset": "",
+        "alt": "Port Authority New York New Jersey Air Land Rail Sea",
+        "loading": "eager",
+        "intrinsicW": 252,
+        "intrinsicH": 121,
+        "renderedW": 164,
+        "renderedH": 79,
+        "localPath": "assets/media/Port_Authority_NYNJ_logo-40276be9.svg"
+      }
+    ],
+    "inlineSvgCount": 7,
+    "videos": [],
+    "iframes": []
+  },
+  "forms": [
+    {
+      "action": "",
+      "method": "get",
+      "ariaLabel": "",
+      "fields": [
+        {
+          "tag": "input",
+          "type": "search",
+          "name": "search",
+          "placeholder": "What can we help you find?",
+          "required": false,
+          "ariaLabel": "What can we help you find?"
+        }
+      ]
+    }
+  ],
+  "logoCandidates": [
+    {
+      "type": "img",
+      "src": "https://www.jfkairport.com/images/shared/logos/airports/jfk/JFK.svg",
+      "outerHTMLPreview": "<img alt=\"John F. Kennedy International Airport\" class=\"Image_image__LITrj WideHeader_logo__nAh0x\" loading=\"eager\" data-testid=\"logo\" src=\"/images/shared/logos/airports/jfk/JFK.svg\">",
+      "localPath": "assets/media/JFK-cd579a20.svg"
+    },
+    {
+      "type": "og:image",
+      "src": "https://s7d9.scene7.com/is/image/panynjaviation/jfk_ogimage:card-wide-16x9",
+      "localPath": "assets/media/jfk_ogimage_card-wide-16x9-3041f9a7.bin"
+    },
+    {
+      "type": "favicon",
+      "src": "https://www.jfkairport.com/images/shared/favicon/jfk_favicon.ico",
+      "localPath": "assets/media/jfk_favicon-a7892a40.ico"
+    }
+  ],
+  "voice": {
+    "heroHeading": "Relaxation and Lounges",
+    "heroParagraph": "Whether you are in the mood for a massage or a last-minute manicure, there is something for everyone. Browse through airport lounges, spas, relaxation areas and more."
+  },
+  "systemBlocks": {
+    "headerHTML": "<header class=\"Header_header__Qb7xT css-0\" data-testid=\"header\"><a aria-label=\"Skip to Content\" tabindex=\"0\" class=\"chakra-link Header_skipToContent__n9lzS css-iw9gdm\" href=\"/dine-shop-relax/lounge-and-rest#main-content\">Skip to Content</a><div class=\"Grid_grid__k5z8n WideHeader_wideHeader__WUcQz css-8yzm79\" data-testid=\"wide-header\"><a tabindex=\"0\" class=\"chakra-link WideHeader_logoContainer__OVb_m css-1mw5ttv\" href=\"/\"><img alt=\"John F. Kennedy International Airport\" class=\"Image_image__LITrj WideHeader_logo__nAh0x\" loading=\"eager\" data-testid=\"logo\" src=\"/images/shared/logos/airports/jfk/JFK.svg\"></a><nav class=\"chakra-stack WideHeader_navBar__V9qem css-1igwmid\" aria-label=\"main\"><div class=\"chakra-stack WideHeader_expandableNav__tw5MU css-1igwmid\"><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Flights\">Flights</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Transportation &amp; Parking\">Transportation &amp; Parking</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Explore JFK\">Explore JFK</button></div><div class=\"css-1obf64m\"><button class=\"WideHeader_mainNavItem__eWsTh css-0\" tabindex=\"0\" aria-expanded=\"false\" data-testid=\"main-nav-Dine, Shop, Relax\">Dine, Shop, Relax</button></div><a aria-label=\"Accessibility Services\" tabindex=\"0\" target=\"_self\" class=\"chakra-link WideHeader_accessibility__zCHWK css-1mw5ttv\" data-testid=\"accessibility-cta\" href=\"/explore-jfk/accessibility-services\"><span class=\"icon-accessible css-5lgiqp\" data-testid=\"icon\" tabindex=\"-1\" aria-hidden=\"true\"></span></a><button class=\"WideHeader_search__RDBrN css-0\" tabindex=\"0\" aria-expanded=\"false\" aria-label=\"Search\" data-testid=\"search\"><span class=\"icon-search css-5lgiqp\" data-testid=\"icon-search\" tabindex=\"-1\" aria-hidden=\"true\"></span></button></div></nav></div></header>",
+    "footerHTML": "<footer class=\"Footer_footerContainer__h6KnL css-0\" data-theme=\"aviation\"><div class=\"Grid_grid__k5z8n Footer_footer__nCxey css-8yzm79\"><a tabindex=\"0\" class=\"chakra-link Footer_logoContainer__YztlK css-1mw5ttv\" href=\"http://www.panynj.gov/\"><img alt=\"Port Authority New York New Jersey Air Land Rail Sea\" class=\"Image_image__LITrj Footer_logo__dJ82V\" loading=\"eager\" data-testid=\"default-image\" src=\"/images/shared/logos/Port_Authority_NYNJ_logo.svg\"></a><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"Accessibility\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/explore-jfk/accessibility-services\">Accessibility</a><a aria-label=\"Air Cargo opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/airports/en/air-cargo/jfk.html\">Air Cargo<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Alerts and Advisories\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/alerts-advisories\">Alerts and Advisories</a><a aria-label=\"Contact Us\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/contact-us\">Contact Us</a></div><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"FAQ\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/frequently-asked-questions\">FAQ</a><a aria-label=\"Feedback\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/feedback\">Feedback</a><a aria-label=\"General Airport Information opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/airports/en/index.html\">PANYNJ Airports Information<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"JFK Redevelopment opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html\">JFK Redevelopment<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><div class=\"chakra-stack Footer_columnLinks__Obu1M css-8g8ihq\"><a aria-label=\"Lost and Found\" tabindex=\"0\" target=\"_self\" class=\"chakra-link css-1mqk1nm\" href=\"/lost-and-found\">Lost and Found</a><a aria-label=\"Press opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1mqk1nm\" href=\"https://www.panynj.gov/port-authority/en/press-room.html\">Press<span class=\"icon-link-external css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><div class=\"chakra-stack Footer_socialLinks__xfpNq css-1igwmid\"><a aria-label=\"Connect with us on Facebook opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/\"><span class=\"icon-logo-facebook css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Connect with us on X (previously Twitter) opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"http://www.twitter.com/JFKairport\"><span class=\"icon-logo-x css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a><a aria-label=\"Connect with us on Whats App opens in a new tab\" tabindex=\"0\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"chakra-link css-1m6lh2u\" href=\"https://www.panynj.gov/WhatsApp_JFK\"><span class=\"icon-logo-whatsapp css-1iydoee\" data-testid=\"icon\" tabindex=\"-1\" data-icon=\"true\"></span></a></div><span role=\"separator\" aria-orientation=\"horizontal\" class=\"chakra-separator Footer_separator___6pPI css-wyc8fo\"></span><div class=\"Footer_address__l_LYP css-0\"><p>The Port Authority of New York and New Jersey<br>\n  4 World Trade Center, 150 Greenw",
+    "headerLinks": [
+      {
+        "text": "Skip to Content",
+        "href": "/dine-shop-relax/lounge-and-rest#main-content"
+      },
+      {
+        "text": "",
+        "href": "/"
+      },
+      {
+        "text": "",
+        "href": "/explore-jfk/accessibility-services"
+      }
+    ],
+    "footerLinks": [
+      {
+        "text": "",
+        "href": "http://www.panynj.gov/"
+      },
+      {
+        "text": "Accessibility",
+        "href": "/explore-jfk/accessibility-services"
+      },
+      {
+        "text": "Air Cargo",
+        "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+      },
+      {
+        "text": "Alerts and Advisories",
+        "href": "/alerts-advisories"
+      },
+      {
+        "text": "Contact Us",
+        "href": "/contact-us"
+      },
+      {
+        "text": "FAQ",
+        "href": "/frequently-asked-questions"
+      },
+      {
+        "text": "Feedback",
+        "href": "/feedback"
+      },
+      {
+        "text": "PANYNJ Airports Information",
+        "href": "https://www.panynj.gov/airports/en/index.html"
+      },
+      {
+        "text": "JFK Redevelopment",
+        "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+      },
+      {
+        "text": "Lost and Found",
+        "href": "/lost-and-found"
+      },
+      {
+        "text": "Press",
+        "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+      },
+      {
+        "text": "",
+        "href": "http://www.facebook.com/John-F-Kennedy-International-Airport-JFK-1798251077168457/"
+      },
+      {
+        "text": "",
+        "href": "http://www.twitter.com/JFKairport"
+      },
+      {
+        "text": "",
+        "href": "https://www.panynj.gov/WhatsApp_JFK"
+      },
+      {
+        "text": "Website Disclaimer",
+        "href": "/website-disclaimer"
+      },
+      {
+        "text": "Privacy Statement",
+        "href": "/privacy"
+      }
+    ]
+  },
+  "_domCounts": {
+    "totalElements": 333,
+    "sampledElements": 333
+  },
+  "screenshot": "assets/screenshots/dine-shop-relax__lounge-and-rest.png"
+}

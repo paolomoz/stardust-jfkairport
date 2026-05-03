@@ -1,0 +1,405 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:43.487Z",
+    "url": "https://www.jfkairport.com/explore-jfk/terminals/terminal-7",
+    "slug": "explore-jfk__terminals__terminal-7",
+    "httpStatus": 200,
+    "totalMs": 4009,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": {
+    "text": "infoThere are multiple advisories affecting Terminal 7 ride app pick up locations, Terminal 7 access changes, and the Terminal 7 taxi stand.",
+    "ctas": [
+      {
+        "text": "Terminal 7 ride app pick up",
+        "href": "/alerts-advisories/t5-t7-ride-app-relocations"
+      },
+      {
+        "text": "Terminal 7 access changes,",
+        "href": "/alerts-advisories/t5-t7-t8-access-changes"
+      },
+      {
+        "text": "Terminal 7 taxi stand",
+        "href": "/alerts-advisories/t7-taxi-relocation"
+      }
+    ]
+  },
+  "h1": "JFK Terminal 7",
+  "lede": "If you will need a wheelchair during your time at Terminal 7, please contact your airline in advance to arrange assistance before arriving at the airport. Your preferred airline will provide wheelchair service and can ensure your needs are met from check-in through boarding. Should you need to request a wheelchair upon arrival, you may also do so at the designated desks inside the terminal or at the airline’s check-in counter. We are dedicated to making your travel experience safe, comfortable, and accessible for all guests.Learn more about accessibility",
+  "heroImage": null,
+  "blocks": [
+    {
+      "h2": "Start your journey with ease at JFK Terminal 7",
+      "h3s": [],
+      "paragraphs": [
+        "Your gateway to global destinations with comfort and convenience."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "What to expect",
+      "h3s": [
+        "Easy check-in & security",
+        "Stay connected",
+        "Food and shopping",
+        "Relax in lounges"
+      ],
+      "paragraphs": [
+        "Enjoy a smooth, stress-free experience every time you travel through JFK T7.®",
+        "Streamlined check-in counters, Priority TSA access for families, and a short walk to all gates.",
+        "Free Wi-Fi, charging stations, family restrooms, nursing suites, and pet relief areas.",
+        "Grab a coffee at Dunkin’, enjoy sushi at Bento, or relax at Brindle Room. Shop essentials at Hudson News and duty-free.",
+        "Premium spaces from Aer Lingus, as well as the shared Horizons T7 Lounge."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/icon-security:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 959,
+          "h": 479
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/icon-internet:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 960,
+          "h": 480
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/icon-food:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 960,
+          "h": 480
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/icon-relax:hero-2x1?wid=1200&hei=600&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 959,
+          "h": 479
+        }
+      ],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": "service-grid",
+      "subData": [
+        {
+          "title": "Easy check-in & security",
+          "text": "Enjoy a smooth, stress-free experience every time you travel through JFK T7.®",
+          "href": null
+        },
+        {
+          "title": "Stay connected",
+          "text": "Streamlined check-in counters, Priority TSA access for families, and a short walk to all gates.",
+          "href": null
+        },
+        {
+          "title": "Food and shopping",
+          "text": "Free Wi-Fi, charging stations, family restrooms, nursing suites, and pet relief areas.",
+          "href": null
+        },
+        {
+          "title": "Relax in lounges",
+          "text": "Grab a coffee at Dunkin’, enjoy sushi at Bento, or relax at Brindle Room. Shop essentials at Hudson News and duty-free.",
+          "href": null
+        }
+      ]
+    },
+    {
+      "h2": "Enjoy JFK essentials before your flight",
+      "h3s": [
+        "Dine",
+        "Shop",
+        "Relax"
+      ],
+      "paragraphs": [
+        "T7 offers numerous high-quality options for every traveler, whether you’re settling in ahead of your flight or need something quick on the go.",
+        "Whether you’re grabbing a quick necessity or browsing for something extra, our retail options offer a wide range of travel-ready essentials. Find snacks, chargers, accessories, souvenirs, and more — right here in the terminal.",
+        "T7 offers numerous ways to relax before or after your journey. Prior to departure, take a seat at our specialty wine bar, Le Grand Comptoir, or unwind in our T7 Horizons or Aer Lingus lounges. Upon arrival, relax with a cup of Dunkin Donuts before stepping out."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/jfk-t7-dine:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1919,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/jfk-t7-shop:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1919,
+          "h": 1080
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/jfk-t7-relax:card-wide-16x9?wid=1920&hei=1080&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1080
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "JFK Terminal 7 restaurants",
+          "href": "/dine-shop-relax/food?structureName=Terminal+7"
+        },
+        {
+          "text": "JFK Terminal 7 shops",
+          "href": "/dine-shop-relax/shops?structureName=Terminal+7"
+        },
+        {
+          "text": "Places to relax at JFK Terminal 7",
+          "href": "/dine-shop-relax/lounge-and-rest?structureName=Terminal+7"
+        }
+      ],
+      "tables": [],
+      "subPattern": "sub-ia",
+      "subData": [
+        {
+          "title": "Dine",
+          "href": "/dine-shop-relax/food?structureName=Terminal+7",
+          "linkText": "JFK Terminal 7 restaurants"
+        },
+        {
+          "title": "Shop",
+          "href": "/dine-shop-relax/shops?structureName=Terminal+7",
+          "linkText": "JFK Terminal 7 shops"
+        },
+        {
+          "title": "Relax",
+          "href": "/dine-shop-relax/lounge-and-rest?structureName=Terminal+7",
+          "linkText": "Places to relax at JFK Terminal 7"
+        }
+      ]
+    },
+    {
+      "h2": "Airlines at Terminal 7",
+      "h3s": [],
+      "paragraphs": [
+        "Air Canada, ANA (All Nippon Airways), Aer Lingus, Condor, Frontier, Kuwait, Norse, Icelandair"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Walk times to gates",
+      "h3s": [],
+      "paragraphs": [
+        "For step-by-step directions and more precise estimates, use the interactive map to route directly to your gate opens in a new tab.",
+        "All gates",
+        "1-5 minutes"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "use the interactive map to route directly to your gate opens in a new tab",
+          "href": "https://maps.jfkairport.com/"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Book your parking",
+      "h3s": [
+        "Current availability",
+        "Additional lots"
+      ],
+      "paragraphs": [
+        "Long-Term",
+        "47% Full",
+        "Terminal 8 (Red)",
+        "56% Full",
+        "Terminal 5 (Yellow)",
+        "66% Full",
+        "Terminal 4 (Blue)",
+        "79% Full",
+        "Terminal Parking lots are located at terminals and connected by the AirTrain system.",
+        "Federal Circle Station",
+        "Reservation only",
+        "Terminal 1 (Green)",
+        "Closed (Use Terminal 8 Red Lot)",
+        "Terminal 7 (Orange)",
+        "Accessibility Services"
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/jfk-t7-wheelchair:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1919,
+          "h": 1440
+        }
+      ],
+      "ctas": [
+        {
+          "text": "Book your parking"
+        },
+        {
+          "text": "Lot locations on map"
+        }
+      ],
+      "links": [
+        {
+          "text": "Parking rates and info",
+          "href": "/transportation/airport-parking"
+        },
+        {
+          "text": "Parking FAQs",
+          "href": "/frequently-asked-questions"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Requesting assistance at Terminal 7",
+      "h3s": [],
+      "paragraphs": [
+        "If you will need a wheelchair during your time at Terminal 7, please contact your airline in advance to arrange assistance before arriving at the airport. Your preferred airline will provide wheelchair service and can ensure your needs are met from check-in through boarding.",
+        "Should you need to request a wheelchair upon arrival, you may also do so at the designated desks inside the terminal or at the airline’s check-in counter. We are dedicated to making your travel experience safe, comfortable, and accessible for all guests."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Learn more about accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Your Guide to JFK",
+      "h3s": [],
+      "paragraphs": [
+        "Interactive Map",
+        "Departures Guide",
+        "Arrivals Guide",
+        "Connections Guide",
+        "All Terminals",
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/JFK%20Airport%20041326:card-portrait-3x4?wid=1080&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1078,
+          "h": 1440
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-1_departurescard:card-portrait-3x4?wid=1080&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 924,
+          "h": 1232
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-2_1_arrivalsguidehero:card-portrait-3x4?wid=1080&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1078,
+          "h": 1440
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/0-1_2_general:card-portrait-3x4?wid=1080&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1078,
+          "h": 1440
+        },
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/3_6-1_allterminalshero:card-portrait-3x4?wid=1080&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1080,
+          "h": 1440
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Interactive Map",
+          "href": "/explore-jfk/airport-map"
+        },
+        {
+          "text": "Departures Guide",
+          "href": "/flights/departures"
+        },
+        {
+          "text": "Arrivals Guide",
+          "href": "/flights/arrivals"
+        },
+        {
+          "text": "Connections Guide",
+          "href": "/flights/connections-guide"
+        },
+        {
+          "text": "All Terminals",
+          "href": "/explore-jfk/terminals"
+        },
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

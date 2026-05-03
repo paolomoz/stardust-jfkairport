@@ -1,0 +1,254 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:57.291Z",
+    "url": "https://www.jfkairport.com/transportation/van-shuttle-service",
+    "slug": "transportation__van-shuttle-service",
+    "httpStatus": 200,
+    "totalMs": 2645,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": {
+    "text": "infoVan, car, and shuttle service pick-ups and drop-offs may take longer than usual due to construction at JFK. Plan accordingly and allow for extra time due to traffic. We recommend taking Public Transportation to the airport.Learn more",
+    "ctas": [
+      {
+        "text": "Public Transportation",
+        "href": "/transportation/public-transport"
+      },
+      {
+        "text": "Learn more",
+        "href": "/alerts-advisories"
+      }
+    ]
+  },
+  "h1": "Van and Shuttle Service",
+  "lede": "",
+  "heroImage": null,
+  "blocks": [
+    {
+      "h2": "Getting to and from JFK via shuttle, van, and car service",
+      "h3s": [],
+      "paragraphs": [
+        "JFK partners with several trusted van and shuttle services. See our list of authorized providers to reserve your ride.",
+        "If you have already booked your ride, go to the ground transportation area to find your driver. If you need to book a ride, contact one of the authorized providers or find an Airport Customer Experience Specialist (ACES) in a red uniform shirt at the Port Authority Information Center in the arrivals area to assist you."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Safety tip",
+      "h3s": [
+        "Authorized van and shuttle services",
+        "Authorized private car services"
+      ],
+      "paragraphs": [
+        "Airlink New York opens in a new tab",
+        "+1 (212) 812-9000+1 (877) 599-8200",
+        "ETS Air Shuttle opens in a new tab",
+        "+1 (718) 221-1200",
+        "Carmel Super Saver opens in a new tab",
+        "+1 (866) 666-6666+1 (800) 924-9954",
+        "Dial 7 Car and Limousine Service opens in a new tab",
+        "+1 (212) 777-7777"
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/3-2_2_acesinfo:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1440
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Find an Information Center",
+          "href": "https://maps.jfkairport.com/su/owqOlU5W"
+        },
+        {
+          "text": "Airlink New York opens in a new tab",
+          "href": "http://www.goairlinkshuttle.com/"
+        },
+        {
+          "text": "+1 (212) 812-9000",
+          "href": "tel:%2B12128129000"
+        },
+        {
+          "text": "+1 (877) 599-8200",
+          "href": "tel:%2B18775998200"
+        },
+        {
+          "text": "ETS Air Shuttle opens in a new tab",
+          "href": "http://www.etsairportshuttle.com/"
+        },
+        {
+          "text": "+1 (718) 221-1200",
+          "href": "tel:%2B17182211200"
+        },
+        {
+          "text": "Carmel Super Saver opens in a new tab",
+          "href": "http://www.carmellimo.com/"
+        },
+        {
+          "text": "+1 (866) 666-6666",
+          "href": "tel:%2B18666666666"
+        },
+        {
+          "text": "+1 (800) 924-9954",
+          "href": "tel:%2B18009249954"
+        },
+        {
+          "text": "Dial 7 Car and Limousine Service opens in a new tab",
+          "href": "https://www.dial7.com/airports.html"
+        },
+        {
+          "text": "+1 (212) 777-7777",
+          "href": "tel:%2B12127777777"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Uber Shuttle",
+      "h3s": [],
+      "paragraphs": [
+        "Uber Shuttle is offered as an alternative, low-cost shuttle service. This is a shared shuttle service that you can book via the Uber app. Shuttle routes are offered both to and from JFK with two routes serving Midtown and Downtown Manhattan.",
+        "Learn more about Uber Shuttle routes opens in a new tab"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Learn more about Uber Shuttle routes opens in a new tab",
+          "href": "https://www.uber.com/global/en/r/airports/jfk/shuttle/"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Looking for something else?",
+      "h3s": [
+        "Uber, Lyft, and other ride apps",
+        "Transferring to LaGuardia or Newark Liberty Airport",
+        "Finding hotel shuttles"
+      ],
+      "paragraphs": [
+        "Uber and Lyft are popular ride share apps available at JFK for your convenience. Ride share apps have designated pickup areas.",
+        "Van and shuttle services are one of many options for connecting between airports. Explore all options to get from one airport to another in our transferring airports guide.",
+        "Heading to your hotel? JFK offers a designated hotel shuttle pickup and drop-off area. Take the AirTrain to Federal Circle to locate all available hotel shuttles."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Learn about ride apps at JFK",
+          "href": "/transportation/ride-share-services"
+        },
+        {
+          "text": "Review our transferring airports guide",
+          "href": "/flights/connections-guide/travel-between-airports"
+        }
+      ],
+      "tables": [],
+      "subPattern": "service-grid",
+      "subData": [
+        {
+          "title": "Uber, Lyft, and other ride apps",
+          "text": "Uber and Lyft are popular ride share apps available at JFK for your convenience. Ride share apps have designated pickup areas.",
+          "href": "/transportation/ride-share-services"
+        },
+        {
+          "title": "Transferring to LaGuardia or Newark Liberty Airport",
+          "text": "Van and shuttle services are one of many options for connecting between airports. Explore all options to get from one airport to another in our transferring airports guide.",
+          "href": "/flights/connections-guide/travel-between-airports"
+        },
+        {
+          "title": "Finding hotel shuttles",
+          "text": "Heading to your hotel? JFK offers a designated hotel shuttle pickup and drop-off area. Take the AirTrain to Federal Circle to locate all available hotel shuttles.",
+          "href": null
+        }
+      ]
+    },
+    {
+      "h2": "FAQs",
+      "h3s": [],
+      "paragraphs": [
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "Where do I find my van or shuttle driver at JFK?"
+        },
+        {
+          "text": "Are private car services available at JFK?"
+        },
+        {
+          "text": "How do I find hotel shuttles at JFK?"
+        }
+      ],
+      "links": [
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-03T00:00:00Z",
+    "stardustVersion": "0.3.0",
+    "originUrl": "https://www.jfkairport.com/",
+    "discoverySource": "sitemap.xml",
+    "totalDiscovered": 55,
+    "cap": 5,
+    "userChoice": "default cap (5 pages, IA-pillar selection)"
+  },
+  "discovery": {
+    "sitemapUrl": "https://www.jfkairport.com/sitemap.xml",
+    "robotsTxt": "User-agent: * / Disallow: (none)",
+    "totalUrls": 55,
+    "topLevelSections": ["/", "/flights", "/transportation", "/explore-jfk", "/dine-shop-relax", "/alerts-advisories", "/feedback", "/contact-us", "/frequently-asked-questions", "/lost-and-found", "/website-disclaimer", "/privacy"]
+  },
+  "filteredAsJunk": [],
+  "selected": [
+    { "slug": "home", "url": "https://www.jfkairport.com/", "reason": "site root" },
+    { "slug": "flights", "url": "https://www.jfkairport.com/flights", "reason": "IA pillar 1 (functional core: flight search + departures/arrivals)" },
+    { "slug": "transportation", "url": "https://www.jfkairport.com/transportation", "reason": "IA pillar 2 (transportation hub)" },
+    { "slug": "explore-jfk", "url": "https://www.jfkairport.com/explore-jfk", "reason": "IA pillar 3 (wayfinding, terminals, accessibility, services)" },
+    { "slug": "dine-shop-relax", "url": "https://www.jfkairport.com/dine-shop-relax", "reason": "IA pillar 4 (commerce/lifestyle)" }
+  ],
+  "cut": [
+    "/flights/arrivals", "/flights/departures", "/flights/connections-guide", "/flights/connections-guide/travel-between-airports", "/flights/airlines",
+    "/transportation/public-transport", "/transportation/airport-parking", "/transportation/pick-up-drop-off", "/transportation/car-rentals", "/transportation/airtrain", "/transportation/taxi-service", "/transportation/van-shuttle-service", "/transportation/ride-share-services",
+    "/explore-jfk/airport-map", "/explore-jfk/accessibility-services", "/explore-jfk/accessibility-services/handicap-transportation", "/explore-jfk/accessibility-services/vision-accessibility-services", "/explore-jfk/accessibility-services/hidden-disabilities-accessibility", "/explore-jfk/accessibility-services/hearing-accessibility", "/explore-jfk/accessibility-services/mobility-accessibility", "/explore-jfk/hotels", "/explore-jfk/services", "/explore-jfk/terminals", "/explore-jfk/terminals/terminal-1", "/explore-jfk/terminals/terminal-1/airlines-at-terminal-1", "/explore-jfk/terminals/terminal-4", "/explore-jfk/terminals/terminal-4/About-JFKIAT", "/explore-jfk/terminals/terminal-4/Airlines-in-T4", "/explore-jfk/terminals/terminal-5", "/explore-jfk/terminals/terminal-7", "/explore-jfk/terminals/terminal-8", "/explore-jfk/terminals/terminal-8/airlines-at-terminal-8",
+    "/dine-shop-relax/food", "/dine-shop-relax/shops", "/dine-shop-relax/lounge-and-rest",
+    "/alerts-advisories", "/alerts-advisories/t5-t7-ride-app-relocations", "/alerts-advisories/t5-t7-t8-access-changes", "/alerts-advisories/t4-ride-app-relocation", "/alerts-advisories/t4-roadway-changes", "/alerts-advisories/t7-taxi-relocation", "/alerts-advisories/t5-taxi-yellow-cab-relocated", "/alerts-advisories/jfk-redevelopment", "/alerts-advisories/jfk-security-wait-times-suspended", "/alerts-advisories/terminal-4-blue-parking-lot-height-restriction",
+    "/feedback", "/contact-us", "/frequently-asked-questions", "/website-disclaimer", "/privacy", "/lost-and-found"
+  ],
+  "crawl": {
+    "succeeded": [
+      { "slug": "home", "totalMs": 18713, "waitMode": "medium" },
+      { "slug": "flights", "totalMs": 6547, "waitMode": "medium" },
+      { "slug": "transportation", "totalMs": 19265, "waitMode": "medium (fallback)" },
+      { "slug": "explore-jfk", "totalMs": 9645, "waitMode": "medium" },
+      { "slug": "dine-shop-relax", "totalMs": 7660, "waitMode": "medium" }
+    ],
+    "failures": [],
+    "notes": "transportation fell back to domcontentloaded after networkidle did not resolve in 8s — likely live-data widgets (parking availability) keep network active. Page captured but may be under-instrumented for late-binding sections."
+  }
+}

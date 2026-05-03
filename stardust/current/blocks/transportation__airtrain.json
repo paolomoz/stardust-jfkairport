@@ -1,0 +1,260 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:52.121Z",
+    "url": "https://www.jfkairport.com/transportation/airtrain",
+    "slug": "transportation__airtrain",
+    "httpStatus": 200,
+    "totalMs": 2683,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": {
+    "text": "infoGetting to and from JFK may take longer than usual due to construction at the airport. Please allow for significantly more time. We recommend taking Public Transportation.Learn more",
+    "ctas": [
+      {
+        "text": "Public Transportation.",
+        "href": "/transportation/public-transport"
+      },
+      {
+        "text": "Learn more",
+        "href": "/alerts-advisories"
+      }
+    ]
+  },
+  "h1": "AirTrain",
+  "lede": "AirTrain JFK single-ride fare is $8.75. Children under five ride for free. If you are using public transportation to or from the airport, you will be charged when entering/exiting Jamaica Station and Howard Beach AirTrain stations. Contactless Payment You can pay for AirTrain JFK fare using any contactless payment method such as a credit card, debit card or a mobile device with Apple Pay or Google Pay, or with an OMNY card. Discounted AirTrain JFK fare products by OMNY are coming soon. You can purchase a new OMNY card or refill your existing OMNY card using cash, credit card, or debit card at the ticket vending machines located in Howard Beach or Jamaica MTA Subway stations. Contactless fare payments are powered by the MTA’s OMNY system. OMNY is available on all NYC subways and buses, as well as the Roosevelt Island Tram. For assistance, see an airport customer experience specialist wearing a red uniform. For OMNY customer service, please call +1 (877) 789-6669 or online at OMNY.info.",
+  "heroImage": null,
+  "blocks": [
+    {
+      "h2": "AirTrain is the best way to navigate JFK",
+      "h3s": [],
+      "paragraphs": [
+        "Whether you're moving between terminals, leaving the airport via pick-up areas, or headed to public transit, rental cars, or a hotel shuttle, the AirTrain is the easiest way to get around JFK.",
+        "JFK’s AirTrain connects you to parking areas, the Long Island Rail Road (LIRR), New York City Subway and local buses.",
+        "Use our interactive map opens in a new tab for directions around the airport."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-5_7%20AirTrain%20Service%20Map:square-1x1?wid=1200&hei=1200&fit=constrain&qlt=80",
+          "alt": "A map of JFK's AirTrain route system",
+          "w": 1200,
+          "h": 1200
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "interactive map opens in a new tab",
+          "href": "https://maps.jfkairport.com"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "AirTrain connections",
+      "h3s": [
+        "Between passenger terminals",
+        "To and from NYC public transportation",
+        "To and from parking lots",
+        "To and from hotel shuttles",
+        "To and from rental cars"
+      ],
+      "paragraphs": [
+        "The AirTrain takes passengers between terminals at JFK in under 10 minutes. This is a free, convenient service to access your connecting gate. Trains run every 5-10 minutes, but be sure to check monitors in the AirTrain station for any service changes.",
+        "You can access public transportation by taking the AirTrain to Jamaica or Howard Beach Station. The one-way AirTrain fare between JFK and these stations is $8.75. To learn more, visit our public transportation page.",
+        "You can easily access parking areas by taking the AirTrain. Each terminal is a short walk to its nearby short-term parking lot. Long-term parking is available near the Lefferts Boulevard Station.",
+        "Heading to your hotel? JFK offers a designated hotel shuttle pickup and dropoff area. Take the AirTrain to Federal Circle via the Jamaica or Howard Beach AirTrain lines to access hotel shuttles.",
+        "JFK partners with most rental companies. If you are looking to pick up or drop off a rental car, go to Federal Circle Station. Take the AirTrain there using the Jamaica or Howard Beach lines or from any terminal."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Learn more",
+          "href": "/transportation/public-transport"
+        },
+        {
+          "text": "Find and book parking",
+          "href": "/transportation/airport-parking"
+        },
+        {
+          "text": "Reserve a rental car",
+          "href": "/transportation/car-rentals"
+        }
+      ],
+      "tables": [],
+      "subPattern": "service-grid",
+      "subData": [
+        {
+          "title": "Between passenger terminals",
+          "text": "The AirTrain takes passengers between terminals at JFK in under 10 minutes. This is a free, convenient service to access your connecting gate. Trains run every 5-10 minutes, but be sure to check monitors in the AirTrain station for any service changes.",
+          "href": "/transportation/public-transport"
+        },
+        {
+          "title": "To and from NYC public transportation",
+          "text": "You can access public transportation by taking the AirTrain to Jamaica or Howard Beach Station. The one-way AirTrain fare between JFK and these stations is $8.75. To learn more, visit our public transportation page.",
+          "href": "/transportation/airport-parking"
+        },
+        {
+          "title": "To and from parking lots",
+          "text": "You can easily access parking areas by taking the AirTrain. Each terminal is a short walk to its nearby short-term parking lot. Long-term parking is available near the Lefferts Boulevard Station.",
+          "href": "/transportation/car-rentals"
+        },
+        {
+          "title": "To and from hotel shuttles",
+          "text": "Heading to your hotel? JFK offers a designated hotel shuttle pickup and dropoff area. Take the AirTrain to Federal Circle via the Jamaica or Howard Beach AirTrain lines to access hotel shuttles.",
+          "href": null
+        },
+        {
+          "title": "To and from rental cars",
+          "text": "JFK partners with most rental companies. If you are looking to pick up or drop off a rental car, go to Federal Circle Station. Take the AirTrain there using the Jamaica or Howard Beach lines or from any terminal.",
+          "href": null
+        }
+      ]
+    },
+    {
+      "h2": "The AirTrain is accessible",
+      "h3s": [],
+      "paragraphs": [
+        "All AirTrain trains and stations are ADA-compliant. This makes it easier for everyone, including travelers with mobility devices, strollers, or luggage, to travel comfortably and safely. The stations feature elevators and escalators, and each train has wheelchair spaces. Wheelchair-accessible subway connections are available at Jamaica and Howard Beach stations; at Jamaica station, travelers can also connect to Long Island Rail Road. For travelers who are deaf or hard of hearing, there are visual signs on the train and in the stations. For travelers who are blind or have low-vision, there are announcements on board the train and service animals are welcome. Additionally, there are tactile platform warning surfaces and raised-letter and Braille signs."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-5_8_airtrainpay:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1440
+        }
+      ],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Paying for AirTrain",
+      "h3s": [],
+      "paragraphs": [
+        "AirTrain JFK single-ride fare is $8.75. Children under five ride for free.",
+        "If you are using public transportation to or from the airport, you will be charged when entering/exiting Jamaica Station and Howard Beach AirTrain stations.",
+        "Contactless Payment",
+        "You can pay for AirTrain JFK fare using any contactless payment method such as a credit card, debit card or a mobile device with Apple Pay or Google Pay, or with an OMNY card.",
+        "Discounted AirTrain JFK fare products by OMNY are coming soon.",
+        "You can purchase a new OMNY card or refill your existing OMNY card using cash, credit card, or debit card at the ticket vending machines located in Howard Beach or Jamaica MTA Subway stations.",
+        "Contactless fare payments are powered by the MTA’s OMNY system. OMNY is available on all NYC subways and buses, as well as the Roosevelt Island Tram. For assistance, see an airport customer experience specialist wearing a red uniform. For OMNY customer service, please call +1 (877) 789-6669 or online at OMNY.info."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "+1 (877) 789-6669",
+          "href": "tel:18777896669"
+        },
+        {
+          "text": "OMNY.info",
+          "href": "https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fomny.info%2Fcontact&data=05%7C02%7Clasmith%40panynj.gov%7C887e8603876043dc01f608de7ba2a50f%7Cc4484a25d0d84ad0916aa889b6aa7a02%7C0%7C0%7C639084135659315111%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=kxOnhcIFvkvj2F6%2Bjn%2BgPiCJSFQKgzMNdJRVZ8HfVOY%3D&reserved=0"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "JFK AirTrain rules and policies",
+      "h3s": [
+        "Traveling on AirTrain with a Bicycle"
+      ],
+      "paragraphs": [
+        "None of the terminals or parking lots are equipped with bike racks, and bicycles are not permitted on the Central Terminal Area roadways at any time. There are several convenient access points for bicyclists traveling to JFK Airport that provide convenient connection to JFK Airport Terminal Area.",
+        "Learn more about the bicycle access points opens in a new tab"
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Learn more about the bicycle access points opens in a new tab",
+          "href": "https://www.panynj.gov/port-authority/en/help-center/information-for-bicyclists.html"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "FAQs",
+      "h3s": [],
+      "paragraphs": [
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "Does the JFK AirTrain connect to public transportation?"
+        },
+        {
+          "text": "Is the JFK AirTrain accessible?"
+        },
+        {
+          "text": "How can I report an item lost on JFK AirTrain?"
+        }
+      ],
+      "links": [
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}

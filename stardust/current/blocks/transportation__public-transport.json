@@ -1,0 +1,316 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract-deep",
+    "writtenAt": "2026-05-03T15:44:58.650Z",
+    "url": "https://www.jfkairport.com/transportation/public-transport",
+    "slug": "transportation__public-transport",
+    "httpStatus": 200,
+    "totalMs": 4003,
+    "stardustVersion": "0.3.0"
+  },
+  "advisory": null,
+  "h1": "Public Transportation",
+  "lede": "Our AirTrain stations are easily accessible via the NYC subway and the Long Island Rail Road (LIRR) connecting you to any of JFK's terminals on public transportation.Learn more about AirTrain",
+  "heroImage": {
+    "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-1_passenger:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+    "alt": "",
+    "w": 1920,
+    "h": 1440
+  },
+  "blocks": [
+    {
+      "h2": "Public transportation options",
+      "h3s": [],
+      "paragraphs": [
+        "Our AirTrain stations are easily accessible via the NYC subway and the Long Island Rail Road (LIRR) connecting you to any of JFK's terminals on public transportation."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "AirTrain stations",
+          "href": "/transportation/airtrain"
+        },
+        {
+          "text": "Learn more about AirTrain",
+          "href": "/transportation/airtrain"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Common trips to and from JFK",
+      "h3s": [
+        "Paying for public transportation"
+      ],
+      "paragraphs": [
+        "Check out the sample routes, fares, and travel times for common trips to and from the airport. All fares include AirTrain fee of $8.75.",
+        "Subway - You’ll pay your fare when entering the subway. Simply tap any contactless credit or debit card, smartphone, or wearable device, or use an OMNY card. The subway fare is: $3.00, and once you’re in, you can ride as far as you’d like—you only pay each time you enter the system.",
+        "AirTrain requires a separate fare from the subway, LIRR, and Metro-North Railroad.Learn more about the AirTrain"
+      ],
+      "images": [],
+      "ctas": [
+        {
+          "text": "Midtown Manhattan - Penn Station"
+        },
+        {
+          "text": "Midtown Manhattan - Grand Central Madison"
+        },
+        {
+          "text": "Lower Manhattan - Below 14th Street"
+        },
+        {
+          "text": "Southern Queens - Ozone Park"
+        },
+        {
+          "text": "Northern Brooklyn - Bushwick and East Williamsburg"
+        },
+        {
+          "text": "Southern Brooklyn - Downtown"
+        },
+        {
+          "text": "Long Island - Jamaica-Sutphin Blvd"
+        },
+        {
+          "text": "Jamaica Station (JFK) - LIRR - Metro North"
+        },
+        {
+          "text": "New Jersey - Newark Penn Station"
+        }
+      ],
+      "links": [
+        {
+          "text": "TrainTime app opens in a new tab",
+          "href": "https://new.mta.info/traintime"
+        },
+        {
+          "text": "Learn more about the AirTrain",
+          "href": "/transportation/airtrain"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "The best way to get to JFK",
+      "h3s": [],
+      "paragraphs": [
+        "Take the subway or LIRR, just 20 minutes from NY Penn or Grand Central Madison to the AirTrain. This is the best option, as it avoids traffic and saves time and money."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/1-2_4_TransportationandParkingCard:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1392,
+          "h": 1043
+        }
+      ],
+      "ctas": [],
+      "links": [],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Navigate JFK with the AirTrain",
+      "h3s": [],
+      "paragraphs": [
+        "The AirTrain connects passengers to terminals, airport parking lots, the hotel shuttle area, the rental car center, and public transportation."
+      ],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-1_3_accessibletransportationimage:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1918,
+          "h": 1440
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Learn about the JFK AirTrain",
+          "href": "/transportation/airtrain"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Accessibility on public transportation",
+      "h3s": [],
+      "paragraphs": [
+        "JFK offers accessible public transportation options that travel around the airport. All JFK AirTrain stations are fully accessible. MTA buses have accessibility features and many subway and LIRR stations are ADA-accessible, including the Howard Beach-JFK Airport subway station and the Jamaica LIRR station.",
+        "For more information, call 511 or (888) GO511NY (+1 (888) 465-1169), or visit the MTA’s website."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "511",
+          "href": "tel:1511"
+        },
+        {
+          "text": "+1 (888) 465-1169",
+          "href": "tel:18884651169"
+        },
+        {
+          "text": "Visit MTA",
+          "href": "https://www.mta.info/accessibility"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "Public transportation safety tips",
+      "h3s": [],
+      "paragraphs": [],
+      "images": [
+        {
+          "src": "https://s7d9.scene7.com/is/image/panynjaviation/2-1_4_transitsafetytips:photo-4x3?wid=1920&hei=1440&fit=constrain&qlt=80",
+          "alt": "",
+          "w": 1920,
+          "h": 1440
+        }
+      ],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Learn more",
+          "href": "https://www.mta.info/safety-and-security"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    },
+    {
+      "h2": "NYC public transportation resources",
+      "h3s": [
+        "MTA Website",
+        "LIRR Website",
+        "TrainTime App",
+        "CityTicket"
+      ],
+      "paragraphs": [
+        "Additional resources are available for navigating public transportation, such as MTA stations, LIRR times, learning how to pay for transit and the TrainTime app for schedules.",
+        "NYC’s MTA subway system is a great way to get around the city and to your destination. The website provides a trip planner, accessibility resources, delay updates and more. Stay up to date with the latest from the MTA.",
+        "The Long Island Rail Road is a commuter rail that connects passengers from JFK and the city to Long Island. Find more information about fares, schedules and station information by visiting their website.",
+        "If you're traveling via Long Island Rail Road or Metro North commuter rail, the TrainTime is your one-stop shop for buying tickets, planning trips and checking schedules. Save time and stress by purchasing tickets in advance on your mobile device.",
+        "If you are traveling within New York City on the LIRR or Metro-North, you can purchase a CityTicket. A CityTicket cost $5.25 off-peak and $7.25 peak for rides on the LIRR or Metro-North. If you’re switching between the two lines, you can transfer at Grand Central with a Combo Ticket for $8.00."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Visit the MTA website",
+          "href": "https://www.mta.info"
+        },
+        {
+          "text": "Visit the LIRR website",
+          "href": "https://www.mta.info/agency/long-island-rail-road"
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.mta.info/traintime"
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.mta.info/fares-tolls/lirr-metro-north/cityticket"
+        }
+      ],
+      "tables": [],
+      "subPattern": "service-grid",
+      "subData": [
+        {
+          "title": "MTA Website",
+          "text": "Additional resources are available for navigating public transportation, such as MTA stations, LIRR times, learning how to pay for transit and the TrainTime app for schedules.",
+          "href": "https://www.mta.info"
+        },
+        {
+          "title": "LIRR Website",
+          "text": "NYC’s MTA subway system is a great way to get around the city and to your destination. The website provides a trip planner, accessibility resources, delay updates and more. Stay up to date with the latest from the MTA.",
+          "href": "https://www.mta.info/agency/long-island-rail-road"
+        },
+        {
+          "title": "TrainTime App",
+          "text": "The Long Island Rail Road is a commuter rail that connects passengers from JFK and the city to Long Island. Find more information about fares, schedules and station information by visiting their website.",
+          "href": "https://www.mta.info/traintime"
+        },
+        {
+          "title": "CityTicket",
+          "text": "If you're traveling via Long Island Rail Road or Metro North commuter rail, the TrainTime is your one-stop shop for buying tickets, planning trips and checking schedules. Save time and stress by purchasing tickets in advance on your mobile device.",
+          "href": "https://www.mta.info/fares-tolls/lirr-metro-north/cityticket"
+        }
+      ]
+    },
+    {
+      "h2": "FAQs",
+      "h3s": [],
+      "paragraphs": [
+        "The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000",
+        "© 2001-2026 The Port Authority of New York and New Jersey. All Rights Reserved."
+      ],
+      "images": [],
+      "ctas": [],
+      "links": [
+        {
+          "text": "Accessibility",
+          "href": "/explore-jfk/accessibility-services"
+        },
+        {
+          "text": "Air Cargo",
+          "href": "https://www.panynj.gov/airports/en/air-cargo/jfk.html"
+        },
+        {
+          "text": "Alerts and Advisories",
+          "href": "/alerts-advisories"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "FAQ",
+          "href": "/frequently-asked-questions"
+        },
+        {
+          "text": "Feedback",
+          "href": "/feedback"
+        },
+        {
+          "text": "PANYNJ Airports Information",
+          "href": "https://www.panynj.gov/airports/en/index.html"
+        },
+        {
+          "text": "JFK Redevelopment",
+          "href": "https://www.portauthoritybuilds.com/redevelopment/us/en/jfk.html"
+        },
+        {
+          "text": "Lost and Found",
+          "href": "/lost-and-found"
+        },
+        {
+          "text": "Press",
+          "href": "https://www.panynj.gov/port-authority/en/press-room.html"
+        },
+        {
+          "text": "Website Disclaimer",
+          "href": "/website-disclaimer"
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "/privacy"
+        }
+      ],
+      "tables": [],
+      "subPattern": null,
+      "subData": []
+    }
+  ]
+}
