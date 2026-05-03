@@ -119,21 +119,55 @@
 
 (function () {
   // Megamenu: click toggles open; Escape and outside-click close.
-  // Hover handles desktop without JS (CSS .nav-item:hover .megamenu).
   // Click is the touch / accessibility path.
+  // Hover behavior is JS-driven below with a debounced close so the cursor can
+  // traverse the gap between trigger and panel without losing :hover.
+  var HOVER_CLOSE_DELAY = 240;
+  var isFinePointer = window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+
   document.querySelectorAll('header nav.primary-nav .nav-item').forEach(function (item) {
     var trigger = item.querySelector('.nav-trigger');
+    var megamenu = item.querySelector('.megamenu');
     if (!trigger) return;
+
+    var closeTimer = null;
+    function clearCloseTimer() { if (closeTimer) { clearTimeout(closeTimer); closeTimer = null; } }
+    function openMenu() {
+      clearCloseTimer();
+      document.querySelectorAll('header nav.primary-nav .nav-item.is-open').forEach(function (o) {
+        if (o !== item) {
+          o.classList.remove('is-open');
+          var t = o.querySelector('.nav-trigger'); if (t) t.setAttribute('aria-expanded', 'false');
+        }
+      });
+      item.classList.add('is-open');
+      trigger.setAttribute('aria-expanded', 'true');
+    }
+    function closeMenu() {
+      item.classList.remove('is-open');
+      trigger.setAttribute('aria-expanded', 'false');
+    }
+    function scheduleClose() {
+      clearCloseTimer();
+      closeTimer = setTimeout(closeMenu, HOVER_CLOSE_DELAY);
+    }
+
+    // Click toggles open (touch + keyboard path)
     trigger.addEventListener('click', function (e) {
       e.preventDefault();
-      var wasOpen = item.classList.contains('is-open');
-      // Close any other open items
-      document.querySelectorAll('header nav.primary-nav .nav-item.is-open').forEach(function (o) {
-        if (o !== item) { o.classList.remove('is-open'); o.querySelector('.nav-trigger')?.setAttribute('aria-expanded', 'false'); }
-      });
-      item.classList.toggle('is-open', !wasOpen);
-      trigger.setAttribute('aria-expanded', String(!wasOpen));
+      if (item.classList.contains('is-open')) closeMenu(); else openMenu();
     });
+
+    // Hover-driven on desktop with fine pointer; debounced close handles the
+    // cursor-traversal gap between trigger and panel.
+    if (isFinePointer) {
+      item.addEventListener('mouseenter', openMenu);
+      item.addEventListener('mouseleave', scheduleClose);
+      if (megamenu) {
+        megamenu.addEventListener('mouseenter', clearCloseTimer);
+        megamenu.addEventListener('mouseleave', scheduleClose);
+      }
+    }
   });
 
   document.addEventListener('click', function (e) {
