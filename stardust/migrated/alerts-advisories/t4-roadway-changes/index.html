@@ -15,11 +15,12 @@
 <!--
 _provenance:
   writtenBy: stardust:migrate-rich
-  writtenAt: 2026-05-03T15:53:25.415Z
+  writtenAt: 2026-05-03T16:48:26.108Z
   slug: alerts-advisories__t4-roadway-changes
   type: alert-content
   source: stardust/current/blocks/alerts-advisories__t4-roadway-changes.json
   designLock: stardust/prototypes/home-proposed.html
+  navSystem: megamenu (4 top items, hover desktop / click mobile) + breadcrumbs (deep pages) + back-to-top
 -->
 </head>
 <body data-page-type="alert-content">
@@ -28,17 +29,127 @@ _provenance:
   <a href="/" class="logo" aria-label="John F. Kennedy International Airport">
     <img src="/assets/media/JFK-cd579a20.svg" alt="John F. Kennedy International Airport">
   </a>
-  <nav data-section="primary-nav" aria-label="Main">
-    <a href="/flights/">Flights</a>
-    <a href="/transportation/">Transportation &amp; Parking</a>
-    <a href="/explore-jfk/">Explore JFK</a>
-    <a href="/dine-shop-relax/">Dine, Shop, Relax</a>
+  <nav class="primary-nav" aria-label="Main">
+    <div class="nav-item" data-menu="flights">
+  <button class="nav-trigger" aria-expanded="false" aria-controls="megamenu-flights" aria-haspopup="menu">
+    Flights <span class="nav-chevron icon-chevron-down" aria-hidden="true"></span>
+  </button>
+  <div class="megamenu" id="megamenu-flights" role="menu" aria-label="Flights menu">
+    <div class="megamenu-inner">
+      <div class="megamenu-col" role="none">
+        <h5>Flights at JFK</h5>
+        <a href="/flights/" class="mega-link" role="menuitem">Flight Search</a><a href="/flights/airlines/" class="mega-link" role="menuitem">Airlines</a>
+      </div><div class="megamenu-col" role="none">
+        <h5>Guides</h5>
+        <a href="/flights/arrivals/" class="mega-link" role="menuitem">Arrivals Guide</a><a href="/flights/departures/" class="mega-link" role="menuitem">Departures Guide</a><a href="/flights/connections-guide/" class="mega-link" role="menuitem">Connections Guide</a>
+      </div>
+      <a href="/flights/" class="megamenu-feature" role="menuitem">
+        <span class="mf-eyebrow">Featured</span>
+        <h6 class="mf-title">Search a flight</h6>
+        <p class="mf-desc">Departures, arrivals, status and gate.</p>
+        <span class="mf-arrow">Open <span class="icon-arrow-right" aria-hidden="true"></span></span>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="nav-item" data-menu="transportation">
+  <button class="nav-trigger" aria-expanded="false" aria-controls="megamenu-transportation" aria-haspopup="menu">
+    Transportation &amp; Parking <span class="nav-chevron icon-chevron-down" aria-hidden="true"></span>
+  </button>
+  <div class="megamenu" id="megamenu-transportation" role="menu" aria-label="Transportation &amp; Parking menu">
+    <div class="megamenu-inner">
+      <div class="megamenu-col" role="none">
+        <h5>Get to JFK</h5>
+        <a href="/transportation/" class="mega-link" role="menuitem">Transportation Options</a><a href="/transportation/public-transport/" class="mega-link" role="menuitem">Public Transportation</a><a href="/transportation/airport-parking/" class="mega-link" role="menuitem">Parking</a><a href="/transportation/pick-up-drop-off/" class="mega-link" role="menuitem">Pick-up and Drop-off Areas</a><a href="/transportation/car-rentals/" class="mega-link" role="menuitem">Car Rentals</a>
+      </div><div class="megamenu-col" role="none">
+        <h5>Around the airport</h5>
+        <a href="/transportation/airtrain/" class="mega-link" role="menuitem">AirTrain</a><a href="/transportation/taxi-service/" class="mega-link" role="menuitem">Taxis</a><a href="/transportation/van-shuttle-service/" class="mega-link" role="menuitem">Van and Shuttle Service</a><a href="/transportation/ride-share-services/" class="mega-link" role="menuitem">Ride Apps</a>
+      </div>
+      <a href="/transportation/public-transport/" class="megamenu-feature" role="menuitem">
+        <span class="mf-eyebrow">Tip</span>
+        <h6 class="mf-title">Public transit is the fastest way to JFK</h6>
+        <p class="mf-desc">Free AirTrain plus subway / LIRR / bus.</p>
+        <span class="mf-arrow">Open <span class="icon-arrow-right" aria-hidden="true"></span></span>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="nav-item" data-menu="explore-jfk">
+  <button class="nav-trigger" aria-expanded="false" aria-controls="megamenu-explore-jfk" aria-haspopup="menu">
+    Explore JFK <span class="nav-chevron icon-chevron-down" aria-hidden="true"></span>
+  </button>
+  <div class="megamenu" id="megamenu-explore-jfk" role="menu" aria-label="Explore JFK menu">
+    <div class="megamenu-inner">
+      <div class="megamenu-col" role="none">
+        <h5>Around the airport</h5>
+        <a href="/explore-jfk/" class="mega-link" role="menuitem">Explore JFK Overview</a><a href="/explore-jfk/airport-map/" class="mega-link" role="menuitem">Airport Maps</a><a href="/explore-jfk/accessibility-services/" class="mega-link" role="menuitem">Accessibility Services</a><a href="/explore-jfk/hotels/" class="mega-link" role="menuitem">Hotels</a><a href="/explore-jfk/services/" class="mega-link" role="menuitem">Services and Amenities</a>
+      </div><div class="megamenu-col" role="none">
+        <h5>Terminals</h5>
+        <a href="/explore-jfk/terminals/terminal-1/" class="mega-link" role="menuitem">Terminal 1</a><a href="/explore-jfk/terminals/terminal-4/" class="mega-link" role="menuitem">Terminal 4</a><a href="/explore-jfk/terminals/terminal-5/" class="mega-link" role="menuitem">Terminal 5</a><a href="/explore-jfk/terminals/terminal-7/" class="mega-link" role="menuitem">Terminal 7</a><a href="/explore-jfk/terminals/terminal-8/" class="mega-link" role="menuitem">Terminal 8</a>
+      </div>
+      <a href="/explore-jfk/terminals/" class="megamenu-feature" role="menuitem">
+        <span class="mf-eyebrow">Featured</span>
+        <h6 class="mf-title">Find your terminal</h6>
+        <p class="mf-desc">Maps, gates, lounges, and walk times.</p>
+        <span class="mf-arrow">Open <span class="icon-arrow-right" aria-hidden="true"></span></span>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="nav-item" data-menu="dine-shop-relax">
+  <button class="nav-trigger" aria-expanded="false" aria-controls="megamenu-dine-shop-relax" aria-haspopup="menu">
+    Dine, Shop, Relax <span class="nav-chevron icon-chevron-down" aria-hidden="true"></span>
+  </button>
+  <div class="megamenu" id="megamenu-dine-shop-relax" role="menu" aria-label="Dine, Shop, Relax menu">
+    <div class="megamenu-inner">
+      <div class="megamenu-col" role="none">
+        <h5>Things to do</h5>
+        <a href="/dine-shop-relax/" class="mega-link" role="menuitem">Dine, Shop, Relax Overview</a><a href="/dine-shop-relax/food/" class="mega-link" role="menuitem">Dine</a><a href="/dine-shop-relax/shops/" class="mega-link" role="menuitem">Shop</a><a href="/dine-shop-relax/lounge-and-rest/" class="mega-link" role="menuitem">Relax and Lounges</a>
+      </div>
+      <a href="/dine-shop-relax/lounge-and-rest/" class="megamenu-feature" role="menuitem">
+        <span class="mf-eyebrow">Featured</span>
+        <h6 class="mf-title">Find your comfort zone</h6>
+        <p class="mf-desc">Lounges and quiet spots, by terminal.</p>
+        <span class="mf-arrow">Open <span class="icon-arrow-right" aria-hidden="true"></span></span>
+      </a>
+    </div>
+  </div>
+</div>
   </nav>
   <div class="right">
     <a href="/explore-jfk/accessibility-services/" class="icon" aria-label="Accessibility services" title="Accessibility services"><span class="icon-accessible" aria-hidden="true"></span></a>
     <button class="icon icon-btn" aria-label="Search"><span class="icon-search" aria-hidden="true"></span></button>
+    <button class="mobile-menu-trigger" aria-label="Open navigation menu" aria-controls="mobile-drawer">&#9776;</button>
   </div>
 </header>
+<aside class="mobile-drawer" id="mobile-drawer" aria-label="Mobile navigation">
+  <button class="md-close" aria-label="Close menu">&times;</button>
+  <div class="md-section">
+    <h5>Flights</h5>
+    <a href="/flights/">Flight Search</a><a href="/flights/airlines/">Airlines</a><a href="/flights/arrivals/">Arrivals Guide</a><a href="/flights/departures/">Departures Guide</a><a href="/flights/connections-guide/">Connections Guide</a>
+  </div><div class="md-section">
+    <h5>Transportation &amp; Parking</h5>
+    <a href="/transportation/">Transportation Options</a><a href="/transportation/public-transport/">Public Transportation</a><a href="/transportation/airport-parking/">Parking</a><a href="/transportation/pick-up-drop-off/">Pick-up and Drop-off Areas</a><a href="/transportation/car-rentals/">Car Rentals</a><a href="/transportation/airtrain/">AirTrain</a><a href="/transportation/taxi-service/">Taxis</a><a href="/transportation/van-shuttle-service/">Van and Shuttle Service</a><a href="/transportation/ride-share-services/">Ride Apps</a>
+  </div><div class="md-section">
+    <h5>Explore JFK</h5>
+    <a href="/explore-jfk/">Explore JFK Overview</a><a href="/explore-jfk/airport-map/">Airport Maps</a><a href="/explore-jfk/accessibility-services/">Accessibility Services</a><a href="/explore-jfk/hotels/">Hotels</a><a href="/explore-jfk/services/">Services and Amenities</a><a href="/explore-jfk/terminals/terminal-1/">Terminal 1</a><a href="/explore-jfk/terminals/terminal-4/">Terminal 4</a><a href="/explore-jfk/terminals/terminal-5/">Terminal 5</a><a href="/explore-jfk/terminals/terminal-7/">Terminal 7</a><a href="/explore-jfk/terminals/terminal-8/">Terminal 8</a>
+  </div><div class="md-section">
+    <h5>Dine, Shop, Relax</h5>
+    <a href="/dine-shop-relax/">Dine, Shop, Relax Overview</a><a href="/dine-shop-relax/food/">Dine</a><a href="/dine-shop-relax/shops/">Shop</a><a href="/dine-shop-relax/lounge-and-rest/">Relax and Lounges</a>
+  </div><div class="md-section">
+    <h5>Help</h5>
+    <a href="/contact-us/">Contact Us</a>
+    <a href="/frequently-asked-questions/">FAQ</a>
+    <a href="/lost-and-found/">Lost and Found</a>
+    <a href="/feedback/">Feedback</a>
+    <a href="/alerts-advisories/">Alerts and Advisories</a>
+  </div>
+</aside>
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+    <ol>
+      <li><a href="/">Home</a></li><li><a href="/alerts-advisories/">Alerts Advisories</a></li><li class="current" aria-current="page">Van Wyck Expressway Access Changes</li>
+    </ol>
+  </nav>
 <main id="main-content">
 
 
@@ -102,6 +213,7 @@ _provenance:
     </div>
   </div>
 </footer>
+<button class="back-to-top" aria-label="Back to top" type="button">&uarr;</button>
 <script src="/assets/canon.js"></script>
 </body>
 </html>

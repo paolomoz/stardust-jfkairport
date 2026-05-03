@@ -112,3 +112,74 @@
     console.log('%cJFK runs on people.', 'font: 700 18px "Helvetica Neue", sans-serif; color: #011565;');
     console.log('%cThanks for taking a look at the wires. Press / to search.', 'color: #475569;');
   }
+
+// ============================================
+// MEGAMENU + MOBILE DRAWER + BACK-TO-TOP (production add)
+// ============================================
+
+(function () {
+  // Megamenu: click toggles open; Escape and outside-click close.
+  // Hover handles desktop without JS (CSS .nav-item:hover .megamenu).
+  // Click is the touch / accessibility path.
+  document.querySelectorAll('header nav.primary-nav .nav-item').forEach(function (item) {
+    var trigger = item.querySelector('.nav-trigger');
+    if (!trigger) return;
+    trigger.addEventListener('click', function (e) {
+      e.preventDefault();
+      var wasOpen = item.classList.contains('is-open');
+      // Close any other open items
+      document.querySelectorAll('header nav.primary-nav .nav-item.is-open').forEach(function (o) {
+        if (o !== item) { o.classList.remove('is-open'); o.querySelector('.nav-trigger')?.setAttribute('aria-expanded', 'false'); }
+      });
+      item.classList.toggle('is-open', !wasOpen);
+      trigger.setAttribute('aria-expanded', String(!wasOpen));
+    });
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('header nav.primary-nav .nav-item')) {
+      document.querySelectorAll('header nav.primary-nav .nav-item.is-open').forEach(function (o) {
+        o.classList.remove('is-open');
+        o.querySelector('.nav-trigger')?.setAttribute('aria-expanded', 'false');
+      });
+    }
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('header nav.primary-nav .nav-item.is-open').forEach(function (o) {
+        o.classList.remove('is-open');
+        o.querySelector('.nav-trigger')?.setAttribute('aria-expanded', 'false');
+      });
+      var drawer = document.querySelector('.mobile-drawer.is-open');
+      if (drawer) drawer.classList.remove('is-open');
+    }
+  });
+})();
+
+// Mobile drawer
+(function () {
+  var trigger = document.querySelector('.mobile-menu-trigger');
+  var drawer = document.querySelector('.mobile-drawer');
+  if (!trigger || !drawer) return;
+  trigger.addEventListener('click', function () { drawer.classList.add('is-open'); document.body.style.overflow = 'hidden'; });
+  var close = drawer.querySelector('.md-close');
+  if (close) close.addEventListener('click', function () { drawer.classList.remove('is-open'); document.body.style.overflow = ''; });
+  drawer.addEventListener('click', function (e) {
+    if (e.target === drawer || e.target.tagName === 'A') {
+      drawer.classList.remove('is-open');
+      document.body.style.overflow = '';
+    }
+  });
+})();
+
+// Back-to-top
+(function () {
+  var btn = document.querySelector('.back-to-top');
+  if (!btn) return;
+  var threshold = window.innerHeight * 1.5;
+  function update() { btn.classList.toggle('is-visible', window.scrollY > threshold); }
+  window.addEventListener('scroll', update, { passive: true });
+  btn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+  update();
+})();
