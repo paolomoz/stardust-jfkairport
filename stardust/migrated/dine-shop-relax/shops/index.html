@@ -5,25 +5,23 @@
 <title>Where To Shop - JFK Airport</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#011565">
-<meta name="description" content="">
+<meta name="description" content="Find everything from fashion and travel essentials to duty-free deals and local favorites.">
 <meta property="og:title" content="Where To Shop - JFK Airport">
-<meta property="og:description" content="">
+<meta property="og:description" content="Find everything from fashion and travel essentials to duty-free deals and local favorites.">
 <meta property="og:image" content="https://s7d9.scene7.com/is/image/panynjaviation/jfk_ogimage:card-wide-16x9">
 <link rel="stylesheet" href="/assets/canon.css">
 <link rel="stylesheet" href="/assets/migrate.css">
 <link rel="stylesheet" href="/assets/migrate-rich.css">
 <!--
 _provenance:
-  writtenBy: stardust:migrate-rich
-  writtenAt: 2026-05-03T16:48:26.112Z
+  writtenBy: stardust:migrate-venues (filter-grid template)
+  writtenAt: 2026-05-03T19:14:19.089Z
   slug: dine-shop-relax__shops
-  type: service-info
-  source: stardust/current/blocks/dine-shop-relax__shops.json
-  designLock: stardust/prototypes/home-proposed.html
-  navSystem: megamenu (4 top items, hover desktop / click mobile) + breadcrumbs (deep pages) + back-to-top
+  source: stardust/current/grids/dine-shop-relax__shops.json (deep filter-grid extract)
+  capability: client-side filter on Location, Category, Search; URL param ?structureName=Terminal+N supported
 -->
 </head>
-<body data-page-type="service-info">
+<body data-page-type="venue-listing">
 <a href="#main-content" class="skip">Skip to Content</a>
 <header data-section="header" role="banner">
   <a href="/" class="logo" aria-label="John F. Kennedy International Airport">
@@ -152,41 +150,600 @@ _provenance:
   </nav>
 <main id="main-content">
 
-
-<section data-section="page-hero" class="page-hero compact">
+<section data-section="venue-page-hero" class="venue-page-hero">
   
   
-  <div class="page-hero-copy">
-    
-    <h1 class="display">Where To Shop</h1>
-    
-  </div>
+  <div class="copy"><h1 class="display">Where To Shop</h1></div>
 </section>
 
-
-<section data-section="generic" class="page-block">
-  <div class="block-inner narrow">
-    <div class="block-content">
-      <h2 class="display">From essentials to treats</h2>
-      <p>Find everything from fashion and travel essentials to duty-free deals and local favorites. Whether you&#39;re picking up last-minute gifts or just browsing, JFK’s airport shops make shopping easy.</p>
-      
-      <div class="block-ctas"><a href="/dine-shop-relax/shops/detail?poiId=4005473&amp;name=alchemy.&amp;structureName=Terminal%208&amp;returnTo=/dine-shop-relax/shops">alchemy. &rarr;</a><a href="http://maps.jfkairport.com?poiId=4005473">Terminal 8 Gate 8 &rarr;</a><a href="/dine-shop-relax/shops/detail?poiId=1411&amp;name=Bally&amp;structureName=Terminal%201&amp;returnTo=/dine-shop-relax/shops">Bally &rarr;</a><a href="http://maps.jfkairport.com?poiId=1411">Terminal 1 Gate 4 &rarr;</a></div>
+<section data-section="venue-listing" class="venue-section">
+  <div class="vs-head">
+    <h2 class="display">From essentials to favorites.</h2>
+    <p>Find everything from fashion and travel essentials to duty-free deals and local favorites.</p>
+  </div>
+  <div class="venue-filters" role="search" aria-label="Filter venues">
+    <div class="vf-field vf-location">
+      <label for="vf-location">Location</label>
+      <select id="vf-location" data-filter="terminal">
+        <option value="">All terminals</option>
+        <option value="T1">Terminal 1</option><option value="T4">Terminal 4</option><option value="T5">Terminal 5</option><option value="T7">Terminal 7</option><option value="T8">Terminal 8</option>
+      </select>
     </div>
+    <div class="vf-field"></div>
+    <div class="vf-field vf-search">
+      <label for="vf-search">Search</label>
+      <input id="vf-search" type="search" placeholder="What can we help you find?" data-filter="search" autocomplete="off">
+    </div>
+    <button type="button" class="vf-reset" data-filter-reset><span class="icon-arrow-left" aria-hidden="true"></span> Reset</button>
+  </div>
+  <div class="venue-count" data-venue-count>Showing <span class="vc-num" data-venue-shown>55</span> of <span class="vc-num">55</span></div>
+  <div class="venue-grid" data-venue-grid>
+    <article class="venue-card" data-terminal="T8" data-category="icon-shops" data-name="alchemy." data-desc="a lifestyle boutique offering handcrafted candles, perfumes, jewelry, and home décor, made in nyc with a focus on sustainability and design.">
+  <div class="vc-photo"><img src="/assets/media/venue-f2a0075f-27bb-4327-816e-a8f8c684a5b2-2b543b79.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">alchemy.</h3>
+    <p class="vc-desc">A lifestyle boutique offering handcrafted candles, perfumes, jewelry, and home décor, made in NYC with a focus on sustainability and design.</p>
+    <span class="vc-loc">T8 · Gate 8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-shops" data-name="bally" data-desc="the bally boutique features luxury handbags and shoes.">
+  <div class="vc-photo"><img src="/assets/media/venue-42fcd71f-f48d-45f7-a802-5979c7378d71-6ca279e5.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Bally</h3>
+    <p class="vc-desc">The Bally Boutique features luxury handbags and shoes.</p>
+    <span class="vc-loc">T1 · Gate 4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-shops" data-name="beautiful amore" data-desc="plant-based, vegan skincare created in queens by amerrah danielson, made for sensitive skin with love and purpose.">
+  <div class="vc-photo"><img src="/assets/media/venue-295b7f98-3e2e-4f47-a28b-b6d567bbacbc-60dbf058.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Beautiful Amore</h3>
+    <p class="vc-desc">Plant-based, vegan skincare created in Queens by Amerrah Danielson, made for sensitive skin with love and purpose.</p>
+    <span class="vc-loc">T8 · Gate 6</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-shops" data-name="beauty on 5th duty free" data-desc="shop an alluring lineup of world-renowned perfume and cosmetics brands like dior, lancôme, estée lauder, kiehl&#39;s, la mer, ysl, and charlotte tilbury.">
+  <div class="vc-photo"><img src="/assets/media/venue-f3e6fa52-3fa2-4992-9080-30cd93669838-935f5fdc.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Beauty on 5th Duty Free</h3>
+    <p class="vc-desc">Shop an alluring lineup of world-renowned perfume and cosmetics brands like Dior, Lancôme, Estée Lauder, Kiehl&#39;s, La Mer, YSL, and Charlotte Tilbury.</p>
+    <span class="vc-loc">T8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T7" data-category="icon-shops" data-name="better+" data-desc="travel essentials, personal care, and everyday lifesavers-smartly stocked and ready 24/7. from toothpaste and razors to travel meds and fresh fixes, this vending machine has your back.">
+  <div class="vc-photo"><img src="/assets/media/venue-efec9928-9c09-499c-bc47-cc42ae30dc85-8180e177.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Better+</h3>
+    <p class="vc-desc">Travel essentials, personal care, and everyday lifesavers-smartly stocked and ready 24/7. From toothpaste and razors to travel meds and fresh fixes, this vending machine has your…</p>
+    <span class="vc-loc">T7 · Gate 2</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-shops" data-name="bevo&#39;s kitchen" data-desc="small-batch jams and preserves made with love in queens, inspired by the mantra &quot;you are what you eat.">
+  <div class="vc-photo"><img src="/assets/media/venue-2c453822-018d-41e0-a62c-1223f0eecb48-9ebfdc5b.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Bevo&#39;s Kitchen</h3>
+    <p class="vc-desc">Small-batch jams and preserves made with love in Queens, inspired by the mantra &quot;you are what you eat.</p>
+    <span class="vc-loc">T8 · Gate 38</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-shops" data-name="bklyn shopping duty free" data-desc="this duty free shop specializes in fragrances, skincare products, gourmet confections, wines and spirits.">
+  <div class="vc-photo"><img src="/assets/media/venue-80630f2f-42ef-4029-9fed-bef0c5db152b-1dc2b706.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">BKLYN Shopping Duty Free</h3>
+    <p class="vc-desc">This duty free shop specializes in fragrances, skincare products, gourmet confections, wines and spirits.</p>
+    <span class="vc-loc">T8 · Gate 42</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T5" data-category="icon-shops" data-name="blue sky traders" data-desc="">
+  <div class="vc-photo"><img src="/assets/media/venue-2016-03-09_2009.21.51-21810dc0.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Blue Sky Traders</h3>
     
+    <span class="vc-loc">T5</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-shops" data-name="boss" data-desc="modern european fashion offering sharp suiting, apparel, accessories, and travel essentials for confident, sophisticated style.">
+  <div class="vc-photo"><img src="/assets/media/venue-fe96f64e-eaf2-4e0b-a052-ca5b1400fff7-1f3bf450.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Boss</h3>
+    <p class="vc-desc">Modern European fashion offering sharp suiting, apparel, accessories, and travel essentials for confident, sophisticated style.</p>
+    <span class="vc-loc">T8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-shops" data-name="breitling" data-desc="swiss luxury watches renowned for precision, aviation heritage, and bold technical performance.">
+  <div class="vc-photo"><img src="/assets/media/venue-7296ecb2-2c61-4a2b-9d6b-81dbc13f6b3f-843a5fdf.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Breitling</h3>
+    <p class="vc-desc">Swiss luxury watches renowned for precision, aviation heritage, and bold technical performance.</p>
+    <span class="vc-loc">T8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-shops" data-name="brookstone" data-desc="brookstone offers a variety of electronics and essentials for travel.">
+  <div class="vc-photo"><img src="/assets/media/venue-3798faf6-60ff-4649-866a-b806ededad5d-98633d3e.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Brookstone</h3>
+    <p class="vc-desc">Brookstone offers a variety of electronics and essentials for travel.</p>
+    <span class="vc-loc">T1 · Gate 3</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T5" data-category="icon-shops" data-name="bryant park market" data-desc="">
+  <div class="vc-photo"><img src="/assets/media/venue-e7f216e6-9d5f-43aa-a2ea-b033dce2ea19-4e5d0c1c.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Bryant Park Market</h3>
+    
+    <span class="vc-loc">T5 · Gate 521</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-shops" data-name="bvlgari" data-desc="shop at bvlgari for fashion accessories.">
+  <div class="vc-photo"><img src="/assets/media/venue-fc81bb80-854d-4a52-980a-c0bab8078dcf-05e85bcf.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Bvlgari</h3>
+    <p class="vc-desc">Shop at Bvlgari for fashion accessories.</p>
+    <span class="vc-loc">T1 · Gate 5</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-shops" data-name="chanel" data-desc="shop for the latest designer products.">
+  <div class="vc-photo"><img src="/assets/media/venue-5b483e4b-7cbb-4df1-b26e-49e54c993d45-d578ed98.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Chanel</h3>
+    <p class="vc-desc">Shop for the latest designer products.</p>
+    <span class="vc-loc">T1 · Gate 3</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-shops" data-name="chocolate &amp; more" data-desc="shop for a variety of sweets at chocolate &amp; more.">
+  <div class="vc-photo"><img src="/assets/media/venue-c46ebf1a-063c-4b2f-b23c-00ac1e413839-63b8815b.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Chocolate &amp; More</h3>
+    <p class="vc-desc">Shop for a variety of sweets at Chocolate &amp; More.</p>
+    <span class="vc-loc">T4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T5" data-category="icon-shops" data-name="cibo" data-desc="cibo express is the ultimate grab &amp; go offering sweet and savory snacks as well as an array of healthy options.">
+  <div class="vc-photo"><img src="/assets/media/venue-83c6a82e-6b53-4176-9011-475451b685b9-5e409a7f.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">CIBO</h3>
+    <p class="vc-desc">CIBO Express is the ultimate grab &amp; go offering sweet and savory snacks as well as an array of healthy options.</p>
+    <span class="vc-loc">T5</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-shops" data-name="coach" data-desc="coach is known for premium quality designer goods.">
+  <div class="vc-photo"><img src="/assets/media/venue-5dbe668b-a109-41c5-a9d7-8b8f165aa622-95dd0fdf.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Coach</h3>
+    <p class="vc-desc">Coach is known for premium quality designer goods.</p>
+    <span class="vc-loc">T1 · Gate 5</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-shops" data-name="connoisseur collection" data-desc="iconic french brand celebrated for elegant leather handbags, travel essentials, and timeless parisian design.">
+  <div class="vc-photo"><img src="/assets/media/venue-63d958fd-497a-43c5-9793-9ee5d7538a33-01e31791.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Connoisseur Collection</h3>
+    <p class="vc-desc">Iconic French brand celebrated for elegant leather handbags, travel essentials, and timeless Parisian design.</p>
+    <span class="vc-loc">T8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-shops" data-name="dear nyc" data-desc="">
+  <div class="vc-photo"><img src="/assets/media/venue-shop-2bda803f.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Dear NYC</h3>
+    
+    <span class="vc-loc">T8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-shops" data-name="dior" data-desc="wide selection of premium perfumes.">
+  <div class="vc-photo"><img src="/assets/media/venue-b1cf9a63-e582-4e0e-983d-e69ccf7cd336-17d5210d.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Dior</h3>
+    <p class="vc-desc">Wide selection of premium perfumes.</p>
+    <span class="vc-loc">T1 · Gate 4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T7" data-category="icon-shops" data-name="duty free americas" data-desc="enhance your journey with duty-free shopping at jfk">
+  <div class="vc-photo"><img src="/assets/media/venue-29b2bfc2-abf7-4b6b-8460-4d363a614f74-8b4a358b.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Duty Free Americas</h3>
+    <p class="vc-desc">Enhance your journey with duty-free shopping at JFK</p>
+    <span class="vc-loc">T7</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-shops" data-name="estee lauder" data-desc="estee lauder is well known for their cosmetics, skincare, and fragrances.">
+  <div class="vc-photo"><img src="/assets/media/venue-640fee29-9182-400b-818d-f01dfe289661-e91dc1b6.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Estee Lauder</h3>
+    <p class="vc-desc">Estee Lauder is well known for their cosmetics, skincare, and fragrances.</p>
+    <span class="vc-loc">T1 · Gate 4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-shops" data-name="fuelrod" data-desc="station that offers chargers for a fee.">
+  <div class="vc-photo"><img src="/assets/media/venue-d78fb0bb-6fe2-4cf1-aae8-48e9bfb3043f-c363d5a8.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Fuelrod</h3>
+    <p class="vc-desc">Station that offers chargers for a fee.</p>
+    <span class="vc-loc">T1</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-shops" data-name="fuelrod" data-desc="station that offers chargers for a fee.">
+  <div class="vc-photo"><img src="/assets/media/venue-f92f3ffc-0667-49d6-9c18-47a6134e0309-9e1c97b7.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Fuelrod</h3>
+    <p class="vc-desc">Station that offers chargers for a fee.</p>
+    <span class="vc-loc">T1 · Gate 3</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-shops" data-name="fuelrod" data-desc="station that offers chargers for a fee.">
+  <div class="vc-photo"><img src="/assets/media/venue-dd1a1312-04ad-4bc7-968b-e27b5d2d0b3c-66576fa8.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Fuelrod</h3>
+    <p class="vc-desc">Station that offers chargers for a fee.</p>
+    <span class="vc-loc">T1 · Gate 4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-shops" data-name="fuelrod" data-desc="station that offers chargers for a fee.">
+  <div class="vc-photo"><img src="/assets/media/venue-shop-2bda803f.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Fuelrod</h3>
+    <p class="vc-desc">Station that offers chargers for a fee.</p>
+    <span class="vc-loc">T1 · Gate 5</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-shops" data-name="hermes" data-desc="hermes is a designer brand of distinction; you can shop for a purse, jewelry, women&#39;s apparel, or fragrances.">
+  <div class="vc-photo"><img src="/assets/media/venue-2ae6923a-d8c7-4692-af35-0be4e99079d1-5ee1fe2a.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hermes</h3>
+    <p class="vc-desc">Hermes is a designer brand of distinction; you can shop for a purse, jewelry, women&#39;s apparel, or fragrances.</p>
+    <span class="vc-loc">T1 · Gate 4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T5" data-category="icon-shops" data-name="herschel" data-desc="the herschel store offers a selection of travel-ready backpacks, bags, accessories, and luggage, making it an ideal stop for travelers needing functional, last-minute gear.">
+  <div class="vc-photo"><img src="/assets/media/venue-a8673625-1716-4777-a841-32831acf18d8-a2167905.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Herschel</h3>
+    <p class="vc-desc">The Herschel store offers a selection of travel-ready backpacks, bags, accessories, and luggage, making it an ideal stop for travelers needing functional, last-minute gear.</p>
+    <span class="vc-loc">T5 · Gate 520</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-shops" data-name="hershel - stance popup" data-desc="shop for a variety of luxury travel items including luggages, travel bags, and essentials.">
+  <div class="vc-photo"><img src="/assets/media/venue-shop-2bda803f.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hershel - Stance Popup</h3>
+    <p class="vc-desc">Shop for a variety of luxury travel items including luggages, travel bags, and essentials.</p>
+    <span class="vc-loc">T4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T7" data-category="icon-shops" data-name="hudson" data-desc="hudson news features a wide array of last minute items for travelers.">
+  <div class="vc-photo"><img src="/assets/media/venue-29508c45-cabb-43d7-9656-b82c992c26af-835781a8.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson</h3>
+    <p class="vc-desc">Hudson News features a wide array of last minute items for travelers.</p>
+    <span class="vc-loc">T7</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-shops" data-name="hudson" data-desc="from snacks and travel essentials to bestselling books and tech accessories, hudson has everything you need for your journey-all in one convenient stop.">
+  <div class="vc-photo"><img src="/assets/media/venue-a88531be-ecaf-4376-a282-e6053e50fcb3-2f69ffd0.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson</h3>
+    <p class="vc-desc">From snacks and travel essentials to bestselling books and tech accessories, Hudson has everything you need for your journey-all in one convenient stop.</p>
+    <span class="vc-loc">T8 · Gate 12</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-shops" data-name="hudson" data-desc="from snacks and travel essentials to bestselling books and tech accessories, hudson has everything you need for your journey-all in one convenient stop.">
+  <div class="vc-photo"><img src="/assets/media/venue-69a9afab-a492-46e1-aba9-0805f19606bd-48c58a73.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson</h3>
+    <p class="vc-desc">From snacks and travel essentials to bestselling books and tech accessories, Hudson has everything you need for your journey-all in one convenient stop.</p>
+    <span class="vc-loc">T8 · Gate 3</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-shops" data-name="hudson" data-desc="hudson features a wide array of last minute items for travelers.">
+  <div class="vc-photo"><img src="/assets/media/venue-e35694e8-de53-412d-9177-eaa748956792-d4a47779.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson</h3>
+    <p class="vc-desc">Hudson features a wide array of last minute items for travelers.</p>
+    <span class="vc-loc">T4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-shops" data-name="hudson" data-desc="hudson features a wide array of last minute items for travelers.">
+  <div class="vc-photo"><img src="/assets/media/venue-4b56ea43-c5ef-40c2-ba58-5fcf4b713522-3aa98f56.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson</h3>
+    <p class="vc-desc">Hudson features a wide array of last minute items for travelers.</p>
+    <span class="vc-loc">T4 · Gate A4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-shops" data-name="hudson" data-desc="store offering a wide selection of the essentials from water to medicine.">
+  <div class="vc-photo"><img src="/assets/media/venue-535b96c0-2a6b-4228-baec-c590d47f9079-c04fbda5.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson</h3>
+    <p class="vc-desc">Store offering a wide selection of the essentials from water to medicine.</p>
+    <span class="vc-loc">T1 · Gate 3</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-shops" data-name="hudson" data-desc="from snacks and travel essentials to bestselling books and tech accessories, hudson has everything you need for your journey-all in one convenient stop.">
+  <div class="vc-photo"><img src="/assets/media/venue-abc1317b-25b5-4a0d-bdd0-1b1541986f94-9eaee0e0.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson</h3>
+    <p class="vc-desc">From snacks and travel essentials to bestselling books and tech accessories, Hudson has everything you need for your journey-all in one convenient stop.</p>
+    <span class="vc-loc">T8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-shops" data-name="hudson" data-desc="from snacks and travel essentials to bestselling books and tech accessories, hudson has everything you need for your journey-all in one convenient stop.">
+  <div class="vc-photo"><img src="/assets/media/venue-c4fb9fd8-b991-4193-9738-fd2e9ad18aef-be5370d2.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson</h3>
+    <p class="vc-desc">From snacks and travel essentials to bestselling books and tech accessories, Hudson has everything you need for your journey-all in one convenient stop.</p>
+    <span class="vc-loc">T8 · Gate 10</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-shops" data-name="hudson" data-desc="">
+  <div class="vc-photo"><img src="/assets/media/venue-afbe0985-c7c5-4457-879c-816d0ba51121-a80fbd9f.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson</h3>
+    
+    <span class="vc-loc">T8 · Gate 39</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-shops" data-name="hudson" data-desc="">
+  <div class="vc-photo"><img src="/assets/media/venue-shop-2bda803f.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson</h3>
+    
+    <span class="vc-loc">T8 · Gate 40</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-shops" data-name="hudson automated retail" data-desc="shop at hudson for last minute travel essentials.">
+  <div class="vc-photo"><img src="/assets/media/venue-e20ed0fb-d54e-4de9-8537-2ab79dfdfe43-e0088cfe.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson Automated Retail</h3>
+    <p class="vc-desc">Shop at Hudson for last minute travel essentials.</p>
+    <span class="vc-loc">T4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-shops" data-name="hudson news" data-desc="hudson news features a wide array of last minute items for travelers.">
+  <div class="vc-photo"><img src="/assets/media/venue-19a7d00f-2687-4ad9-b036-5706b46d0781-ee72a1c1.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson News</h3>
+    <p class="vc-desc">Hudson News features a wide array of last minute items for travelers.</p>
+    <span class="vc-loc">T1</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-shops" data-name="hudson news" data-desc="hudson news features a wide array of last minute items for travelers.">
+  <div class="vc-photo"><img src="/assets/media/venue-2651925a-0ce9-4a9e-9ec7-6822fb0c7433-76089670.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson News</h3>
+    <p class="vc-desc">Hudson News features a wide array of last minute items for travelers.</p>
+    <span class="vc-loc">T1 · Gate 4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T7" data-category="icon-shops" data-name="hudson news" data-desc="">
+  <div class="vc-photo"><img src="/assets/media/venue-0334-jfk-7-hudsonnews2-06f6651b.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson News</h3>
+    
+    <span class="vc-loc">T7 · Gate 6</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T7" data-category="icon-shops" data-name="hudson news" data-desc="">
+  <div class="vc-photo"><img src="/assets/media/venue-0365-jfk-7-hudsonnewss-29d6aa79.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson News</h3>
+    
+    <span class="vc-loc">T7 · Gate 8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-shops" data-name="hudson nonstop" data-desc="hudson features a wide array of last minute items for travelers.">
+  <div class="vc-photo"><img src="/assets/media/venue-ac1ac9cb-d8ee-41ce-ae79-e79b3f6845d4-b9fb6479.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson Nonstop</h3>
+    <p class="vc-desc">Hudson features a wide array of last minute items for travelers.</p>
+    <span class="vc-loc">T4 · Gate B47</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-shops" data-name="hudson: 149th &amp; grand" data-desc="hudson features a wide array of last minute items for travelers.">
+  <div class="vc-photo"><img src="/assets/media/venue-4d0b4e49-5fce-4041-8dbe-6f0e2bcf1cc0-5b4f5ee8.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson: 149th &amp; Grand</h3>
+    <p class="vc-desc">Hudson features a wide array of last minute items for travelers.</p>
+    <span class="vc-loc">T4 · Gate B39</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-shops" data-name="hudson: east river market" data-desc="hudson features a wide array of last minute items for travelers.">
+  <div class="vc-photo"><img src="/assets/media/venue-6cca8fc2-346b-450a-b8f5-12016034fc64-b9d93068.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson: East River Market</h3>
+    <p class="vc-desc">Hudson features a wide array of last minute items for travelers.</p>
+    <span class="vc-loc">T4 · Gate B25</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-shops" data-name="hudson: manhattan mercantile" data-desc="hudson features a wide array of last minute items for travelers.">
+  <div class="vc-photo"><img src="/assets/media/venue-26a8e118-d6e1-4251-80d0-4a923ca67c4f-21d5dd91.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson: Manhattan Mercantile</h3>
+    <p class="vc-desc">Hudson features a wide array of last minute items for travelers.</p>
+    <span class="vc-loc">T4 · Gate A2</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-shops" data-name="hudson: queens beat" data-desc="hudson features a wide array of last minute items for travelers.">
+  <div class="vc-photo"><img src="/assets/media/venue-33393d68-c006-4642-b337-5e626255f071-7440bdf8.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hudson: Queens Beat</h3>
+    <p class="vc-desc">Hudson features a wide array of last minute items for travelers.</p>
+    <span class="vc-loc">T4 · Gate A8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-shops" data-name="hugo boss" data-desc="synonymous with style, hugo boss is well known for classic high end designer men&#39;s apparel.">
+  <div class="vc-photo"><img src="/assets/media/venue-d4ba01eb-5cf2-4f61-9f91-551d6e7e4ecb-fff5c1d2.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Hugo Boss</h3>
+    <p class="vc-desc">Synonymous with style, Hugo Boss is well known for classic high end designer men&#39;s apparel.</p>
+    <span class="vc-loc">T4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-shops" data-name="i love ny" data-desc="the official store for authentic i love ny merchandise, souvenirs, and new york gifts.">
+  <div class="vc-photo"><img src="/assets/media/venue-bb898ee0-d777-4560-bf15-dd10f43b207d-c16e4933.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">I Love NY</h3>
+    <p class="vc-desc">The official store for authentic I LOVE NY merchandise, souvenirs, and New York gifts.</p>
+    <span class="vc-loc">T8 · Gate 38</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T5" data-category="icon-shops" data-name="inmotion" data-desc="from headphones to cords and connectors, you&#39;ll find everything you need to optimize your technology here.">
+  <div class="vc-photo"><img src="/assets/media/venue-cd981c12-18c7-4146-9fc2-5419daf0b16f-1854f420.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">InMotion</h3>
+    <p class="vc-desc">From headphones to cords and connectors, you&#39;ll find everything you need to optimize your technology here.</p>
+    <span class="vc-loc">T5 · Gate 521</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-shops" data-name="iporte" data-desc="shop premium portable tech and travel accessories from curated global brands.">
+  <div class="vc-photo"><img src="/assets/media/venue-05e2a3fc-ac45-4139-a68f-8f959fbb7406-4ff9fd9e.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">iPorte</h3>
+    <p class="vc-desc">Shop premium portable tech and travel accessories from curated global brands.</p>
+    <span class="vc-loc">T8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T5" data-category="icon-shops" data-name="is beauty" data-desc="is beauty in">
+  <div class="vc-photo"><img src="/assets/media/venue-f6917adc-ba5c-4c5a-aa11-bfbeb1dde184-7c2d2438.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">iS Beauty</h3>
+    <p class="vc-desc">iS Beauty in</p>
+    <span class="vc-loc">T5</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-shops" data-name="is beauty" data-desc="is beauty features an extensive selection of designer fragrances.">
+  <div class="vc-photo"><img src="/assets/media/venue-1b8e65c5-a71a-446c-acc4-e421033ff871-68dca6a3.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">iS Beauty</h3>
+    <p class="vc-desc">iS Beauty features an extensive selection of designer fragrances.</p>
+    <span class="vc-loc">T1 · Gate 4</span>
+  </div>
+</article>
+  </div>
+  <div class="venue-empty" data-venue-empty hidden>
+    <strong>No venues match.</strong>
+    Try a different terminal or clear the filter.
   </div>
 </section>
 
-<section data-section="generic" class="page-block">
-  <div class="block-inner narrow">
-    <div class="block-content">
-      <h2 class="display">FAQs</h2>
-      <p>The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000</p>
-      
-      <div class="block-ctas"><a href="/explore-jfk/accessibility-services/">Accessibility &rarr;</a><a href="https://www.panynj.gov/airports/en/air-cargo/jfk.html">Air Cargo &rarr;</a><a href="/alerts-advisories/">Alerts and Advisories &rarr;</a><a href="/contact-us/">Contact Us &rarr;</a></div>
-    </div>
-    
-  </div>
-</section>
+<script>
+(function () {
+  var grid = document.querySelector('[data-venue-grid]');
+  var cards = grid ? Array.from(grid.querySelectorAll('.venue-card')) : [];
+  if (!cards.length) return;
+  var loc = document.getElementById('vf-location');
+  var cat = document.getElementById('vf-category');
+  var search = document.getElementById('vf-search');
+  var reset = document.querySelector('[data-filter-reset]');
+  var counter = document.querySelector('[data-venue-shown]');
+  var empty = document.querySelector('[data-venue-empty]');
+
+  // Read URL params and set initial filter values
+  var params = new URLSearchParams(window.location.search);
+  var initTerminal = params.get('structureName') || params.get('terminal') || '';
+  if (initTerminal && loc) {
+    // Match "Terminal 1" → "T1"
+    var m = initTerminal.match(/Terminal\s+(\d+)/i);
+    if (m) loc.value = 'T' + m[1];
+  }
+  var initCat = params.get('category') || '';
+  if (initCat && cat) cat.value = initCat;
+  var initSearch = params.get('q') || '';
+  if (initSearch && search) search.value = initSearch;
+
+  function apply() {
+    var terminalVal = loc ? loc.value : '';
+    var catVal = cat ? cat.value : '';
+    var searchVal = search ? search.value.toLowerCase().trim() : '';
+    var shown = 0;
+    cards.forEach(function (c) {
+      var matchT = !terminalVal || c.dataset.terminal === terminalVal;
+      var matchC = !catVal || c.dataset.category === catVal;
+      var matchS = !searchVal || c.dataset.name.indexOf(searchVal) !== -1 || c.dataset.desc.indexOf(searchVal) !== -1;
+      var visible = matchT && matchC && matchS;
+      c.classList.toggle('is-hidden', !visible);
+      if (visible) shown++;
+    });
+    if (counter) counter.textContent = shown;
+    if (empty) empty.hidden = shown !== 0;
+    // Update URL without reload
+    var newParams = new URLSearchParams();
+    if (terminalVal) newParams.set('structureName', terminalVal.replace('T', 'Terminal '));
+    if (catVal) newParams.set('category', catVal);
+    if (searchVal) newParams.set('q', searchVal);
+    var qs = newParams.toString();
+    history.replaceState({}, '', window.location.pathname + (qs ? '?' + qs : ''));
+  }
+
+  [loc, cat, search].filter(Boolean).forEach(function (el) {
+    el.addEventListener('change', apply);
+    if (el.tagName === 'INPUT') el.addEventListener('input', apply);
+  });
+  if (reset) reset.addEventListener('click', function () {
+    if (loc) loc.value = '';
+    if (cat) cat.value = '';
+    if (search) search.value = '';
+    apply();
+  });
+
+  // Apply once on load (URL params may have set filters)
+  apply();
+})();
+</script>
 </main>
 <footer data-section="footer" role="contentinfo">
   <div class="inner">

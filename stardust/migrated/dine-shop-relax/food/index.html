@@ -5,25 +5,23 @@
 <title>Where To Eat - JFK Airport</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#011565">
-<meta name="description" content="">
+<meta name="description" content="Quick bites to sit-down meals across every terminal. Filter by location or category.">
 <meta property="og:title" content="Where To Eat - JFK Airport">
-<meta property="og:description" content="">
+<meta property="og:description" content="Quick bites to sit-down meals across every terminal. Filter by location or category.">
 <meta property="og:image" content="https://s7d9.scene7.com/is/image/panynjaviation/jfk_ogimage:card-wide-16x9">
 <link rel="stylesheet" href="/assets/canon.css">
 <link rel="stylesheet" href="/assets/migrate.css">
 <link rel="stylesheet" href="/assets/migrate-rich.css">
 <!--
 _provenance:
-  writtenBy: stardust:migrate-rich
-  writtenAt: 2026-05-03T16:48:26.111Z
+  writtenBy: stardust:migrate-venues (filter-grid template)
+  writtenAt: 2026-05-03T19:14:19.093Z
   slug: dine-shop-relax__food
-  type: service-info
-  source: stardust/current/blocks/dine-shop-relax__food.json
-  designLock: stardust/prototypes/home-proposed.html
-  navSystem: megamenu (4 top items, hover desktop / click mobile) + breadcrumbs (deep pages) + back-to-top
+  source: stardust/current/grids/dine-shop-relax__food.json (deep filter-grid extract)
+  capability: client-side filter on Location, Category, Search; URL param ?structureName=Terminal+N supported
 -->
 </head>
-<body data-page-type="service-info">
+<body data-page-type="venue-listing">
 <a href="#main-content" class="skip">Skip to Content</a>
 <header data-section="header" role="banner">
   <a href="/" class="logo" aria-label="John F. Kennedy International Airport">
@@ -152,41 +150,552 @@ _provenance:
   </nav>
 <main id="main-content">
 
-
-<section data-section="page-hero" class="page-hero compact">
+<section data-section="venue-page-hero" class="venue-page-hero">
   
   
-  <div class="page-hero-copy">
-    
-    <h1 class="display">Where To Eat</h1>
-    
-  </div>
+  <div class="copy"><h1 class="display">Where To Eat</h1></div>
 </section>
 
-
-<section data-section="generic" class="page-block">
-  <div class="block-inner narrow">
-    <div class="block-content">
-      <h2 class="display">Find something delicious</h2>
-      <p>From quick snacks to sit-down restaurants, you will find everything from pizza and sandwiches to international dishes and healthy options. Whether you want coffee, desserts, a nice cocktail, a glass of wine, or a full meal, JFK’s airport…</p>
-      
-      <div class="block-ctas"><a href="/dine-shop-relax/food/detail?poiId=4004714&amp;name=Air%20Bar&amp;structureName=Jamaica%20Station%20(AirTrain)&amp;returnTo=/dine-shop-relax/food">Air Bar &rarr;</a><a href="http://maps.jfkairport.com?poiId=4004714">Jamaica Station (AirTrain) &rarr;</a><a href="/dine-shop-relax/food/detail?poiId=4005552&amp;name=Alidoro&amp;structureName=Terminal%208&amp;returnTo=/dine-shop-relax/food">Alidoro &rarr;</a><a href="http://maps.jfkairport.com?poiId=4005552">Terminal 8 Gates 39 and 41 &rarr;</a></div>
+<section data-section="venue-listing" class="venue-section">
+  <div class="vs-head">
+    <h2 class="display">From essentials to favorites.</h2>
+    <p>Quick bites to sit-down meals across every terminal. Filter by location or category.</p>
+  </div>
+  <div class="venue-filters" role="search" aria-label="Filter venues">
+    <div class="vf-field vf-location">
+      <label for="vf-location">Location</label>
+      <select id="vf-location" data-filter="terminal">
+        <option value="">All terminals</option>
+        <option value="T1">Terminal 1</option><option value="T4">Terminal 4</option><option value="T5">Terminal 5</option><option value="T7">Terminal 7</option><option value="T8">Terminal 8</option>
+      </select>
     </div>
+    <div class="vf-field vf-category">
+      <label for="vf-category">Type</label>
+      <select id="vf-category" data-filter="category">
+        <option value="">All</option>
+        <option value="icon-restaurants">Restaurants</option><option value="icon-cafe">Cafés</option><option value="icon-bars">Bars</option><option value="icon-shops">Markets</option><option value="icon-apps">Order via app</option>
+      </select>
+    </div>
+    <div class="vf-field vf-search">
+      <label for="vf-search">Search</label>
+      <input id="vf-search" type="search" placeholder="What can we help you find?" data-filter="search" autocomplete="off">
+    </div>
+    <button type="button" class="vf-reset" data-filter-reset><span class="icon-arrow-left" aria-hidden="true"></span> Reset</button>
+  </div>
+  <div class="venue-count" data-venue-count>Showing <span class="vc-num" data-venue-shown>49</span> of <span class="vc-num">49</span></div>
+  <div class="venue-grid" data-venue-grid>
+    <article class="venue-card" data-terminal="T8" data-category="icon-restaurants" data-name="alidoro" data-desc="an italian specialty sandwich shop originally founded in 1986 in the heart of new york city&#39;s soho, now with locations across nyc. we offer over 40 different sandwiches that we make fresh daily from only the finest italian ingredients.">
+  <div class="vc-photo"><img src="/assets/media/venue-f867569b-41b0-4227-b190-e58ac249e6d7-abda5b13.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Alidoro</h3>
+    <p class="vc-desc">An Italian specialty sandwich shop originally founded in 1986 in the heart of New York City&#39;s SoHo, now with locations across NYC. We offer over 40 different sandwiches that we…</p>
+    <span class="vc-loc">T8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T7" data-category="icon-restaurants" data-name="apartment 7b deli &amp; market" data-desc="">
+  <div class="vc-photo"><img src="/assets/media/venue-71e59a93-4b5b-41fa-a9d5-2d82667542c2-efa01b46.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Apartment 7B Deli &amp; Market</h3>
     
+    <span class="vc-loc">T7 · Gate 6</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-restaurants" data-name="arrivals eatery" data-desc="arrivals eatery features various eateries such as dunkin&#39;, camden food company, and other cafes for travelers after clearing customs, offering quick bites and drinks before exiting the airport.">
+  <div class="vc-photo"><img src="/assets/media/venue-JFK_T1_ArrivalsEatery-18f38f6b.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Arrivals Eatery</h3>
+    <p class="vc-desc">Arrivals Eatery features various eateries such as Dunkin&#39;, Camden Food Company, and other cafes for travelers after clearing customs, offering quick bites and drinks before…</p>
+    <span class="vc-loc">T1</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T5" data-category="icon-restaurants" data-name="artichoke pizzeria" data-desc="this quick service restaurant offers travelers passing through the lga terminal c food hall pizza from renowned new york&#39;s very own artichoke pizza.">
+  <div class="vc-photo"><img src="/assets/media/venue-e4d4f103-458d-4107-8900-fe312257515c-4fded49e.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Artichoke Pizzeria</h3>
+    <p class="vc-desc">This quick service restaurant offers travelers passing through the LGA Terminal C Food Hall pizza from renowned New York&#39;s very own Artichoke pizza.</p>
+    <span class="vc-loc">T5</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T5" data-category="icon-cafe" data-name="aunt butchie&#39;s bakery café - cegm" data-desc="this brooklyn style bakery and cafe brings new york&#39;s favorite chocolate mousse cake to t5, along with its line of gourmet coffee and bakery items.">
+  <div class="vc-photo"><img src="/assets/media/venue-bda3b06f-ca2c-40c6-813e-7e494ff2d22b-d574ddf1.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-cafe" aria-hidden="true"></span> Cafés</span>
+    <h3 class="vc-name">Aunt Butchie&#39;s Bakery Café - CEGM</h3>
+    <p class="vc-desc">This Brooklyn style Bakery and Cafe brings New York&#39;s Favorite Chocolate Mousse Cake to T5, along with its line of gourmet coffee and bakery items.</p>
+    <span class="vc-loc">T5 · Gate 512</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-restaurants" data-name="bagel boss" data-desc="enjoy classic new york-style bagels, flagels, black &amp; white cookies, deli items, coffee, and more, providing a taste of authentic nyc.">
+  <div class="vc-photo"><img src="/assets/media/venue-da7bff36-84db-4961-bb7f-84e5ded9f197-54eaad1c.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Bagel Boss</h3>
+    <p class="vc-desc">Enjoy classic New York-style bagels, flagels, Black &amp; White cookies, deli items, coffee, and more, providing a taste of authentic NYC.</p>
+    <span class="vc-loc">T8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-bars" data-name="beacon bar &amp; kitchen" data-desc="restaurant &amp; bar concept serving american cuisine">
+  <div class="vc-photo"><img src="/assets/media/venue-d4690950-4c19-4e4c-99cf-1ea78893ce7f-6292fcd2.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-bars" aria-hidden="true"></span> Bars</span>
+    <h3 class="vc-name">Beacon Bar &amp; Kitchen</h3>
+    <p class="vc-desc">Restaurant &amp; Bar concept serving American cuisine</p>
+    <span class="vc-loc">T4 · Gate A11</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-restaurants" data-name="bento sushi" data-desc="bento features grab &amp; go sushi and donburi rice bowls.">
+  <div class="vc-photo"><img src="/assets/media/venue-35a0893f-08a7-4441-a75c-7ba8b84ecd05-d868dd32.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Bento Sushi</h3>
+    <p class="vc-desc">Bento features grab &amp; go sushi and donburi rice bowls.</p>
+    <span class="vc-loc">T4 · Gate B25</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T7" data-category="icon-restaurants" data-name="bento sushi" data-desc="japanese-style grab-and-go sushi and fresh rolls, prepared daily and perfect for travelers who want a quick, clean, delicious meal before takeoff. bento brings the craft of fresh and high-quality sushi from the counter to your tray.">
+  <div class="vc-photo"><img src="/assets/media/venue-7d727dcf-4033-4da0-a2b8-927b0aa03b42-307d247f.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Bento Sushi</h3>
+    <p class="vc-desc">Japanese-style grab-and-go sushi and fresh rolls, prepared daily and perfect for travelers who want a quick, clean, delicious meal before takeoff. Bento brings the craft of fresh…</p>
+    <span class="vc-loc">T7</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-cafe" data-name="bklyn blend" data-desc="this brooklyn-based black-owned juice bar provides healthy smoothies, shakes, nutritious foods, and fresh juices.">
+  <div class="vc-photo"><img src="/assets/media/venue-62976cc2-0607-4c95-9c89-007936dc0587-5530781e.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-cafe" aria-hidden="true"></span> Cafés</span>
+    <h3 class="vc-name">BKLYN Blend</h3>
+    <p class="vc-desc">This Brooklyn-based Black-owned juice bar provides healthy smoothies, shakes, nutritious foods, and fresh juices.</p>
+    <span class="vc-loc">T8 · Gate 12</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-shops" data-name="bklyn shopping duty free" data-desc="this duty free shop specializes in fragrances, skincare products, gourmet confections, wines and spirits.">
+  <div class="vc-photo"><img src="/assets/media/venue-80630f2f-42ef-4029-9fed-bef0c5db152b-1dc2b706.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">BKLYN Shopping Duty Free</h3>
+    <p class="vc-desc">This duty free shop specializes in fragrances, skincare products, gourmet confections, wines and spirits.</p>
+    <span class="vc-loc">T8 · Gate 42</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-cafe" data-name="black star bakery &amp; cafe" data-desc="a popular new york coffee &amp; pastry spot recently opened in the new boroughs foodhall at">
+  <div class="vc-photo"><img src="/assets/media/venue-1051008f-6007-4588-8285-0e78a26770d6-aa684cac.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-cafe" aria-hidden="true"></span> Cafés</span>
+    <h3 class="vc-name">Black Star Bakery &amp; Cafe</h3>
+    <p class="vc-desc">A popular New York coffee &amp; pastry spot recently opened in the new Boroughs Foodhall at</p>
+    <span class="vc-loc">T8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T5" data-category="icon-shops" data-name="blue sky traders" data-desc="">
+  <div class="vc-photo"><img src="/assets/media/venue-2016-03-09_2009.21.51-21810dc0.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Blue Sky Traders</h3>
+    
+    <span class="vc-loc">T5</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-restaurants" data-name="boulton &amp; watt" data-desc="sophisticated restaurant atmosphere serving american classics such as mac-n-cheese, burgers, and salads.">
+  <div class="vc-photo"><img src="/assets/media/venue-9e8c4046-5e5a-484f-bb28-92a1bda92c30-690dc8bb.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Boulton &amp; Watt</h3>
+    <p class="vc-desc">Sophisticated restaurant atmosphere serving American classics such as mac-n-cheese, burgers, and salads.</p>
+    <span class="vc-loc">T4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T7" data-category="icon-restaurants" data-name="brindle room" data-desc="">
+  <div class="vc-photo"><img src="/assets/media/venue-77f10b24-4a60-4c33-ad9e-5bfc42464f90-1f641b46.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Brindle Room</h3>
+    
+    <span class="vc-loc">T7</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-restaurants" data-name="brooklyn deli" data-desc="hot sandwiches &amp; comfort food with a laid-back ambiance">
+  <div class="vc-photo"><img src="/assets/media/venue-78caad31-e827-46d1-81c4-b2ebe386a61d-3f109d15.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Brooklyn Deli</h3>
+    <p class="vc-desc">Hot sandwiches &amp; comfort food with a laid-back ambiance</p>
+    <span class="vc-loc">T4 · Gate B34</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T7" data-category="icon-restaurants" data-name="brooklyn rebel" data-desc="brooklyn rebel serves up authentic new york-style pizza meant to be folded, not fussed over. with big slices, crispy crusts, and bold flavor, every bite brings the unmistakable attitude of nyc.">
+  <div class="vc-photo"><img src="/assets/media/venue-290628f3-48c3-468c-a0a8-d0eb7f929870-b57843b0.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Brooklyn Rebel</h3>
+    <p class="vc-desc">Brooklyn Rebel serves up authentic New York-style pizza meant to be folded, not fussed over. With big slices, crispy crusts, and bold flavor, every bite brings the unmistakable…</p>
+    <span class="vc-loc">T7 · Gate 3</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-restaurants" data-name="brooklyn tea &amp; market" data-desc="branded specialty coffee/café">
+  <div class="vc-photo"><img src="/assets/media/venue-d2f30e9a-50bd-47df-82ac-51c8956bb64a-7117465d.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Brooklyn Tea &amp; Market</h3>
+    <p class="vc-desc">Branded Specialty coffee/café</p>
+    <span class="vc-loc">T4 · Gate B28</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T5" data-category="icon-shops" data-name="bryant park market" data-desc="">
+  <div class="vc-photo"><img src="/assets/media/venue-e7f216e6-9d5f-43aa-a2ea-b033dce2ea19-4e5d0c1c.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Bryant Park Market</h3>
+    
+    <span class="vc-loc">T5 · Gate 521</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-restaurants" data-name="buffalo wild wings" data-desc="buffalo wild wings features hand spun wings with a range of sauces and seasonings.">
+  <div class="vc-photo"><img src="/assets/media/venue-2bb5fbf8-319d-4ef9-8b6f-59226f2e57f8-6a04369c.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Buffalo Wild Wings</h3>
+    <p class="vc-desc">Buffalo Wild Wings features hand spun wings with a range of sauces and seasonings.</p>
+    <span class="vc-loc">T4 · Gate B26</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T5" data-category="icon-restaurants" data-name="caribbean kitchen" data-desc="enjoy a variety of island flavors infused with local ingredients and caribbean flare, offering up classic and inspired dishes.">
+  <div class="vc-photo"><img src="/assets/media/venue-d615ad10-0f5e-482a-a7b0-d2f09e474964-74c2141c.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Caribbean Kitchen</h3>
+    <p class="vc-desc">Enjoy a variety of island flavors infused with local ingredients and Caribbean flare, offering up classic and inspired dishes.</p>
+    <span class="vc-loc">T5</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-shops" data-name="chocolate &amp; more" data-desc="shop for a variety of sweets at chocolate &amp; more.">
+  <div class="vc-photo"><img src="/assets/media/venue-c46ebf1a-063c-4b2f-b23c-00ac1e413839-63b8815b.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Chocolate &amp; More</h3>
+    <p class="vc-desc">Shop for a variety of sweets at Chocolate &amp; More.</p>
+    <span class="vc-loc">T4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T5" data-category="icon-shops" data-name="cibo" data-desc="cibo express is the ultimate grab &amp; go offering sweet and savory snacks as well as an array of healthy options.">
+  <div class="vc-photo"><img src="/assets/media/venue-83c6a82e-6b53-4176-9011-475451b685b9-5e409a7f.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">CIBO</h3>
+    <p class="vc-desc">CIBO Express is the ultimate grab &amp; go offering sweet and savory snacks as well as an array of healthy options.</p>
+    <span class="vc-loc">T5</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T5" data-category="icon-restaurants" data-name="cibo express" data-desc="more than 40 varieties of sandwiches and hundreds of choices for the traveler on the go.">
+  <div class="vc-photo"><img src="/assets/media/venue-34febf2b-e576-4259-8eb5-d6e2f48d4f74-9a9b5875.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Cibo Express</h3>
+    <p class="vc-desc">More than 40 varieties of sandwiches and hundreds of choices for the traveler on the go.</p>
+    <span class="vc-loc">T5</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-restaurants" data-name="cobblestones biergarten &amp; bar" data-desc="">
+  <div class="vc-photo"><img src="/assets/media/venue-304f3eac-62c3-48ef-a497-d0c91361acdf-114618e3.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Cobblestones Biergarten &amp; Bar</h3>
+    
+    <span class="vc-loc">T8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-shops" data-name="connoisseur collection" data-desc="iconic french brand celebrated for elegant leather handbags, travel essentials, and timeless parisian design.">
+  <div class="vc-photo"><img src="/assets/media/venue-63d958fd-497a-43c5-9793-9ee5d7538a33-01e31791.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Connoisseur Collection</h3>
+    <p class="vc-desc">Iconic French brand celebrated for elegant leather handbags, travel essentials, and timeless Parisian design.</p>
+    <span class="vc-loc">T8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T5" data-category="icon-restaurants" data-name="custom burgers" data-desc="custom burgers - in addition to a range of classic burgers and sandwiches offered, custom burgers allows guests a fully-customizable build-your-own option.">
+  <div class="vc-photo"><img src="/assets/media/venue-57df868e-e818-45e9-ae07-aa862c232bc5-3d942e2f.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Custom Burgers</h3>
+    <p class="vc-desc">Custom Burgers - In addition to a range of classic burgers and sandwiches offered, Custom Burgers allows guests a fully-customizable build-your-own option.</p>
+    <span class="vc-loc">T5</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-restaurants" data-name="dos toros taqueria" data-desc="dos toros is a taqueria chain that offers fresh, flavorful and melty burritos, tacos, quesadillas, bowls, salads and nachos.">
+  <div class="vc-photo"><img src="/assets/media/venue-a923d7f4-d596-47c1-9839-d9c36dd3a556-10de636c.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Dos Toros Taqueria</h3>
+    <p class="vc-desc">Dos Toros is a taqueria chain that offers fresh, flavorful and melty burritos, tacos, quesadillas, bowls, salads and nachos.</p>
+    <span class="vc-loc">T8 · Gate 35</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-bars" data-name="dos toros tequila bar" data-desc="tequila bar featuring specialty cocktails and a sophisticated tequila collection in a welcoming setting, providing an authentic bay area taste.">
+  <div class="vc-photo"><img src="/assets/media/venue-b9121444-aaec-4210-bddb-02626d1dce8a-8a150fcf.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-bars" aria-hidden="true"></span> Bars</span>
+    <h3 class="vc-name">Dos Toros Tequila Bar</h3>
+    <p class="vc-desc">Tequila bar featuring specialty cocktails and a sophisticated tequila collection in a welcoming setting, providing an authentic Bay Area taste.</p>
+    <span class="vc-loc">T8 · Gate 31</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-restaurants" data-name="downtown market" data-desc="great selection of quick bites.">
+  <div class="vc-photo"><img src="/assets/media/venue-JFK_T1_DowntownMarket-93b4e20b.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Downtown Market</h3>
+    <p class="vc-desc">Great selection of quick bites.</p>
+    <span class="vc-loc">T1 · Gate 2</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T5" data-category="icon-restaurants" data-name="dunkin&#39;" data-desc="great hot and iced coffee choices, donuts, bagels and more from the largest coffee and baked goods chain in the world.">
+  <div class="vc-photo"><img src="/assets/media/venue-9f1fed66-ce1d-4b51-855b-d6bf23eb4dcb-b09d8fad.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Dunkin&#39;</h3>
+    <p class="vc-desc">Great hot and iced coffee choices, donuts, bagels and more from the largest coffee and baked goods chain in the world.</p>
+    <span class="vc-loc">T5</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-restaurants" data-name="dunkin&#39;" data-desc="dunkin&#39; is an american favorite, serving signature breakfast items and a variety of coffee drinks.">
+  <div class="vc-photo"><img src="/assets/media/venue-IMG_20160121_150931-5bd68b30.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Dunkin&#39;</h3>
+    <p class="vc-desc">Dunkin&#39; is an American favorite, serving signature breakfast items and a variety of coffee drinks.</p>
+    <span class="vc-loc">T1</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-restaurants" data-name="dunkin&#39;" data-desc="long-running chain serving signature breakfast items &amp; a variety of coffee drinks. as well as serving sandwiches.">
+  <div class="vc-photo"><img src="/assets/media/venue-287b3458-5af0-4f88-a171-7d4ba69e9cf2-a3cb4a0e.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Dunkin&#39;</h3>
+    <p class="vc-desc">Long-running chain serving signature breakfast items &amp; a variety of coffee drinks. As well as serving sandwiches.</p>
+    <span class="vc-loc">T8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-restaurants" data-name="dunkin&#39;" data-desc="dunkin&#39; is an american favorite, featuring bakery, deli, and breakfast items.">
+  <div class="vc-photo"><img src="/assets/media/venue-24eaefda-0c42-4603-a356-6030a51428ad-82dc8f6e.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Dunkin&#39;</h3>
+    <p class="vc-desc">Dunkin&#39; is an American favorite, featuring bakery, deli, and breakfast items.</p>
+    <span class="vc-loc">T4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T7" data-category="icon-restaurants" data-name="dunkin&#39;" data-desc="fuel your journey with freshly brewed coffee, iconic donuts, and grab-and-go favorites made for life on the move. whether you&#39;re starting your day or taking a break between flights, dunkin&#39; keeps you running.">
+  <div class="vc-photo"><img src="/assets/media/venue-033b8159-44fc-46b9-b759-7f79dfc932cc-059486cc.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Dunkin&#39;</h3>
+    <p class="vc-desc">Fuel your journey with freshly brewed coffee, iconic donuts, and grab-and-go favorites made for life on the move. Whether you&#39;re starting your day or taking a break between…</p>
+    <span class="vc-loc">T7</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T7" data-category="icon-cafe" data-name="dunkin&#39;" data-desc="fuel your journey with freshly brewed coffee, iconic donuts, and grab-and-go favorites made for life on the move. whether you&#39;re starting your day or taking a break between flights, dunkin&#39; keeps you running.">
+  <div class="vc-photo"><img src="/assets/media/venue-f52371cf-8703-456c-bfc0-668e32bc3928-9409d2a8.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-cafe" aria-hidden="true"></span> Cafés</span>
+    <h3 class="vc-name">Dunkin&#39;</h3>
+    <p class="vc-desc">Fuel your journey with freshly brewed coffee, iconic donuts, and grab-and-go favorites made for life on the move. Whether you&#39;re starting your day or taking a break between…</p>
+    <span class="vc-loc">T7 · Gate 9</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-restaurants" data-name="dunkin&#39; express" data-desc="dunkin&#39; express offers coffee and bakery items.">
+  <div class="vc-photo"><img src="/assets/media/venue-dunkindonutsexpress-jfk-6-15-91534cb2.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Dunkin&#39; Express</h3>
+    <p class="vc-desc">Dunkin&#39; Express offers coffee and bakery items.</p>
+    <span class="vc-loc">T1</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-restaurants" data-name="dunkin&#39; express" data-desc="dunkin&#39; express offers coffee and bakery items.">
+  <div class="vc-photo"><img src="/assets/media/venue-14ba934d-deba-4844-adc8-8691fba71a04-33c1745d.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Dunkin&#39; Express</h3>
+    <p class="vc-desc">Dunkin&#39; Express offers coffee and bakery items.</p>
+    <span class="vc-loc">T1 · Gate 6</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T7" data-category="icon-shops" data-name="duty free americas" data-desc="enhance your journey with duty-free shopping at jfk">
+  <div class="vc-photo"><img src="/assets/media/venue-0366-jfk-7-dutyfreeamericas2-2509752d.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-shops" aria-hidden="true"></span> Markets</span>
+    <h3 class="vc-name">Duty Free Americas</h3>
+    <p class="vc-desc">Enhance your journey with duty-free shopping at JFK</p>
+    <span class="vc-loc">T7</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-restaurants" data-name="eastward" data-desc="eastward is known for their seafood menu featuring shrimp tacos, clam chowder, and fish.">
+  <div class="vc-photo"><img src="/assets/media/venue-eat-4f955337.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Eastward</h3>
+    <p class="vc-desc">Eastward is known for their seafood menu featuring shrimp tacos, clam chowder, and fish.</p>
+    <span class="vc-loc">T4 · Gate B46</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-restaurants" data-name="eat &amp; go istanbul" data-desc="eat &amp; go istanbul is a deli dishing out halal food.">
+  <div class="vc-photo"><img src="/assets/media/venue-d883550d-0073-49b8-b45f-98de2f03e1a4-a47af4cc.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Eat &amp; Go Istanbul</h3>
+    <p class="vc-desc">Eat &amp; Go Istanbul is a deli dishing out halal food.</p>
+    <span class="vc-loc">T1 · Gate 5</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-bars" data-name="eataly" data-desc="eataly offers a true italian coffee bar experience with expertly crafted espresso, pastries, and light bites served in a warm, fast-paced, and welcoming atmosphere.">
+  <div class="vc-photo"><img src="/assets/media/venue-88d98f7e-6570-44e1-accc-9aed83c62db8-178f69a5.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-bars" aria-hidden="true"></span> Bars</span>
+    <h3 class="vc-name">Eataly</h3>
+    <p class="vc-desc">Eataly offers a true Italian coffee bar experience with expertly crafted espresso, pastries, and light bites served in a warm, fast-paced, and welcoming atmosphere.</p>
+    <span class="vc-loc">T8 · Gate 43</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-bars" data-name="eataly" data-desc="eataly offers a true italian coffee bar experience with expertly crafted espresso, pastries, and light bites served in a warm, fast-paced, and welcoming atmosphere.">
+  <div class="vc-photo"><img src="/assets/media/venue-3ef54d4f-e347-489f-95a0-8749e53a95d7-db0356cf.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-bars" aria-hidden="true"></span> Bars</span>
+    <h3 class="vc-name">Eataly</h3>
+    <p class="vc-desc">Eataly offers a true Italian coffee bar experience with expertly crafted espresso, pastries, and light bites served in a warm, fast-paced, and welcoming atmosphere.</p>
+    <span class="vc-loc">T8 · Gate 45</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-restaurants" data-name="euro cafe" data-desc="euro cafe features bakery items and speciality coffee drinks.">
+  <div class="vc-photo"><img src="/assets/media/venue-a48afc44-9e8a-4d87-81d3-6a795eb95ced-54d3d18c.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-restaurants" aria-hidden="true"></span> Restaurants</span>
+    <h3 class="vc-name">Euro Cafe</h3>
+    <p class="vc-desc">Euro Cafe features bakery items and speciality coffee drinks.</p>
+    <span class="vc-loc">T1</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-apps" data-name="farmer&#39;s fridge" data-desc="farmer&#39;s fridge vending machines offer fresh chef-crafted salads, breakfast, sandwiches, and bowls, delivered daily.">
+  <div class="vc-photo"><img src="/assets/media/venue-5fc919df-157a-4723-9a85-3a77727a0601-4b774dba.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-apps" aria-hidden="true"></span> Order via app</span>
+    <h3 class="vc-name">Farmer&#39;s Fridge</h3>
+    <p class="vc-desc">Farmer&#39;s Fridge vending machines offer fresh chef-crafted salads, breakfast, sandwiches, and bowls, delivered daily.</p>
+    <span class="vc-loc">T4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T5" data-category="icon-apps" data-name="farmer&#39;s fridge" data-desc="farmer&#39;s fridge vending machines offer fresh chef-crafted salads, breakfast, sandwiches, and bowls, delivered daily.">
+  <div class="vc-photo"><img src="/assets/media/venue-48f67ef3-6aac-4ab6-a208-31a7ce23ae75-91f965fc.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-apps" aria-hidden="true"></span> Order via app</span>
+    <h3 class="vc-name">Farmer&#39;s Fridge</h3>
+    <p class="vc-desc">Farmer&#39;s Fridge vending machines offer fresh chef-crafted salads, breakfast, sandwiches, and bowls, delivered daily.</p>
+    <span class="vc-loc">T5</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T7" data-category="icon-apps" data-name="farmer&#39;s fridge" data-desc="farmer&#39;s fridge vending machines offer fresh chef-crafted salads, breakfast, sandwiches, and bowls, delivered daily.">
+  <div class="vc-photo"><img src="/assets/media/venue-cee95dd1-1dd5-44e8-85bf-eaa34bbbe5cc-3b630b8d.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-apps" aria-hidden="true"></span> Order via app</span>
+    <h3 class="vc-name">Farmer&#39;s Fridge</h3>
+    <p class="vc-desc">Farmer&#39;s Fridge vending machines offer fresh chef-crafted salads, breakfast, sandwiches, and bowls, delivered daily.</p>
+    <span class="vc-loc">T7 · Gate 2</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T7" data-category="icon-apps" data-name="farmer&#39;s fridge" data-desc="farmer&#39;s fridge vending machines offer fresh chef-crafted salads, breakfast, sandwiches, and bowls, delivered daily.">
+  <div class="vc-photo"><img src="/assets/media/venue-ef726703-c8e8-4959-a1ef-2d6273b3e8ed-dda8b399.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-apps" aria-hidden="true"></span> Order via app</span>
+    <h3 class="vc-name">Farmer&#39;s Fridge</h3>
+    <p class="vc-desc">Farmer&#39;s Fridge vending machines offer fresh chef-crafted salads, breakfast, sandwiches, and bowls, delivered daily.</p>
+    <span class="vc-loc">T7</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-apps" data-name="farmer&#39;s fridge" data-desc="farmer&#39;s fridge vending machines offer fresh chef-crafted salads, breakfast, sandwiches, and bowls, delivered daily.">
+  <div class="vc-photo"><img src="/assets/media/venue-8d14cb23-585d-4a5e-8626-b0171e2a6b9e-c16a1688.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-apps" aria-hidden="true"></span> Order via app</span>
+    <h3 class="vc-name">Farmer&#39;s Fridge</h3>
+    <p class="vc-desc">Farmer&#39;s Fridge vending machines offer fresh chef-crafted salads, breakfast, sandwiches, and bowls, delivered daily.</p>
+    <span class="vc-loc">T1</span>
+  </div>
+</article>
+  </div>
+  <div class="venue-empty" data-venue-empty hidden>
+    <strong>No venues match.</strong>
+    Try a different terminal or clear the filter.
   </div>
 </section>
 
-<section data-section="generic" class="page-block">
-  <div class="block-inner narrow">
-    <div class="block-content">
-      <h2 class="display">FAQs</h2>
-      <p>The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000</p>
-      
-      <div class="block-ctas"><a href="/explore-jfk/accessibility-services/">Accessibility &rarr;</a><a href="https://www.panynj.gov/airports/en/air-cargo/jfk.html">Air Cargo &rarr;</a><a href="/alerts-advisories/">Alerts and Advisories &rarr;</a><a href="/contact-us/">Contact Us &rarr;</a></div>
-    </div>
-    
-  </div>
-</section>
+<script>
+(function () {
+  var grid = document.querySelector('[data-venue-grid]');
+  var cards = grid ? Array.from(grid.querySelectorAll('.venue-card')) : [];
+  if (!cards.length) return;
+  var loc = document.getElementById('vf-location');
+  var cat = document.getElementById('vf-category');
+  var search = document.getElementById('vf-search');
+  var reset = document.querySelector('[data-filter-reset]');
+  var counter = document.querySelector('[data-venue-shown]');
+  var empty = document.querySelector('[data-venue-empty]');
+
+  // Read URL params and set initial filter values
+  var params = new URLSearchParams(window.location.search);
+  var initTerminal = params.get('structureName') || params.get('terminal') || '';
+  if (initTerminal && loc) {
+    // Match "Terminal 1" → "T1"
+    var m = initTerminal.match(/Terminal\s+(\d+)/i);
+    if (m) loc.value = 'T' + m[1];
+  }
+  var initCat = params.get('category') || '';
+  if (initCat && cat) cat.value = initCat;
+  var initSearch = params.get('q') || '';
+  if (initSearch && search) search.value = initSearch;
+
+  function apply() {
+    var terminalVal = loc ? loc.value : '';
+    var catVal = cat ? cat.value : '';
+    var searchVal = search ? search.value.toLowerCase().trim() : '';
+    var shown = 0;
+    cards.forEach(function (c) {
+      var matchT = !terminalVal || c.dataset.terminal === terminalVal;
+      var matchC = !catVal || c.dataset.category === catVal;
+      var matchS = !searchVal || c.dataset.name.indexOf(searchVal) !== -1 || c.dataset.desc.indexOf(searchVal) !== -1;
+      var visible = matchT && matchC && matchS;
+      c.classList.toggle('is-hidden', !visible);
+      if (visible) shown++;
+    });
+    if (counter) counter.textContent = shown;
+    if (empty) empty.hidden = shown !== 0;
+    // Update URL without reload
+    var newParams = new URLSearchParams();
+    if (terminalVal) newParams.set('structureName', terminalVal.replace('T', 'Terminal '));
+    if (catVal) newParams.set('category', catVal);
+    if (searchVal) newParams.set('q', searchVal);
+    var qs = newParams.toString();
+    history.replaceState({}, '', window.location.pathname + (qs ? '?' + qs : ''));
+  }
+
+  [loc, cat, search].filter(Boolean).forEach(function (el) {
+    el.addEventListener('change', apply);
+    if (el.tagName === 'INPUT') el.addEventListener('input', apply);
+  });
+  if (reset) reset.addEventListener('click', function () {
+    if (loc) loc.value = '';
+    if (cat) cat.value = '';
+    if (search) search.value = '';
+    apply();
+  });
+
+  // Apply once on load (URL params may have set filters)
+  apply();
+})();
+</script>
 </main>
 <footer data-section="footer" role="contentinfo">
   <div class="inner">

@@ -2,28 +2,26 @@
 <html lang="en-us">
 <head>
 <meta charset="utf-8">
-<title>Relaxation and Lounges - JFK Airport</title>
+<title>Where To Relax - JFK Airport</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#011565">
-<meta name="description" content="">
-<meta property="og:title" content="Relaxation and Lounges - JFK Airport">
-<meta property="og:description" content="">
+<meta name="description" content="Lounges, quiet spots, prayer rooms, and waiting areas in every terminal.">
+<meta property="og:title" content="Where To Relax - JFK Airport">
+<meta property="og:description" content="Lounges, quiet spots, prayer rooms, and waiting areas in every terminal.">
 <meta property="og:image" content="https://s7d9.scene7.com/is/image/panynjaviation/jfk_ogimage:card-wide-16x9">
 <link rel="stylesheet" href="/assets/canon.css">
 <link rel="stylesheet" href="/assets/migrate.css">
 <link rel="stylesheet" href="/assets/migrate-rich.css">
 <!--
 _provenance:
-  writtenBy: stardust:migrate-rich
-  writtenAt: 2026-05-03T16:48:26.112Z
+  writtenBy: stardust:migrate-venues (filter-grid template)
+  writtenAt: 2026-05-03T19:14:19.094Z
   slug: dine-shop-relax__lounge-and-rest
-  type: service-info
-  source: stardust/current/blocks/dine-shop-relax__lounge-and-rest.json
-  designLock: stardust/prototypes/home-proposed.html
-  navSystem: megamenu (4 top items, hover desktop / click mobile) + breadcrumbs (deep pages) + back-to-top
+  source: stardust/current/grids/dine-shop-relax__lounge-and-rest.json (deep filter-grid extract)
+  capability: client-side filter on Location, Category, Search; URL param ?structureName=Terminal+N supported
 -->
 </head>
-<body data-page-type="service-info">
+<body data-page-type="venue-listing">
 <a href="#main-content" class="skip">Skip to Content</a>
 <header data-section="header" role="banner">
   <a href="/" class="logo" aria-label="John F. Kennedy International Airport">
@@ -147,46 +145,431 @@ _provenance:
 </aside>
 <nav class="breadcrumbs" aria-label="Breadcrumb">
     <ol>
-      <li><a href="/">Home</a></li><li><a href="/dine-shop-relax/">Dine Shop Relax</a></li><li class="current" aria-current="page">Relaxation and Lounges</li>
+      <li><a href="/">Home</a></li><li><a href="/dine-shop-relax/">Dine Shop Relax</a></li><li class="current" aria-current="page">Where To Relax</li>
     </ol>
   </nav>
 <main id="main-content">
 
-
-<section data-section="page-hero" class="page-hero compact">
+<section data-section="venue-page-hero" class="venue-page-hero">
   
   
-  <div class="page-hero-copy">
-    
-    <h1 class="display">Relaxation and Lounges</h1>
-    
-  </div>
+  <div class="copy"><h1 class="display">Where To Relax</h1></div>
 </section>
 
-
-<section data-section="generic" class="page-block">
-  <div class="block-inner narrow">
-    <div class="block-content">
-      <h2 class="display">Unwind before you fly</h2>
-      <p>Whether you are in the mood for a massage or a last-minute manicure, there is something for everyone. Browse through airport lounges, spas, relaxation areas and more.</p>
-      
-      <div class="block-ctas"><a href="/dine-shop-relax/lounge-and-rest/detail?poiId=4005122&amp;name=Aer%20Lingus%20Lounge&amp;structureName=Terminal%207&amp;returnTo=/dine-shop-relax/lounge-and-rest">Aer Lingus Lounge &rarr;</a><a href="http://maps.jfkairport.com?poiId=4005122">Terminal 7 Gate 1 &rarr;</a><a href="/dine-shop-relax/lounge-and-rest/detail?poiId=1325&amp;name=Air%20India%20Maharaja%20Lounge&amp;structureName=Terminal%204&amp;returnTo=/dine-shop-relax/lounge-and-rest">Air India Maharaja Lounge &rarr;</a><a href="http://maps.jfkairport.com?poiId=1325">Terminal 4 Gate A5 &rarr;</a></div>
+<section data-section="venue-listing" class="venue-section">
+  <div class="vs-head">
+    <h2 class="display">From essentials to favorites.</h2>
+    <p>Lounges, quiet spots, prayer rooms, and waiting areas in every terminal.</p>
+  </div>
+  <div class="venue-filters" role="search" aria-label="Filter venues">
+    <div class="vf-field vf-location">
+      <label for="vf-location">Location</label>
+      <select id="vf-location" data-filter="terminal">
+        <option value="">All terminals</option>
+        <option value="T1">Terminal 1</option><option value="T4">Terminal 4</option><option value="T5">Terminal 5</option><option value="T7">Terminal 7</option><option value="T8">Terminal 8</option>
+      </select>
     </div>
+    <div class="vf-field vf-category">
+      <label for="vf-category">Type</label>
+      <select id="vf-category" data-filter="category">
+        <option value="">All</option>
+        <option value="icon-lounge">Lounges</option><option value="icon-waiting-area">Waiting areas</option><option value="icon-prayer-room">Prayer rooms</option>
+      </select>
+    </div>
+    <div class="vf-field vf-search">
+      <label for="vf-search">Search</label>
+      <input id="vf-search" type="search" placeholder="What can we help you find?" data-filter="search" autocomplete="off">
+    </div>
+    <button type="button" class="vf-reset" data-filter-reset><span class="icon-arrow-left" aria-hidden="true"></span> Reset</button>
+  </div>
+  <div class="venue-count" data-venue-count>Showing <span class="vc-num" data-venue-shown>35</span> of <span class="vc-num">35</span></div>
+  <div class="venue-grid" data-venue-grid>
+    <article class="venue-card" data-terminal="T7" data-category="icon-lounge" data-name="aer lingus lounge" data-desc="">
+  <div class="vc-photo"><img src="/assets/media/venue-381f4ebe-22dc-4c62-8b07-dfac8686712f-c60e7a13.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">Aer Lingus Lounge</h3>
     
+    <span class="vc-loc">T7 · Gate 1</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-lounge" data-name="air india maharaja lounge" data-desc="a quiet escape for eligible passengers. enjoy a buffet featuring authentic indian cuisine, a self-service bar, and a comfortable atmosphere to relax before your flight.">
+  <div class="vc-photo"><img src="/assets/media/venue-a918f49e-f30f-4cc6-9051-d3f87367165c-ba7068a4.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">Air India Maharaja Lounge</h3>
+    <p class="vc-desc">A quiet escape for eligible passengers. Enjoy a buffet featuring authentic Indian cuisine, a self-service bar, and a comfortable atmosphere to relax before your flight.</p>
+    <span class="vc-loc">T4 · Gate A5</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-lounge" data-name="airfrance lounge" data-desc="relax at the recently renovated airfrance lounge while enjoying a view of the new york city skyline.">
+  <div class="vc-photo"><img src="/assets/media/venue-0241-jfk-1-airfrancelounge-c5517381.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">AirFrance Lounge</h3>
+    <p class="vc-desc">Relax at the recently renovated AirFrance Lounge while enjoying a view of the New York City skyline.</p>
+    <span class="vc-loc">T1 · Gate 1</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-lounge" data-name="american airlines admirals club lounge" data-desc="american airlines admirals club offers food, drinks, wi-fi, and a kids room.">
+  <div class="vc-photo"><img src="/assets/media/venue-c393e19c-95f4-47c3-a252-b106c0809905-f259991a.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">American Airlines Admirals Club Lounge</h3>
+    <p class="vc-desc">American Airlines Admirals Club offers food, drinks, Wi-Fi, and a kids room.</p>
+    <span class="vc-loc">T8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-lounge" data-name="american express centurion lounge" data-desc="">
+  <div class="vc-photo"><img src="/assets/media/venue-39199957-6729-4a8c-b714-04c757fb85e7-16f01079.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">American Express Centurion Lounge</h3>
+    
+    <span class="vc-loc">T4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-waiting-area" data-name="be relax" data-desc="be relax has all you need for you to relax before the journey - from massaging chairs to nail services.">
+  <div class="vc-photo"><img src="/assets/media/venue-a073586c-bb85-40db-b355-cf3f9ab83d62-b35f9bf6.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-waiting-area" aria-hidden="true"></span> Waiting areas</span>
+    <h3 class="vc-name">Be Relax</h3>
+    <p class="vc-desc">Be Relax has all you need for you to relax before the journey - from massaging chairs to nail services.</p>
+    <span class="vc-loc">T1</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T5" data-category="icon-lounge" data-name="bluehouse" data-desc="">
+  <div class="vc-photo"><img src="/assets/media/venue-49b8ad68-258b-46ae-9fb7-d24499684395-0c2f123d.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">BlueHouse</h3>
+    
+    <span class="vc-loc">T5 · Gate 526</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-lounge" data-name="capital one lounge" data-desc="offering dining stations, a full bar, a coffee bar, and private shower suites.">
+  <div class="vc-photo"><img src="/assets/media/venue-667884e5-af78-4424-afbd-d31f3c3c29b8-8d5d1213.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">Capital One Lounge</h3>
+    <p class="vc-desc">Offering dining stations, a full bar, a coffee bar, and private shower suites.</p>
+    <span class="vc-loc">T4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-lounge" data-name="chase sapphire lounge by the club with etihad airways" data-desc="a unique collaboration between chase and etihad airways. guests enjoy made-to-order dining, signature cocktails, and premium wellness amenities, including shower suites and prayer rooms in an intimate, upscale setting.">
+  <div class="vc-photo"><img src="/assets/media/venue-60d62c7a-849c-483e-b3a1-44c6c71ac8f5-035214ae.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">Chase Sapphire Lounge by The Club with Etihad Airways</h3>
+    <p class="vc-desc">A unique collaboration between Chase and Etihad Airways. Guests enjoy made-to-order dining, signature cocktails, and premium wellness amenities, including shower suites and prayer…</p>
+    <span class="vc-loc">T4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-lounge" data-name="chelsea lounge" data-desc="">
+  <div class="vc-photo"><img src="/assets/media/venue-e1fbb0cd-3aee-4c93-99b4-223491907509-b5cac4df.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">Chelsea Lounge</h3>
+    
+    <span class="vc-loc">T8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-prayer-room" data-name="christ for the world chapel" data-desc="religious space for worship and prayer.">
+  <div class="vc-photo"><img src="/assets/media/venue-1c1e8f35-4e13-4ec7-8fd6-86690a5997b6-472337cf.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-prayer-room" aria-hidden="true"></span> Prayer rooms</span>
+    <h3 class="vc-name">Christ for the World Chapel</h3>
+    <p class="vc-desc">Religious space for worship and prayer.</p>
+    <span class="vc-loc">T4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-lounge" data-name="delta one lounge" data-desc="">
+  <div class="vc-photo"><img src="/assets/media/venue-01182072-345d-41e6-90a1-a90d29fa60c2-83fdfc19.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">Delta One Lounge</h3>
+    
+    <span class="vc-loc">T4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-lounge" data-name="delta sky club" data-desc="a popular retreat for members and eligible travelers. enjoy a premium buffet, full-service bar, and the outdoor sky deck for fresh air and runway views before your flight. sky club hours may vary; please check delta.com for updates.">
+  <div class="vc-photo"><img src="/assets/media/venue-Photo_20Dec_2009_2027_2031_20AM-dd6e29d4.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">Delta Sky Club</h3>
+    <p class="vc-desc">A popular retreat for members and eligible travelers. Enjoy a premium buffet, full-service bar, and the outdoor Sky Deck for fresh air and runway views before your flight. Sky…</p>
+    <span class="vc-loc">T4 · Gate B31</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-lounge" data-name="delta sky club" data-desc="a popular retreat for members and eligible travelers. enjoy a premium buffet, full-service bar, and the outdoor sky deck for fresh air and runway views before your flight. sky club hours may vary; please check delta.com for updates.">
+  <div class="vc-photo"><img src="/assets/media/venue-455760b4-6cb9-4210-ac7e-385fa119651e-edc686c4.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">Delta Sky Club</h3>
+    <p class="vc-desc">A popular retreat for members and eligible travelers. Enjoy a premium buffet, full-service bar, and the outdoor Sky Deck for fresh air and runway views before your flight. Sky…</p>
+    <span class="vc-loc">T4 · Gate A8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-lounge" data-name="emirates lounge" data-desc="enjoy a gourmet buffet, premium bar service, shower suites, and the unique convenience of boarding your flight directly from the lounge.">
+  <div class="vc-photo"><img src="/assets/media/venue-90297e59-05cb-4146-85a5-6ba5cc9ce1e9-3ee2220b.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">Emirates Lounge</h3>
+    <p class="vc-desc">Enjoy a gourmet buffet, premium bar service, shower suites, and the unique convenience of boarding your flight directly from the lounge.</p>
+    <span class="vc-loc">T4 · Gate A5</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-lounge" data-name="greenwich lounge" data-desc="enjoy our premium lounge experience with elevated dining, a wine table and luxurious atmosphere.">
+  <div class="vc-photo"><img src="/assets/media/venue-ba990061-313f-4d98-8c11-068540b62776-417a9a2d.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">Greenwich Lounge</h3>
+    <p class="vc-desc">Enjoy our premium lounge experience with elevated dining, a wine table and luxurious atmosphere.</p>
+    <span class="vc-loc">T8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-lounge" data-name="hellosky lounge" data-desc="the primeclass lounge is now hellosky at">
+  <div class="vc-photo"><img src="/assets/media/venue-d8ce0bb6-3f1a-46a9-b619-7afe241a3267-e301bec3.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">HelloSky Lounge</h3>
+    <p class="vc-desc">The Primeclass Lounge is now HelloSky at</p>
+    <span class="vc-loc">T4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T7" data-category="icon-lounge" data-name="horizons lounge" data-desc="">
+  <div class="vc-photo"><img src="/assets/media/venue-27c86148-3ea5-492b-b7e6-f20a0f21f609-5a133259.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">Horizons Lounge</h3>
+    
+    <span class="vc-loc">T7</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-prayer-room" data-name="international synagogue" data-desc="dedicated space for worship and prayer.">
+  <div class="vc-photo"><img src="/assets/media/venue-b1f642dc-4596-4555-84f6-181e471c185d-addc071e.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-prayer-room" aria-hidden="true"></span> Prayer rooms</span>
+    <h3 class="vc-name">International Synagogue</h3>
+    <p class="vc-desc">Dedicated space for worship and prayer.</p>
+    <span class="vc-loc">T4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-waiting-area" data-name="jabbrrbox escape pods" data-desc="a technology equipped workspace that is plush, and quiet. designed for the mobile workers of the world who need a better work environment on the go.">
+  <div class="vc-photo"><img src="/assets/media/venue-relax-a475761a.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-waiting-area" aria-hidden="true"></span> Waiting areas</span>
+    <h3 class="vc-name">Jabbrrbox Escape Pods</h3>
+    <p class="vc-desc">A technology equipped workspace that is plush, and quiet. Designed for the mobile workers of the world who need a better work environment on the go.</p>
+    <span class="vc-loc">T8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-lounge" data-name="korean air lounge" data-desc="the kal lounge is a place for club members to relax, take a shower, and enjoy snacks and beverages.">
+  <div class="vc-photo"><img src="/assets/media/venue-6e1e4ceb-6102-4a64-9d39-f1ced3735396-33ee02c6.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">Korean Air Lounge</h3>
+    <p class="vc-desc">The KAL Lounge is a place for club members to relax, take a shower, and enjoy snacks and beverages.</p>
+    <span class="vc-loc">T1 · Gate 3</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-lounge" data-name="lufthansa senator lounge / business lounge" data-desc="">
+  <div class="vc-photo"><img src="/assets/media/venue-b5527b77-253e-4055-8caf-fac9979452a0-adaf29bb.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">Lufthansa Senator Lounge / Business Lounge</h3>
+    
+    <span class="vc-loc">T1</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-waiting-area" data-name="minute suites" data-desc="minute suites offers travelers a private retreat past security to nap, relax, work, and more.">
+  <div class="vc-photo"><img src="/assets/media/venue-f1b81f64-9225-4272-bab4-2df85ff108d1-3c2a7be4.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-waiting-area" aria-hidden="true"></span> Waiting areas</span>
+    <h3 class="vc-name">Minute Suites</h3>
+    <p class="vc-desc">Minute Suites offers travelers a private retreat past security to nap, relax, work, and more.</p>
+    <span class="vc-loc">T4 · Gate B39</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-waiting-area" data-name="minute suites" data-desc="private suites for travelers to nap, work, or relax, right inside the terminal. each suite features a daybed sofa, workstation, high speed wi-fi, entertainment options and more.">
+  <div class="vc-photo"><img src="/assets/media/venue-478d0ee0-fb49-4bbb-bf8b-56668717618e-28612e36.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-waiting-area" aria-hidden="true"></span> Waiting areas</span>
+    <h3 class="vc-name">Minute Suites</h3>
+    <p class="vc-desc">Private suites for travelers to nap, work, or relax, right inside the terminal. Each suite features a daybed sofa, workstation, high speed Wi-Fi, entertainment options and more.</p>
+    <span class="vc-loc">T8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-prayer-room" data-name="multifaith chapel" data-desc="religious space for worship and prayer.">
+  <div class="vc-photo"><img src="/assets/media/venue-b719a055-f7d2-4752-8ef7-779994200594-0a008535.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-prayer-room" aria-hidden="true"></span> Prayer rooms</span>
+    <h3 class="vc-name">Multifaith Chapel</h3>
+    <p class="vc-desc">Religious space for worship and prayer.</p>
+    <span class="vc-loc">T4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-prayer-room" data-name="our lady of the skies chapel" data-desc="religious space for worship and prayer.">
+  <div class="vc-photo"><img src="/assets/media/venue-16cf7d75-4220-47de-9a3b-0fa64d0383ea-925eb370.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-prayer-room" aria-hidden="true"></span> Prayer rooms</span>
+    <h3 class="vc-name">Our Lady of the Skies Chapel</h3>
+    <p class="vc-desc">Religious space for worship and prayer.</p>
+    <span class="vc-loc">T4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-prayer-room" data-name="prayer area" data-desc="dedicated space for worship and prayer.">
+  <div class="vc-photo"><img src="/assets/media/venue-14812461-c446-446d-b671-4cd3df06da75-a622ced3.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-prayer-room" aria-hidden="true"></span> Prayer rooms</span>
+    <h3 class="vc-name">Prayer Area</h3>
+    <p class="vc-desc">Dedicated space for worship and prayer.</p>
+    <span class="vc-loc">T1</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-waiting-area" data-name="primeclass lounge" data-desc="prime class offers a great variety of food and space to relax for passengers">
+  <div class="vc-photo"><img src="/assets/media/venue-48dacca3-3054-4001-b5b2-a6ab06d145c2-91d2cef6.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-waiting-area" aria-hidden="true"></span> Waiting areas</span>
+    <h3 class="vc-name">Primeclass Lounge</h3>
+    <p class="vc-desc">Prime class offers a great variety of food and space to relax for passengers</p>
+    <span class="vc-loc">T1 · Gate 10</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T8" data-category="icon-lounge" data-name="soho lounge" data-desc="unwind in our ultra-premium lounge while taking in vast runway views. place a mobile order for a la carte dining without leaving your cozy chair.">
+  <div class="vc-photo"><img src="/assets/media/venue-a4ecf79d-30d4-4a04-b615-6d06aa5dfb70-265f72e1.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">Soho Lounge</h3>
+    <p class="vc-desc">Unwind in our ultra-premium lounge while taking in vast runway views. Place a mobile order for a la carte dining without leaving your cozy chair.</p>
+    <span class="vc-loc">T8</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T5" data-category="icon-waiting-area" data-name="the t5 rooftop &amp; wooftop" data-desc="get some air before you&#39;re up in the air at this post-security outdoor space, complete with places to plug in and a dog walk.">
+  <div class="vc-photo"><img src="/assets/media/venue-7820a8bf-5983-4694-b2f8-64b0ea81fd19-a7b18683.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-waiting-area" aria-hidden="true"></span> Waiting areas</span>
+    <h3 class="vc-name">The T5 Rooftop &amp; Wooftop</h3>
+    <p class="vc-desc">Get some air before you&#39;re up in the air at this post-security outdoor space, complete with places to plug in and a dog walk.</p>
+    <span class="vc-loc">T5 · Gate 528</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-lounge" data-name="turkish airlines lounge" data-desc="turkish airlines&#39; business and first class passengers are invited to use the lounge pre-flight.">
+  <div class="vc-photo"><img src="/assets/media/venue-91e0cf13-a8da-4525-b17d-088c445ced17-a3e0d5bd.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">Turkish Airlines Lounge</h3>
+    <p class="vc-desc">Turkish Airlines&#39; business and first class passengers are invited to use the Lounge pre-flight.</p>
+    <span class="vc-loc">T1 · Gate 3</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T1" data-category="icon-lounge" data-name="vip one lounge &amp; checkpoint" data-desc="pre-security lounge for those wishing to relax before proceeding through security. lounge offers expedited processing through the tsa lines upon passenger readiness to proceed to the departure gate area.">
+  <div class="vc-photo"><img src="/assets/media/venue-JFK_T1_VIP-4a1fd319.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">VIP ONE Lounge &amp; Checkpoint</h3>
+    <p class="vc-desc">Pre-Security lounge for those wishing to relax before proceeding through security. Lounge offers expedited processing through the TSA lines upon passenger readiness to proceed to…</p>
+    <span class="vc-loc">T1</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-lounge" data-name="virgin atlantic clubhouse" data-desc="a stylish, vibrant retreat known for its unique flair. eligible guests enjoy complimentary à la carte dining, a signature cocktail bar, and shower suites in a chic, upscale atmosphere">
+  <div class="vc-photo"><img src="/assets/media/venue-70227745-b7aa-4f03-a152-ca99ef2a239c-2e61f08d.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-lounge" aria-hidden="true"></span> Lounges</span>
+    <h3 class="vc-name">Virgin Atlantic Clubhouse</h3>
+    <p class="vc-desc">A stylish, vibrant retreat known for its unique flair. Eligible guests enjoy complimentary à la carte dining, a signature cocktail bar, and shower suites in a chic, upscale…</p>
+    <span class="vc-loc">T4 · Gate A5</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-waiting-area" data-name="xwell" data-desc="for those wanting to treat themselves, xwell offers the ultimate relaxation experience such as a facial, massage, manicure, pedicure, waxing and much more.">
+  <div class="vc-photo"><img src="/assets/media/venue-4116f6ea-1a69-4267-95cf-3cd4f3cc8e63-e2210329.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-waiting-area" aria-hidden="true"></span> Waiting areas</span>
+    <h3 class="vc-name">XWELL</h3>
+    <p class="vc-desc">For those wanting to treat themselves, XWELL offers the ultimate relaxation experience such as a facial, massage, manicure, pedicure, waxing and much more.</p>
+    <span class="vc-loc">T4</span>
+  </div>
+</article>
+<article class="venue-card" data-terminal="T4" data-category="icon-waiting-area" data-name="xwell" data-desc="for those wanting to treat themselves, xwell offers the ultimate relaxation experience such as a facial, massage, manicure, pedicure, waxing and much more.">
+  <div class="vc-photo"><img src="/assets/media/venue-855120dd-daa0-4a0c-a921-96bcc49efe9a-c9afd001.jpg" alt="" loading="lazy"></div>
+  <div class="vc-body">
+    <span class="vc-icon"><span class="icon-waiting-area" aria-hidden="true"></span> Waiting areas</span>
+    <h3 class="vc-name">XWELL</h3>
+    <p class="vc-desc">For those wanting to treat themselves, XWELL offers the ultimate relaxation experience such as a facial, massage, manicure, pedicure, waxing and much more.</p>
+    <span class="vc-loc">T4 · Gate B22</span>
+  </div>
+</article>
+  </div>
+  <div class="venue-empty" data-venue-empty hidden>
+    <strong>No venues match.</strong>
+    Try a different terminal or clear the filter.
   </div>
 </section>
 
-<section data-section="generic" class="page-block">
-  <div class="block-inner narrow">
-    <div class="block-content">
-      <h2 class="display">FAQs</h2>
-      <p>The Port Authority of New York and New Jersey 4 World Trade Center, 150 Greenwich Street New York, NY 10007 +1 (212) 435-7000</p>
-      
-      <div class="block-ctas"><a href="/explore-jfk/accessibility-services/">Accessibility &rarr;</a><a href="https://www.panynj.gov/airports/en/air-cargo/jfk.html">Air Cargo &rarr;</a><a href="/alerts-advisories/">Alerts and Advisories &rarr;</a><a href="/contact-us/">Contact Us &rarr;</a></div>
-    </div>
-    
-  </div>
-</section>
+<script>
+(function () {
+  var grid = document.querySelector('[data-venue-grid]');
+  var cards = grid ? Array.from(grid.querySelectorAll('.venue-card')) : [];
+  if (!cards.length) return;
+  var loc = document.getElementById('vf-location');
+  var cat = document.getElementById('vf-category');
+  var search = document.getElementById('vf-search');
+  var reset = document.querySelector('[data-filter-reset]');
+  var counter = document.querySelector('[data-venue-shown]');
+  var empty = document.querySelector('[data-venue-empty]');
+
+  // Read URL params and set initial filter values
+  var params = new URLSearchParams(window.location.search);
+  var initTerminal = params.get('structureName') || params.get('terminal') || '';
+  if (initTerminal && loc) {
+    // Match "Terminal 1" → "T1"
+    var m = initTerminal.match(/Terminal\s+(\d+)/i);
+    if (m) loc.value = 'T' + m[1];
+  }
+  var initCat = params.get('category') || '';
+  if (initCat && cat) cat.value = initCat;
+  var initSearch = params.get('q') || '';
+  if (initSearch && search) search.value = initSearch;
+
+  function apply() {
+    var terminalVal = loc ? loc.value : '';
+    var catVal = cat ? cat.value : '';
+    var searchVal = search ? search.value.toLowerCase().trim() : '';
+    var shown = 0;
+    cards.forEach(function (c) {
+      var matchT = !terminalVal || c.dataset.terminal === terminalVal;
+      var matchC = !catVal || c.dataset.category === catVal;
+      var matchS = !searchVal || c.dataset.name.indexOf(searchVal) !== -1 || c.dataset.desc.indexOf(searchVal) !== -1;
+      var visible = matchT && matchC && matchS;
+      c.classList.toggle('is-hidden', !visible);
+      if (visible) shown++;
+    });
+    if (counter) counter.textContent = shown;
+    if (empty) empty.hidden = shown !== 0;
+    // Update URL without reload
+    var newParams = new URLSearchParams();
+    if (terminalVal) newParams.set('structureName', terminalVal.replace('T', 'Terminal '));
+    if (catVal) newParams.set('category', catVal);
+    if (searchVal) newParams.set('q', searchVal);
+    var qs = newParams.toString();
+    history.replaceState({}, '', window.location.pathname + (qs ? '?' + qs : ''));
+  }
+
+  [loc, cat, search].filter(Boolean).forEach(function (el) {
+    el.addEventListener('change', apply);
+    if (el.tagName === 'INPUT') el.addEventListener('input', apply);
+  });
+  if (reset) reset.addEventListener('click', function () {
+    if (loc) loc.value = '';
+    if (cat) cat.value = '';
+    if (search) search.value = '';
+    apply();
+  });
+
+  // Apply once on load (URL params may have set filters)
+  apply();
+})();
+</script>
 </main>
 <footer data-section="footer" role="contentinfo">
   <div class="inner">

@@ -1,0 +1,369 @@
+{
+  "url": "https://www.jfkairport.com/dine-shop-relax/lounge-and-rest",
+  "slug": "dine-shop-relax__lounge-and-rest",
+  "filters": {
+    "locations": [],
+    "areas": [],
+    "categories": [
+      "Aer Lingus Lounge",
+      "Air India Maharaja Lounge",
+      "AirFrance Lounge",
+      "Capital One Lounge",
+      "Chelsea Lounge",
+      "Delta One Lounge",
+      "Are lounges available at JFK?"
+    ]
+  },
+  "cards": [
+    {
+      "name": "Aer Lingus Lounge",
+      "description": "",
+      "terminal": "T7",
+      "gate": "1",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/381f4ebe-22dc-4c62-8b07-dfac8686712f",
+      "imgAlt": "Aer Lingus Lounge",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-381f4ebe-22dc-4c62-8b07-dfac8686712f-c60e7a13.jpg"
+    },
+    {
+      "name": "Air India Maharaja Lounge",
+      "description": "A quiet escape for eligible passengers. Enjoy a buffet featuring authentic Indian cuisine, a self-service bar, and a comfortable atmosphere to relax before your flight.",
+      "terminal": "T4",
+      "gate": "A5",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/a918f49e-f30f-4cc6-9051-d3f87367165c",
+      "imgAlt": "Air India Maharaja Lounge",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-a918f49e-f30f-4cc6-9051-d3f87367165c-ba7068a4.jpg"
+    },
+    {
+      "name": "AirFrance Lounge",
+      "description": "Relax at the recently renovated AirFrance Lounge while enjoying a view of the New York City skyline.",
+      "terminal": "T1",
+      "gate": "1",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/0241-jfk-1-airfrancelounge.jpg",
+      "imgAlt": "AirFrance Lounge",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-0241-jfk-1-airfrancelounge-c5517381.jpg"
+    },
+    {
+      "name": "American Airlines Admirals Club Lounge",
+      "description": "American Airlines Admirals Club offers food, drinks, Wi-Fi, and a kids room.",
+      "terminal": "T8",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/c393e19c-95f4-47c3-a252-b106c0809905",
+      "imgAlt": "American Airlines Admirals Club Lounge",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-c393e19c-95f4-47c3-a252-b106c0809905-f259991a.jpg"
+    },
+    {
+      "name": "American Express Centurion Lounge",
+      "description": "",
+      "terminal": "T4",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/39199957-6729-4a8c-b714-04c757fb85e7",
+      "imgAlt": "American Express Centurion Lounge",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-39199957-6729-4a8c-b714-04c757fb85e7-16f01079.jpg"
+    },
+    {
+      "name": "Be Relax",
+      "description": "Be Relax has all you need for you to relax before the journey - from massaging chairs to nail services.",
+      "terminal": "T1",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/a073586c-bb85-40db-b355-cf3f9ab83d62",
+      "imgAlt": "Be Relax",
+      "iconClass": "icon-waiting-area",
+      "imgLocal": "/assets/media/venue-a073586c-bb85-40db-b355-cf3f9ab83d62-b35f9bf6.jpg"
+    },
+    {
+      "name": "BlueHouse",
+      "description": "",
+      "terminal": "T5",
+      "gate": "526",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/49b8ad68-258b-46ae-9fb7-d24499684395",
+      "imgAlt": "BlueHouse",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-49b8ad68-258b-46ae-9fb7-d24499684395-0c2f123d.jpg"
+    },
+    {
+      "name": "Capital One Lounge",
+      "description": "Offering dining stations, a full bar, a coffee bar, and private shower suites.",
+      "terminal": "T4",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/667884e5-af78-4424-afbd-d31f3c3c29b8",
+      "imgAlt": "Capital One Lounge",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-667884e5-af78-4424-afbd-d31f3c3c29b8-8d5d1213.jpg"
+    },
+    {
+      "name": "Chase Sapphire Lounge by The Club with Etihad Airways",
+      "description": "A unique collaboration between Chase and Etihad Airways. Guests enjoy made-to-order dining, signature cocktails, and premium wellness amenities, including shower suites and prayer rooms in an intimate, upscale setting.",
+      "terminal": "T4",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/60d62c7a-849c-483e-b3a1-44c6c71ac8f5",
+      "imgAlt": "Chase Sapphire Lounge by The Club with Etihad Airways",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-60d62c7a-849c-483e-b3a1-44c6c71ac8f5-035214ae.jpg"
+    },
+    {
+      "name": "Chelsea Lounge",
+      "description": "",
+      "terminal": "T8",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/e1fbb0cd-3aee-4c93-99b4-223491907509",
+      "imgAlt": "Chelsea Lounge",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-e1fbb0cd-3aee-4c93-99b4-223491907509-b5cac4df.jpg"
+    },
+    {
+      "name": "Christ for the World Chapel",
+      "description": "Religious space for worship and prayer.",
+      "terminal": "T4",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/1c1e8f35-4e13-4ec7-8fd6-86690a5997b6",
+      "imgAlt": "Christ for the World Chapel",
+      "iconClass": "icon-prayer-room",
+      "imgLocal": "/assets/media/venue-1c1e8f35-4e13-4ec7-8fd6-86690a5997b6-472337cf.jpg"
+    },
+    {
+      "name": "Delta One Lounge",
+      "description": "",
+      "terminal": "T4",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/01182072-345d-41e6-90a1-a90d29fa60c2",
+      "imgAlt": "Delta One Lounge",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-01182072-345d-41e6-90a1-a90d29fa60c2-83fdfc19.jpg"
+    },
+    {
+      "name": "Delta Sky Club",
+      "description": "A popular retreat for members and eligible travelers. Enjoy a premium buffet, full-service bar, and the outdoor Sky Deck for fresh air and runway views before your flight. Sky Club hours may vary; please check Delta.com for updates.",
+      "terminal": "T4",
+      "gate": "B31",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/Photo%20Dec%2009%2027%2031%20AM.jpg",
+      "imgAlt": "Delta Sky Club",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-Photo_20Dec_2009_2027_2031_20AM-dd6e29d4.jpg"
+    },
+    {
+      "name": "Delta Sky Club",
+      "description": "A popular retreat for members and eligible travelers. Enjoy a premium buffet, full-service bar, and the outdoor Sky Deck for fresh air and runway views before your flight. Sky Club hours may vary; please check Delta.com for updates.",
+      "terminal": "T4",
+      "gate": "A8",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/455760b4-6cb9-4210-ac7e-385fa119651e",
+      "imgAlt": "Delta Sky Club",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-455760b4-6cb9-4210-ac7e-385fa119651e-edc686c4.jpg"
+    },
+    {
+      "name": "Emirates Lounge",
+      "description": "Enjoy a gourmet buffet, premium bar service, shower suites, and the unique convenience of boarding your flight directly from the lounge.",
+      "terminal": "T4",
+      "gate": "A5",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/90297e59-05cb-4146-85a5-6ba5cc9ce1e9",
+      "imgAlt": "Emirates Lounge",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-90297e59-05cb-4146-85a5-6ba5cc9ce1e9-3ee2220b.jpg"
+    },
+    {
+      "name": "Greenwich Lounge",
+      "description": "Enjoy our premium lounge experience with elevated dining, a wine table and luxurious atmosphere.",
+      "terminal": "T8",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/ba990061-313f-4d98-8c11-068540b62776",
+      "imgAlt": "Greenwich Lounge",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-ba990061-313f-4d98-8c11-068540b62776-417a9a2d.jpg"
+    },
+    {
+      "name": "HelloSky Lounge",
+      "description": "The Primeclass Lounge is now HelloSky at",
+      "terminal": "T4",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/d8ce0bb6-3f1a-46a9-b619-7afe241a3267",
+      "imgAlt": "HelloSky Lounge",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-d8ce0bb6-3f1a-46a9-b619-7afe241a3267-e301bec3.jpg"
+    },
+    {
+      "name": "Horizons Lounge",
+      "description": "",
+      "terminal": "T7",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/27c86148-3ea5-492b-b7e6-f20a0f21f609",
+      "imgAlt": "Horizons Lounge",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-27c86148-3ea5-492b-b7e6-f20a0f21f609-5a133259.jpg"
+    },
+    {
+      "name": "International Synagogue",
+      "description": "Dedicated space for worship and prayer.",
+      "terminal": "T4",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/b1f642dc-4596-4555-84f6-181e471c185d",
+      "imgAlt": "International Synagogue",
+      "iconClass": "icon-prayer-room",
+      "imgLocal": "/assets/media/venue-b1f642dc-4596-4555-84f6-181e471c185d-addc071e.jpg"
+    },
+    {
+      "name": "Jabbrrbox Escape Pods",
+      "description": "A technology equipped workspace that is plush, and quiet. Designed for the mobile workers of the world who need a better work environment on the go.",
+      "terminal": "T8",
+      "gate": "",
+      "imgSrc": "https://www.jfkairport.com/images/shared/fallback/poi-categories/relax.jpg",
+      "imgAlt": "Jabbrrbox Escape Pods",
+      "iconClass": "icon-waiting-area",
+      "imgLocal": "/assets/media/venue-relax-a475761a.jpg"
+    },
+    {
+      "name": "Korean Air Lounge",
+      "description": "The KAL Lounge is a place for club members to relax, take a shower, and enjoy snacks and beverages.",
+      "terminal": "T1",
+      "gate": "3",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/6e1e4ceb-6102-4a64-9d39-f1ced3735396",
+      "imgAlt": "Korean Air Lounge",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-6e1e4ceb-6102-4a64-9d39-f1ced3735396-33ee02c6.jpg"
+    },
+    {
+      "name": "Lufthansa Senator Lounge / Business Lounge",
+      "description": "",
+      "terminal": "T1",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/b5527b77-253e-4055-8caf-fac9979452a0",
+      "imgAlt": "Lufthansa Senator Lounge / Business Lounge",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-b5527b77-253e-4055-8caf-fac9979452a0-adaf29bb.jpg"
+    },
+    {
+      "name": "Minute Suites",
+      "description": "Minute Suites offers travelers a private retreat past security to nap, relax, work, and more.",
+      "terminal": "T4",
+      "gate": "B39",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/f1b81f64-9225-4272-bab4-2df85ff108d1",
+      "imgAlt": "Minute Suites",
+      "iconClass": "icon-waiting-area",
+      "imgLocal": "/assets/media/venue-f1b81f64-9225-4272-bab4-2df85ff108d1-3c2a7be4.jpg"
+    },
+    {
+      "name": "Minute Suites",
+      "description": "Private suites for travelers to nap, work, or relax, right inside the terminal. Each suite features a daybed sofa, workstation, high speed Wi-Fi, entertainment options and more.",
+      "terminal": "T8",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/478d0ee0-fb49-4bbb-bf8b-56668717618e",
+      "imgAlt": "Minute Suites",
+      "iconClass": "icon-waiting-area",
+      "imgLocal": "/assets/media/venue-478d0ee0-fb49-4bbb-bf8b-56668717618e-28612e36.jpg"
+    },
+    {
+      "name": "Multifaith Chapel",
+      "description": "Religious space for worship and prayer.",
+      "terminal": "T4",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/b719a055-f7d2-4752-8ef7-779994200594",
+      "imgAlt": "Multifaith Chapel",
+      "iconClass": "icon-prayer-room",
+      "imgLocal": "/assets/media/venue-b719a055-f7d2-4752-8ef7-779994200594-0a008535.jpg"
+    },
+    {
+      "name": "Our Lady of the Skies Chapel",
+      "description": "Religious space for worship and prayer.",
+      "terminal": "T4",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/16cf7d75-4220-47de-9a3b-0fa64d0383ea",
+      "imgAlt": "Our Lady of the Skies Chapel",
+      "iconClass": "icon-prayer-room",
+      "imgLocal": "/assets/media/venue-16cf7d75-4220-47de-9a3b-0fa64d0383ea-925eb370.jpg"
+    },
+    {
+      "name": "Prayer Area",
+      "description": "Dedicated space for worship and prayer.",
+      "terminal": "T1",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/14812461-c446-446d-b671-4cd3df06da75",
+      "imgAlt": "Prayer Area",
+      "iconClass": "icon-prayer-room",
+      "imgLocal": "/assets/media/venue-14812461-c446-446d-b671-4cd3df06da75-a622ced3.jpg"
+    },
+    {
+      "name": "Primeclass Lounge",
+      "description": "Prime class offers a great variety of food and space to relax for passengers",
+      "terminal": "T1",
+      "gate": "10",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/48dacca3-3054-4001-b5b2-a6ab06d145c2",
+      "imgAlt": "Primeclass Lounge",
+      "iconClass": "icon-waiting-area",
+      "imgLocal": "/assets/media/venue-48dacca3-3054-4001-b5b2-a6ab06d145c2-91d2cef6.jpg"
+    },
+    {
+      "name": "Soho Lounge",
+      "description": "Unwind in our ultra-premium lounge while taking in vast runway views. Place a mobile order for a la carte dining without leaving your cozy chair.",
+      "terminal": "T8",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/a4ecf79d-30d4-4a04-b615-6d06aa5dfb70",
+      "imgAlt": "Soho Lounge",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-a4ecf79d-30d4-4a04-b615-6d06aa5dfb70-265f72e1.jpg"
+    },
+    {
+      "name": "The T5 Rooftop & Wooftop",
+      "description": "Get some air before you're up in the air at this post-security outdoor space, complete with places to plug in and a dog walk.",
+      "terminal": "T5",
+      "gate": "528",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/7820a8bf-5983-4694-b2f8-64b0ea81fd19",
+      "imgAlt": "The T5 Rooftop & Wooftop",
+      "iconClass": "icon-waiting-area",
+      "imgLocal": "/assets/media/venue-7820a8bf-5983-4694-b2f8-64b0ea81fd19-a7b18683.jpg"
+    },
+    {
+      "name": "Turkish Airlines Lounge",
+      "description": "Turkish Airlines' business and first class passengers are invited to use the Lounge pre-flight.",
+      "terminal": "T1",
+      "gate": "3",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/91e0cf13-a8da-4525-b17d-088c445ced17",
+      "imgAlt": "Turkish Airlines Lounge",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-91e0cf13-a8da-4525-b17d-088c445ced17-a3e0d5bd.jpg"
+    },
+    {
+      "name": "VIP ONE Lounge & Checkpoint",
+      "description": "Pre-Security lounge for those wishing to relax before proceeding through security. Lounge offers expedited processing through the TSA lines upon passenger readiness to proceed to the departure gate area.",
+      "terminal": "T1",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/JFK_T1_VIP.jpg",
+      "imgAlt": "VIP ONE Lounge & Checkpoint",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-JFK_T1_VIP-4a1fd319.jpg"
+    },
+    {
+      "name": "Virgin Atlantic Clubhouse",
+      "description": "A stylish, vibrant retreat known for its unique flair. Eligible guests enjoy complimentary à la carte dining, a signature cocktail bar, and shower suites in a chic, upscale atmosphere",
+      "terminal": "T4",
+      "gate": "A5",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/70227745-b7aa-4f03-a152-ca99ef2a239c",
+      "imgAlt": "Virgin Atlantic Clubhouse",
+      "iconClass": "icon-lounge",
+      "imgLocal": "/assets/media/venue-70227745-b7aa-4f03-a152-ca99ef2a239c-2e61f08d.jpg"
+    },
+    {
+      "name": "XWELL",
+      "description": "For those wanting to treat themselves, XWELL offers the ultimate relaxation experience such as a facial, massage, manicure, pedicure, waxing and much more.",
+      "terminal": "T4",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/4116f6ea-1a69-4267-95cf-3cd4f3cc8e63",
+      "imgAlt": "XWELL",
+      "iconClass": "icon-waiting-area",
+      "imgLocal": "/assets/media/venue-4116f6ea-1a69-4267-95cf-3cd4f3cc8e63-e2210329.jpg"
+    },
+    {
+      "name": "XWELL",
+      "description": "For those wanting to treat themselves, XWELL offers the ultimate relaxation experience such as a facial, massage, manicure, pedicure, waxing and much more.",
+      "terminal": "T4",
+      "gate": "B22",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/855120dd-daa0-4a0c-a921-96bcc49efe9a",
+      "imgAlt": "XWELL",
+      "iconClass": "icon-waiting-area",
+      "imgLocal": "/assets/media/venue-855120dd-daa0-4a0c-a921-96bcc49efe9a-c9afd001.jpg"
+    }
+  ]
+}

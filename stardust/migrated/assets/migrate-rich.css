@@ -124,3 +124,83 @@
 /* Flight-search and flight-board re-anchored under page-block layout */
 .flight-search-block .flight-search { background: var(--ground-white); border: 1px solid var(--slate-200);
   border-radius: 4px; padding: 24px 28px; max-width: 760px; }
+
+/* ============================================
+   VENUE LISTING (filter-grid pages: shops, food, lounges)
+   ============================================ */
+.venue-page-hero { padding: 0; min-height: 280px; display: flex; align-items: flex-end;
+  background: var(--panynj-navy); position: relative; overflow: hidden; border-bottom: 1px solid var(--slate-200); }
+.venue-page-hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.venue-page-hero .scrim { position: absolute; inset: 0; background: linear-gradient(in oklch 180deg,
+  color-mix(in oklch, var(--panynj-navy) 22%, transparent) 0%,
+  color-mix(in oklch, var(--panynj-navy)  0%, transparent) 35%,
+  color-mix(in oklch, var(--panynj-navy) 75%, transparent) 100%); }
+.venue-page-hero .copy { position: relative; z-index: 1; padding: 32px; max-width: 1440px; margin: 0 auto; width: 100%; color: var(--ground-white); }
+.venue-page-hero h1 { font-family: var(--display-family); font-weight: 700; font-size: clamp(48px, 7vw, 96px);
+  line-height: 1.0; letter-spacing: -0.04em; margin: 0; color: var(--ground-white); text-shadow: 0 4px 24px rgba(0,0,0,0.4); }
+
+.venue-section { padding: 64px 32px 96px; max-width: 1440px; margin: 0 auto; }
+.venue-section .vs-head { margin-bottom: 28px; }
+.venue-section .vs-head h2 { font-family: var(--display-family); font-weight: 700; font-size: clamp(40px, 5.5vw, 56px);
+  line-height: 1.0; letter-spacing: -0.035em; margin: 0 0 12px; color: var(--panynj-navy); text-wrap: balance; }
+.venue-section .vs-head p { font-size: 17px; line-height: 1.55; color: var(--slate-700); margin: 0; max-width: 60ch; text-wrap: pretty; }
+
+.venue-filters { display: grid; grid-template-columns: 220px 220px 1fr auto; gap: 14px; align-items: end;
+  padding: 18px 0; margin-bottom: 18px; border-top: 1px solid color-mix(in oklch, var(--panynj-navy) 14%, transparent);
+  border-bottom: 1px solid color-mix(in oklch, var(--panynj-navy) 14%, transparent); }
+.venue-filters .vf-field { display: flex; flex-direction: column; gap: 6px; }
+.venue-filters .vf-field label { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--slate-700); font-weight: 700; }
+.venue-filters select, .venue-filters input { border: 1px solid var(--slate-600); border-radius: 2px; padding: 11px 14px;
+  font-family: inherit; font-size: 15px; background: var(--ground-white); color: var(--ink); appearance: none; }
+.venue-filters select { background-image: linear-gradient(45deg, transparent 50%, var(--panynj-navy) 50%),
+  linear-gradient(135deg, var(--panynj-navy) 50%, transparent 50%); background-position: calc(100% - 18px) 50%, calc(100% - 12px) 50%;
+  background-size: 6px 6px, 6px 6px; background-repeat: no-repeat; padding-right: 40px; }
+.venue-filters input:focus, .venue-filters select:focus { outline: 0; border-color: var(--panynj-blue); border-width: 2px; padding: 10px 13px; }
+.venue-filters input { padding-right: 40px; background-image: none; }
+.venue-filters .vf-reset { background: transparent; border: 0; color: var(--panynj-deep-blue);
+  font-family: inherit; font-size: 14px; font-weight: 700; cursor: pointer; padding: 11px 4px; align-self: end;
+  display: inline-flex; align-items: center; gap: 6px; }
+.venue-filters .vf-reset:hover { color: var(--panynj-navy); }
+
+.venue-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+.venue-chips .vc-chip { background: var(--ground-white); border: 1px solid var(--slate-300); border-radius: 9999px;
+  padding: 8px 16px; font-family: inherit; font-size: 13px; font-weight: 600; color: var(--panynj-deep-blue); cursor: pointer;
+  transition: background 180ms var(--ease-out-quart), border-color 180ms var(--ease-out-quart), color 180ms var(--ease-out-quart); }
+.venue-chips .vc-chip:hover { border-color: var(--panynj-blue); }
+.venue-chips .vc-chip.is-active { background: var(--panynj-navy); border-color: var(--panynj-navy); color: var(--ground-white); }
+
+.venue-count { font-size: 13px; color: var(--slate-700); margin-bottom: 18px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+.venue-count .vc-num { color: var(--panynj-navy); font-family: var(--display-family); font-size: 14px; }
+
+.venue-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; }
+.venue-card { background: var(--ground-white); border: 1px solid var(--slate-200); border-radius: 4px; overflow: hidden;
+  display: flex; flex-direction: column;
+  transition: border-color 220ms var(--ease-out-quart), transform 220ms var(--ease-out-quart), box-shadow 220ms var(--ease-out-quart); }
+.venue-card:hover { border-color: var(--panynj-blue); transform: translateY(-3px); box-shadow: 0 16px 28px -18px var(--shadow-navy-medium); }
+.venue-card.is-hidden { display: none; }
+.venue-card .vc-photo { aspect-ratio: 16/10; overflow: hidden; }
+.venue-card .vc-photo img { width: 100%; height: 100%; object-fit: cover; }
+.venue-card .vc-body { padding: 18px 20px 18px; display: flex; flex-direction: column; flex: 1; gap: 8px; }
+.venue-card .vc-icon { display: inline-flex; align-items: center; gap: 6px; color: var(--panynj-deep-blue); font-size: 11px;
+  letter-spacing: 0.06em; text-transform: uppercase; font-weight: 700; }
+.venue-card .vc-name { font-family: var(--display-family); font-weight: 700; font-size: 19px; letter-spacing: -0.015em;
+  line-height: 1.15; color: var(--panynj-navy); margin: 0; text-wrap: balance; }
+.venue-card .vc-desc { font-size: 13px; line-height: 1.5; color: var(--slate-700); margin: 0; flex: 1; text-wrap: pretty; }
+.venue-card .vc-loc { font-size: 12px; letter-spacing: 0.04em; color: var(--panynj-deep-blue); font-weight: 700;
+  display: inline-flex; align-items: center; gap: 6px; margin-top: 4px; padding-top: 8px;
+  border-top: 1px solid color-mix(in oklch, var(--panynj-navy) 8%, transparent); }
+.venue-card .vc-loc::before { content: "\E906"; font-family: "panynj-icons" !important; font-size: 14px; }
+
+.venue-empty { text-align: center; padding: 64px 32px; color: var(--slate-700); font-size: 15px; }
+.venue-empty strong { font-family: var(--display-family); font-size: 22px; color: var(--panynj-navy); display: block; margin-bottom: 6px; letter-spacing: -0.015em; }
+
+@media (max-width: 1024px) {
+  .venue-filters { grid-template-columns: 1fr 1fr; gap: 14px; }
+  .venue-filters .vf-search { grid-column: 1 / -1; }
+  .venue-filters .vf-reset { grid-column: 1 / -1; padding: 8px 0 0; align-self: flex-start; }
+}
+@media (max-width: 768px) {
+  .venue-section { padding: 48px 20px 64px; }
+  .venue-filters { grid-template-columns: 1fr; }
+  .venue-grid { gap: 14px; }
+}

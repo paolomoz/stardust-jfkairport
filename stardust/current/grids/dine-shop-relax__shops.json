@@ -1,0 +1,564 @@
+{
+  "url": "https://www.jfkairport.com/dine-shop-relax/shops",
+  "slug": "dine-shop-relax__shops",
+  "filters": {
+    "locations": [],
+    "areas": [],
+    "categories": [
+      "Beauty on 5th Duty Free",
+      "BKLYN Shopping Duty Free"
+    ]
+  },
+  "cards": [
+    {
+      "name": "alchemy.",
+      "description": "A lifestyle boutique offering handcrafted candles, perfumes, jewelry, and home décor, made in NYC with a focus on sustainability and design.",
+      "terminal": "T8",
+      "gate": "8",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/f2a0075f-27bb-4327-816e-a8f8c684a5b2",
+      "imgAlt": "alchemy.",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-f2a0075f-27bb-4327-816e-a8f8c684a5b2-2b543b79.jpg"
+    },
+    {
+      "name": "Bally",
+      "description": "The Bally Boutique features luxury handbags and shoes.",
+      "terminal": "T1",
+      "gate": "4",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/42fcd71f-f48d-45f7-a802-5979c7378d71",
+      "imgAlt": "Bally",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-42fcd71f-f48d-45f7-a802-5979c7378d71-6ca279e5.jpg"
+    },
+    {
+      "name": "Beautiful Amore",
+      "description": "Plant-based, vegan skincare created in Queens by Amerrah Danielson, made for sensitive skin with love and purpose.",
+      "terminal": "T8",
+      "gate": "6",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/295b7f98-3e2e-4f47-a28b-b6d567bbacbc",
+      "imgAlt": "Beautiful Amore",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-295b7f98-3e2e-4f47-a28b-b6d567bbacbc-60dbf058.jpg"
+    },
+    {
+      "name": "Beauty on 5th Duty Free",
+      "description": "Shop an alluring lineup of world-renowned perfume and cosmetics brands like Dior, Lancôme, Estée Lauder, Kiehl's, La Mer, YSL, and Charlotte Tilbury.",
+      "terminal": "T8",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/f3e6fa52-3fa2-4992-9080-30cd93669838",
+      "imgAlt": "Beauty on 5th Duty Free",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-f3e6fa52-3fa2-4992-9080-30cd93669838-935f5fdc.jpg"
+    },
+    {
+      "name": "Better+",
+      "description": "Travel essentials, personal care, and everyday lifesavers-smartly stocked and ready 24/7. From toothpaste and razors to travel meds and fresh fixes, this vending machine has your back.",
+      "terminal": "T7",
+      "gate": "2",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/efec9928-9c09-499c-bc47-cc42ae30dc85",
+      "imgAlt": "Better+",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-efec9928-9c09-499c-bc47-cc42ae30dc85-8180e177.jpg"
+    },
+    {
+      "name": "Bevo's Kitchen",
+      "description": "Small-batch jams and preserves made with love in Queens, inspired by the mantra \"you are what you eat.",
+      "terminal": "T8",
+      "gate": "38",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/2c453822-018d-41e0-a62c-1223f0eecb48",
+      "imgAlt": "Bevo's Kitchen",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-2c453822-018d-41e0-a62c-1223f0eecb48-9ebfdc5b.jpg"
+    },
+    {
+      "name": "BKLYN Shopping Duty Free",
+      "description": "This duty free shop specializes in fragrances, skincare products, gourmet confections, wines and spirits.",
+      "terminal": "T8",
+      "gate": "42",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/80630f2f-42ef-4029-9fed-bef0c5db152b",
+      "imgAlt": "BKLYN Shopping Duty Free",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-80630f2f-42ef-4029-9fed-bef0c5db152b-1dc2b706.jpg"
+    },
+    {
+      "name": "Blue Sky Traders",
+      "description": "",
+      "terminal": "T5",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/2016-03-09%2009.21.51.jpg",
+      "imgAlt": "Blue Sky Traders",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-2016-03-09_2009.21.51-21810dc0.jpg"
+    },
+    {
+      "name": "Boss",
+      "description": "Modern European fashion offering sharp suiting, apparel, accessories, and travel essentials for confident, sophisticated style.",
+      "terminal": "T8",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/fe96f64e-eaf2-4e0b-a052-ca5b1400fff7",
+      "imgAlt": "Boss",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-fe96f64e-eaf2-4e0b-a052-ca5b1400fff7-1f3bf450.jpg"
+    },
+    {
+      "name": "Breitling",
+      "description": "Swiss luxury watches renowned for precision, aviation heritage, and bold technical performance.",
+      "terminal": "T8",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/7296ecb2-2c61-4a2b-9d6b-81dbc13f6b3f",
+      "imgAlt": "Breitling",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-7296ecb2-2c61-4a2b-9d6b-81dbc13f6b3f-843a5fdf.jpg"
+    },
+    {
+      "name": "Brookstone",
+      "description": "Brookstone offers a variety of electronics and essentials for travel.",
+      "terminal": "T1",
+      "gate": "3",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/3798faf6-60ff-4649-866a-b806ededad5d",
+      "imgAlt": "Brookstone",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-3798faf6-60ff-4649-866a-b806ededad5d-98633d3e.jpg"
+    },
+    {
+      "name": "Bryant Park Market",
+      "description": "",
+      "terminal": "T5",
+      "gate": "521",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/e7f216e6-9d5f-43aa-a2ea-b033dce2ea19",
+      "imgAlt": "Bryant Park Market",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-e7f216e6-9d5f-43aa-a2ea-b033dce2ea19-4e5d0c1c.jpg"
+    },
+    {
+      "name": "Bvlgari",
+      "description": "Shop at Bvlgari for fashion accessories.",
+      "terminal": "T1",
+      "gate": "5",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/fc81bb80-854d-4a52-980a-c0bab8078dcf",
+      "imgAlt": "Bvlgari",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-fc81bb80-854d-4a52-980a-c0bab8078dcf-05e85bcf.jpg"
+    },
+    {
+      "name": "Chanel",
+      "description": "Shop for the latest designer products.",
+      "terminal": "T1",
+      "gate": "3",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/5b483e4b-7cbb-4df1-b26e-49e54c993d45",
+      "imgAlt": "Chanel",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-5b483e4b-7cbb-4df1-b26e-49e54c993d45-d578ed98.jpg"
+    },
+    {
+      "name": "Chocolate & More",
+      "description": "Shop for a variety of sweets at Chocolate & More.",
+      "terminal": "T4",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/c46ebf1a-063c-4b2f-b23c-00ac1e413839.jpg",
+      "imgAlt": "Chocolate & More",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-c46ebf1a-063c-4b2f-b23c-00ac1e413839-63b8815b.jpg"
+    },
+    {
+      "name": "CIBO",
+      "description": "CIBO Express is the ultimate grab & go offering sweet and savory snacks as well as an array of healthy options.",
+      "terminal": "T5",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/83c6a82e-6b53-4176-9011-475451b685b9",
+      "imgAlt": "CIBO",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-83c6a82e-6b53-4176-9011-475451b685b9-5e409a7f.jpg"
+    },
+    {
+      "name": "Coach",
+      "description": "Coach is known for premium quality designer goods.",
+      "terminal": "T1",
+      "gate": "5",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/5dbe668b-a109-41c5-a9d7-8b8f165aa622",
+      "imgAlt": "Coach",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-5dbe668b-a109-41c5-a9d7-8b8f165aa622-95dd0fdf.jpg"
+    },
+    {
+      "name": "Connoisseur Collection",
+      "description": "Iconic French brand celebrated for elegant leather handbags, travel essentials, and timeless Parisian design.",
+      "terminal": "T8",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/63d958fd-497a-43c5-9793-9ee5d7538a33",
+      "imgAlt": "Connoisseur Collection",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-63d958fd-497a-43c5-9793-9ee5d7538a33-01e31791.jpg"
+    },
+    {
+      "name": "Dear NYC",
+      "description": "",
+      "terminal": "T8",
+      "gate": "",
+      "imgSrc": "https://www.jfkairport.com/images/shared/fallback/poi-categories/shop.jpg",
+      "imgAlt": "Dear NYC",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-shop-2bda803f.jpg"
+    },
+    {
+      "name": "Dior",
+      "description": "Wide selection of premium perfumes.",
+      "terminal": "T1",
+      "gate": "4",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/b1cf9a63-e582-4e0e-983d-e69ccf7cd336",
+      "imgAlt": "Dior",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-b1cf9a63-e582-4e0e-983d-e69ccf7cd336-17d5210d.jpg"
+    },
+    {
+      "name": "Duty Free Americas",
+      "description": "Enhance your journey with duty-free shopping at JFK",
+      "terminal": "T7",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/29b2bfc2-abf7-4b6b-8460-4d363a614f74",
+      "imgAlt": "Duty Free Americas",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-29b2bfc2-abf7-4b6b-8460-4d363a614f74-8b4a358b.jpg"
+    },
+    {
+      "name": "Estee Lauder",
+      "description": "Estee Lauder is well known for their cosmetics, skincare, and fragrances.",
+      "terminal": "T1",
+      "gate": "4",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/640fee29-9182-400b-818d-f01dfe289661",
+      "imgAlt": "Estee Lauder",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-640fee29-9182-400b-818d-f01dfe289661-e91dc1b6.jpg"
+    },
+    {
+      "name": "Fuelrod",
+      "description": "Station that offers chargers for a fee.",
+      "terminal": "T1",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/d78fb0bb-6fe2-4cf1-aae8-48e9bfb3043f",
+      "imgAlt": "Fuelrod",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-d78fb0bb-6fe2-4cf1-aae8-48e9bfb3043f-c363d5a8.jpg"
+    },
+    {
+      "name": "Fuelrod",
+      "description": "Station that offers chargers for a fee.",
+      "terminal": "T1",
+      "gate": "3",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/f92f3ffc-0667-49d6-9c18-47a6134e0309",
+      "imgAlt": "Fuelrod",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-f92f3ffc-0667-49d6-9c18-47a6134e0309-9e1c97b7.jpg"
+    },
+    {
+      "name": "Fuelrod",
+      "description": "Station that offers chargers for a fee.",
+      "terminal": "T1",
+      "gate": "4",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/dd1a1312-04ad-4bc7-968b-e27b5d2d0b3c",
+      "imgAlt": "Fuelrod",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-dd1a1312-04ad-4bc7-968b-e27b5d2d0b3c-66576fa8.jpg"
+    },
+    {
+      "name": "Fuelrod",
+      "description": "Station that offers chargers for a fee.",
+      "terminal": "T1",
+      "gate": "5",
+      "imgSrc": "https://www.jfkairport.com/images/shared/fallback/poi-categories/shop.jpg",
+      "imgAlt": "Fuelrod",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-shop-2bda803f.jpg"
+    },
+    {
+      "name": "Hermes",
+      "description": "Hermes is a designer brand of distinction; you can shop for a purse, jewelry, women's apparel, or fragrances.",
+      "terminal": "T1",
+      "gate": "4",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/2ae6923a-d8c7-4692-af35-0be4e99079d1",
+      "imgAlt": "Hermes",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-2ae6923a-d8c7-4692-af35-0be4e99079d1-5ee1fe2a.jpg"
+    },
+    {
+      "name": "Herschel",
+      "description": "The Herschel store offers a selection of travel-ready backpacks, bags, accessories, and luggage, making it an ideal stop for travelers needing functional, last-minute gear.",
+      "terminal": "T5",
+      "gate": "520",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/a8673625-1716-4777-a841-32831acf18d8",
+      "imgAlt": "Herschel",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-a8673625-1716-4777-a841-32831acf18d8-a2167905.jpg"
+    },
+    {
+      "name": "Hershel - Stance Popup",
+      "description": "Shop for a variety of luxury travel items including luggages, travel bags, and essentials.",
+      "terminal": "T4",
+      "gate": "",
+      "imgSrc": "https://www.jfkairport.com/images/shared/fallback/poi-categories/shop.jpg",
+      "imgAlt": "Hershel - Stance Popup",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-shop-2bda803f.jpg"
+    },
+    {
+      "name": "Hudson",
+      "description": "Hudson News features a wide array of last minute items for travelers.",
+      "terminal": "T7",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/29508c45-cabb-43d7-9656-b82c992c26af",
+      "imgAlt": "Hudson",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-29508c45-cabb-43d7-9656-b82c992c26af-835781a8.jpg"
+    },
+    {
+      "name": "Hudson",
+      "description": "From snacks and travel essentials to bestselling books and tech accessories, Hudson has everything you need for your journey-all in one convenient stop.",
+      "terminal": "T8",
+      "gate": "12",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/a88531be-ecaf-4376-a282-e6053e50fcb3",
+      "imgAlt": "Hudson",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-a88531be-ecaf-4376-a282-e6053e50fcb3-2f69ffd0.jpg"
+    },
+    {
+      "name": "Hudson",
+      "description": "From snacks and travel essentials to bestselling books and tech accessories, Hudson has everything you need for your journey-all in one convenient stop.",
+      "terminal": "T8",
+      "gate": "3",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/69a9afab-a492-46e1-aba9-0805f19606bd",
+      "imgAlt": "Hudson",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-69a9afab-a492-46e1-aba9-0805f19606bd-48c58a73.jpg"
+    },
+    {
+      "name": "Hudson",
+      "description": "Hudson features a wide array of last minute items for travelers.",
+      "terminal": "T4",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/e35694e8-de53-412d-9177-eaa748956792.jpg",
+      "imgAlt": "Hudson",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-e35694e8-de53-412d-9177-eaa748956792-d4a47779.jpg"
+    },
+    {
+      "name": "Hudson",
+      "description": "Hudson features a wide array of last minute items for travelers.",
+      "terminal": "T4",
+      "gate": "A4",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/4b56ea43-c5ef-40c2-ba58-5fcf4b713522.jpg",
+      "imgAlt": "Hudson",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-4b56ea43-c5ef-40c2-ba58-5fcf4b713522-3aa98f56.jpg"
+    },
+    {
+      "name": "Hudson",
+      "description": "Store offering a wide selection of the essentials from water to medicine.",
+      "terminal": "T1",
+      "gate": "3",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/535b96c0-2a6b-4228-baec-c590d47f9079",
+      "imgAlt": "Hudson",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-535b96c0-2a6b-4228-baec-c590d47f9079-c04fbda5.jpg"
+    },
+    {
+      "name": "Hudson",
+      "description": "From snacks and travel essentials to bestselling books and tech accessories, Hudson has everything you need for your journey-all in one convenient stop.",
+      "terminal": "T8",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/abc1317b-25b5-4a0d-bdd0-1b1541986f94",
+      "imgAlt": "Hudson",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-abc1317b-25b5-4a0d-bdd0-1b1541986f94-9eaee0e0.jpg"
+    },
+    {
+      "name": "Hudson",
+      "description": "From snacks and travel essentials to bestselling books and tech accessories, Hudson has everything you need for your journey-all in one convenient stop.",
+      "terminal": "T8",
+      "gate": "10",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/c4fb9fd8-b991-4193-9738-fd2e9ad18aef",
+      "imgAlt": "Hudson",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-c4fb9fd8-b991-4193-9738-fd2e9ad18aef-be5370d2.jpg"
+    },
+    {
+      "name": "Hudson",
+      "description": "",
+      "terminal": "T8",
+      "gate": "39",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/afbe0985-c7c5-4457-879c-816d0ba51121",
+      "imgAlt": "Hudson",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-afbe0985-c7c5-4457-879c-816d0ba51121-a80fbd9f.jpg"
+    },
+    {
+      "name": "Hudson",
+      "description": "",
+      "terminal": "T8",
+      "gate": "40",
+      "imgSrc": "https://www.jfkairport.com/images/shared/fallback/poi-categories/shop.jpg",
+      "imgAlt": "Hudson",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-shop-2bda803f.jpg"
+    },
+    {
+      "name": "Hudson Automated Retail",
+      "description": "Shop at Hudson for last minute travel essentials.",
+      "terminal": "T4",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/e20ed0fb-d54e-4de9-8537-2ab79dfdfe43",
+      "imgAlt": "Hudson Automated Retail",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-e20ed0fb-d54e-4de9-8537-2ab79dfdfe43-e0088cfe.jpg"
+    },
+    {
+      "name": "Hudson News",
+      "description": "Hudson News features a wide array of last minute items for travelers.",
+      "terminal": "T1",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/19a7d00f-2687-4ad9-b036-5706b46d0781",
+      "imgAlt": "Hudson News",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-19a7d00f-2687-4ad9-b036-5706b46d0781-ee72a1c1.jpg"
+    },
+    {
+      "name": "Hudson News",
+      "description": "Hudson News features a wide array of last minute items for travelers.",
+      "terminal": "T1",
+      "gate": "4",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/2651925a-0ce9-4a9e-9ec7-6822fb0c7433",
+      "imgAlt": "Hudson News",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-2651925a-0ce9-4a9e-9ec7-6822fb0c7433-76089670.jpg"
+    },
+    {
+      "name": "Hudson News",
+      "description": "",
+      "terminal": "T7",
+      "gate": "6",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/0334-jfk-7-hudsonnews2.jpg",
+      "imgAlt": "Hudson News",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-0334-jfk-7-hudsonnews2-06f6651b.jpg"
+    },
+    {
+      "name": "Hudson News",
+      "description": "",
+      "terminal": "T7",
+      "gate": "8",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/0365-jfk-7-hudsonnewss.jpg",
+      "imgAlt": "Hudson News",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-0365-jfk-7-hudsonnewss-29d6aa79.jpg"
+    },
+    {
+      "name": "Hudson Nonstop",
+      "description": "Hudson features a wide array of last minute items for travelers.",
+      "terminal": "T4",
+      "gate": "B47",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/ac1ac9cb-d8ee-41ce-ae79-e79b3f6845d4",
+      "imgAlt": "Hudson Nonstop",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-ac1ac9cb-d8ee-41ce-ae79-e79b3f6845d4-b9fb6479.jpg"
+    },
+    {
+      "name": "Hudson: 149th & Grand",
+      "description": "Hudson features a wide array of last minute items for travelers.",
+      "terminal": "T4",
+      "gate": "B39",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/4d0b4e49-5fce-4041-8dbe-6f0e2bcf1cc0",
+      "imgAlt": "Hudson: 149th & Grand",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-4d0b4e49-5fce-4041-8dbe-6f0e2bcf1cc0-5b4f5ee8.jpg"
+    },
+    {
+      "name": "Hudson: East River Market",
+      "description": "Hudson features a wide array of last minute items for travelers.",
+      "terminal": "T4",
+      "gate": "B25",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/6cca8fc2-346b-450a-b8f5-12016034fc64",
+      "imgAlt": "Hudson: East River Market",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-6cca8fc2-346b-450a-b8f5-12016034fc64-b9d93068.jpg"
+    },
+    {
+      "name": "Hudson: Manhattan Mercantile",
+      "description": "Hudson features a wide array of last minute items for travelers.",
+      "terminal": "T4",
+      "gate": "A2",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/26a8e118-d6e1-4251-80d0-4a923ca67c4f",
+      "imgAlt": "Hudson: Manhattan Mercantile",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-26a8e118-d6e1-4251-80d0-4a923ca67c4f-21d5dd91.jpg"
+    },
+    {
+      "name": "Hudson: Queens Beat",
+      "description": "Hudson features a wide array of last minute items for travelers.",
+      "terminal": "T4",
+      "gate": "A8",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/33393d68-c006-4642-b337-5e626255f071",
+      "imgAlt": "Hudson: Queens Beat",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-33393d68-c006-4642-b337-5e626255f071-7440bdf8.jpg"
+    },
+    {
+      "name": "Hugo Boss",
+      "description": "Synonymous with style, Hugo Boss is well known for classic high end designer men's apparel.",
+      "terminal": "T4",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/d4ba01eb-5cf2-4f61-9f91-551d6e7e4ecb.jpg",
+      "imgAlt": "Hugo Boss",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-d4ba01eb-5cf2-4f61-9f91-551d6e7e4ecb-fff5c1d2.jpg"
+    },
+    {
+      "name": "I Love NY",
+      "description": "The official store for authentic I LOVE NY merchandise, souvenirs, and New York gifts.",
+      "terminal": "T8",
+      "gate": "38",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/bb898ee0-d777-4560-bf15-dd10f43b207d",
+      "imgAlt": "I Love NY",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-bb898ee0-d777-4560-bf15-dd10f43b207d-c16e4933.jpg"
+    },
+    {
+      "name": "InMotion",
+      "description": "From headphones to cords and connectors, you'll find everything you need to optimize your technology here.",
+      "terminal": "T5",
+      "gate": "521",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/cd981c12-18c7-4146-9fc2-5419daf0b16f",
+      "imgAlt": "InMotion",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-cd981c12-18c7-4146-9fc2-5419daf0b16f-1854f420.jpg"
+    },
+    {
+      "name": "iPorte",
+      "description": "Shop premium portable tech and travel accessories from curated global brands.",
+      "terminal": "T8",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/05e2a3fc-ac45-4139-a68f-8f959fbb7406",
+      "imgAlt": "iPorte",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-05e2a3fc-ac45-4139-a68f-8f959fbb7406-4ff9fd9e.jpg"
+    },
+    {
+      "name": "iS Beauty",
+      "description": "iS Beauty in",
+      "terminal": "T5",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/f6917adc-ba5c-4c5a-aa11-bfbeb1dde184",
+      "imgAlt": "iS Beauty",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-f6917adc-ba5c-4c5a-aa11-bfbeb1dde184-7c2d2438.jpg"
+    },
+    {
+      "name": "iS Beauty",
+      "description": "iS Beauty features an extensive selection of designer fragrances.",
+      "terminal": "T1",
+      "gate": "4",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/1b8e65c5-a71a-446c-acc4-e421033ff871",
+      "imgAlt": "iS Beauty",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-1b8e65c5-a71a-446c-acc4-e421033ff871-68dca6a3.jpg"
+    }
+  ]
+}

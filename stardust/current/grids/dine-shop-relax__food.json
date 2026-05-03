@@ -1,0 +1,506 @@
+{
+  "url": "https://www.jfkairport.com/dine-shop-relax/food",
+  "slug": "dine-shop-relax__food",
+  "filters": {
+    "locations": [],
+    "areas": [],
+    "categories": [
+      "Air Bar",
+      "Beacon Bar & Kitchen",
+      "Bento Sushi",
+      "BKLYN Shopping Duty Free"
+    ]
+  },
+  "cards": [
+    {
+      "name": "Alidoro",
+      "description": "An Italian specialty sandwich shop originally founded in 1986 in the heart of New York City's SoHo, now with locations across NYC. We offer over 40 different sandwiches that we make fresh daily from only the finest Italian ingredients.",
+      "terminal": "T8",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/f867569b-41b0-4227-b190-e58ac249e6d7",
+      "imgAlt": "Alidoro",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-f867569b-41b0-4227-b190-e58ac249e6d7-abda5b13.jpg"
+    },
+    {
+      "name": "Apartment 7B Deli & Market",
+      "description": "",
+      "terminal": "T7",
+      "gate": "6",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/71e59a93-4b5b-41fa-a9d5-2d82667542c2",
+      "imgAlt": "Apartment 7B Deli & Market",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-71e59a93-4b5b-41fa-a9d5-2d82667542c2-efa01b46.jpg"
+    },
+    {
+      "name": "Arrivals Eatery",
+      "description": "Arrivals Eatery features various eateries such as Dunkin', Camden Food Company, and other cafes for travelers after clearing customs, offering quick bites and drinks before exiting the airport.",
+      "terminal": "T1",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/JFK_T1_ArrivalsEatery.jpg",
+      "imgAlt": "Arrivals Eatery",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-JFK_T1_ArrivalsEatery-18f38f6b.jpg"
+    },
+    {
+      "name": "Artichoke Pizzeria",
+      "description": "This quick service restaurant offers travelers passing through the LGA Terminal C Food Hall pizza from renowned New York's very own Artichoke pizza.",
+      "terminal": "T5",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/e4d4f103-458d-4107-8900-fe312257515c",
+      "imgAlt": "Artichoke Pizzeria",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-e4d4f103-458d-4107-8900-fe312257515c-4fded49e.jpg"
+    },
+    {
+      "name": "Aunt Butchie's Bakery Café - CEGM",
+      "description": "This Brooklyn style Bakery and Cafe brings New York's Favorite Chocolate Mousse Cake to T5, along with its line of gourmet coffee and bakery items.",
+      "terminal": "T5",
+      "gate": "512",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/bda3b06f-ca2c-40c6-813e-7e494ff2d22b",
+      "imgAlt": "Aunt Butchie's Bakery Café - CEGM",
+      "iconClass": "icon-cafe",
+      "imgLocal": "/assets/media/venue-bda3b06f-ca2c-40c6-813e-7e494ff2d22b-d574ddf1.jpg"
+    },
+    {
+      "name": "Bagel Boss",
+      "description": "Enjoy classic New York-style bagels, flagels, Black & White cookies, deli items, coffee, and more, providing a taste of authentic NYC.",
+      "terminal": "T8",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/da7bff36-84db-4961-bb7f-84e5ded9f197",
+      "imgAlt": "Bagel Boss",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-da7bff36-84db-4961-bb7f-84e5ded9f197-54eaad1c.jpg"
+    },
+    {
+      "name": "Beacon Bar & Kitchen",
+      "description": "Restaurant & Bar concept serving American cuisine",
+      "terminal": "T4",
+      "gate": "A11",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/d4690950-4c19-4e4c-99cf-1ea78893ce7f",
+      "imgAlt": "Beacon Bar & Kitchen",
+      "iconClass": "icon-bars",
+      "imgLocal": "/assets/media/venue-d4690950-4c19-4e4c-99cf-1ea78893ce7f-6292fcd2.jpg"
+    },
+    {
+      "name": "Bento Sushi",
+      "description": "Bento features grab & go sushi and donburi rice bowls.",
+      "terminal": "T4",
+      "gate": "B25",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/35a0893f-08a7-4441-a75c-7ba8b84ecd05.jpg",
+      "imgAlt": "Bento Sushi",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-35a0893f-08a7-4441-a75c-7ba8b84ecd05-d868dd32.jpg"
+    },
+    {
+      "name": "Bento Sushi",
+      "description": "Japanese-style grab-and-go sushi and fresh rolls, prepared daily and perfect for travelers who want a quick, clean, delicious meal before takeoff. Bento brings the craft of fresh and high-quality sushi from the counter to your tray.",
+      "terminal": "T7",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/7d727dcf-4033-4da0-a2b8-927b0aa03b42",
+      "imgAlt": "Bento Sushi",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-7d727dcf-4033-4da0-a2b8-927b0aa03b42-307d247f.jpg"
+    },
+    {
+      "name": "BKLYN Blend",
+      "description": "This Brooklyn-based Black-owned juice bar provides healthy smoothies, shakes, nutritious foods, and fresh juices.",
+      "terminal": "T8",
+      "gate": "12",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/62976cc2-0607-4c95-9c89-007936dc0587",
+      "imgAlt": "BKLYN Blend",
+      "iconClass": "icon-cafe",
+      "imgLocal": "/assets/media/venue-62976cc2-0607-4c95-9c89-007936dc0587-5530781e.jpg"
+    },
+    {
+      "name": "BKLYN Shopping Duty Free",
+      "description": "This duty free shop specializes in fragrances, skincare products, gourmet confections, wines and spirits.",
+      "terminal": "T8",
+      "gate": "42",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/80630f2f-42ef-4029-9fed-bef0c5db152b",
+      "imgAlt": "BKLYN Shopping Duty Free",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-80630f2f-42ef-4029-9fed-bef0c5db152b-1dc2b706.jpg"
+    },
+    {
+      "name": "Black Star Bakery & Cafe",
+      "description": "A popular New York coffee & pastry spot recently opened in the new Boroughs Foodhall at",
+      "terminal": "T8",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/1051008f-6007-4588-8285-0e78a26770d6",
+      "imgAlt": "Black Star Bakery & Cafe",
+      "iconClass": "icon-cafe",
+      "imgLocal": "/assets/media/venue-1051008f-6007-4588-8285-0e78a26770d6-aa684cac.jpg"
+    },
+    {
+      "name": "Blue Sky Traders",
+      "description": "",
+      "terminal": "T5",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/2016-03-09%2009.21.51.jpg",
+      "imgAlt": "Blue Sky Traders",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-2016-03-09_2009.21.51-21810dc0.jpg"
+    },
+    {
+      "name": "Boulton & Watt",
+      "description": "Sophisticated restaurant atmosphere serving American classics such as mac-n-cheese, burgers, and salads.",
+      "terminal": "T4",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/9e8c4046-5e5a-484f-bb28-92a1bda92c30",
+      "imgAlt": "Boulton & Watt",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-9e8c4046-5e5a-484f-bb28-92a1bda92c30-690dc8bb.jpg"
+    },
+    {
+      "name": "Brindle Room",
+      "description": "",
+      "terminal": "T7",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/77f10b24-4a60-4c33-ad9e-5bfc42464f90",
+      "imgAlt": "Brindle Room",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-77f10b24-4a60-4c33-ad9e-5bfc42464f90-1f641b46.jpg"
+    },
+    {
+      "name": "Brooklyn Deli",
+      "description": "Hot sandwiches & comfort food with a laid-back ambiance",
+      "terminal": "T4",
+      "gate": "B34",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/78caad31-e827-46d1-81c4-b2ebe386a61d",
+      "imgAlt": "Brooklyn Deli",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-78caad31-e827-46d1-81c4-b2ebe386a61d-3f109d15.jpg"
+    },
+    {
+      "name": "Brooklyn Rebel",
+      "description": "Brooklyn Rebel serves up authentic New York-style pizza meant to be folded, not fussed over. With big slices, crispy crusts, and bold flavor, every bite brings the unmistakable attitude of NYC.",
+      "terminal": "T7",
+      "gate": "3",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/290628f3-48c3-468c-a0a8-d0eb7f929870",
+      "imgAlt": "Brooklyn Rebel",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-290628f3-48c3-468c-a0a8-d0eb7f929870-b57843b0.jpg"
+    },
+    {
+      "name": "Brooklyn Tea & Market",
+      "description": "Branded Specialty coffee/café",
+      "terminal": "T4",
+      "gate": "B28",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/d2f30e9a-50bd-47df-82ac-51c8956bb64a",
+      "imgAlt": "Brooklyn Tea & Market",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-d2f30e9a-50bd-47df-82ac-51c8956bb64a-7117465d.jpg"
+    },
+    {
+      "name": "Bryant Park Market",
+      "description": "",
+      "terminal": "T5",
+      "gate": "521",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/e7f216e6-9d5f-43aa-a2ea-b033dce2ea19",
+      "imgAlt": "Bryant Park Market",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-e7f216e6-9d5f-43aa-a2ea-b033dce2ea19-4e5d0c1c.jpg"
+    },
+    {
+      "name": "Buffalo Wild Wings",
+      "description": "Buffalo Wild Wings features hand spun wings with a range of sauces and seasonings.",
+      "terminal": "T4",
+      "gate": "B26",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/2bb5fbf8-319d-4ef9-8b6f-59226f2e57f8.jpg",
+      "imgAlt": "Buffalo Wild Wings",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-2bb5fbf8-319d-4ef9-8b6f-59226f2e57f8-6a04369c.jpg"
+    },
+    {
+      "name": "Caribbean Kitchen",
+      "description": "Enjoy a variety of island flavors infused with local ingredients and Caribbean flare, offering up classic and inspired dishes.",
+      "terminal": "T5",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/d615ad10-0f5e-482a-a7b0-d2f09e474964",
+      "imgAlt": "Caribbean Kitchen",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-d615ad10-0f5e-482a-a7b0-d2f09e474964-74c2141c.jpg"
+    },
+    {
+      "name": "Chocolate & More",
+      "description": "Shop for a variety of sweets at Chocolate & More.",
+      "terminal": "T4",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/c46ebf1a-063c-4b2f-b23c-00ac1e413839.jpg",
+      "imgAlt": "Chocolate & More",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-c46ebf1a-063c-4b2f-b23c-00ac1e413839-63b8815b.jpg"
+    },
+    {
+      "name": "CIBO",
+      "description": "CIBO Express is the ultimate grab & go offering sweet and savory snacks as well as an array of healthy options.",
+      "terminal": "T5",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/83c6a82e-6b53-4176-9011-475451b685b9",
+      "imgAlt": "CIBO",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-83c6a82e-6b53-4176-9011-475451b685b9-5e409a7f.jpg"
+    },
+    {
+      "name": "Cibo Express",
+      "description": "More than 40 varieties of sandwiches and hundreds of choices for the traveler on the go.",
+      "terminal": "T5",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/34febf2b-e576-4259-8eb5-d6e2f48d4f74",
+      "imgAlt": "Cibo Express",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-34febf2b-e576-4259-8eb5-d6e2f48d4f74-9a9b5875.jpg"
+    },
+    {
+      "name": "Cobblestones Biergarten & Bar",
+      "description": "",
+      "terminal": "T8",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/304f3eac-62c3-48ef-a497-d0c91361acdf",
+      "imgAlt": "Cobblestones Biergarten & Bar",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-304f3eac-62c3-48ef-a497-d0c91361acdf-114618e3.jpg"
+    },
+    {
+      "name": "Connoisseur Collection",
+      "description": "Iconic French brand celebrated for elegant leather handbags, travel essentials, and timeless Parisian design.",
+      "terminal": "T8",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/63d958fd-497a-43c5-9793-9ee5d7538a33",
+      "imgAlt": "Connoisseur Collection",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-63d958fd-497a-43c5-9793-9ee5d7538a33-01e31791.jpg"
+    },
+    {
+      "name": "Custom Burgers",
+      "description": "Custom Burgers - In addition to a range of classic burgers and sandwiches offered, Custom Burgers allows guests a fully-customizable build-your-own option.",
+      "terminal": "T5",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/57df868e-e818-45e9-ae07-aa862c232bc5",
+      "imgAlt": "Custom Burgers",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-57df868e-e818-45e9-ae07-aa862c232bc5-3d942e2f.jpg"
+    },
+    {
+      "name": "Dos Toros Taqueria",
+      "description": "Dos Toros is a taqueria chain that offers fresh, flavorful and melty burritos, tacos, quesadillas, bowls, salads and nachos.",
+      "terminal": "T8",
+      "gate": "35",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/a923d7f4-d596-47c1-9839-d9c36dd3a556",
+      "imgAlt": "Dos Toros Taqueria",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-a923d7f4-d596-47c1-9839-d9c36dd3a556-10de636c.jpg"
+    },
+    {
+      "name": "Dos Toros Tequila Bar",
+      "description": "Tequila bar featuring specialty cocktails and a sophisticated tequila collection in a welcoming setting, providing an authentic Bay Area taste.",
+      "terminal": "T8",
+      "gate": "31",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/b9121444-aaec-4210-bddb-02626d1dce8a",
+      "imgAlt": "Dos Toros Tequila Bar",
+      "iconClass": "icon-bars",
+      "imgLocal": "/assets/media/venue-b9121444-aaec-4210-bddb-02626d1dce8a-8a150fcf.jpg"
+    },
+    {
+      "name": "Downtown Market",
+      "description": "Great selection of quick bites.",
+      "terminal": "T1",
+      "gate": "2",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/JFK_T1_DowntownMarket.jpg",
+      "imgAlt": "Downtown Market",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-JFK_T1_DowntownMarket-93b4e20b.jpg"
+    },
+    {
+      "name": "Dunkin'",
+      "description": "Great hot and iced coffee choices, donuts, bagels and more from the largest coffee and baked goods chain in the world.",
+      "terminal": "T5",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/9f1fed66-ce1d-4b51-855b-d6bf23eb4dcb",
+      "imgAlt": "Dunkin'",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-9f1fed66-ce1d-4b51-855b-d6bf23eb4dcb-b09d8fad.jpg"
+    },
+    {
+      "name": "Dunkin'",
+      "description": "Dunkin' is an American favorite, serving signature breakfast items and a variety of coffee drinks.",
+      "terminal": "T1",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/IMG_20160121_150931.jpg",
+      "imgAlt": "Dunkin'",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-IMG_20160121_150931-5bd68b30.jpg"
+    },
+    {
+      "name": "Dunkin'",
+      "description": "Long-running chain serving signature breakfast items & a variety of coffee drinks. As well as serving sandwiches.",
+      "terminal": "T8",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/287b3458-5af0-4f88-a171-7d4ba69e9cf2",
+      "imgAlt": "Dunkin'",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-287b3458-5af0-4f88-a171-7d4ba69e9cf2-a3cb4a0e.jpg"
+    },
+    {
+      "name": "Dunkin'",
+      "description": "Dunkin' is an American favorite, featuring bakery, deli, and breakfast items.",
+      "terminal": "T4",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/24eaefda-0c42-4603-a356-6030a51428ad",
+      "imgAlt": "Dunkin'",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-24eaefda-0c42-4603-a356-6030a51428ad-82dc8f6e.jpg"
+    },
+    {
+      "name": "Dunkin'",
+      "description": "Fuel your journey with freshly brewed coffee, iconic donuts, and grab-and-go favorites made for life on the move. Whether you're starting your day or taking a break between flights, Dunkin' keeps you running.",
+      "terminal": "T7",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/033b8159-44fc-46b9-b759-7f79dfc932cc",
+      "imgAlt": "Dunkin'",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-033b8159-44fc-46b9-b759-7f79dfc932cc-059486cc.jpg"
+    },
+    {
+      "name": "Dunkin'",
+      "description": "Fuel your journey with freshly brewed coffee, iconic donuts, and grab-and-go favorites made for life on the move. Whether you're starting your day or taking a break between flights, Dunkin' keeps you running.",
+      "terminal": "T7",
+      "gate": "9",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/f52371cf-8703-456c-bfc0-668e32bc3928",
+      "imgAlt": "Dunkin'",
+      "iconClass": "icon-cafe",
+      "imgLocal": "/assets/media/venue-f52371cf-8703-456c-bfc0-668e32bc3928-9409d2a8.jpg"
+    },
+    {
+      "name": "Dunkin' Express",
+      "description": "Dunkin' Express offers coffee and bakery items.",
+      "terminal": "T1",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/dunkindonutsexpress-jfk-6-15.jpg",
+      "imgAlt": "Dunkin' Express",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-dunkindonutsexpress-jfk-6-15-91534cb2.jpg"
+    },
+    {
+      "name": "Dunkin' Express",
+      "description": "Dunkin' Express offers coffee and bakery items.",
+      "terminal": "T1",
+      "gate": "6",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/14ba934d-deba-4844-adc8-8691fba71a04",
+      "imgAlt": "Dunkin' Express",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-14ba934d-deba-4844-adc8-8691fba71a04-33c1745d.jpg"
+    },
+    {
+      "name": "Duty Free Americas",
+      "description": "Enhance your journey with duty-free shopping at JFK",
+      "terminal": "T7",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/0366-jfk-7-dutyfreeamericas2.jpg",
+      "imgAlt": "Duty Free Americas",
+      "iconClass": "icon-shops",
+      "imgLocal": "/assets/media/venue-0366-jfk-7-dutyfreeamericas2-2509752d.jpg"
+    },
+    {
+      "name": "Eastward",
+      "description": "Eastward is known for their seafood menu featuring shrimp tacos, clam chowder, and fish.",
+      "terminal": "T4",
+      "gate": "B46",
+      "imgSrc": "https://www.jfkairport.com/images/shared/fallback/poi-categories/eat.jpg",
+      "imgAlt": "Eastward",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-eat-4f955337.jpg"
+    },
+    {
+      "name": "Eat & Go Istanbul",
+      "description": "Eat & Go Istanbul is a deli dishing out halal food.",
+      "terminal": "T1",
+      "gate": "5",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/d883550d-0073-49b8-b45f-98de2f03e1a4",
+      "imgAlt": "Eat & Go Istanbul",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-d883550d-0073-49b8-b45f-98de2f03e1a4-a47af4cc.jpg"
+    },
+    {
+      "name": "Eataly",
+      "description": "Eataly offers a true Italian coffee bar experience with expertly crafted espresso, pastries, and light bites served in a warm, fast-paced, and welcoming atmosphere.",
+      "terminal": "T8",
+      "gate": "43",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/88d98f7e-6570-44e1-accc-9aed83c62db8",
+      "imgAlt": "Eataly",
+      "iconClass": "icon-bars",
+      "imgLocal": "/assets/media/venue-88d98f7e-6570-44e1-accc-9aed83c62db8-178f69a5.jpg"
+    },
+    {
+      "name": "Eataly",
+      "description": "Eataly offers a true Italian coffee bar experience with expertly crafted espresso, pastries, and light bites served in a warm, fast-paced, and welcoming atmosphere.",
+      "terminal": "T8",
+      "gate": "45",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/3ef54d4f-e347-489f-95a0-8749e53a95d7",
+      "imgAlt": "Eataly",
+      "iconClass": "icon-bars",
+      "imgLocal": "/assets/media/venue-3ef54d4f-e347-489f-95a0-8749e53a95d7-db0356cf.jpg"
+    },
+    {
+      "name": "Euro Cafe",
+      "description": "Euro Cafe features bakery items and speciality coffee drinks.",
+      "terminal": "T1",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/a48afc44-9e8a-4d87-81d3-6a795eb95ced",
+      "imgAlt": "Euro Cafe",
+      "iconClass": "icon-restaurants",
+      "imgLocal": "/assets/media/venue-a48afc44-9e8a-4d87-81d3-6a795eb95ced-54d3d18c.jpg"
+    },
+    {
+      "name": "Farmer's Fridge",
+      "description": "Farmer's Fridge vending machines offer fresh chef-crafted salads, breakfast, sandwiches, and bowls, delivered daily.",
+      "terminal": "T4",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/5fc919df-157a-4723-9a85-3a77727a0601",
+      "imgAlt": "Farmer's Fridge",
+      "iconClass": "icon-apps",
+      "imgLocal": "/assets/media/venue-5fc919df-157a-4723-9a85-3a77727a0601-4b774dba.jpg"
+    },
+    {
+      "name": "Farmer's Fridge",
+      "description": "Farmer's Fridge vending machines offer fresh chef-crafted salads, breakfast, sandwiches, and bowls, delivered daily.",
+      "terminal": "T5",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/48f67ef3-6aac-4ab6-a208-31a7ce23ae75",
+      "imgAlt": "Farmer's Fridge",
+      "iconClass": "icon-apps",
+      "imgLocal": "/assets/media/venue-48f67ef3-6aac-4ab6-a208-31a7ce23ae75-91f965fc.jpg"
+    },
+    {
+      "name": "Farmer's Fridge",
+      "description": "Farmer's Fridge vending machines offer fresh chef-crafted salads, breakfast, sandwiches, and bowls, delivered daily.",
+      "terminal": "T7",
+      "gate": "2",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/cee95dd1-1dd5-44e8-85bf-eaa34bbbe5cc",
+      "imgAlt": "Farmer's Fridge",
+      "iconClass": "icon-apps",
+      "imgLocal": "/assets/media/venue-cee95dd1-1dd5-44e8-85bf-eaa34bbbe5cc-3b630b8d.jpg"
+    },
+    {
+      "name": "Farmer's Fridge",
+      "description": "Farmer's Fridge vending machines offer fresh chef-crafted salads, breakfast, sandwiches, and bowls, delivered daily.",
+      "terminal": "T7",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/ef726703-c8e8-4959-a1ef-2d6273b3e8ed",
+      "imgAlt": "Farmer's Fridge",
+      "iconClass": "icon-apps",
+      "imgLocal": "/assets/media/venue-ef726703-c8e8-4959-a1ef-2d6273b3e8ed-dda8b399.jpg"
+    },
+    {
+      "name": "Farmer's Fridge",
+      "description": "Farmer's Fridge vending machines offer fresh chef-crafted salads, breakfast, sandwiches, and bowls, delivered daily.",
+      "terminal": "T1",
+      "gate": "",
+      "imgSrc": "https://img.locuslabs.com/resize/A119NSPH8JLU80/png/transparent/1053x591contain/poi/8d14cb23-585d-4a5e-8626-b0171e2a6b9e",
+      "imgAlt": "Farmer's Fridge",
+      "iconClass": "icon-apps",
+      "imgLocal": "/assets/media/venue-8d14cb23-585d-4a5e-8626-b0171e2a6b9e-c16a1688.jpg"
+    }
+  ]
+}
