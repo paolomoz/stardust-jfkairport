@@ -103,7 +103,8 @@
     font-family: var(--body-family); font-size: var(--text-body); line-height: 1.6;
     -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility; font-kerning: normal;
-    font-feature-settings: "kern" 1, "liga" 1, "calt" 1; }
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+    overflow-x: clip; }
   .display { font-family: var(--display-family); font-weight: 700; letter-spacing: -0.025em;
     font-feature-settings: "kern" 1, "liga" 1, "ss01" 1; }
   /* Typeset utilities */
@@ -305,8 +306,8 @@
   header .logo img { height: 36px; width: auto; }
   header nav { display: flex; gap: 28px; flex: 1; margin-left: 16px; }
   header nav a { color: var(--panynj-deep-blue); font-family: inherit; font-size: 15px; font-weight: 600; padding: 6px 0; }
-  header .right { display: flex; align-items: center; gap: 12px; }
-  header .right .icon { width: 36px; height: 36px; display: inline-flex; align-items: center; justify-content: center;
+  header .right { display: flex; align-items: center; gap: 10px; }
+  header .right .icon { width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center;
     color: var(--panynj-deep-blue); background: var(--slate-100); border-radius: 4px; cursor: pointer; font-size: 20px; }
   header .right .icon-btn { border: 0; }
   header .right .icon:hover { background: var(--ice-blue); }
@@ -441,7 +442,7 @@
   .flight-search .field { display: flex; flex-direction: column; gap: 6px; }
   .flight-search label.input-label { font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--slate-700); font-weight: 700; }
   .flight-search input { border: 1px solid var(--slate-600); border-radius: 2px; padding: 12px 14px;
-    font-family: inherit; font-size: 15px; background: var(--ground-white); color: var(--ink); font-variant-numeric: tabular-nums; }
+    font-family: inherit; font-size: 16px; background: var(--ground-white); color: var(--ink); font-variant-numeric: tabular-nums; }
   .flight-search input:focus-visible { outline: 0; border-color: var(--panynj-blue); border-width: 2px; padding: 11px 13px; }
   .btn-primary { background: var(--panynj-blue); color: var(--ground-white); border: 0; border-radius: 2px;
     padding: 14px 26px; font-family: inherit; font-size: 16px; font-weight: 700; cursor: pointer;
@@ -455,8 +456,11 @@
   .task-side h3 { font-family: var(--display-family); font-weight: 700; font-size: var(--text-h3-sm); line-height: 1.15;
     letter-spacing: -0.02em; margin: 8px 0 16px; color: var(--ground-white); text-wrap: balance; }
   .quick-actions { display: flex; flex-direction: column; gap: 0; }
-  .quick-action { display: flex; justify-content: space-between; align-items: center; padding: 14px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.50); color: var(--ground-white); font-size: 15px; }
+  .quick-action { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 14px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.50); color: var(--ground-white); font-size: 15px;
+    flex-wrap: wrap; min-height: 44px; }
+  .quick-action .l { flex-shrink: 0; }
+  .quick-action .v { flex-shrink: 1; min-width: 0; text-align: right; }
   .quick-action:last-child { border-bottom: 0; }
   .quick-action:hover { text-decoration: none; }
   .quick-action .l { color: var(--slate-300); font-weight: 500; }
@@ -615,6 +619,18 @@
     footer .brand { flex-wrap: wrap; gap: 14px; }
     footer .brand .panynj-logo { height: 52px; }
     footer .bottom { flex-direction: column; align-items: flex-start; gap: 8px; }
+
+    /* Quick-action rows: stack label and value on phone so long values like "AirTrain · Subway · Bus" don't push past viewport */
+    .quick-action { flex-direction: column; align-items: flex-start; gap: 4px; padding: 12px 0; }
+    .quick-action .v { text-align: left; font-size: 16px; }
+
+    /* Inputs at 16px to suppress iOS zoom-on-focus */
+    .flight-search input,
+    input[type="text"], input[type="search"], input[type="email"], input[type="tel"], input[type="number"], input[type="date"],
+    select, textarea { font-size: 16px; }
+
+    /* Pickup-status row: terminal label + status pill — keep one line but allow detail to wrap */
+    .pickup-status .ps-row { grid-template-columns: 56px 1fr auto; gap: 10px; font-size: 14px; }
   }
 
   /* Mobile (≤ 480px) */
@@ -634,7 +650,8 @@
     .audience-tile.featured .featured-preview { gap: 18px; flex-wrap: wrap; }
     .audience-tile.featured .featured-preview .stat .num { font-size: 20px; }
 
-    .task-panel .inner { padding: 0 20px; }
+    .task-panel .inner { padding: 0 20px; grid-template-columns: 1fr; }
+    .task-panel .inner > * { min-width: 0; }    /* let grid items shrink past min-content */
     .task-panel .head h2 { font-size: clamp(40px, 9vw, 64px); }
     .task-panel .head p { font-size: 16px; }
     .flight-search { padding: 18px 20px; }
@@ -723,8 +740,9 @@ header nav.primary-nav .nav-item.is-open .nav-trigger .nav-chevron { transform: 
   z-index: 100; opacity: 0; visibility: hidden; transition: opacity 280ms var(--ease-out-quart), visibility 280ms;
   overflow-y: auto; padding: 80px 24px 32px; }
 .mobile-drawer.is-open { opacity: 1; visibility: visible; }
-.mobile-drawer .md-close { position: absolute; top: 18px; right: 20px; background: transparent; border: 0;
-  color: var(--ground-white); font-size: 28px; cursor: pointer; padding: 8px; }
+.mobile-drawer .md-close { position: absolute; top: 14px; right: 14px; background: transparent; border: 0;
+  color: var(--ground-white); font-size: 28px; cursor: pointer; width: 44px; height: 44px;
+  display: flex; align-items: center; justify-content: center; padding: 0; line-height: 1; }
 .mobile-drawer .md-section { margin-bottom: 32px; padding-bottom: 24px; border-bottom: 1px solid rgba(255,255,255,0.15); }
 .mobile-drawer .md-section:last-child { border-bottom: 0; }
 .mobile-drawer .md-section h5 { font-family: var(--display-family); font-weight: 700; font-size: 13px;

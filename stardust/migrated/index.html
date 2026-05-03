@@ -454,7 +454,7 @@ _provenance:
   header nav { display: flex; gap: 28px; flex: 1; margin-left: 16px; }
   header nav a { color: var(--panynj-deep-blue); font-family: inherit; font-size: 15px; font-weight: 600; padding: 6px 0; }
   header .right { display: flex; align-items: center; gap: 12px; }
-  header .right .icon { width: 36px; height: 36px; display: inline-flex; align-items: center; justify-content: center;
+  header .right .icon { width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center;
     color: var(--panynj-deep-blue); background: var(--slate-100); border-radius: 4px; cursor: pointer; font-size: 20px; }
   header .right .icon-btn { border: 0; }
   header .right .icon:hover { background: var(--ice-blue); }
@@ -589,7 +589,7 @@ _provenance:
   .flight-search .field { display: flex; flex-direction: column; gap: 6px; }
   .flight-search label.input-label { font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--slate-700); font-weight: 700; }
   .flight-search input { border: 1px solid var(--slate-600); border-radius: 2px; padding: 12px 14px;
-    font-family: inherit; font-size: 15px; background: var(--ground-white); color: var(--ink); font-variant-numeric: tabular-nums; }
+    font-family: inherit; font-size: 16px; background: var(--ground-white); color: var(--ink); font-variant-numeric: tabular-nums; }
   .flight-search input:focus-visible { outline: 0; border-color: var(--panynj-blue); border-width: 2px; padding: 11px 13px; }
   .btn-primary { background: var(--panynj-blue); color: var(--ground-white); border: 0; border-radius: 2px;
     padding: 14px 26px; font-family: inherit; font-size: 16px; font-weight: 700; cursor: pointer;
@@ -603,8 +603,9 @@ _provenance:
   .task-side h3 { font-family: var(--display-family); font-weight: 700; font-size: var(--text-h3-sm); line-height: 1.15;
     letter-spacing: -0.02em; margin: 8px 0 16px; color: var(--ground-white); text-wrap: balance; }
   .quick-actions { display: flex; flex-direction: column; gap: 0; }
-  .quick-action { display: flex; justify-content: space-between; align-items: center; padding: 14px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.50); color: var(--ground-white); font-size: 15px; }
+  .quick-action { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 14px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.50); color: var(--ground-white); font-size: 15px;
+    flex-wrap: wrap; min-height: 44px; }
   .quick-action:last-child { border-bottom: 0; }
   .quick-action:hover { text-decoration: none; }
   .quick-action .l { color: var(--slate-300); font-weight: 500; }
@@ -763,6 +764,15 @@ _provenance:
     footer .brand { flex-wrap: wrap; gap: 14px; }
     footer .brand .panynj-logo { height: 52px; }
     footer .bottom { flex-direction: column; align-items: flex-start; gap: 8px; }
+
+    /* Quick-action rows: stack label + value on phone so long values don't push past viewport */
+    .quick-action { flex-direction: column; align-items: flex-start; gap: 4px; padding: 12px 0; min-height: 44px; }
+    .quick-action .v { font-size: 16px; }
+
+    /* Inputs at 16px to suppress iOS zoom-on-focus */
+    .flight-search input,
+    input[type="text"], input[type="search"], input[type="email"], input[type="tel"], input[type="number"], input[type="date"],
+    select, textarea { font-size: 16px; }
   }
 
   /* Mobile (≤ 480px) */
@@ -782,11 +792,13 @@ _provenance:
     .audience-tile.featured .featured-preview { gap: 18px; flex-wrap: wrap; }
     .audience-tile.featured .featured-preview .stat .num { font-size: 20px; }
 
-    .task-panel .inner { padding: 0 20px; }
+    .task-panel .inner { padding: 0 20px; grid-template-columns: 1fr; }
+    .task-panel .inner > * { min-width: 0; }    /* let grid items shrink past min-content */
     .task-panel .head h2 { font-size: clamp(40px, 9vw, 64px); }
     .task-panel .head p { font-size: 16px; }
     .flight-search { padding: 18px 20px; }
     .flight-search .form-row { grid-template-columns: 1fr; gap: 12px; }
+    .flight-search .form-row > * { min-width: 0; }
     .flight-search .form-row .field:last-child .btn-primary { width: 100%; }
 
     .status-strip .ss-head { flex-direction: column; align-items: flex-start; gap: 8px; }

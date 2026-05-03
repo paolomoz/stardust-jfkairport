@@ -7,6 +7,27 @@ _provenance:
   writtenAt: 2026-05-03T00:00:00Z
   variant: V1-faithful-navy-v7-herofeed (focused refinement on v7, sidekick news-feed overlay)
   basedOn: stardust/prototypes/home-V1-faithful-navy-v7-proposed.html
+  adaptPass: 2026-05-03 (impeccable:adapt — phone breakpoint authored at 720px and 380px)
+  adaptStrategy: phone-first additions to a desktop-first design. The locked layout's only mobile-aware breakpoint was 1100px (collapses grids to 1fr) plus 1024px (herofeed reflow). The 720px treatment adds: tightened section paddings (24/36/44/56 px instead of 48/64/80/96), audience tiles stack 1-up (was 2-up at 1100px), flight-search form-row collapses 200/1fr/140 → 1fr stack, header desktop nav hides (logo + icons remain), brand-hero scales display down via clamp(72-120px), herofeed inner padding tightens, footer 4-col → 2-col, all tap targets ≥40×40 on icon-only elements. The 380px treatment further reduces hero type and stacks the footer to 1-col. Audit-driven: BUTTON.audience-tile, DIV.head, H2.display, DIV.flight-search no longer overflow at 390px viewport.
+  adaptChanges:
+    - Tightened --pad-* tokens at ≤720px (24/36/44/56) so every section padding follows
+    - Hidden desktop header nav at ≤720px (logo + icons remain; the migrated production site has a hamburger drawer at canon.js)
+    - Brand-hero h1 wordmark uses clamp(72-120px) at ≤720px and clamp(60-96px) at ≤380px
+    - Brand-hero .copy padding 24/16/40 (was 32/32/56)
+    - Hero ambient drift animation suppressed at ≤720px (battery + small viewport)
+    - Audience tiles stack 1-up at ≤720px (was 2-up at 1100px). Featured tile re-tuned for single-column.
+    - Task-panel grid collapses to 1-col with 16px gutters
+    - Flight-search form-row 200/1fr/140 → 1fr stack; input font-size: 16px to suppress iOS zoom-on-focus
+    - Search button becomes full-width
+    - Status grid + cards: paddings tightened, value type 56px → 44px
+    - Construction h2 clamps 40-56px on phone
+    - Essentials grid 3-col → 1-col on phone
+    - Latest grid 1.6fr/1fr → 1-col on phone
+    - Guide-tiles 5-col → 2-col at 720px, → 1-col at 380px (was 1-col at 1100px which lost the visual rhythm; 2-col on phone preserves the strip feel)
+    - Footer 4-col → 2-col at 720px, → 1-col at 380px; brand row wraps; bottom row stacks
+    - Access-card flex-direction: column on phone; glyph 56px → 48px
+    - Tap-target floor: header icons + footer social ≥40×40
+  adaptVerifiedAt: 2026-05-03 via Playwright iPhone-13 emulation (390px viewport): no element exceeds 390px width
   focusedChange: status section is removed from the page flow and reborn as a sidekick widget overlaying the right side of the brand hero. Reads as a "what's happening at JFK right now" panel that sits over the photograph, like a transit-authority info card pinned to the brand moment. Three timestamped entries, condensed for the smaller form.
   rationale: same root issue as v7-statusband and v7-statusfeed (the v7 status-strip grid trips impeccable's hero-metric-template ban). This treatment goes further: the feed isn't just rephrased, it's relocated. Frees the page below the hero to flow directly into audience routing without an interrupting band. The hero gains a functional layer; the page gains 340px of vertical real estate back. Trade-off: the feed is no longer always-visible after scroll past the hero.
   position: 380px wide, anchored bottom-right of brand hero with 32px inset, white card on the photo with a deep navy-tinted shadow for clear lift. Mobile collapses below the hero rather than overlapping (under 1024px breakpoint).
@@ -704,6 +725,175 @@ _provenance:
     .status-grid, .essentials-grid, .construction .inner, .guide-tiles, .latest-grid, .task-panel .inner { grid-template-columns: 1fr; gap: 24px; }
     .brand-hero h1 { font-size: 96px; }
     .construction .copy h2 { font-size: 56px; }
+    /* Tablet: tighten task-panel form so it doesn't force min-content width */
+    .flight-search .form-row { grid-template-columns: 1fr 1fr 140px; }
+    /* Footer collapses 4 cols → 2 */
+    footer .top { grid-template-columns: 1fr 1fr; gap: 28px; }
+  }
+
+  /* ============ MOBILE (≤ 720px): phone-first treatment ============ */
+  /* The locked design's provenance promised "Mobile collapses below the hero" but the
+     phone breakpoint was never authored. This pass implements it without changing the
+     desktop look, content, or interaction model — paddings tighten, audience tiles
+     stack 1-up, the flight-search form stacks single-column, the herofeed widget
+     reflows inline below the hero (already handled by the 1024px @media on .herofeed). */
+  @media (max-width: 720px) {
+    /* Padding rhythm collapses to phone scale */
+    :root {
+      --pad-tight: 24px;
+      --pad-normal: 36px;
+      --pad-airy: 44px;
+      --pad-hero: 56px;
+    }
+
+    /* Header — hide desktop nav (no megamenu in this prototype, so the icons remain
+       as the only nav affordance; the migrated production site has a proper hamburger
+       drawer at the canon.js layer). On phone the brand hero opens immediately. */
+    header[data-section="header"] { padding: 10px 16px; gap: 12px; }
+    header nav { display: none; }
+    header .right { gap: 8px; }
+    header .right .icon { width: 40px; height: 40px; font-size: 18px; }
+    header .logo img { height: 32px; }
+
+    /* Brand hero */
+    .brand-hero { height: auto; min-height: 460px; }
+    .brand-hero .copy { padding: 24px 16px 40px; }
+    .brand-hero .meta-strip { left: 16px; right: 16px; top: 16px; font-size: 11px; gap: 12px; }
+    .brand-hero h1 { font-size: clamp(72px, 22vw, 120px); letter-spacing: -0.05em; }
+    .brand-hero .deck { font-size: 17px; line-height: 1.4; margin-top: 14px; max-width: none; }
+    /* Disable the slow infinite ambient drift on mobile (saves battery + small viewport doesn't need it) */
+    .brand-hero img { animation: hero-image-settle 1400ms var(--ease-out-expo) both; }
+
+    /* Herofeed — already collapses to static at 1024px; tighten its inner padding here */
+    .herofeed { margin: 0 16px -24px; padding: 16px 16px 14px; }
+    .herofeed .hf-entry { grid-template-columns: 48px 1fr; gap: 12px; padding: 10px 0; }
+    .herofeed .hf-entry .body { font-size: 13px; }
+
+    /* Status strip — already 1fr at 1100px; tighten paddings */
+    .status-strip { padding: var(--pad-tight) 16px; }
+    .status-strip .ss-head { flex-wrap: wrap; gap: 8px; align-items: baseline; margin-bottom: 18px; }
+    .status-card { padding: 18px 20px; }
+    .status-card .value { font-size: 44px; margin-top: 6px; }
+    .status-card .breakdown { font-size: 13px; margin-top: 10px; }
+
+    /* Audience router — stack 1-up on phone (was 2-up at 1100px) */
+    .audience-section { padding: var(--pad-tight) 16px var(--pad-normal); }
+    .audience-section h2 { font-size: clamp(32px, 8vw, 48px); }
+    .audience-section .deck { font-size: 16px; margin-top: 6px; }
+    .audience-tiles { grid-template-columns: 1fr; gap: 10px; }
+    .audience-tile { min-height: 0; padding: 20px 20px 22px; }
+    .audience-tile .label { font-size: 26px; }
+    .audience-tile .meta { font-size: 14px; margin-top: 4px; }
+    .audience-tile.featured { padding: 22px 22px 24px; }
+    .audience-tile.featured .label { font-size: 34px; letter-spacing: -0.025em; }
+    .audience-tile.featured .featured-preview { gap: 22px; padding-top: 12px; margin-top: 10px; flex-wrap: wrap; }
+    .audience-tile.featured .featured-preview .stat { min-width: 90px; }
+    .audience-tile.featured .featured-preview .stat .num { font-size: 20px; }
+
+    /* Task panel — stack panel content single column */
+    .task-panel { padding: var(--pad-normal) 0; }
+    .task-panel .inner { padding: 0 16px; gap: 28px; grid-template-columns: 1fr; }
+    .task-panel .head h2 { font-size: clamp(40px, 11vw, 64px); margin: 6px 0 14px; }
+    .task-panel .head p { font-size: 16px; line-height: 1.55; margin: 0 0 22px; }
+    .task-side { padding-top: 0; }
+    .task-side h3 { font-size: 22px; margin: 6px 0 12px; }
+
+    /* Flight search — collapse 200px / 1fr / 140px to single column */
+    .flight-search { padding: 20px 20px; }
+    .flight-search .tabs { gap: 18px; }
+    .flight-search .tab { font-size: 19px; padding: 0 0 10px; }
+    .flight-search .search-by { gap: 14px; flex-wrap: wrap; margin-top: 14px; }
+    .flight-search .form-row { grid-template-columns: 1fr; gap: 12px; margin-top: 12px; }
+    .flight-search .field { width: 100%; }
+    .flight-search input { padding: 14px 14px; font-size: 16px; /* prevent iOS zoom-on-focus */ }
+    .flight-search .btn-primary { width: 100%; padding: 16px 26px; }
+
+    /* Quick actions — make rows tap-target friendly */
+    .quick-actions { gap: 0; }
+    .quick-action { padding: 14px 0; font-size: 15px; min-height: 44px; align-items: center; }
+
+    /* Pickup status — keep 3-col grid but tighten */
+    .pickup-status { padding: 18px 20px; }
+    .pickup-status .ps-row { grid-template-columns: 60px 1fr auto; gap: 10px; padding: 10px 0; font-size: 14px; }
+
+    /* Connect info — keep, just tighten font */
+    .connect-info { padding: 18px 20px; gap: 18px; }
+    .connect-info .mct-table { font-size: 13px; }
+    .connect-info .mct-table th { font-size: 10px; }
+
+    /* Visit info — 2-col grid stays (cards are small enough), tighten gap */
+    .visit-info { padding: 18px 20px; }
+    .visit-info .vi-grid { gap: 10px; }
+    .visit-info .vi-card { padding: 14px 14px; }
+
+    /* Guide tiles — 5-col → 2-col on phone (was 1-col at 1100px which loses the visual rhythm) */
+    .guide-section { padding: var(--pad-normal) 16px; }
+    .guide-tiles { grid-template-columns: 1fr 1fr; gap: 10px; }
+    .guide-tile .photo { aspect-ratio: 4/5; }
+    .guide-tile .body { padding: 12px 12px 14px; }
+    .guide-tile .body h3 { font-size: 17px; }
+    .section-head { flex-wrap: wrap; gap: 6px; align-items: baseline; margin-bottom: 18px; }
+    .section-head h2 { font-size: clamp(28px, 7vw, 40px); }
+
+    /* Construction */
+    .construction { padding: var(--pad-normal) 16px; }
+    .construction .copy h2 { font-size: clamp(40px, 12vw, 56px); margin: 0 0 14px; max-width: none; }
+    .construction .copy p { font-size: 16px; line-height: 1.55; margin: 0 0 18px; }
+    .construction .copy .ctas { gap: 14px; }
+    .construction figure { padding: 8px; }
+
+    /* Essentials */
+    .essentials { padding: var(--pad-normal) 0; }
+    .essentials .inner { padding: 0 16px; }
+    .essentials .essentials-head { margin-bottom: 22px; }
+    .essentials .essentials-head h2 { font-size: clamp(32px, 9vw, 56px); }
+    .essentials-grid { grid-template-columns: 1fr; gap: 14px; }
+    .essential .body { padding: 18px 20px 22px; }
+    .essential h3 { font-size: 22px; }
+
+    /* Accessibility */
+    .accessibility { padding: var(--pad-tight) 16px; }
+    .access-card { padding: 22px 22px; gap: 18px; flex-direction: column; align-items: flex-start; }
+    .access-card .left { min-width: 0; gap: 16px; align-items: flex-start; }
+    .access-card .glyph { width: 48px; height: 48px; font-size: 24px; }
+    .access-card h2 { font-size: 24px; }
+    .access-card p { font-size: 14px; }
+    .access-card .arrow-cta { font-size: 15px; }
+
+    /* Latest */
+    .latest { padding: var(--pad-normal) 0; }
+    .latest .inner { padding: 0 16px; }
+    .latest .latest-head { margin-bottom: 22px; }
+    .latest .latest-head h2 { font-size: clamp(28px, 7vw, 40px); }
+    .latest-grid { grid-template-columns: 1fr; gap: 14px; }
+    .latest-feature .body { padding: 22px 22px 24px; }
+    .latest-feature h3 { font-size: 24px; }
+    .latest-feature p { font-size: 15px; }
+    .latest-companions { gap: 14px; }
+    .latest-companion { padding: 20px 22px; }
+
+    /* Footer */
+    footer[data-section="footer"] { padding: 40px 16px 24px; }
+    footer .brand { gap: 14px; padding-bottom: 22px; margin-bottom: 22px; flex-wrap: wrap; }
+    footer .brand .panynj-logo { height: 48px; }
+    footer .top { grid-template-columns: 1fr 1fr; gap: 24px; padding-bottom: 28px; }
+    footer .col h5 { margin-bottom: 10px; }
+    footer .bottom { flex-direction: column; align-items: flex-start; gap: 14px; padding-top: 20px; }
+
+    /* Tap-target floor for any interactive icon-only element */
+    a, button, [role="button"] { min-height: 24px; }
+    header .right .icon, footer .social a { min-height: 40px; min-width: 40px; }
+  }
+
+  /* ============ Very small phones (≤ 380px) ============ */
+  @media (max-width: 380px) {
+    .brand-hero h1 { font-size: clamp(60px, 19vw, 96px); letter-spacing: -0.045em; }
+    .brand-hero .deck { font-size: 16px; }
+    .audience-tile.featured .featured-preview { gap: 14px; }
+    .audience-tile.featured .featured-preview .stat { min-width: 80px; }
+    .audience-tile.featured .featured-preview .stat .num { font-size: 18px; }
+    footer .top { grid-template-columns: 1fr; gap: 18px; }
+    .guide-tiles { grid-template-columns: 1fr; }
   }
 </style>
 </head>

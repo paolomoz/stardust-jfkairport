@@ -151,7 +151,7 @@
 .venue-filters .vf-field { display: flex; flex-direction: column; gap: 6px; }
 .venue-filters .vf-field label { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--slate-700); font-weight: 700; }
 .venue-filters select, .venue-filters input { border: 1px solid var(--slate-600); border-radius: 2px; padding: 11px 14px;
-  font-family: inherit; font-size: 15px; background: var(--ground-white); color: var(--ink); appearance: none; }
+  font-family: inherit; font-size: 16px; background: var(--ground-white); color: var(--ink); appearance: none; min-height: 44px; }
 .venue-filters select { background-image: linear-gradient(45deg, transparent 50%, var(--panynj-navy) 50%),
   linear-gradient(135deg, var(--panynj-navy) 50%, transparent 50%); background-position: calc(100% - 18px) 50%, calc(100% - 12px) 50%;
   background-size: 6px 6px, 6px 6px; background-repeat: no-repeat; padding-right: 40px; }
